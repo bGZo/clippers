@@ -1,0 +1,24 @@
+[submodule "ruanyf/weekly"]
+	path = ruanyf/weekly
+	url = git@github.com:ruanyf/weekly.git
+[submodule "yihong0618/gitblog"]
+	path = yihong0618/gitblog
+	url = git@github.com:yihong0618/gitblog.git
+[submodule "PKUFlyingPig/cs-self-learning"]
+	path = PKUFlyingPig/cs-self-learning
+	url = git@github.com:PKUFlyingPig/cs-self-learning.git
+[submodule "bumingbaipod/podcast"]
+	path = bumingbaipod/podcast
+	url = git@github.com:bumingbaipod/podcast.git
+[submodule "mingfunwong/cogito"]
+	path = mingfunwong/cogito
+	url = git@github.com:mingfunwong/cogito.git
+[submodule "ascoders/weekly"]
+	path = ascoders/weekly
+	url = git@github.com:ascoders/weekly.git
+[submodule "HelloGitHub"]
+	path = HelloGitHub
+	url = git@github.com:521xueweihan/HelloGitHub.git
+[submodule "521xueweihan/HelloGitHub"]
+	path = 521xueweihan/HelloGitHub
+	url = git@github.com:521xueweihan/HelloGitHub.git
