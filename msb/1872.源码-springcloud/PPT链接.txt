@@ -1,0 +1,7 @@
+Nacos作为注册中心： https://cloud.fynote.com/share/d/fzA1AQMAB
+深入理解Ribbon： https://cloud.fynote.com/share/d/fzAHeQNc
+深入理解LoadBalance：https://cloud.fynote.com/share/d/LzAIeQN1
+OpenFeign的使用以及源码分析PPT：https://cloud.fynote.com/share/d/APKJeQOP
+Sentinel使用和源码分析 PPT：https://cloud.fynote.com/share/d/JPLAeQOo
+
+gatewayPPT：https://cloud.fynote.com/share/d/IPGGp0UPD

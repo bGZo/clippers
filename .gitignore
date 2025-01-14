@@ -1,1 +1,21 @@
 .DS_Store
+
+# Files
+*.rar
+*.zip
+*.war
+*.jar
+*.pptx
+*.tar.gz
+*.tar.xz
+*.pdf
+*.sql
+*.java
+
+# Projects
+msb/0418.springboot二期/第一节课/springboot_study
+msb/0418.springboot二期/第三节课/i18n
+msb/0418.springboot二期/第三节课/springboot_data
+msb/0418.springboot二期/第三节课/springboot_mybatis
+msb/0418.springboot二期/第二节课/springboot_web/
+
