@@ -22,3 +22,24 @@
 [submodule "521xueweihan/HelloGitHub"]
 	path = 521xueweihan/HelloGitHub
 	url = git@github.com:521xueweihan/HelloGitHub.git
+[submodule "csguide-dabai/Programmer-look-at-China"]
+	path = csguide-dabai/Programmer-look-at-China
+	url = git@github.com:csguide-dabai/Programmer-look-at-China.git
+[submodule "PlexPt/awesome-chatgpt-prompts-zh"]
+	path = PlexPt/awesome-chatgpt-prompts-zh
+	url = git@github.com:PlexPt/awesome-chatgpt-prompts-zh.git
+[submodule "qianguyihao/Web"]
+	path = qianguyihao/Web
+	url = git@github.com:qianguyihao/Web.git
+[submodule "sty945/bank_interview"]
+	path = sty945/bank_interview
+	url = git@github.com:sty945/bank_interview.git
+[submodule "zijie0/HumanSystemOptimization"]
+	path = zijie0/HumanSystemOptimization
+	url = git@github.com:zijie0/HumanSystemOptimization.git
+[submodule "ziishaned/learn-regex"]
+	path = ziishaned/learn-regex
+	url = git@github.com:ziishaned/learn-regex.git
+[submodule "bGZo/Learn-Vim_zh_cn"]
+	path = bGZo/Learn-Vim_zh_cn
+	url = git@github.com:bGZo/Learn-Vim_zh_cn.git
