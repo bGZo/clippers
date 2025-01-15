@@ -43,3 +43,9 @@
 [submodule "bGZo/Learn-Vim_zh_cn"]
 	path = bGZo/Learn-Vim_zh_cn
 	url = git@github.com:bGZo/Learn-Vim_zh_cn.git
+[submodule "ryanhanwu/How-To-Ask-Questions-The-Smart-Way"]
+	path = ryanhanwu/How-To-Ask-Questions-The-Smart-Way
+	url = git@github.com:ryanhanwu/How-To-Ask-Questions-The-Smart-Way.git
+[submodule "xiaolai/time-as-a-friend"]
+	path = xiaolai/time-as-a-friend
+	url = git@github.com:xiaolai/time-as-a-friend.git
