@@ -49,3 +49,9 @@
 [submodule "xiaolai/time-as-a-friend"]
 	path = xiaolai/time-as-a-friend
 	url = git@github.com:xiaolai/time-as-a-friend.git
+[submodule "KeiKinn/ShadowsocksBio"]
+	path = KeiKinn/ShadowsocksBio
+	url = git@github.com:KeiKinn/ShadowsocksBio.git
+[submodule "zhangchenchen/self-consistent-coder"]
+	path = zhangchenchen/self-consistent-coder
+	url = git@github.com:zhangchenchen/self-consistent-coder.git
