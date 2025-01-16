@@ -1,50 +1,73 @@
 ---
 created: 2025-01-12T02:17:53
-modified: 2025-01-12T02:35:23
+modified: 2025-01-16T09:27:36
 ---
 
-Hello, this is repo would be stored articles I think worth. If something illegal you think there is, please notice me, I would remove it immediately.
+What we ignored is, the web is week, one research[^web-page-research] published in 2024, said 38% of webpages that existed in 2013 are no longer accessible a decade later.
 
-## Why
+You might think why this matters. So why 10 years? That's the upper limit you could renewal the domain.
 
-What we ignored is, the web is really week, one research[^web-page-research] published in 2024, said 38% of webpages that existed in 2013 are no longer accessible a decade later.
+It happened more fast in China cause censor. Maybe the article post 10 years ago is matter with current events matters, which would be disappeared as well.
 
-Why 10 years? I think one reason is that is upper limit you could renewal it. But what we leave now? Just go http://web.archive.org to look what has gone (personal blog). And look around you what remains today (business content).
+Luckily, you could go http://web.archive.org to look what has gone (personal blog). And look around you what remains today (business content).
 
-I want leave here something really should be shared, not goods, not ideology, not hatred. We could not be so smart.
+> [!note]
+> If something illegal you think there is, please notice me, I would remove it immediately.
 
-## How
+Something I repost and share here, which is not goods, ideology, hatred.
 
-I want using the Github Action, Github Webhook and Telegram Bot to archive content with Markdown. They should from:
+We could not be so smart.
+
+## Roadmap: why choose this way?
+
+### SingleFile + Highlight
+
+I used use https://github.com/gildas-lormeau/SingleFile and some kind of highlight tool to archive webpages I read. They would be stored as `html` and keep the most style of origin webpage. That's awesome.
+
+But they depend on browser, once leave the pc and browser, they would be unreadable. I prefer to `Markdown`.
+
+### Read on Notes
+#### Logseq
+
+I used to use https://github.com/sawhney17/logseq-web-parser to convert link to article and then read on logseq, high light something and store it.
+
+But the cross with logseq sucks, I cannot do this type thing on phone or tablet. Once I leave PC, I have nothing to do.
+
+And the most annoying thing is, the readable of logseq markdown is still ugly, which depend on their design core: outliner software.
+
+#### Obsididn
+
+Now I use the Web Clipper on Mac / iPad / iPhone, they keep the same with cross devices. I clip them in specific folder and notes on them.
+
+They keep the best readable markdown file and most reachable way to access them. That would be a long journals with it.
+
+## Alternativs
+
+### More custom projects
+
+- https://archivebox.io
+
+### More creative way
+
+Using the Github Action, Github Webhook and Telegram Bot to archive content with Markdown. They should from:
 
 - Repo: we could use submodule import it.
 - Blog: we could use rss fetch it every day.
 - Social Media: in bluesky or mastodon, we still could use rss. Whereas towards traditional services, we only could use custom method to get content(anti-crawling)
 
-## What
+## What I interested in and archive:
 
-So this is what may I want to archived:
-
-- Die People/Website
-
-### TODO
-
-- api repo
-- resource repo
-- Individual Blog
-  - Google Blog
-    - https://www.hecaitou.com/
-    - https://www.hecaitou.info/
-  - yitianshijie
-  - one
-- News?
-  - solidot
-- Has gone article
-  - shuziyiming.org
-- Telegram Channel?
-
-## Alternativs
-
-- https://archivebox.io
+- Github repo tutorials
+    - https://github.com/nakanomikuorg/arch-guide ![](https://img.shields.io/github/repo-size/nakanomikuorg/arch-guide)
+- Die people/website
+    - https://shuziyiming.org
+- Individual blog
+    - https://www.hecaitou.com/
+    - https://www.hecaitou.info/
+    - yitianshijie
+    - one
+- ? Telegram Channel
+- ? News
+    - solidot
 
 [^web-page-research]: https://www.pewresearch.org/data-labs/2024/05/17/when-online-content-disappears, https://www.reddit.com/r/ExperiencedDevs/comments/129faxx/running_a_website_after_you_die/
