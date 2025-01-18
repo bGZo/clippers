@@ -1,57 +1,54 @@
 [submodule "ruanyf/weekly"]
-	path = ruanyf/weekly
+	path = repo/ruanyf/weekly
 	url = git@github.com:ruanyf/weekly.git
 [submodule "yihong0618/gitblog"]
-	path = yihong0618/gitblog
+	path = repo/yihong0618/gitblog
 	url = git@github.com:yihong0618/gitblog.git
 [submodule "PKUFlyingPig/cs-self-learning"]
-	path = PKUFlyingPig/cs-self-learning
+	path = repo/PKUFlyingPig/cs-self-learning
 	url = git@github.com:PKUFlyingPig/cs-self-learning.git
 [submodule "bumingbaipod/podcast"]
-	path = bumingbaipod/podcast
+	path = repo/bumingbaipod/podcast
 	url = git@github.com:bumingbaipod/podcast.git
 [submodule "mingfunwong/cogito"]
-	path = mingfunwong/cogito
+	path = repo/mingfunwong/cogito
 	url = git@github.com:mingfunwong/cogito.git
 [submodule "ascoders/weekly"]
-	path = ascoders/weekly
+	path = repo/ascoders/weekly
 	url = git@github.com:ascoders/weekly.git
-[submodule "HelloGitHub"]
-	path = HelloGitHub
-	url = git@github.com:521xueweihan/HelloGitHub.git
 [submodule "521xueweihan/HelloGitHub"]
-	path = 521xueweihan/HelloGitHub
+	path = repo/521xueweihan/HelloGitHub
 	url = git@github.com:521xueweihan/HelloGitHub.git
 [submodule "csguide-dabai/Programmer-look-at-China"]
-	path = csguide-dabai/Programmer-look-at-China
+	path = repo/csguide-dabai/Programmer-look-at-China
 	url = git@github.com:csguide-dabai/Programmer-look-at-China.git
 [submodule "PlexPt/awesome-chatgpt-prompts-zh"]
-	path = PlexPt/awesome-chatgpt-prompts-zh
+	path = repo/PlexPt/awesome-chatgpt-prompts-zh
 	url = git@github.com:PlexPt/awesome-chatgpt-prompts-zh.git
 [submodule "qianguyihao/Web"]
-	path = qianguyihao/Web
+	path = repo/qianguyihao/Web
 	url = git@github.com:qianguyihao/Web.git
 [submodule "sty945/bank_interview"]
-	path = sty945/bank_interview
+	path = repo/sty945/bank_interview
 	url = git@github.com:sty945/bank_interview.git
 [submodule "zijie0/HumanSystemOptimization"]
-	path = zijie0/HumanSystemOptimization
+	path = repo/zijie0/HumanSystemOptimization
 	url = git@github.com:zijie0/HumanSystemOptimization.git
 [submodule "ziishaned/learn-regex"]
-	path = ziishaned/learn-regex
+	path = repo/ziishaned/learn-regex
 	url = git@github.com:ziishaned/learn-regex.git
 [submodule "bGZo/Learn-Vim_zh_cn"]
-	path = bGZo/Learn-Vim_zh_cn
+	path = repo/bGZo/Learn-Vim_zh_cn
 	url = git@github.com:bGZo/Learn-Vim_zh_cn.git
 [submodule "ryanhanwu/How-To-Ask-Questions-The-Smart-Way"]
-	path = ryanhanwu/How-To-Ask-Questions-The-Smart-Way
+	path = repo/ryanhanwu/How-To-Ask-Questions-The-Smart-Way
 	url = git@github.com:ryanhanwu/How-To-Ask-Questions-The-Smart-Way.git
 [submodule "xiaolai/time-as-a-friend"]
-	path = xiaolai/time-as-a-friend
+	path = repo/xiaolai/time-as-a-friend
 	url = git@github.com:xiaolai/time-as-a-friend.git
 [submodule "KeiKinn/ShadowsocksBio"]
-	path = KeiKinn/ShadowsocksBio
+	path = repo/KeiKinn/ShadowsocksBio
 	url = git@github.com:KeiKinn/ShadowsocksBio.git
 [submodule "zhangchenchen/self-consistent-coder"]
-	path = zhangchenchen/self-consistent-coder
+	path = repo/zhangchenchen/self-consistent-coder
 	url = git@github.com:zhangchenchen/self-consistent-coder.git
