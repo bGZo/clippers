@@ -1,7 +1,6 @@
 ---
 title: "Three-Choices-New-Users-Need-to-Make-General-Logseq"
 created: 2025-01-15T10:02:20
-created-link: "[[20240730]]"
 modified: 2025-01-15T11:38:23
 pagse:
 source: "https://discuss.logseq.com/t/three-choices-new-users-need-to-make/3411"

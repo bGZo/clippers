@@ -1,7 +1,7 @@
 ---
 title: 命运石之门原作cg全收集攻略及各结局进入条件---哔哩哔哩
 created: 2025-01-14T10:48:44
-created-link: "[[20250114]]"
+
 source: https://www.bilibili.com/opus/455330893467502377
 pages:
   - "[[steins-gate]]"

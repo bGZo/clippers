@@ -1,9 +1,8 @@
 ---
 created: 2025-01-10T09:50:33
-created-link: "[[20250110]]"
 source: "https://mp.weixin.qq.com/s/PjJNLx5LQFUM8AXMl665mQ"
 type: "archive-web"
-modified: 2025-01-15T11:38:20
+modified: 2025-01-19T02:57:24
 ---
 
 *2025 年 01 月 09 日 18:45*
@@ -242,22 +241,15 @@ public void recycle() throws SQLException {    DruidConnectionHolder h
 ### 7.3 几处检测和销毁逻辑
 
 - 借出时：
-
 - 如果 `testOnBorrow`，则探测；
 - 如果 (`testWhileIdl`e = true && 空闲时间 > `timeBetweenEvictionRunsMillis`) 则进行探测；
-
 - 执行时：
-
 - 如果抛出异常且 `exceptionSorter` 判断是致命异常，就调用 `handleFatalError()` 进行销毁；
-
 - 归还时：
-
 - 如果连接使用次数超过 `phyMaxUseCount`，则销毁；
 - 如果 `testOnReturn`\=true，则探测；
 - 如果连接建立时间走过 `phyTimeoutMillis`，则销毁；
-
 - **DestroyConnectionThread 每隔 timeBetweenEvictionRunsMillis 扫描一次连接池中的空闲连接**：
-
 - 如果物理存活时间超过 `phyTimeoutMillis`，则销毁；
 - 如果 ( `keepAlive` && 空闲时间 >= `keepAliveBetweenTimeMillis`)，则进行探测；
 - 如果空闲时间 >= `minEvictableIdleTimeMillis`，则销毁（但要保证留下 `minIdle` 个）；而如果空闲时间超过 `maxEvictableIdleTimeMillis` 则必须销毁；
@@ -281,16 +273,11 @@ public void recycle() throws SQLException {    DruidConnectionHolder h
 
 - 线程池刚启动时会创建 1 个（`initialSize`）连接，随着程序的运行，池不忙时也会保持最少 3 个（`minIdle`）空闲连接，但总连接数（包括空闲和在用）不超过 20 个（`maxActive`）；
 - **获取连接时**：
-
 - 如果连接池没有空闲连接，最长等待 60 秒（`maxWait`）；
 - 【主动】如果获取到的连接空闲时间大于 60 秒（`timeBetweenEvictionRunsMillis`），则执行 `validationQuery` 检测连接是否还有效（有效则使用，无效则销毁）；
-
 - **执行 SQL 时**：
-
 - 【被动】如果发生致命异常（默认 `exceptionSorter`\=`MySqlExceptionSorter`，如 `CommunicationsException`），则销毁该连接；
-
 - `DestroyConnectionThread` 每隔 60 秒（`timeBetweenEvictionRunsMillis`）扫描一次连接池中的空闲连接：
-
 - 【主动】如果空闲时间超过 300 秒（`minEvictableIdleTimeMillis`），则销毁（但要保证留下 `minIdle`\=3 个）；而如果空闲时间超过 7 小时（`maxEvictableIdleTimeMillis` 默认为 7 小时）则必须销毁。
 
 ## 9 监控

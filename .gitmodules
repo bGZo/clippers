@@ -52,3 +52,6 @@
 [submodule "zhangchenchen/self-consistent-coder"]
 	path = repo/zhangchenchen/self-consistent-coder
 	url = git@github.com:zhangchenchen/self-consistent-coder.git
+[submodule "repo/bluebird2046/iPad-Pro-Productivity"]
+	path = repo/bluebird2046/iPad-Pro-Productivity
+	url = git@github.com:bluebird2046/iPad-Pro-Productivity.git

@@ -1,6 +1,5 @@
 ---
 created: 2025-01-10T10:51:05
-created-link: "[[20250110]]"
 source: "https://www.1point3acres.com/bbs/thread-887489-1-1.html"
 type: "archive-web"
 modified: 2025-01-15T11:39:52
