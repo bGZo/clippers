@@ -1,20 +1,22 @@
 ---
-title: "监视资本主义：智能陷阱 The Social Dilemma"
-cover: "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2618618715.jpg"
-alias: "监视资本主义：智能陷阱 The Social Dilemma"
+title: 监视资本主义：智能陷阱 The Social Dilemma
+cover: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2618618715.jpg
+aliases:
+  - 监视资本主义：智能陷阱 The Social Dilemma
 author:
-  - "戴维斯·库姆贝 Davis Coombe"
-  - "维奇·柯蒂斯 Vickie Curtis"
-  - "杰夫·奥洛威斯基 Jeff Orlowski"
+  - 戴维斯·库姆贝 Davis Coombe
+  - 维奇·柯蒂斯 Vickie Curtis
+  - 杰夫·奥洛威斯基 Jeff Orlowski
 created: 2022-01-19T10:38:56
 modified: 2025-01-19T02:57:13
 published: 2020-09-09T00:00:00+08:00
-description: "我们发推文、点赞、分享 — 但日益依赖社交媒体会带来什么后果？随着数字平台日益成为人们保持联系的重要方式，硅谷内部人士通过暴露屏幕另一侧的隐藏内容，揭示了社交媒体如何重新改写文明。"
+description: 我们发推文、点赞、分享 — 但日益依赖社交媒体会带来什么后果？随着数字平台日益成为人们保持联系的重要方式，硅谷内部人士通过暴露屏幕另一侧的隐藏内容，揭示了社交媒体如何重新改写文明。
 tags:
-  - "douban"
-type: "movie"
-douban: "https://movie.douban.com/subject/34960008/"
-imdb: "https://www.imdb.com/title/"
+  - douban
+  - movie
+type: video
+douban: https://movie.douban.com/subject/34960008/
+imdb: https://www.imdb.com/title/
 ---
 
 ## Comments

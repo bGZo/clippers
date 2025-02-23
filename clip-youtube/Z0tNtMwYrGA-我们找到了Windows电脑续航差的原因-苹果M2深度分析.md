@@ -16,7 +16,8 @@ type: video
 
 ## Source
 
-<iframe src="https://www.youtube.com/embed/Z0tNtMwYrGA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=Z0tNtMwYrGA' target='_blank' class='external-link'>https://www.youtube.com/watch?v=Z0tNtMwYrGA</a></center>
+<iframe src="https://www.youtube.com/embed/Z0tNtMwYrGA" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=Z0tNtMwYrGA' target='_blank' class='external-link'>https://www.youtube.com/watch?v=Z0tNtMwYrGA</a></center>
 
 ## Notes 10:00 start
 

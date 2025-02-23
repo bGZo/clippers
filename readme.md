@@ -3,6 +3,8 @@ created: 2025-01-12T02:17:53
 modified: 2025-01-16T09:27:36
 ---
 
+![](https://img.shields.io/github/stars/bGZo/archives?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/bGZo/archives?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/bGZo/archives?style=for-the-badge&label=since)
+
 What we ignored is, the web is week, one research[^web-page-research] published in 2024, said 38% of webpages that existed in 2013 are no longer accessible a decade later.
 
 You might think why this matters. So why 10 years? That's the upper limit you could renewal the domain.

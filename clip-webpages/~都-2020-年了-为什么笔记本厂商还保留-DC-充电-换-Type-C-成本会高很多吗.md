@@ -2,7 +2,6 @@
 title: 都-2020-年了-为什么笔记本厂商还保留-DC-充电-换-Type-C-成本会高很多吗
 created: 2022-01-19T10:00:09
 modified: 2025-01-19T02:57:25
-pagse: 
 source: https://www.zhihu.com/question/381287746/answer/1637537271
 tags:
   - 笔记本

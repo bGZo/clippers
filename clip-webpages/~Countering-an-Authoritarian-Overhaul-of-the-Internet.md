@@ -2,7 +2,6 @@
 title: "Countering-an-Authoritarian-Overhaul-of-the-Internet"
 created: 2025-01-17T10:21:31
 modified: 2025-01-19T02:57:23
-pagse:
 source: "https://freedomhouse.org/report/freedom-net/2022/countering-authoritarian-overhaul-internet"
 tags:
   - "todo"
@@ -10,9 +9,9 @@ tags-link:
 type: "archive-web"
 ---
 
-- Jump To:  跳转至：
-- Key Findings  主要发现
-- [Introduction  介绍](https://freedomhouse.org/report/freedom-net/2022/#introduction)
+- Jump To:  跳转至：
+- Key Findings  主要发现
+- [Introduction  介绍](https://freedomhouse.org/report/freedom-net/2022/#introduction)
 - [Tracking the Global Decline  
 追踪全球衰退](https://freedomhouse.org/report/freedom-net/2022/#tracking-the-global-decline)
 - [The Shattering of the Global Internet  
@@ -20,17 +19,17 @@ type: "archive-web"
 - [A Resilient Internet for a More Democratic Future  
 一个有弹性的互联网，一个更加民主的未来](https://freedomhouse.org/report/freedom-net/2022/#a-resilient-internet-for-a-more-democratic-future)
 
-Written by  撰写者
+Written by  撰写者
 
-Adrian Shahbaz   阿德里安·沙巴兹
+Adrian Shahbaz   阿德里安·沙巴兹
 
-Allie Funk   艾莉·芬克
+Allie Funk   艾莉·芬克
 
-Kian Vesteinsson   基安·韦斯坦森
+Kian Vesteinsson   基安·韦斯坦森
 
-## Key Findings  主要发现
+## Key Findings  主要发现
 
-[**Global internet freedom declined for the 12th consecutive year.**](https://freedomhouse.org/report/freedom-net/2022/countering-authoritarian-overhaul-internet#Tracking) The sharpest downgrades were documented in Russia, Myanmar, Sudan, and Libya. Following the Russian military’s illegal and unprovoked invasion of Ukraine, the Kremlin dramatically intensified its ongoing efforts to suppress domestic dissent and accelerated the closure or exile of the country’s remaining independent media outlets. In at least 53 countries, users faced legal repercussions for expressing themselves online, often leading to draconian prison terms.
+[**Global internet freedom declined for the 12th consecutive year.**](https://freedomhouse.org/report/freedom-net/2022/countering-authoritarian-overhaul-internet#Tracking) The sharpest downgrades were documented in Russia, Myanmar, Sudan, and Libya. Following the Russian military’s illegal and unprovoked invasion of Ukraine, the Kremlin dramatically intensified its ongoing efforts to suppress domestic dissent and accelerated the closure or exile of the country’s remaining independent media outlets. In at least 53 countries, users faced legal repercussions for expressing themselves online, often leading to draconian prison terms.
 
 [**全球互联网自由度连续 12 年下降。**](https://freedomhouse.org/report/freedom-net/2022/countering-authoritarian-overhaul-internet#Tracking) 俄罗斯、缅甸、苏丹和利比亚的评级下调幅度最大。在俄罗斯军队无端非法入侵乌克兰后，克里姆林宫大幅加强了镇压国内异议的力度，并加速关闭或流放该国剩余的独立媒体机构。在至少 53 个国家，用户因在网上表达自己的观点而面临法律后果，常常导致严厉的监禁。
 
@@ -48,11 +47,11 @@ Kian Vesteinsson   基安·韦斯坦森
 
 [**美国的互联网自由度六年来首次略有改善。**](https://freedomhouse.org/country/united-states/freedom-net/2022) 与去年相比，抗议期间发生的针对性监控和网络骚扰案件有所减少，该国目前在全球排名第九，与澳大利亚和法国并列。美国仍然缺乏全面的联邦隐私法，政策制定者在通过与互联网自由相关的其他立法方面进展甚微。在 2022 年 11 月中期选举之前，网络环境充斥着针对选举工作人员和官员的政治虚假信息、阴谋论和网络骚扰。
 
-[**Human rights hang in the balance amid a competition to control the web.**](https://freedomhouse.org/report/freedom-net/2022/countering-authoritarian-overhaul-internet#Shattering) Authoritarian states are vying to propagate their model of digital control around the world. In response, a coalition of democratic governments has increased the promotion of online human rights at multilateral forums, outlining a positive vision for the internet. However, their progress remains hampered by problematic internet freedom practices in their own countries.
+[**Human rights hang in the balance amid a competition to control the web.**](https://freedomhouse.org/report/freedom-net/2022/countering-authoritarian-overhaul-internet#Shattering) Authoritarian states are vying to propagate their model of digital control around the world. In response, a coalition of democratic governments has increased the promotion of online human rights at multilateral forums, outlining a positive vision for the internet. However, their progress remains hampered by problematic internet freedom practices in their own countries.
 
 [**在网络控制权的竞争中，人权悬而未决。**](https://freedomhouse.org/report/freedom-net/2022/countering-authoritarian-overhaul-internet#Shattering) 独裁国家正在竞相在全世界传播他们的数字控制模式。作为回应，民主政府联盟在多边论坛上加大了对网络人权的促进​​力度，勾勒出互联网的积极愿景。然而，他们的进步仍然受到本国存在问题的互联网自由做法的阻碍。
 
-## Introduction  介绍
+## Introduction  介绍
 
 At home and on the international stage, authoritarians are on a campaign to divide the open internet into a patchwork of repressive enclaves. More governments than ever are exerting control over what people can access and share online by blocking foreign websites, hoarding personal data, and centralizing their countries’ technical infrastructure. As a result of these trends, global internet freedom has declined for a 12th consecutive year.
 
@@ -190,7 +189,7 @@ In at least 22 countries, government officials blocked access to social media or
 
 “摇摆州”互联网自由的未来**
 
-Countries including Brazil and Nigeria are often referred to as swing states due to their potential regional or global influence over the future of internet governance. They have oscillated between protecting and undermining human rights online, with many ranked Partly Free by *Freedom on the Net*. Progress in these countries could ensure the survival of a free and open internet, or they could join authoritarian powers in promoting the more closed model of cyber sovereignty. Democratic institutions in some swing states intervened to protect human rights online during the coverage period. The [Indian](https://freedomhouse.org/country/india/freedom-net/2022) Supreme Court ordered the government to reevaluate the country’s colonial-era sedition law, which has increasingly been used to charge online dissidents, in May 2022—even as political leaders sought to extend control over online content through problematic new legislation. Brazilian lawmakers enshrined the protection of personal data in the constitution in February 2022, a landmark action that elevated privacy rights above the whims of any government or simple legislative majority.
+Countries including Brazil and Nigeria are often referred to as swing states due to their potential regional or global influence over the future of internet governance. They have oscillated between protecting and undermining human rights online, with many ranked Partly Free by *Freedom on the Net*. Progress in these countries could ensure the survival of a free and open internet, or they could join authoritarian powers in promoting the more closed model of cyber sovereignty. Democratic institutions in some swing states intervened to protect human rights online during the coverage period. The [Indian](https://freedomhouse.org/country/india/freedom-net/2022) Supreme Court ordered the government to reevaluate the country’s colonial-era sedition law, which has increasingly been used to charge online dissidents, in May 2022—even as political leaders sought to extend control over online content through problematic new legislation. Brazilian lawmakers enshrined the protection of personal data in the constitution in February 2022, a landmark action that elevated privacy rights above the whims of any government or simple legislative majority.
 
 巴西和尼日利亚等国家通常被称为摇摆国家，因为它们对互联网治理的未来具有潜在的区域或全球影响力。他们在保护和破坏网络人权之间摇摆不定，许多人被 *《网络自由》* 评为“部分自由”。这些国家的进步可以确保自由开放的互联网的生存，或者它们可以与威权国家一起推动更加封闭的网络主权模式。在报道期间，一些摇摆州的民主机构进行了干预，以保护网络人权。印度最高法院于 2022 年 5 月下令政府重新评估该国殖民时代的煽动叛乱法，该法越来越多地被用来指控网络异见人士，尽管政治领导人试图通过有问题的新立法来扩大对网络内容的控制。巴西立法者于 2022 年 2 月将个人数据保护写入宪法，这是一项具有里程碑意义的行动，将隐私权置于任何政府或简单立法多数的一时兴起之上。
 
@@ -290,7 +289,7 @@ To track the different ways in which governments seek to dominate the digital sp
 
 为了跟踪政府寻求主导数字领域的不同方式，自由之家监控他们对九项关键互联网控制的应用。由此产生的数据揭示了这些对互联网自由的限制的扩大和多样化趋势。
 
-[Learn More   了解更多](https://freedomhouse.org/report/freedom-net/2022/key-internet-controls)
+[Learn More   了解更多](https://freedomhouse.org/report/freedom-net/2022/key-internet-controls)
 
 #### ***Targeting circumvention technology
 

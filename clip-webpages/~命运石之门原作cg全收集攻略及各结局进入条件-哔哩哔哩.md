@@ -25,7 +25,7 @@ modified: 2025-01-15T11:38:22
 
 ![cut-off](https://i0.hdslb.com/bfs/article/71bf2cd56882a2e97f8b3477c9256f8b09f361d3.png)
 
-                           先大体看下位置
+                           先大体看下位置
 
 ![](https://i1.hdslb.com/bfs/article/5af5d52b636683de77ddb6a88ab9aa07a0b62204.jpg@1192w.webp)
 
@@ -41,7 +41,7 @@ modified: 2025-01-15T11:38:22
 
 ![](https://i1.hdslb.com/bfs/article/76f492b729411e251ebe266693e493404057cc58.jpg@1192w.webp)
 
-                               然后是单张
+                               然后是单张
 
 ![](https://i1.hdslb.com/bfs/article/b23696c7f16fa311d7164946f071764cb753d9da.jpg@1192w.webp)
 
@@ -207,7 +207,7 @@ modified: 2025-01-15T11:38:22
 
 ![cut-off](https://i0.hdslb.com/bfs/article/4adb9255ada5b97061e610b682b8636764fe50ed.png)
 
-                     **各****结局进入条件**
+                     **各****结局进入条件**
 
 不可逆的重启（打工战士线）：第六章最后坚持不发送 d-mail
 

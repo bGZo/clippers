@@ -2,7 +2,6 @@
 title: "很多网站源码都是分为-GBK-和-UTF-8-版-为什么要同时开发两种"
 created: 2025-01-17T10:34:43
 modified: 2025-01-19T02:57:24
-pagse:
 source: "https://www.zhihu.com/question/20209966/answer/676684648"
 tags:
   - "todo"

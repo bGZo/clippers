@@ -1,25 +1,26 @@
 ---
-title: "瞬息全宇宙 Everything Everywhere All at Once"
-cover: "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2869765076.jpg"
-alias: 
-- "瞬息全宇宙 Everything Everywhere All at Once"
-- 瞬息全宇宙
-- 妈的多重宇宙
-- 奇异女侠玩救宇宙
-- 瞬息各处所有
-- 全部世界同时一切
+title: 瞬息全宇宙 Everything Everywhere All at Once
+cover: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2869765076.jpg
+aliases:
+  - 瞬息全宇宙 Everything Everywhere All at Once
+  - 瞬息全宇宙
+  - 妈的多重宇宙
+  - 奇异女侠玩救宇宙
+  - 瞬息各处所有
+  - 全部世界同时一切
 author:
-  - "关家永 Daniel Kwan"
-  - "丹尼尔·施纳特 Daniel Scheinert"
+  - 关家永 Daniel Kwan
+  - 丹尼尔·施纳特 Daniel Scheinert
 created: 2022-10-31T12:01:36
 modified: 2025-01-19T12:03:11
 published: 2022-03-11T00:00:00+08:00
-description: "在美国某个普普通通的亚裔社区，生活着伊芙琳（杨紫琼 饰）一家四口。伊年过半百，和怯懦无能的丈夫威蒙德（关继威 饰）苦心经营小小的洗衣店。她的老爸（吴汉章 饰）行动不便，需要照顾；女儿乔伊（许玮伦 饰）..."
+description: 在美国某个普普通通的亚裔社区，生活着伊芙琳（杨紫琼 饰）一家四口。伊年过半百，和怯懦无能的丈夫威蒙德（关继威 饰）苦心经营小小的洗衣店。她的老爸（吴汉章 饰）行动不便，需要照顾；女儿乔伊（许玮伦 饰）...
 tags:
-  - "douban"
-type: "movie"
-douban: "https://movie.douban.com/subject/30314848/"
-imdb: "https://www.imdb.com/title/"
+  - douban
+  - movie
+type: video
+douban: https://movie.douban.com/subject/30314848/
+imdb: https://www.imdb.com/title/
 ---
 
 ## Comments

@@ -3,7 +3,6 @@ title: "Steam-Deck-全面上手记录"
 created: 2025-01-15T10:03:47
 
 modified: 2025-01-15T11:39:56
-pagse:
 source: "https://plumz.me/archives/13520/"
 tags:
   - "todo"

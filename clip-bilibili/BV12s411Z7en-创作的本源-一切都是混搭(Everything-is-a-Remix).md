@@ -16,9 +16,11 @@ type: "video"
 
 ## Source
 
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV12s411Z7en&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV12s411Z7en' target='_blank' class='external-link'>https://www.bilibili.com/video/BV12s411Z7en</a></center>
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV12s411Z7en&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://www.bilibili.com/video/BV12s411Z7en' target='_blank' class='external-link'>https://www.bilibili.com/video/BV12s411Z7en</a></center>
 
-<iframe src="https://www.youtube.com/embed/nJPERZDfyWc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=nJPERZDfyWc' target='_blank' class='external-link'>https://www.youtube.com/watch?v=nJPERZDfyWc</a></center>
+<iframe src="https://www.youtube.com/embed/nJPERZDfyWc" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=nJPERZDfyWc' target='_blank' class='external-link'>https://www.youtube.com/watch?v=nJPERZDfyWc</a></center>
 
 ## Notes
 

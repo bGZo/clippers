@@ -2,7 +2,6 @@
 title: everything-everywhere-oscars
 created: 2022-01-19T10:12:14
 modified: 2025-01-19T02:57:25
-pagse: 
 source: https://www.vox.com/culture/23584649/everything-everywhere-oscars-2023-michelle-yeoh-ke-huy-quan
 tags: 
 tags-link: 
@@ -109,4 +108,5 @@ Whatever the case, though, when I get down about the state of Hollywood (and I d
 
 Everything Everywhere All at Once _has returned to theaters in advance of the Oscars. It’s also available to stream on Paramount+ or rent or purchase on digital platforms._
 
-<iframe src="https://www.youtube.com/embed/Gx6hZ01xYVM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen/><center>via: <a href='https://www.youtube.com/watch?v=Gx6hZ01xYVM' target='_blank' class='external-link'>https://www.youtube.com/watch?v=Gx6hZ01xYVM</a></center>
+<iframe src="https://www.youtube.com/embed/Gx6hZ01xYVM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>via: <a href='https://www.youtube.com/watch?v=Gx6hZ01xYVM' target='_blank' class='external-link'>https://www.youtube.com/watch?v=Gx6hZ01xYVM</a></center>

@@ -14,7 +14,8 @@ type: "video"
 
 ## Source
 
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1XU411o7AD&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV1XU411o7AD' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1XU411o7AD</a></center>
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1XU411o7AD&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://www.bilibili.com/video/BV1XU411o7AD' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1XU411o7AD</a></center>
 
 ## Notes
 

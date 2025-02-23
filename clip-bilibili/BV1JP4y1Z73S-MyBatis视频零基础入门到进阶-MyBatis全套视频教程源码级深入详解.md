@@ -14,7 +14,8 @@ type: "video"
 
 ## Source
 
-<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1JP4y1Z73S&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'/><center>via: <a href='https://www.bilibili.com/video/BV1JP4y1Z73S' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1JP4y1Z73S</a></center>
+<iframe src='https://player.bilibili.com/player.html?isOutside=true&bvid=BV1JP4y1Z73S&p=1&autoplay=false' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://www.bilibili.com/video/BV1JP4y1Z73S' target='_blank' class='external-link'>https://www.bilibili.com/video/BV1JP4y1Z73S</a></center>
 
 ## Notes
 
@@ -27,7 +28,7 @@ created: 2023-03-05
   - https://www.yuque.com/dujubin/ltckqu/pozck9 & `rs4n`
 
 ## -nested-2 Contents
-- [x] #todo MyBatis 概述
+- [x] #todo MyBatis 概述 #todoist
 - 框架
 description:: 对通用代码的封装，提前写好了一堆接口和类，我们可以在做项目的时候直接引入这些接口和类（引入框架），基于这些现有的接口和类进行开发，可以大大提高开发效率
 - 三层架构 #[[Spring MVC]]
@@ -71,7 +72,7 @@ description:: 对通用代码的封装，提前写好了一堆接口和类，我
 - 存储过程
 - 基本映射标签
 - 高级映射标签
-- [x] #todo MyBatis 入门程序
+- [x] #todo MyBatis 入门程序 #todoist
 - 版本
 - ![Mybatis Reference Verison 3.5.10](../assets/doc_mybatis_3.5.10.pdf)
 - MyBatis 下载
@@ -92,7 +93,7 @@ description:: 对通用代码的封装，提前写好了一堆接口和类，我
 - 查询一条数据
 - 查询多条数据
 - 关于 SQL Mapper 的 namespace
-- [x] #todo MyBatis 核心配置文件详解
+- [x] #todo MyBatis 核心配置文件详解 #todoist
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -190,7 +191,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 </mappers>
 ```
 
-- [ ] #todo 手写 MyBatis 框架（掌握原理）
+- [ ] #todo 手写 MyBatis 框架（掌握原理） #todoist
 - dom4j 解析 XML 文件
 - GodBatis
 - 第一步：IDEA 中创建模块

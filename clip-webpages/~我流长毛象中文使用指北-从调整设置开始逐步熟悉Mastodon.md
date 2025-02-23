@@ -3,7 +3,6 @@ title: "我流长毛象中文使用指北-从调整设置开始逐步熟悉Masto
 created: 2025-01-15T11:35:51
 
 modified: 2025-01-15T11:38:23
-pagse:
 source: "https://fediverse.eu.org/discussion/18/%E6%88%91%E6%B5%81%E9%95%BF%E6%AF%9B%E8%B1%A1%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97-%E4%BB%8E%E8%B0%83%E6%95%B4%E8%AE%BE%E7%BD%AE%E5%BC%80%E5%A7%8B%E9%80%90%E6%AD%A5%E7%86%9F%E6%82%89mastodon"
 tags:
   - "todo"
@@ -41,7 +40,7 @@ type: "archive-web"
 
 ![](https://res.cloudinary.com/mantyke/image/upload/v1630471685/210227%E9%95%BF%E6%AF%9B%E8%B1%A1%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/20210227cmx1_sn14xp.png)
 
- 修改个人资料是我比较习惯的进入设置页面路径。除此之外，也可以点击齿轮图标，或者（自己稍微找一下在哪儿的）首选项进入。 自己主页也有很多入口可以进设置页面，条条大路都通罗马。
+ 修改个人资料是我比较习惯的进入设置页面路径。除此之外，也可以点击齿轮图标，或者（自己稍微找一下在哪儿的）首选项进入。 自己主页也有很多入口可以进设置页面，条条大路都通罗马。
 
 ## 第一步：锁不锁嘟？
 
@@ -131,7 +130,7 @@ type: "archive-web"
 
 #### \* 如何标记敏感媒体及打 NSFW 标记？
 
-如果选择 CW 嘟文，那么同时插入的图片就会自动被标记为敏感内容 。
+如果选择 CW 嘟文，那么同时插入的图片就会自动被标记为敏感内容 。
 
 ![](https://res.cloudinary.com/mantyke/image/upload/v1630471686/210227%E9%95%BF%E6%AF%9B%E8%B1%A1%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/20210227cmx7_tjvmdm.png)
 

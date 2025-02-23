@@ -2,7 +2,6 @@
 title: 吴涛-开发者-podcast主播-利器
 created: 2022-01-19T09:41:00
 modified: 2025-01-19T12:09:19
-pagse: 
 source: https://liqi.io/wutao/
 tags:
   - todo
@@ -99,4 +98,4 @@ Jun 7, 2015 00:00 · 1667 words · 4 minute read
 
 **推荐一件生活中的利器给大家。**
 
-Leatherman 是个做多用途工具的美国公司，他们宣布了一个手环叫 [Tread](https://www.leatherman.com/tread-425.html) 。这个手环由许多节不锈钢片组成，每一片上面都有不同孔径的螺丝刀头和扳手。我认为它是非常适合戴在男人手腕上的一块钢，而且可以带上飞机。但是至少我写这些文字的时候它还没有上市，所以我退而求其次，推荐 [Victorinox Manager](https://www.victorinox.com/ch/product/Swiss-Army-Knives/Category/Classic/Classic-Range-58-mm/Manager-Sapphire/0.6365.T2)  瑞士军刀。长度六公分，可以挂在钥匙链上，开瓶器、镊子、剪刀都随时可以派上用场，螺丝刀质量非常好，可以拧眼镜腿和机箱螺丝，同时它还是一枝笔。我从高二开始用它，中间也不是没有换过其他型号，但最后都会重新选择回它。用上几个月，半透明的蓝色外壳上挂满划痕之后，它就成了手指的一部分。
+Leatherman 是个做多用途工具的美国公司，他们宣布了一个手环叫 [Tread](https://www.leatherman.com/tread-425.html) 。这个手环由许多节不锈钢片组成，每一片上面都有不同孔径的螺丝刀头和扳手。我认为它是非常适合戴在男人手腕上的一块钢，而且可以带上飞机。但是至少我写这些文字的时候它还没有上市，所以我退而求其次，推荐 [Victorinox Manager](https://www.victorinox.com/ch/product/Swiss-Army-Knives/Category/Classic/Classic-Range-58-mm/Manager-Sapphire/0.6365.T2)  瑞士军刀。长度六公分，可以挂在钥匙链上，开瓶器、镊子、剪刀都随时可以派上用场，螺丝刀质量非常好，可以拧眼镜腿和机箱螺丝，同时它还是一枝笔。我从高二开始用它，中间也不是没有换过其他型号，但最后都会重新选择回它。用上几个月，半透明的蓝色外壳上挂满划痕之后，它就成了手指的一部分。

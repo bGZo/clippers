@@ -2,7 +2,6 @@
 title: "为何微软不把-Windows-的默认字符集设置成-UTF-8"
 created: 2025-01-17T10:34:04
 modified: 2025-01-17T10:34:08
-pagse:
 source: "https://www.zhihu.com/question/24103924/answer/26688840"
 tags:
   - "todo"
