@@ -28,30 +28,30 @@
 **添加相关的依赖**
 
 ```
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-webmvc</artifactId>
-      <version>5.2.1.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
-      <version>2.5</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-      <version>1.7.25</version>
-    </dependency>
-  </dependencies>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>5.2.1.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.7.25</version>
+    </dependency>
+  </dependencies>
 ```
 
 **添加相关的配置文件**
@@ -61,14 +61,14 @@
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context
-       http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.bobo.service" ></context:component-scan>
+    <context:component-scan base-package="com.bobo.service" ></context:component-scan>
 
 </beans>
 ```
@@ -78,19 +78,19 @@
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:mvc="http://www.springframework.org/schema/mvc"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context
-       http://www.springframework.org/schema/context/spring-context.xsd
-        http://www.springframework.org/schema/mvc
-       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:component-scan base-package="com.bobo.controller"></context:component-scan>
+    <context:component-scan base-package="com.bobo.controller"></context:component-scan>
 
-    <mvc:annotation-driven ></mvc:annotation-driven>
+    <mvc:annotation-driven ></mvc:annotation-driven>
 
 
 </beans>
@@ -111,53 +111,53 @@ log4j.appender.stdout.layout.ConversionPattern=[QC] %p [%t] %C.%M(%L) | %m%n
 
 ```
 <!DOCTYPE web-app PUBLIC
-        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
-        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app version="2.5" id="WebApp_ID" xmlns="http://java.sun.com/xml/ns/javaee"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-  <display-name>Archetype Created Web Application</display-name>
+  <display-name>Archetype Created Web Application</display-name>
 
-  <!-- 初始化spring容器 -->
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:applicationContext.xml</param-value>
-  </context-param>
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
+  <!-- 初始化spring容器 -->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
 
-  <!-- post乱码过滤器 -->
-  <filter>
-    <filter-name>CharacterEncodingFilter</filter-name>
-    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
-    <init-param>
-      <param-name>encoding</param-name>
-      <param-value>utf-8</param-value>
-    </init-param>
-  </filter>
-  <filter-mapping>
-    <filter-name>CharacterEncodingFilter</filter-name>
-    <url-pattern>/*</url-pattern>
-  </filter-mapping>
-  <!-- 前端控制器 -->
-  <servlet>
-    <servlet-name>dispatcherServletb</servlet-name>
-    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-    <!-- contextConfigLocation不是必须的， 如果不配置contextConfigLocation， springmvc的配置文件默认在：WEB-INF/servlet的name+"-servlet.xml" -->
-    <init-param>
-      <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:spring-mvc.xml</param-value>
-    </init-param>
-    <load-on-startup>1</load-on-startup>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>dispatcherServletb</servlet-name>
-    <!-- 拦截所有请求jsp除外 -->
-    <url-pattern>/</url-pattern>
-  </servlet-mapping>
+  <!-- post乱码过滤器 -->
+  <filter>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>utf-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <!-- 前端控制器 -->
+  <servlet>
+    <servlet-name>dispatcherServletb</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <!-- contextConfigLocation不是必须的， 如果不配置contextConfigLocation， springmvc的配置文件默认在：WEB-INF/servlet的name+"-servlet.xml" -->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:spring-mvc.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dispatcherServletb</servlet-name>
+    <!-- 拦截所有请求jsp除外 -->
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
 
 </web-app>
 
@@ -166,17 +166,17 @@ log4j.appender.stdout.layout.ConversionPattern=[QC] %p [%t] %C.%M(%L) | %m%n
 **添加Tomcat的插件 启动测试**
 
 ```
-    <plugins>
-      <plugin>
-        <groupId>org.apache.tomcat.maven</groupId>
-        <artifactId>tomcat7-maven-plugin</artifactId>
-        <version>2.2</version>
-        <configuration>
-          <port>8082</port>
-          <path>/</path>
-        </configuration>
-      </plugin>
-    </plugins>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+          <port>8082</port>
+          <path>/</path>
+        </configuration>
+      </plugin>
+    </plugins>
 ```
 
 ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/1462/1649494925062/1fe682d07a8e4e468f4504f6fad2bb3a.png)
@@ -196,29 +196,29 @@ log4j.appender.stdout.layout.ConversionPattern=[QC] %p [%t] %C.%M(%L) | %m%n
 ```
 <!-- 添加SpringSecurity的相关依赖 -->
 <dependency>
-    <groupId>org.springframework.security</groupId>
-    <artifactId>spring-security-config</artifactId>
-    <version>5.1.5.RELEASE</version>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-config</artifactId>
+    <version>5.1.5.RELEASE</version>
 </dependency>
 <dependency>
-    <groupId>org.springframework.security</groupId>
-    <artifactId>spring-security-taglibs</artifactId>
-    <version>5.1.5.RELEASE</version>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-taglibs</artifactId>
+    <version>5.1.5.RELEASE</version>
 </dependency>
 ```
 
 **web.xml文件中配置SpringSecurity**
 
 ```
-  <!-- 配置过滤器链 springSecurityFilterChain 名称固定 -->
-  <filter>
-    <filter-name>springSecurityFilterChain</filter-name>
-    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
-  </filter>
-  <filter-mapping>
-    <filter-name>springSecurityFilterChain</filter-name>
-    <url-pattern>/*</url-pattern>
-  </filter-mapping>
+  <!-- 配置过滤器链 springSecurityFilterChain 名称固定 -->
+  <filter>
+    <filter-name>springSecurityFilterChain</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>springSecurityFilterChain</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
 ```
 
 **添加SpringSecurity的配置文件**
@@ -226,35 +226,35 @@ log4j.appender.stdout.layout.ConversionPattern=[QC] %p [%t] %C.%M(%L) | %m%n
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:security="http://www.springframework.org/schema/security"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd
-       http://www.springframework.org/schema/security
-       http://www.springframework.org/schema/security/spring-security.xsd">
-    <!-- SpringSecurity配置文件 -->
-    <!--
-        auto-config:表示自动加载SpringSecurity的配置文件
-        use-expressions：表示使用Spring的EL表达式
-     -->
-    <security:http auto-config="true" use-expressions="true">
-        <!--
-            拦截资源
-            pattern="/**" 拦截所有的资源
-            access="hasAnyRole('ROLE_USER')" 表示只有ROLE_USER 这个角色可以访问资源
-         -->
-        <security:intercept-url pattern="/**" access="hasAnyRole('ROLE_USER')" ></security:intercept-url>
-    </security:http>
-    <!-- 认证用户信息 -->
-    <security:authentication-manager>
-        <security:authentication-provider>
-            <security:user-service >
-                <!-- 设置一个账号 zhangsan 密码123 {noop} 表示不加密 具有的角色是  ROLE_USER-->
-                <security:user name="zhangsan" authorities="ROLE_USER" password="{noop}123" ></security:user>
-                <security:user name="lisi" authorities="ROLE_USER" password="{noop}123456" ></security:user>
-            </security:user-service>
-        </security:authentication-provider>
-    </security:authentication-manager>
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/security
+       http://www.springframework.org/schema/security/spring-security.xsd">
+    <!-- SpringSecurity配置文件 -->
+    <!--
+        auto-config:表示自动加载SpringSecurity的配置文件
+        use-expressions：表示使用Spring的EL表达式
+     -->
+    <security:http auto-config="true" use-expressions="true">
+        <!--
+            拦截资源
+            pattern="/**" 拦截所有的资源
+            access="hasAnyRole('ROLE_USER')" 表示只有ROLE_USER 这个角色可以访问资源
+         -->
+        <security:intercept-url pattern="/**" access="hasAnyRole('ROLE_USER')" ></security:intercept-url>
+    </security:http>
+    <!-- 认证用户信息 -->
+    <security:authentication-manager>
+        <security:authentication-provider>
+            <security:user-service >
+                <!-- 设置一个账号 zhangsan 密码123 {noop} 表示不加密 具有的角色是  ROLE_USER-->
+                <security:user name="zhangsan" authorities="ROLE_USER" password="{noop}123" ></security:user>
+                <security:user name="lisi" authorities="ROLE_USER" password="{noop}123456" ></security:user>
+            </security:user-service>
+        </security:authentication-provider>
+    </security:authentication-manager>
 </beans>
 ```
 
@@ -274,24 +274,24 @@ log4j.appender.stdout.layout.ConversionPattern=[QC] %p [%t] %C.%M(%L) | %m%n
 
 ```
 <%--
-  Created by IntelliJ IDEA.
-  User: dpb
-  Date: 2021/3/16
-  Time: 16:57
-  To change this template use File | Settings | File Templates.
+  Created by IntelliJ IDEA.
+  User: dpb
+  Date: 2021/3/16
+  Time: 16:57
+  To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Title</title>
 </head>
 <body>
-    <h1>登录页面</h1>
-    <form action="/login" method="post">
-        账号:<input type="text" name="username"><br>
-        密码:<input type="password" name="password"><br>
-        <input type="submit" value="登录">
-    </form>
+    <h1>登录页面</h1>
+    <form action="/login" method="post">
+        账号:<input type="text" name="username"><br>
+        密码:<input type="password" name="password"><br>
+        <input type="submit" value="登录">
+    </form>
 </body>
 </html>
 
@@ -302,49 +302,49 @@ log4j.appender.stdout.layout.ConversionPattern=[QC] %p [%t] %C.%M(%L) | %m%n
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:security="http://www.springframework.org/schema/security"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd
-       http://www.springframework.org/schema/security
-       http://www.springframework.org/schema/security/spring-security.xsd">
-    <!-- SpringSecurity配置文件 -->
-    <!--
-        auto-config:表示自动加载SpringSecurity的配置文件
-        use-expressions：表示使用Spring的EL表达式
-     -->
-    <security:http auto-config="true" use-expressions="true">
-        <!-- 匿名访问登录页面-->
-        <security:intercept-url pattern="/login.jsp" access="permitAll()"/>
-        <!--
-            拦截资源
-            pattern="/**" 拦截所有的资源
-            access="hasAnyRole('ROLE_USER')" 表示只有ROLE_USER 这个角色可以访问资源
-         -->
-        <security:intercept-url pattern="/**" access="hasAnyRole('ROLE_USER')" />
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/security
+       http://www.springframework.org/schema/security/spring-security.xsd">
+    <!-- SpringSecurity配置文件 -->
+    <!--
+        auto-config:表示自动加载SpringSecurity的配置文件
+        use-expressions：表示使用Spring的EL表达式
+     -->
+    <security:http auto-config="true" use-expressions="true">
+        <!-- 匿名访问登录页面-->
+        <security:intercept-url pattern="/login.jsp" access="permitAll()"/>
+        <!--
+            拦截资源
+            pattern="/**" 拦截所有的资源
+            access="hasAnyRole('ROLE_USER')" 表示只有ROLE_USER 这个角色可以访问资源
+         -->
+        <security:intercept-url pattern="/**" access="hasAnyRole('ROLE_USER')" />
 
-        <!--
-            配置认证的信息
-        -->
-        <security:form-login login-page="/login.jsp"
-                             login-processing-url="/login"
-                             default-target-url="/home.jsp"
-                             authentication-failure-url="/error.jsp"
-        />
-        <!-- 注销 -->
-        <security:logout logout-url="/logout"
-                         logout-success-url="/login.jsp" />
-    </security:http>
-    <!-- 认证用户信息 -->
-    <security:authentication-manager>
-        <security:authentication-provider>
-            <security:user-service >
-                <!-- 设置一个账号 zhangsan 密码123 {noop} 表示不加密 具有的角色是  ROLE_USER-->
-                <security:user name="zhangsan" authorities="ROLE_USER" password="{noop}123" ></security:user>
-                <security:user name="lisi" authorities="ROLE_USER" password="{noop}123456" ></security:user>
-            </security:user-service>
-        </security:authentication-provider>
-    </security:authentication-manager>
+        <!--
+            配置认证的信息
+        -->
+        <security:form-login login-page="/login.jsp"
+                             login-processing-url="/login"
+                             default-target-url="/home.jsp"
+                             authentication-failure-url="/error.jsp"
+        />
+        <!-- 注销 -->
+        <security:logout logout-url="/logout"
+                         logout-success-url="/login.jsp" />
+    </security:http>
+    <!-- 认证用户信息 -->
+    <security:authentication-manager>
+        <security:authentication-provider>
+            <security:user-service >
+                <!-- 设置一个账号 zhangsan 密码123 {noop} 表示不加密 具有的角色是  ROLE_USER-->
+                <security:user name="zhangsan" authorities="ROLE_USER" password="{noop}123" ></security:user>
+                <security:user name="lisi" authorities="ROLE_USER" password="{noop}123456" ></security:user>
+            </security:user-service>
+        </security:authentication-provider>
+    </security:authentication-manager>
 </beans>
 ```
 
@@ -393,26 +393,26 @@ log4j.appender.stdout.layout.ConversionPattern=[QC] %p [%t] %C.%M(%L) | %m%n
 **添加相关的依赖**
 
 ```
-    <dependency>
-      <groupId>org.mybatis</groupId>
-      <artifactId>mybatis</artifactId>
-      <version>3.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.mybatis</groupId>
-      <artifactId>mybatis-spring</artifactId>
-      <version>2.0.4</version>
-    </dependency>
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.11</version>
-    </dependency>
-    <dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>druid</artifactId>
-      <version>1.1.8</version>
-    </dependency>
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis</artifactId>
+      <version>3.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis</groupId>
+      <artifactId>mybatis-spring</artifactId>
+      <version>2.0.4</version>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.11</version>
+    </dependency>
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>druid</artifactId>
+      <version>1.1.8</version>
+    </dependency>
 ```
 
 **添加配置文件**
@@ -427,34 +427,34 @@ jdbc.password=123456
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context
-       http://www.springframework.org/schema/context/spring-context.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.bobo.service" ></context:component-scan>
+    <context:component-scan base-package="com.bobo.service" ></context:component-scan>
 
-    <!-- SpringSecurity的配置文件 -->
-    <import resource="classpath:spring-security.xml" />
+    <!-- SpringSecurity的配置文件 -->
+    <import resource="classpath:spring-security.xml" />
 
-    <context:property-placeholder location="classpath:db.properties" />
-    <bean class="com.alibaba.druid.pool.DruidDataSource" id="dataSource">
-        <property name="url" value="${jdbc.url}" />
-        <property name="driverClassName" value="${jdbc.driver}" />
-        <property name="username" value="${jdbc.username}" />
-        <property name="password" value="${jdbc.password}" />
-     </bean>
-    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sessionFactoryBean" >
-        <property name="dataSource" ref="dataSource" />
-        <property name="configLocation" value="classpath:mybatis-config.xml" />
-        <property name="mapperLocations" value="classpath:mapper/*.xml" />
-    </bean>
+    <context:property-placeholder location="classpath:db.properties" />
+    <bean class="com.alibaba.druid.pool.DruidDataSource" id="dataSource">
+        <property name="url" value="${jdbc.url}" />
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+     </bean>
+    <bean class="org.mybatis.spring.SqlSessionFactoryBean" id="sessionFactoryBean" >
+        <property name="dataSource" ref="dataSource" />
+        <property name="configLocation" value="classpath:mybatis-config.xml" />
+        <property name="mapperLocations" value="classpath:mapper/*.xml" />
+    </bean>
 
-    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.bobo.mapper" />
-    </bean>
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.bobo.mapper" />
+    </bean>
 </beans>
 ```
 
@@ -483,29 +483,29 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements IUserService {
 
-    @Autowired
-    private UserMapper mapper;
+    @Autowired
+    private UserMapper mapper;
 
-    @Override
-    public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
-        // 根据账号查询用户信息
-        UserExample example = new UserExample();
-        example.createCriteria().andUserNameEqualTo(s);
-        List<User> users = mapper.selectByExample(example);
-        if(users != null && users.size() > 0){
-            User user = users.get(0);
-            if(user != null){
-                List<SimpleGrantedAuthority> authorities = new ArrayList<>();
-                // 设置登录账号的角色
-                authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
-                UserDetails userDetails = new org.springframework.security.core.userdetails.User(
-                        user.getUserName(),"{noop}"+user.getPassword(),authorities
-                );
-                return userDetails;
-            }
-        }
-        return null;
-    }
+    @Override
+    public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
+        // 根据账号查询用户信息
+        UserExample example = new UserExample();
+        example.createCriteria().andUserNameEqualTo(s);
+        List<User> users = mapper.selectByExample(example);
+        if(users != null && users.size() > 0){
+            User user = users.get(0);
+            if(user != null){
+                List<SimpleGrantedAuthority> authorities = new ArrayList<>();
+                // 设置登录账号的角色
+                authorities.add(new SimpleGrantedAuthority("ROLE_USER"));
+                UserDetails userDetails = new org.springframework.security.core.userdetails.User(
+                        user.getUserName(),"{noop}"+user.getPassword(),authorities
+                );
+                return userDetails;
+            }
+        }
+        return null;
+    }
 }
 
 ```
@@ -580,34 +580,34 @@ PRIMARY KEY (`series`)
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:mvc="http://www.springframework.org/schema/mvc"
-       xmlns:security="http://www.springframework.org/schema/security"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context
-       http://www.springframework.org/schema/context/spring-context.xsd
-        http://www.springframework.org/schema/mvc
-       http://www.springframework.org/schema/mvc/spring-mvc.xsd
-       http://www.springframework.org/schema/security
-        http://www.springframework.org/schema/security/spring-security.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/security
+        http://www.springframework.org/schema/security/spring-security.xsd">
 
-    <context:component-scan base-package="com.bobo.controller"></context:component-scan>
+    <context:component-scan base-package="com.bobo.controller"></context:component-scan>
 
-    <mvc:annotation-driven ></mvc:annotation-driven>
+    <mvc:annotation-driven ></mvc:annotation-driven>
 
-    <!--
-        开启权限控制注解支持
-        jsr250-annotations="enabled" 表示支持jsr250-api的注解支持，需要jsr250-api的jar包
-        pre-post-annotations="enabled" 表示支持Spring的表达式注解
-        secured-annotations="enabled" 这个才是SpringSecurity提供的注解
-     -->
-    <security:global-method-security
-        jsr250-annotations="enabled"
-        pre-post-annotations="enabled"
-        secured-annotations="enabled"
-    />
+    <!--
+        开启权限控制注解支持
+        jsr250-annotations="enabled" 表示支持jsr250-api的注解支持，需要jsr250-api的jar包
+        pre-post-annotations="enabled" 表示支持Spring的表达式注解
+        secured-annotations="enabled" 这个才是SpringSecurity提供的注解
+     -->
+    <security:global-method-security
+        jsr250-annotations="enabled"
+        pre-post-annotations="enabled"
+        secured-annotations="enabled"
+    />
 </beans>
 ```
 
@@ -617,9 +617,9 @@ PRIMARY KEY (`series`)
 
 ```
 <dependency>
-    <groupId>javax.annotation</groupId>
-    <artifactId>jsr250-api</artifactId>
-    <version>1.0</version>
+    <groupId>javax.annotation</groupId>
+    <artifactId>jsr250-api</artifactId>
+    <version>1.0</version>
 </dependency>
 ```
 
@@ -637,24 +637,24 @@ import javax.annotation.security.RolesAllowed;
 @RequestMapping("/user")
 public class UserController {
 
-    @RolesAllowed(value = {"ROLE_ADMIN"})
-    @RequestMapping("/query")
-    public String query(){
-        System.out.println("用户查询....");
-        return "/home.jsp";
-    }
-    @RolesAllowed(value = {"ROLE_USER"})
-    @RequestMapping("/save")
-    public String save(){
-        System.out.println("用户添加....");
-        return "/home.jsp";
-    }
+    @RolesAllowed(value = {"ROLE_ADMIN"})
+    @RequestMapping("/query")
+    public String query(){
+        System.out.println("用户查询....");
+        return "/home.jsp";
+    }
+    @RolesAllowed(value = {"ROLE_USER"})
+    @RequestMapping("/save")
+    public String save(){
+        System.out.println("用户添加....");
+        return "/home.jsp";
+    }
 
-    @RequestMapping("/update")
-    public String update(){
-        System.out.println("用户更新....");
-        return "/home.jsp";
-    }
+    @RequestMapping("/update")
+    public String update(){
+        System.out.println("用户更新....");
+        return "/home.jsp";
+    }
 }
 
 ```
@@ -678,24 +678,24 @@ import javax.annotation.security.RolesAllowed;
 @RequestMapping("/order")
 public class OrderController {
 
-    @PreAuthorize(value = "hasAnyRole('ROLE_USER')")
-    @RequestMapping("/query")
-    public String query(){
-        System.out.println("用户查询....");
-        return "/home.jsp";
-    }
-    @PreAuthorize(value = "hasAnyRole('ROLE_ADMIN')")
-    @RequestMapping("/save")
-    public String save(){
-        System.out.println("用户添加....");
-        return "/home.jsp";
-    }
+    @PreAuthorize(value = "hasAnyRole('ROLE_USER')")
+    @RequestMapping("/query")
+    public String query(){
+        System.out.println("用户查询....");
+        return "/home.jsp";
+    }
+    @PreAuthorize(value = "hasAnyRole('ROLE_ADMIN')")
+    @RequestMapping("/save")
+    public String save(){
+        System.out.println("用户添加....");
+        return "/home.jsp";
+    }
 
-    @RequestMapping("/update")
-    public String update(){
-        System.out.println("用户更新....");
-        return "/home.jsp";
-    }
+    @RequestMapping("/update")
+    public String update(){
+        System.out.println("用户更新....");
+        return "/home.jsp";
+    }
 }
 
 ```
@@ -714,25 +714,25 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/role")
 public class RoleController {
 
-    @Secured("ROLE_USER")
-    @RequestMapping("/query")
-    public String query(){
-        System.out.println("用户查询....");
-        return "/home.jsp";
-    }
+    @Secured("ROLE_USER")
+    @RequestMapping("/query")
+    public String query(){
+        System.out.println("用户查询....");
+        return "/home.jsp";
+    }
 
-    @Secured("ROLE_ADMIN")
-    @RequestMapping("/save")
-    public String save(){
-        System.out.println("用户添加....");
-        return "/home.jsp";
-    }
+    @Secured("ROLE_ADMIN")
+    @RequestMapping("/save")
+    public String save(){
+        System.out.println("用户添加....");
+        return "/home.jsp";
+    }
 
-    @RequestMapping("/update")
-    public String update(){
-        System.out.println("用户更新....");
-        return "/home.jsp";
-    }
+    @RequestMapping("/update")
+    public String update(){
+        System.out.println("用户更新....");
+        return "/home.jsp";
+    }
 }
 
 ```
@@ -757,33 +757,33 @@ public class RoleController {
 
 ```
 <%--
-  Created by IntelliJ IDEA.
-  User: dpb
-  Date: 2021/3/16
-  Time: 17:02
-  To change this template use File | Settings | File Templates.
+  Created by IntelliJ IDEA.
+  User: dpb
+  Date: 2021/3/16
+  Time: 17:02
+  To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Title</title>
 </head>
 <body>
-    <h1>欢迎光临...</h1>
-    <security:authentication property="principal.username" />
-    <security:authorize access="hasAnyRole('ROLE_USER')" >
-        <a href="#">用户查询</a><br>
-    </security:authorize>
-    <security:authorize access="hasAnyRole('ROLE_ADMIN')" >
-        <a href="#">用户添加</a><br>
-    </security:authorize>
-    <security:authorize access="hasAnyRole('ROLE_USER')" >
-        <a href="#">用户更新</a><br>
-    </security:authorize>
-    <security:authorize access="hasAnyRole('ROLE_ADMIN')" >
-        <a href="#">用户删除</a><br>
-    </security:authorize>
+    <h1>欢迎光临...</h1>
+    <security:authentication property="principal.username" />
+    <security:authorize access="hasAnyRole('ROLE_USER')" >
+        <a href="#">用户查询</a><br>
+    </security:authorize>
+    <security:authorize access="hasAnyRole('ROLE_ADMIN')" >
+        <a href="#">用户添加</a><br>
+    </security:authorize>
+    <security:authorize access="hasAnyRole('ROLE_USER')" >
+        <a href="#">用户更新</a><br>
+    </security:authorize>
+    <security:authorize access="hasAnyRole('ROLE_ADMIN')" >
+        <a href="#">用户删除</a><br>
+    </security:authorize>
 </body>
 </html>
 

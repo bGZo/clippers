@@ -424,7 +424,7 @@ G1日志格式参考链接：https://blogs.oracle.com/poonam/understanding-g1-gc
 > ```
 >
 > ```shell
-> -XX:+UseG1GC  # 使用了G1垃圾收集器
+> -XX:+UseG1GC  # 使用了G1垃圾收集器
 >
 > # 什么时候发生的GC，相对的时间刻，GC发生的区域young，总共花费的时间，0.00478s，
 > # It is a stop-the-world activity and all

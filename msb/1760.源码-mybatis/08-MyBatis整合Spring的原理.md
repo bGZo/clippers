@@ -479,10 +479,10 @@ MyBatis还自带了一个线程安全的SqlSession实现：SqlSessionManager，�
 ```java
 public abstract class SqlSessionDaoSupport extends DaoSupport {
 
- private SqlSessionTemplate sqlSessionTemplate;
+ private SqlSessionTemplate sqlSessionTemplate;
 
- public SqlSession getSqlSession() {
-   return this.sqlSessionTemplate;
+ public SqlSession getSqlSession() {
+   return this.sqlSessionTemplate;
 }
 // 其他代码省略
 ```
@@ -501,19 +501,19 @@ getSqlSession().delete(statement);
 还是不够简洁。为了减少重复的代码，我们通常不会让我们的实现类直接去继承SqlSessionDaoSupport，而是先创建一个BaseDao继承SqlSessionDaoSupport。在BaseDao里面封装对数据库的操作，包括selectOne()、selectList()、insert()、delete()这些方法，子类就可以直接调用。
 
 ```java
-public  class BaseDao extends SqlSessionDaoSupport {
-   //使用sqlSessionFactory
-   @Autowired
-   private SqlSessionFactory sqlSessionFactory;
+public  class BaseDao extends SqlSessionDaoSupport {
+   //使用sqlSessionFactory
+   @Autowired
+   private SqlSessionFactory sqlSessionFactory;
 
-   @Autowired
-   public void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory) {
-       super.setSqlSessionFactory(sqlSessionFactory);
-  }
+   @Autowired
+   public void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory) {
+       super.setSqlSessionFactory(sqlSessionFactory);
+  }
 
-   public Object selectOne(String statement, Object parameter) {
-       return getSqlSession().selectOne(statement, parameter);
-  }
+   public Object selectOne(String statement, Object parameter) {
+       return getSqlSession().selectOne(statement, parameter);
+  }
 // 后面省略
 ```
 
@@ -524,11 +524,11 @@ public  class BaseDao extends SqlSessionDaoSupport {
 ```java
 @Repository
 public class EmployeeDaoImpl extends BaseDao implements EmployeeMapper {
-   @Override
-   public Employee selectByPrimaryKey(Integer empId) {
-       Employee emp = (Employee) this.selectOne("com.boboedu.crud.dao.EmployeeMapper.selectByPrimaryKey",empId);
-       return emp;
-  }
+   @Override
+   public Employee selectByPrimaryKey(Integer empId) {
+       Employee emp = (Employee) this.selectOne("com.boboedu.crud.dao.EmployeeMapper.selectByPrimaryKey",empId);
+       return emp;
+  }
 // 后面省略
 ```
 
@@ -540,7 +540,7 @@ EmployeeDaoImpl employeeDao;
 
 @Test
 public void EmployeeDaoSupportTest() {
-   System.out.println(employeeDao.selectByPrimaryKey(1));
+   System.out.println(employeeDao.selectByPrimaryKey(1));
 }
 ```
 

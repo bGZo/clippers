@@ -303,7 +303,7 @@ HotSpot 使用的是第二种——基于计数器的热点探测，并且有两
 
 ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/1463/1655274390025/d4c010ec25894932a5ff0d4f9fb72641.png)
 
-关于这个计数器的阈值， HotSpot 提供了 **-XX：BackEdgeThreshold** 供用户设置，但是当前的虚拟机实际上使用了 **-XX：OnStackReplacePercentage** 来简介调整阈值，计算公式如下：
+关于这个计数器的阈值， HotSpot 提供了 **-XX：BackEdgeThreshold** 供用户设置，但是当前的虚拟机实际上使用了 **-XX：OnStackReplacePercentage** 来简介调整阈值，计算公式如下：
 
 * 在 **Client** 模式下， 公式为 方法调用计数器阈值（CompileThreshold）X **OSR 比率**（OnStackReplacePercentage）/ **100** 。其中 OSR 比率默认为 **933**，那么，回边计数器的阈值为 **13995**。
 * 在 **Server** 模式下，公式为 方法调用计数器阈值（Compile Threashold）X （**OSR 比率**(OnStackReplacePercentage) - 解释器监控比率（InterpreterProfilePercent））/**100**。

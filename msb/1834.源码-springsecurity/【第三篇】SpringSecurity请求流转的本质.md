@@ -16,63 +16,63 @@
 
 ```项目里
 <!DOCTYPE web-app PUBLIC
-        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
-        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app version="2.5" id="WebApp_ID" xmlns="http://java.sun.com/xml/ns/javaee"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-  <display-name>Archetype Created Web Application</display-name>
+  <display-name>Archetype Created Web Application</display-name>
 
-  <!-- 初始化spring容器 -->
-  <context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:applicationContext.xml</param-value>
-  </context-param>
-  <listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-  </listener>
+  <!-- 初始化spring容器 -->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath:applicationContext.xml</param-value>
+  </context-param>
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
 
-  <!-- post乱码过滤器 -->
-  <filter>
-    <filter-name>CharacterEncodingFilter</filter-name>
-    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
-    <init-param>
-      <param-name>encoding</param-name>
-      <param-value>utf-8</param-value>
-    </init-param>
-  </filter>
-  <filter-mapping>
-    <filter-name>CharacterEncodingFilter</filter-name>
-    <url-pattern>/*</url-pattern>
-  </filter-mapping>
-  <!-- 前端控制器 -->
-  <servlet>
-    <servlet-name>dispatcherServletb</servlet-name>
-    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-    <!-- contextConfigLocation不是必须的， 如果不配置contextConfigLocation， springmvc的配置文件默认在：WEB-INF/servlet的name+"-servlet.xml" -->
-    <init-param>
-      <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:spring-mvc.xml</param-value>
-    </init-param>
-    <load-on-startup>1</load-on-startup>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>dispatcherServletb</servlet-name>
-    <!-- 拦截所有请求jsp除外 -->
-    <url-pattern>/</url-pattern>
-  </servlet-mapping>
+  <!-- post乱码过滤器 -->
+  <filter>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>utf-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>CharacterEncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <!-- 前端控制器 -->
+  <servlet>
+    <servlet-name>dispatcherServletb</servlet-name>
+    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    <!-- contextConfigLocation不是必须的， 如果不配置contextConfigLocation， springmvc的配置文件默认在：WEB-INF/servlet的name+"-servlet.xml" -->
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>classpath:spring-mvc.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dispatcherServletb</servlet-name>
+    <!-- 拦截所有请求jsp除外 -->
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
 
-  <!-- 配置过滤器链 springSecurityFilterChain 名称固定 -->
-  <filter>
-    <filter-name>springSecurityFilterChain</filter-name>
-    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
-  </filter>
-  <filter-mapping>
-    <filter-name>springSecurityFilterChain</filter-name>
-    <url-pattern>/*</url-pattern>
-  </filter-mapping>
+  <!-- 配置过滤器链 springSecurityFilterChain 名称固定 -->
+  <filter>
+    <filter-name>springSecurityFilterChain</filter-name>
+    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>springSecurityFilterChain</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
 
 </web-app>
 
@@ -96,38 +96,38 @@
 
 ```java
 protected void initFilterBean() throws ServletException {
-    synchronized(this.delegateMonitor) {
-        // 如果委托对象为null 进入
-        if (this.delegate == null) {
-            // 如果targetBeanName==null
-            if (this.targetBeanName == null) {
-                // targetBeanName = 'springSecurityFilterChain'
-                this.targetBeanName = this.getFilterName();
-            }
+    synchronized(this.delegateMonitor) {
+        // 如果委托对象为null 进入
+        if (this.delegate == null) {
+            // 如果targetBeanName==null
+            if (this.targetBeanName == null) {
+                // targetBeanName = 'springSecurityFilterChain'
+                this.targetBeanName = this.getFilterName();
+            }
 // 获取Spring的容器对象
-            WebApplicationContext wac = this.findWebApplicationContext();
-            if (wac != null) {
-                // 初始化代理对象
-                this.delegate = this.initDelegate(wac);
-            }
-        }
+            WebApplicationContext wac = this.findWebApplicationContext();
+            if (wac != null) {
+                // 初始化代理对象
+                this.delegate = this.initDelegate(wac);
+            }
+        }
 
-    }
+    }
 }
 ```
 
 ```java
 protected Filter initDelegate(WebApplicationContext wac) throws ServletException {
-    // springSecurityFilterChain
-    String targetBeanName = this.getTargetBeanName();
-    Assert.state(targetBeanName != null, "No target bean name set");
-    // 从IoC容器中获取 springSecurityFilterChain的类型为Filter的对象
-    Filter delegate = (Filter)wac.getBean(targetBeanName, Filter.class);
-    if (this.isTargetFilterLifecycle()) {
-        delegate.init(this.getFilterConfig());
-    }
+    // springSecurityFilterChain
+    String targetBeanName = this.getTargetBeanName();
+    Assert.state(targetBeanName != null, "No target bean name set");
+    // 从IoC容器中获取 springSecurityFilterChain的类型为Filter的对象
+    Filter delegate = (Filter)wac.getBean(targetBeanName, Filter.class);
+    if (this.isTargetFilterLifecycle()) {
+        delegate.init(this.getFilterConfig());
+    }
 
-    return delegate;
+    return delegate;
 }
 ```
 
@@ -149,25 +149,25 @@ protected Filter initDelegate(WebApplicationContext wac) throws ServletException
 
 ```java
 public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-    Filter delegateToUse = this.delegate;
-    if (delegateToUse == null) {
-        // 如果 delegateToUse 为空 那么完成init中的初始化操作
-        synchronized(this.delegateMonitor) {
-            delegateToUse = this.delegate;
-            if (delegateToUse == null) {
-                WebApplicationContext wac = this.findWebApplicationContext();
-                if (wac == null) {
-                    throw new IllegalStateException("No WebApplicationContext found: no ContextLoaderListener or DispatcherServlet registered?");
-                }
+    Filter delegateToUse = this.delegate;
+    if (delegateToUse == null) {
+        // 如果 delegateToUse 为空 那么完成init中的初始化操作
+        synchronized(this.delegateMonitor) {
+            delegateToUse = this.delegate;
+            if (delegateToUse == null) {
+                WebApplicationContext wac = this.findWebApplicationContext();
+                if (wac == null) {
+                    throw new IllegalStateException("No WebApplicationContext found: no ContextLoaderListener or DispatcherServlet registered?");
+                }
 
-                delegateToUse = this.initDelegate(wac);
-            }
+                delegateToUse = this.initDelegate(wac);
+            }
 
-            this.delegate = delegateToUse;
-        }
-    }
+            this.delegate = delegateToUse;
+        }
+    }
 
-    this.invokeDelegate(delegateToUse, request, response, filterChain);
+    this.invokeDelegate(delegateToUse, request, response, filterChain);
 }
 ```
 
@@ -175,8 +175,8 @@ public void doFilter(ServletRequest request, ServletResponse response, FilterCha
 
 ```java
 protected void invokeDelegate(Filter delegate, ServletRequest request, ServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-    // delegate.doFilter() FilterChainProxy
-    delegate.doFilter(request, response, filterChain);
+    // delegate.doFilter() FilterChainProxy
+    delegate.doFilter(request, response, filterChain);
 }
 ```
 
@@ -190,12 +190,12 @@ protected void invokeDelegate(Filter delegate, ServletRequest request, ServletRe
 
 ```java
 public class FilterChainProxy extends GenericFilterBean {
-    private static final Log logger = LogFactory.getLog(FilterChainProxy.class);
-    private static final String FILTER_APPLIED = FilterChainProxy.class.getName().concat(".APPLIED");
-    // 过滤器链的集合  保存的有很多个过滤器链  一个过滤器链中包含的有多个过滤器
-    private List<SecurityFilterChain> filterChains;
-    private FilterChainProxy.FilterChainValidator filterChainValidator;
-    private HttpFirewall firewall;
+    private static final Log logger = LogFactory.getLog(FilterChainProxy.class);
+    private static final String FILTER_APPLIED = FilterChainProxy.class.getName().concat(".APPLIED");
+    // 过滤器链的集合  保存的有很多个过滤器链  一个过滤器链中包含的有多个过滤器
+    private List<SecurityFilterChain> filterChains;
+    private FilterChainProxy.FilterChainValidator filterChainValidator;
+    private HttpFirewall firewall;
 // .....
 }
 ```
@@ -205,18 +205,18 @@ public class FilterChainProxy extends GenericFilterBean {
 ```java
 // 处理用户请求
 public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-    boolean clearContext = request.getAttribute(FILTER_APPLIED) == null;
-    if (clearContext) {
-        try {
-            request.setAttribute(FILTER_APPLIED, Boolean.TRUE);
-            this.doFilterInternal(request, response, chain);
-        } finally {
-            SecurityContextHolder.clearContext();
-            request.removeAttribute(FILTER_APPLIED);
-        }
-    } else {
-        this.doFilterInternal(request, response, chain);
-    }
+    boolean clearContext = request.getAttribute(FILTER_APPLIED) == null;
+    if (clearContext) {
+        try {
+            request.setAttribute(FILTER_APPLIED, Boolean.TRUE);
+            this.doFilterInternal(request, response, chain);
+        } finally {
+            SecurityContextHolder.clearContext();
+            request.removeAttribute(FILTER_APPLIED);
+        }
+    } else {
+        this.doFilterInternal(request, response, chain);
+    }
 
 }
 ```
@@ -225,21 +225,21 @@ public void doFilter(ServletRequest request, ServletResponse response, FilterCha
 
 ```java
 private void doFilterInternal(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
-    FirewalledRequest fwRequest = this.firewall.getFirewalledRequest((HttpServletRequest)request);
-    HttpServletResponse fwResponse = this.firewall.getFirewalledResponse((HttpServletResponse)response);
-    // 根据当前的请求获取对应的过滤器链
-    List<Filter> filters = this.getFilters((HttpServletRequest)fwRequest);
-    if (filters != null && filters.size() != 0) {
-        FilterChainProxy.VirtualFilterChain vfc = new FilterChainProxy.VirtualFilterChain(fwRequest, chain, filters);
-        vfc.doFilter(fwRequest, fwResponse);
-    } else {
-        if (logger.isDebugEnabled()) {
-            logger.debug(UrlUtils.buildRequestUrl(fwRequest) + (filters == null ? " has no matching filters" : " has an empty filter list"));
-        }
+    FirewalledRequest fwRequest = this.firewall.getFirewalledRequest((HttpServletRequest)request);
+    HttpServletResponse fwResponse = this.firewall.getFirewalledResponse((HttpServletResponse)response);
+    // 根据当前的请求获取对应的过滤器链
+    List<Filter> filters = this.getFilters((HttpServletRequest)fwRequest);
+    if (filters != null && filters.size() != 0) {
+        FilterChainProxy.VirtualFilterChain vfc = new FilterChainProxy.VirtualFilterChain(fwRequest, chain, filters);
+        vfc.doFilter(fwRequest, fwResponse);
+    } else {
+        if (logger.isDebugEnabled()) {
+            logger.debug(UrlUtils.buildRequestUrl(fwRequest) + (filters == null ? " has no matching filters" : " has an empty filter list"));
+        }
 
-        fwRequest.reset();
-        chain.doFilter(fwRequest, fwResponse);
-    }
+        fwRequest.reset();
+        chain.doFilter(fwRequest, fwResponse);
+    }
 }
 ```
 
@@ -251,22 +251,22 @@ private void doFilterInternal(ServletRequest request, ServletResponse response, 
 
 ```java
 public void doFilter(ServletRequest request, ServletResponse response) throws IOException, ServletException {
-    if (this.currentPosition == this.size) {
-        if (FilterChainProxy.logger.isDebugEnabled()) {
-            FilterChainProxy.logger.debug(UrlUtils.buildRequestUrl(this.firewalledRequest) + " reached end of additional filter chain; proceeding with original chain");
-        }
+    if (this.currentPosition == this.size) {
+        if (FilterChainProxy.logger.isDebugEnabled()) {
+            FilterChainProxy.logger.debug(UrlUtils.buildRequestUrl(this.firewalledRequest) + " reached end of additional filter chain; proceeding with original chain");
+        }
 
-        this.firewalledRequest.reset();
-        this.originalChain.doFilter(request, response);
-    } else {
-        ++this.currentPosition;
-        Filter nextFilter = (Filter)this.additionalFilters.get(this.currentPosition - 1);
-        if (FilterChainProxy.logger.isDebugEnabled()) {
-            FilterChainProxy.logger.debug(UrlUtils.buildRequestUrl(this.firewalledRequest) + " at position " + this.currentPosition + " of " + this.size + " in additional filter chain; firing Filter: '" + nextFilter.getClass().getSimpleName() + "'");
-        }
+        this.firewalledRequest.reset();
+        this.originalChain.doFilter(request, response);
+    } else {
+        ++this.currentPosition;
+        Filter nextFilter = (Filter)this.additionalFilters.get(this.currentPosition - 1);
+        if (FilterChainProxy.logger.isDebugEnabled()) {
+            FilterChainProxy.logger.debug(UrlUtils.buildRequestUrl(this.firewalledRequest) + " at position " + this.currentPosition + " of " + this.size + " in additional filter chain; firing Filter: '" + nextFilter.getClass().getSimpleName() + "'");
+        }
 
-        nextFilter.doFilter(request, response, this);
-    }
+        nextFilter.doFilter(request, response, this);
+    }
 
 }
 ```
@@ -288,26 +288,26 @@ ExceptionTranslationFilter是我们看的过滤器链中的倒数第二个，作
 做权限相关的内容
 
 ```java
-    public void invoke(FilterInvocation fi) throws IOException, ServletException {
-        if (fi.getRequest() != null && fi.getRequest().getAttribute("__spring_security_filterSecurityInterceptor_filterApplied") != null && this.observeOncePerRequest) {
-            fi.getChain().doFilter(fi.getRequest(), fi.getResponse());
-        } else {
-            if (fi.getRequest() != null && this.observeOncePerRequest) {
-                fi.getRequest().setAttribute("__spring_security_filterSecurityInterceptor_filterApplied", Boolean.TRUE);
-            }
+    public void invoke(FilterInvocation fi) throws IOException, ServletException {
+        if (fi.getRequest() != null && fi.getRequest().getAttribute("__spring_security_filterSecurityInterceptor_filterApplied") != null && this.observeOncePerRequest) {
+            fi.getChain().doFilter(fi.getRequest(), fi.getResponse());
+        } else {
+            if (fi.getRequest() != null && this.observeOncePerRequest) {
+                fi.getRequest().setAttribute("__spring_security_filterSecurityInterceptor_filterApplied", Boolean.TRUE);
+            }
 // 抛出异常 ExceptionTranslationFilter就会捕获异常
-            InterceptorStatusToken token = super.beforeInvocation(fi);
+            InterceptorStatusToken token = super.beforeInvocation(fi);
 
-            try {
-                fi.getChain().doFilter(fi.getRequest(), fi.getResponse());
-            } finally {
-                super.finallyInvocation(token);
-            }
+            try {
+                fi.getChain().doFilter(fi.getRequest(), fi.getResponse());
+            } finally {
+                super.finallyInvocation(token);
+            }
 
-            super.afterInvocation(token, (Object)null);
-        }
+            super.afterInvocation(token, (Object)null);
+        }
 
-    }
+    }
 ```
 
 **ExceptionTranslationFilter 处理异常的代码**
@@ -330,21 +330,21 @@ ExceptionTranslationFilter是我们看的过滤器链中的倒数第二个，作
 
 ```java
 public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
-    HttpServletRequest request = (HttpServletRequest)req;
-    HttpServletResponse response = (HttpServletResponse)res;
-    boolean loginError = this.isErrorPage(request);
-    boolean logoutSuccess = this.isLogoutSuccess(request);
-    if (!this.isLoginUrlRequest(request) && !loginError && !logoutSuccess) {
-        // 正常的业务请求就直接放过
-        chain.doFilter(request, response);
-    } else {
-        // 需要跳转到登录页面的请求
-        String loginPageHtml = this.generateLoginPageHtml(request, loginError, logoutSuccess);
-        // 直接响应登录页面
-        response.setContentType("text/html;charset=UTF-8");
-        response.setContentLength(loginPageHtml.getBytes(StandardCharsets.UTF_8).length);
-        response.getWriter().write(loginPageHtml);
-    }
+    HttpServletRequest request = (HttpServletRequest)req;
+    HttpServletResponse response = (HttpServletResponse)res;
+    boolean loginError = this.isErrorPage(request);
+    boolean logoutSuccess = this.isLogoutSuccess(request);
+    if (!this.isLoginUrlRequest(request) && !loginError && !logoutSuccess) {
+        // 正常的业务请求就直接放过
+        chain.doFilter(request, response);
+    } else {
+        // 需要跳转到登录页面的请求
+        String loginPageHtml = this.generateLoginPageHtml(request, loginError, logoutSuccess);
+        // 直接响应登录页面
+        response.setContentType("text/html;charset=UTF-8");
+        response.setContentLength(loginPageHtml.getBytes(StandardCharsets.UTF_8).length);
+        response.getWriter().write(loginPageHtml);
+    }
 }
 ```
 
@@ -352,50 +352,50 @@ public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain)
 
 ```java
 private String generateLoginPageHtml(HttpServletRequest request, boolean loginError, boolean logoutSuccess) {
-    String errorMsg = "Invalid credentials";
-    if (loginError) {
-        HttpSession session = request.getSession(false);
-        if (session != null) {
-            AuthenticationException ex = (AuthenticationException)session.getAttribute("SPRING_SECURITY_LAST_EXCEPTION");
-            errorMsg = ex != null ? ex.getMessage() : "Invalid credentials";
-        }
-    }
+    String errorMsg = "Invalid credentials";
+    if (loginError) {
+        HttpSession session = request.getSession(false);
+        if (session != null) {
+            AuthenticationException ex = (AuthenticationException)session.getAttribute("SPRING_SECURITY_LAST_EXCEPTION");
+            errorMsg = ex != null ? ex.getMessage() : "Invalid credentials";
+        }
+    }
 
-    StringBuilder sb = new StringBuilder();
-    sb.append("<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n    <title>Please sign in</title>\n    <link href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M\" crossorigin=\"anonymous\">\n    <link href=\"https://getbootstrap.com/docs/4.0/examples/signin/signin.css\" rel=\"stylesheet\" crossorigin=\"anonymous\"/>\n  </head>\n  <body>\n     <div class=\"container\">\n");
-    String contextPath = request.getContextPath();
-    if (this.formLoginEnabled) {
-        sb.append("      <form class=\"form-signin\" method=\"post\" action=\"" + contextPath + this.authenticationUrl + "\">\n        <h2 class=\"form-signin-heading\">Please sign in</h2>\n" + createError(loginError, errorMsg) + createLogoutSuccess(logoutSuccess) + "        <p>\n          <label for=\"username\" class=\"sr-only\">Username</label>\n          <input type=\"text\" id=\"username\" name=\"" + this.usernameParameter + "\" class=\"form-control\" placeholder=\"Username\" required autofocus>\n        </p>\n        <p>\n          <label for=\"password\" class=\"sr-only\">Password</label>\n          <input type=\"password\" id=\"password\" name=\"" + this.passwordParameter + "\" class=\"form-control\" placeholder=\"Password\" required>\n        </p>\n" + this.createRememberMe(this.rememberMeParameter) + this.renderHiddenInputs(request) + "        <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Sign in</button>\n      </form>\n");
-    }
+    StringBuilder sb = new StringBuilder();
+    sb.append("<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n    <title>Please sign in</title>\n    <link href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M\" crossorigin=\"anonymous\">\n    <link href=\"https://getbootstrap.com/docs/4.0/examples/signin/signin.css\" rel=\"stylesheet\" crossorigin=\"anonymous\"/>\n  </head>\n  <body>\n     <div class=\"container\">\n");
+    String contextPath = request.getContextPath();
+    if (this.formLoginEnabled) {
+        sb.append("      <form class=\"form-signin\" method=\"post\" action=\"" + contextPath + this.authenticationUrl + "\">\n        <h2 class=\"form-signin-heading\">Please sign in</h2>\n" + createError(loginError, errorMsg) + createLogoutSuccess(logoutSuccess) + "        <p>\n          <label for=\"username\" class=\"sr-only\">Username</label>\n          <input type=\"text\" id=\"username\" name=\"" + this.usernameParameter + "\" class=\"form-control\" placeholder=\"Username\" required autofocus>\n        </p>\n        <p>\n          <label for=\"password\" class=\"sr-only\">Password</label>\n          <input type=\"password\" id=\"password\" name=\"" + this.passwordParameter + "\" class=\"form-control\" placeholder=\"Password\" required>\n        </p>\n" + this.createRememberMe(this.rememberMeParameter) + this.renderHiddenInputs(request) + "        <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Sign in</button>\n      </form>\n");
+    }
 
-    if (this.openIdEnabled) {
-        sb.append("      <form name=\"oidf\" class=\"form-signin\" method=\"post\" action=\"" + contextPath + this.openIDauthenticationUrl + "\">\n        <h2 class=\"form-signin-heading\">Login with OpenID Identity</h2>\n" + createError(loginError, errorMsg) + createLogoutSuccess(logoutSuccess) + "        <p>\n          <label for=\"username\" class=\"sr-only\">Identity</label>\n          <input type=\"text\" id=\"username\" name=\"" + this.openIDusernameParameter + "\" class=\"form-control\" placeholder=\"Username\" required autofocus>\n        </p>\n" + this.createRememberMe(this.openIDrememberMeParameter) + this.renderHiddenInputs(request) + "        <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Sign in</button>\n      </form>\n");
-    }
+    if (this.openIdEnabled) {
+        sb.append("      <form name=\"oidf\" class=\"form-signin\" method=\"post\" action=\"" + contextPath + this.openIDauthenticationUrl + "\">\n        <h2 class=\"form-signin-heading\">Login with OpenID Identity</h2>\n" + createError(loginError, errorMsg) + createLogoutSuccess(logoutSuccess) + "        <p>\n          <label for=\"username\" class=\"sr-only\">Identity</label>\n          <input type=\"text\" id=\"username\" name=\"" + this.openIDusernameParameter + "\" class=\"form-control\" placeholder=\"Username\" required autofocus>\n        </p>\n" + this.createRememberMe(this.openIDrememberMeParameter) + this.renderHiddenInputs(request) + "        <button class=\"btn btn-lg btn-primary btn-block\" type=\"submit\">Sign in</button>\n      </form>\n");
+    }
 
-    if (this.oauth2LoginEnabled) {
-        sb.append("<h2 class=\"form-signin-heading\">Login with OAuth 2.0</h2>");
-        sb.append(createError(loginError, errorMsg));
-        sb.append(createLogoutSuccess(logoutSuccess));
-        sb.append("<table class=\"table table-striped\">\n");
-        Iterator var7 = this.oauth2AuthenticationUrlToClientName.entrySet().iterator();
+    if (this.oauth2LoginEnabled) {
+        sb.append("<h2 class=\"form-signin-heading\">Login with OAuth 2.0</h2>");
+        sb.append(createError(loginError, errorMsg));
+        sb.append(createLogoutSuccess(logoutSuccess));
+        sb.append("<table class=\"table table-striped\">\n");
+        Iterator var7 = this.oauth2AuthenticationUrlToClientName.entrySet().iterator();
 
-        while(var7.hasNext()) {
-            Entry<String, String> clientAuthenticationUrlToClientName = (Entry)var7.next();
-            sb.append(" <tr><td>");
-            String url = (String)clientAuthenticationUrlToClientName.getKey();
-            sb.append("<a href=\"").append(contextPath).append(url).append("\">");
-            String clientName = HtmlUtils.htmlEscape((String)clientAuthenticationUrlToClientName.getValue());
-            sb.append(clientName);
-            sb.append("</a>");
-            sb.append("</td></tr>\n");
-        }
+        while(var7.hasNext()) {
+            Entry<String, String> clientAuthenticationUrlToClientName = (Entry)var7.next();
+            sb.append(" <tr><td>");
+            String url = (String)clientAuthenticationUrlToClientName.getKey();
+            sb.append("<a href=\"").append(contextPath).append(url).append("\">");
+            String clientName = HtmlUtils.htmlEscape((String)clientAuthenticationUrlToClientName.getValue());
+            sb.append(clientName);
+            sb.append("</a>");
+            sb.append("</td></tr>\n");
+        }
 
-        sb.append("</table>\n");
-    }
+        sb.append("</table>\n");
+    }
 
-    sb.append("</div>\n");
-    sb.append("</body></html>");
-    return sb.toString();
+    sb.append("</div>\n");
+    sb.append("</body></html>");
+    return sb.toString();
 }
 ```
 

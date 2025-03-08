@@ -575,10 +575,10 @@ Returned connection 1199262943 to pool.
 ```xml
 <!-- 声明这个namespace使用二级缓存 -->
 <cache type="org.apache.ibatis.cache.impl.PerpetualCache"
-      size="1024"  <!—最多缓存对象个数，默认1024-->
-      eviction="LRU" <!—回收策略-->
-      flushInterval="120000" <!—自动刷新时间 ms，未配置时只有调用时刷新-->
-      readOnly="false"/> <!—默认是false（安全），改为true可读写时，对象必须支持序列化 -->
+      size="1024"  <!—最多缓存对象个数，默认1024-->
+      eviction="LRU" <!—回收策略-->
+      flushInterval="120000" <!—自动刷新时间 ms，未配置时只有调用时刷新-->
+      readOnly="false"/> <!—默认是false（安全），改为true可读写时，对象必须支持序列化 -->
 ```
 
 cache属性详解：
@@ -650,9 +650,9 @@ https://github.com/mybatis/redis-cache
 
 ```xml
 <dependency>
-   <groupId>org.mybatis.caches</groupId>
-   <artifactId>mybatis-redis</artifactId>
-   <version>1.0.0-beta2</version>
+   <groupId>org.mybatis.caches</groupId>
+   <artifactId>mybatis-redis</artifactId>
+   <version>1.0.0-beta2</version>
 </dependency>
 ```
 

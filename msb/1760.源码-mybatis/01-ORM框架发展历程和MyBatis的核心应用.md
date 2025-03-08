@@ -1505,24 +1505,24 @@ http://www.mybatis.org/mybatis-3/zh/configuration.html#mappers
 a.使用相对于类路径的资源引用（resource）
 
 ```xml
- <mappers>
-     <mapper resource="UserMapper.xml"/>
- </mappers>
+ <mappers>
+     <mapper resource="UserMapper.xml"/>
+ </mappers>
 ```
 
 b.使用完全限定资源定位符（绝对路径）（URL）
 
 ```xml
- <mappers>
-     <mapper resource="file:///app/sale/mappers/UserMapper.xml"/>
- </mappers>
+ <mappers>
+     <mapper resource="file:///app/sale/mappers/UserMapper.xml"/>
+ </mappers>
 ```
 
 c.使用映射器接口实现类的完全限定类名
 
 ```xml
 <mappers>
-   <mapper class="com.boge.mapper.UserMapper"/>
+   <mapper class="com.boge.mapper.UserMapper"/>
 </mappers>
 ```
 
@@ -1530,7 +1530,7 @@ d.将包内的映射器接口实现全部注册为映射器（最常用）
 
 ```xml
 <mappers>
-   <mapper class="com.boge.mapper"/>
+   <mapper class="com.boge.mapper"/>
 </mappers>
 ```
 
@@ -1572,11 +1572,11 @@ SQL 映射文件只有很少的几个顶级元素（按照应被定义的顺序�
 
 ```xml
 <resultMap id="BaseResultMap" type="Employee">
-   <id column="emp_id" jdbcType="INTEGER" property="empId"/>
-   <result column="emp_name" jdbcType="VARCHAR" property="empName"/>
-   <result column="gender" jdbcType="CHAR" property="gender"/>
-   <result column="email" jdbcType="VARCHAR" property="email"/>
-   <result column="d_id" jdbcType="INTEGER" property="dId"/>
+   <id column="emp_id" jdbcType="INTEGER" property="empId"/>
+   <result column="emp_name" jdbcType="VARCHAR" property="empName"/>
+   <result column="gender" jdbcType="CHAR" property="gender"/>
+   <result column="email" jdbcType="VARCHAR" property="email"/>
+   <result column="d_id" jdbcType="INTEGER" property="dId"/>
 </resultMap>
 ```
 
@@ -1606,17 +1606,17 @@ emp_id, emp_name, gender, email, d_id
 
 ```xml
 <select
- id="selectPerson"
- parameterType="int"
- parameterMap="deprecated"
- resultType="hashmap"
- resultMap="personResultMap"
- flushCache="false"
- useCache="true"
- timeout="10"
- fetchSize="256"
- statementType="PREPARED"
- resultSetType="FORWARD_ONLY">
+ id="selectPerson"
+ parameterType="int"
+ parameterMap="deprecated"
+ resultType="hashmap"
+ resultMap="personResultMap"
+ flushCache="false"
+ useCache="true"
+ timeout="10"
+ fetchSize="256"
+ statementType="PREPARED"
+ resultSetType="FORWARD_ONLY">
 ```
 
 | 属性              | 描述                                                                                                                                                                                                        |
@@ -2001,40 +2001,40 @@ SqlSession session = sqlSessionFactory.openSession(ExecutorType.BATCH);
 ```java
 @Test
 public void testJdbcBatch() throws IOException {
-   Connection conn = null;
-   PreparedStatement ps = null;
+   Connection conn = null;
+   PreparedStatement ps = null;
 
-   try {
-       conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mybatisdb?rewriteBatchedStatements=true", "root", "123456");
-       ps = conn.prepareStatement(
-               "INSERT into blog values (?, ?, ?)");
+   try {
+       conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mybatisdb?rewriteBatchedStatements=true", "root", "123456");
+       ps = conn.prepareStatement(
+               "INSERT into blog values (?, ?, ?)");
 
-       for (int i = 1000; i < 101000; i++) {
-           Blog blog = new Blog();
-           ps.setInt(1, i);
-           ps.setString(2, String.valueOf(i)+"");
-           ps.setInt(3, 1001);
-           ps.addBatch();
-      }
+       for (int i = 1000; i < 101000; i++) {
+           Blog blog = new Blog();
+           ps.setInt(1, i);
+           ps.setString(2, String.valueOf(i)+"");
+           ps.setInt(3, 1001);
+           ps.addBatch();
+      }
 
-       ps.executeBatch();
-       ps.close();
-       conn.close();
-  } catch (SQLException se) {
-       se.printStackTrace();
-  } catch (Exception e) {
-       e.printStackTrace();
-  } finally {
-       try {
-           if (ps != null) ps.close();
-      } catch (SQLException se2) {
-      }
-       try {
-           if (conn != null) conn.close();
-      } catch (SQLException se) {
-           se.printStackTrace();
-      }
-  }
+       ps.executeBatch();
+       ps.close();
+       conn.close();
+  } catch (SQLException se) {
+       se.printStackTrace();
+  } catch (Exception e) {
+       e.printStackTrace();
+  } finally {
+       try {
+           if (ps != null) ps.close();
+      } catch (SQLException se2) {
+      }
+       try {
+           if (conn != null) conn.close();
+      } catch (SQLException se) {
+           se.printStackTrace();
+      }
+  }
 }
 ```
 
@@ -2256,14 +2256,14 @@ RowBounds的工作原理其实是对ResultSet的处理。它会舍弃掉前面of
 ```java
 // DefaultResultSetHandler.java
 private void handleRowValuesForSimpleResultMap(ResultSetWrapper rsw, ResultMap resultMap, ResultHandler<?> resultHandler, RowBounds rowBounds, ResultMapping parentMapping) throws SQLException {
-   DefaultResultContext<Object> resultContext = new DefaultResultContext();
-   ResultSet resultSet = rsw.getResultSet();
-   this.skipRows(resultSet, rowBounds);
-   while(this.shouldProcessMoreRows(resultContext, rowBounds) && !resultSet.isClosed() && resultSet.next()) {
-       ResultMap discriminatedResultMap = this.resolveDiscriminatedResultMap(resultSet, resultMap, (String)null);
-       Object rowValue = this.getRowValue(rsw, discriminatedResultMap, (String)null);
-       this.storeObject(resultHandler, resultContext, rowValue, parentMapping, resultSet);
-  }
+   DefaultResultContext<Object> resultContext = new DefaultResultContext();
+   ResultSet resultSet = rsw.getResultSet();
+   this.skipRows(resultSet, rowBounds);
+   while(this.shouldProcessMoreRows(resultContext, rowBounds) && !resultSet.isClosed() && resultSet.next()) {
+       ResultMap discriminatedResultMap = this.resolveDiscriminatedResultMap(resultSet, resultMap, (String)null);
+       Object rowValue = this.getRowValue(rsw, discriminatedResultMap, (String)null);
+       this.storeObject(resultHandler, resultContext, rowValue, parentMapping, resultSet);
+  }
 }
 ```
 
@@ -2277,7 +2277,7 @@ private void handleRowValuesForSimpleResultMap(ResultSetWrapper rsw, ResultMap r
 
 ```xml
 <select id="selectUserPage" parameterType="map" resultMap="BaseResultMap">
-  select * from t_user limit #{curIndex} , #{pageSize}
+  select * from t_user limit #{curIndex} , #{pageSize}
 </select>
 ```
 
@@ -2506,7 +2506,7 @@ https://github.com/abel533/Mapper/wiki
 
 ```xml
 <bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
-   <property name="basePackage" value="com.boge.crud.dao"/>
+   <property name="basePackage" value="com.boge.crud.dao"/>
 </bean>
 ```
 

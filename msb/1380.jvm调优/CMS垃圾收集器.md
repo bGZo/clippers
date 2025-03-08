@@ -85,7 +85,7 @@ CMS(Concurrent Mark Sweep)收集器是一种以获取 `最短回收停顿时间`
 
 那我不可能无限制的执行下去，总要有个结束时间吧
 
-CMS提供了一个参数**CMSMaxAbortablePrecleanTime** ，默认为5S
+CMS提供了一个参数**CMSMaxAbortablePrecleanTime** ，默认为5S
 
 > 只要到了5S，不管发没发生Minor GC，有没有到CMSScheduleRemardEdenPenetration都会中止此阶段，进入remark。
 

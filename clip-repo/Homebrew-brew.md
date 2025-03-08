@@ -16,4 +16,4 @@ type: "repo"
 
 ## Notes
 
-- [ ] #todo 原理是什么，和 APT / AUR 的区别是什么？ #todoist
+- [ ] #todo 原理是什么，和 APT / AUR 的区别是什么？ 

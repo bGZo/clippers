@@ -806,9 +806,9 @@ configurationElement是对Mapper.xml中所有具体的标签的解析，包括na
 在buildStatementFromContext()方法中，创建了用来解析增删改查标签的XMLStatementBuilder，并且把创建的MappedStatement添加到mappedStatements中。
 
 ```java
- MappedStatement statement = statementBuilder.build();
-   // 最关键的一步，在 Configuration 添加了 MappedStatement >>
-   configuration.addMappedStatement(statement);
+ MappedStatement statement = statementBuilder.build();
+   // 最关键的一步，在 Configuration 添加了 MappedStatement >>
+   configuration.addMappedStatement(statement);
 ```
 
 **bindMapperForNamespace方法**
@@ -939,23 +939,23 @@ SqlSession sqlSession = factory.openSession();
 **继续往下**
 
 ```
-  private SqlSession openSessionFromDataSource(ExecutorType execType, TransactionIsolationLevel level, boolean autoCommit) {
-    Transaction tx = null;
-    try {
-      final Environment environment = configuration.getEnvironment();
-      // 获取事务工厂
-      final TransactionFactory transactionFactory = getTransactionFactoryFromEnvironment(environment);
-      // 创建事务
-      tx = transactionFactory.newTransaction(environment.getDataSource(), level, autoCommit);
-      // 根据事务工厂和默认的执行器类型，创建执行器 >>
-      final Executor executor = configuration.newExecutor(tx, execType);
-      return new DefaultSqlSession(configuration, executor, autoCommit);
-    } catch (Exception e) {
-      closeTransaction(tx); // may have fetched a connection so lets call close()
-      throw ExceptionFactory.wrapException("Error opening session.  Cause: " + e, e);
-    } finally {
-      ErrorContext.instance().reset();
-    }
+  private SqlSession openSessionFromDataSource(ExecutorType execType, TransactionIsolationLevel level, boolean autoCommit) {
+    Transaction tx = null;
+    try {
+      final Environment environment = configuration.getEnvironment();
+      // 获取事务工厂
+      final TransactionFactory transactionFactory = getTransactionFactoryFromEnvironment(environment);
+      // 创建事务
+      tx = transactionFactory.newTransaction(environment.getDataSource(), level, autoCommit);
+      // 根据事务工厂和默认的执行器类型，创建执行器 >>
+      final Executor executor = configuration.newExecutor(tx, execType);
+      return new DefaultSqlSession(configuration, executor, autoCommit);
+    } catch (Exception e) {
+      closeTransaction(tx); // may have fetched a connection so lets call close()
+      throw ExceptionFactory.wrapException("Error opening session.  Cause: " + e, e);
+    } finally {
+      ErrorContext.instance().reset();
+    }
   }
 ```
 
@@ -966,25 +966,25 @@ SqlSession sqlSession = factory.openSession();
 **根据事务工厂和默认的执行器类型，创建执行器**
 
 ```
-  public Executor newExecutor(Transaction transaction, ExecutorType executorType) {
-    executorType = executorType == null ? defaultExecutorType : executorType;
-    executorType = executorType == null ? ExecutorType.SIMPLE : executorType;
-    Executor executor;
-    if (ExecutorType.BATCH == executorType) {
-      executor = new BatchExecutor(this, transaction);
-    } else if (ExecutorType.REUSE == executorType) {
-      executor = new ReuseExecutor(this, transaction);
-    } else {
-      // 默认 SimpleExecutor
-      executor = new SimpleExecutor(this, transaction);
-    }
-    // 二级缓存开关，settings 中的 cacheEnabled 默认是 true
-    if (cacheEnabled) {
-      executor = new CachingExecutor(executor);
-    }
-    // 植入插件的逻辑，至此，四大对象已经全部拦截完毕
-    executor = (Executor) interceptorChain.pluginAll(executor);
-    return executor;
+  public Executor newExecutor(Transaction transaction, ExecutorType executorType) {
+    executorType = executorType == null ? defaultExecutorType : executorType;
+    executorType = executorType == null ? ExecutorType.SIMPLE : executorType;
+    Executor executor;
+    if (ExecutorType.BATCH == executorType) {
+      executor = new BatchExecutor(this, transaction);
+    } else if (ExecutorType.REUSE == executorType) {
+      executor = new ReuseExecutor(this, transaction);
+    } else {
+      // 默认 SimpleExecutor
+      executor = new SimpleExecutor(this, transaction);
+    }
+    // 二级缓存开关，settings 中的 cacheEnabled 默认是 true
+    if (cacheEnabled) {
+      executor = new CachingExecutor(executor);
+    }
+    // 植入插件的逻辑，至此，四大对象已经全部拦截完毕
+    executor = (Executor) interceptorChain.pluginAll(executor);
+    return executor;
   }
 ```
 
@@ -1271,13 +1271,13 @@ CacheKey的实际值举例（toString()生成的），debug可以看到：
 注意看一下CacheKey的属性，里面有一个List按顺序存放了这些要素。
 
 ```java
- private static final int DEFAULT_MULTIPLIER = 37;
- private static final int DEFAULT_HASHCODE = 17;
- private final int multiplier;
- private int hashcode;
- private long checksum;
- private int count;
- private List<Object> updateList
+ private static final int DEFAULT_MULTIPLIER = 37;
+ private static final int DEFAULT_HASHCODE = 17;
+ private final int multiplier;
+ private int hashcode;
+ private long checksum;
+ private int count;
+ private List<Object> updateList
 ```
 
 怎么比较两个CacheKey是否相等呢？如果一上来就是依次比较六个要素是否相等，要比较6次，这样效率不高。有没有更高效的方法呢？继承Object的每个类，都有一个hashCode ()方法，用来生成哈希码。它是用来在集合中快速判重的。
@@ -1297,33 +1297,33 @@ Object中的hashCode()是一个本地方法，通过随机数算法生成（Open
 CacheKey中的equals也进行了重写，比较CacheKey是否相等。
 
 ```java
- @Override
- public boolean equals(Object object) {
-   if (this == object) {
-     return true;
-  }
-   if (!(object instanceof CacheKey)) {
-     return false;
-  }
-   final CacheKey cacheKey = (CacheKey) object;
+ @Override
+ public boolean equals(Object object) {
+   if (this == object) {
+     return true;
+  }
+   if (!(object instanceof CacheKey)) {
+     return false;
+  }
+   final CacheKey cacheKey = (CacheKey) object;
 
-   if (hashcode != cacheKey.hashcode) {
-     return false;
-  }
-   if (checksum != cacheKey.checksum) {
-     return false;
-  }
-   if (count != cacheKey.count) {
-     return false;
-  }
-   for (int i = 0; i < updateList.size(); i++) {
-     Object thisObject = updateList.get(i);
-     Object thatObject = cacheKey.updateList.get(i);
-     if (!ArrayUtil.equals(thisObject, thatObject)) {
-       return false;
-    }
-  }
-   return true;
+   if (hashcode != cacheKey.hashcode) {
+     return false;
+  }
+   if (checksum != cacheKey.checksum) {
+     return false;
+  }
+   if (count != cacheKey.count) {
+     return false;
+  }
+   for (int i = 0; i < updateList.size(); i++) {
+     Object thisObject = updateList.get(i);
+     Object thatObject = cacheKey.updateList.get(i);
+     if (!ArrayUtil.equals(thisObject, thatObject)) {
+       return false;
+    }
+  }
+   return true;
 }
 ```
 
@@ -1542,13 +1542,13 @@ return handler.query(stmt, resultHandler);
 **进入到PreparedStatementHandler中处理**
 
 ```
-  @Override
-  public <E> List<E> query(Statement statement, ResultHandler resultHandler) throws SQLException {
-    PreparedStatement ps = (PreparedStatement) statement;
-    // 到了JDBC的流程
-    ps.execute();
-    // 处理结果集
-    return resultSetHandler.handleResultSets(ps);
+  @Override
+  public <E> List<E> query(Statement statement, ResultHandler resultHandler) throws SQLException {
+    PreparedStatement ps = (PreparedStatement) statement;
+    // 到了JDBC的流程
+    ps.execute();
+    // 处理结果集
+    return resultSetHandler.handleResultSets(ps);
   }
 ```
 

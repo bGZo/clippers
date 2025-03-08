@@ -245,17 +245,17 @@ void c(){
 ```
 Compiled from "Person.java"
 class Person {
-...     
- public static int calc(int, int);
-  Code:
-   0: iconst_3   //将int类型常量3压入[操作数栈]
-   1: istore_0   //将int类型值存入[局部变量0]
-   2: iload_0    //从[局部变量0]中装载int类型值入栈
-   3: iload_1    //从[局部变量1]中装载int类型值入栈
-   4: iadd     //将栈顶元素弹出栈，执行int类型的加法，结果入栈
-   5: istore_2   //将栈顶int类型值保存到[局部变量2]中
-   6: iload_2    //从[局部变量2]中装载int类型值入栈
-   7: ireturn    //从方法中返回int类型的数据
+...     
+ public static int calc(int, int);
+  Code:
+   0: iconst_3   //将int类型常量3压入[操作数栈]
+   1: istore_0   //将int类型值存入[局部变量0]
+   2: iload_0    //从[局部变量0]中装载int类型值入栈
+   3: iload_1    //从[局部变量1]中装载int类型值入栈
+   4: iadd     //将栈顶元素弹出栈，执行int类型的加法，结果入栈
+   5: istore_2   //将栈顶int类型值保存到[局部变量2]中
+   6: iload_2    //从[局部变量2]中装载int类型值入栈
+   7: ireturn    //从方法中返回int类型的数据
 ...
 }
 ```

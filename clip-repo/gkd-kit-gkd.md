@@ -16,4 +16,4 @@ type: "repo"
 
 ## Notes
 
-- [x] #todo [GKD - 基于 无障碍 + 高级选择器 + 订阅规则 的自定义屏幕点击 APP - V2EX](https://www.v2ex.com/t/970406) #todoist
+- [x] #todo [GKD - 基于 无障碍 + 高级选择器 + 订阅规则 的自定义屏幕点击 APP - V2EX](https://www.v2ex.com/t/970406) 

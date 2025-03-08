@@ -207,7 +207,7 @@ RabbitMQ提供了很多中通讯方式，依然可以去官方查看：https://r
 
 |                                                                通讯方式                                                                |
 | :------------------------------------------------------------------------------------------------------------------------------------: |
-| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/d95491e1c6ef48ecbe988e6c89517f73.png)  |
+| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/d95491e1c6ef48ecbe988e6c89517f73.png)  |
 
 生产者：
 
@@ -295,7 +295,7 @@ public class Consumer {
 
 |                                                        WorkQueues需要学习的内容                                                        |
 | :------------------------------------------------------------------------------------------------------------------------------------: |
-| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/6e48f282dfa44770816df4ffa4f3b2fc.png)  |
+| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/6e48f282dfa44770816df4ffa4f3b2fc.png)  |
 
 - 生产者：生产者和Hello World的形式是一样的，都是将消息推送到默认交换机。
 - 消费者：让消费者关闭自动ack，并且设置消息的流控，最终实现消费者可以尽可能去多消费消息
@@ -387,7 +387,7 @@ public class Consumer {
 
 |                                                            自定义一个交换机                                                            |
 | :------------------------------------------------------------------------------------------------------------------------------------: |
-| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/82e4111651154c3c82ea003ecc7c2ad2.png)  |
+| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/82e4111651154c3c82ea003ecc7c2ad2.png)  |
 
 生产者：自行构建Exchange并绑定指定队列[（FANOUT类型）]()
 
@@ -440,7 +440,7 @@ public class Publisher {
 
 |                                                           DIRECT类型Exchange                                                           |
 | :------------------------------------------------------------------------------------------------------------------------------------: |
-| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/4d314cc2631040bba6ae01e1ac0e6dc3.png)  |
+| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/4d314cc2631040bba6ae01e1ac0e6dc3.png)  |
 
 生产者：在绑定Exchange和Queue时，需要指定好routingKey，同时在发送消息时，也指定routingKey，只有routingKey一致时，才会把指定的消息路由到指定的Queue
 
@@ -500,7 +500,7 @@ public class Publisher {
 
 |                                                               Topic模式                                                               |
 | :------------------------------------------------------------------------------------------------------------------------------------: |
-| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/d5d670ab4cd943219a85b6973354b005.png)  |
+| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/d5d670ab4cd943219a85b6973354b005.png)  |
 
 生产者：TOPIC类型可以编写带有特殊意义的routingKey的绑定方式
 
@@ -566,7 +566,7 @@ public class Publisher {
 
 |                                                                RPC方式                                                                |
 | :------------------------------------------------------------------------------------------------------------------------------------: |
-| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/3fc0407cedf6428dacbcc0c69ffa3682.png)  |
+| ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/2746/1642502600000/3fc0407cedf6428dacbcc0c69ffa3682.png)  |
 
 客户端：
 
