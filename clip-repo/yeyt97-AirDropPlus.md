@@ -4,11 +4,12 @@ aliases:
   - AirDropPlus
 created: 2025-01-31T11:32:09
 modified: 2025-01-31T11:32:09
-description: A file transfer and clipboard synchronization tool between Windows and iOS devices implemented by Python and Shortcuts.
+description: windows 剪切板互联：A file transfer and clipboard synchronization tool between Windows and iOS devices implemented by Python and Shortcuts.
 source: https://github.com/yeyt97/AirDropPlus
 tags:
   - star
   - windows
+  - macos
 type: repo
 ---
 ## Meta
