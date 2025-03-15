@@ -66,44 +66,26 @@ type:: archives-web
       #+END_CENTER
     - 注意学会拓展
       - 实例化bean
-        logseq.order-list-type:: number
         - 反射的方式生成对象
-          logseq.order-list-type:: number
       - 填充bean的属性
-        logseq.order-list-type:: number
         - `populateBean()`
-          logseq.order-list-type:: number
         - 循环依赖的问题 (三级缓存)
-          logseq.order-list-type:: number
       - 调用aware接口相关的方法
-        logseq.order-list-type:: number
         - `invokeAwareMethod`(完成BeanName,BeanFactory,BeanClassLoader对象的属性设置)
-          logseq.order-list-type:: number
       - 调用 `BeanPostProcessor` 中的前置处理方法
-        logseq.order-list-type:: number
         - 使用比较多的有(ApplicationContextPostProcessor,设置
-          logseq.order-list-type:: number
           ApplicationContext,Environment,ResourceLoader,EmbeddValueResolverx)
       - 调用initmethod方法
-        logseq.order-list-type:: number
         - invokelnitmethod(),判断是否实现了initializingBean接口
-          logseq.order-list-type:: number
           - 如果有,调用afterPropertiesSet方法
-            logseq.order-list-type:: number
           - 没有就不调用
-            logseq.order-list-type:: number
       - 调用BeanPostProcessor的后置处理方法
-        logseq.order-list-type:: number
         - spring的aop就是在此处实现的,AbstractAutoProxyCreator
         - 注册Destuction相关的回调接口:钩子函数
       - ==获取到完整的对象，可以通过 `getBean` 的方式来进行对象的获取==
-        logseq.order-list-type:: number
       - 销毁流程
-        logseq.order-list-type:: number
         - 判断是否实现了DispoableBean接口
-          logseq.order-list-type:: number
         - 调用destroyMethod方法
-          logseq.order-list-type:: number
 
 ### P15 Spring 是如何解决循环依赖的问题的
     - 什么是循环依赖？
@@ -121,19 +103,13 @@ type:: archives-web
 
     - 重点
       - 三级缓存
-        logseq.order-list-type:: number
       - 提前暴露对象
-        logseq.order-list-type:: number
       - AOP
-        logseq.order-list-type:: number
       - [[draws/2024-03-06-19-10-34.excalidraw]]
-        logseq.order-list-type:: number
         - 这里的半成品，指的是完成了实例化，但是还没初始化完毕的对象；
-          logseq.order-list-type:: number
     - 创建 A 对象 -> 实例化 A(`b=null`)
     - 从容器中查找B -> 找不到
-    - logseq.order-list-type:: number
-
+    -
 ### P16 缓存的放置时间和删除时间
     - 三级缓存
       id:: 65e9dc09-1c4c-48a8-a2ff-f07e94caf388
