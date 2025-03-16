@@ -31,9 +31,9 @@ created: 2023-03-05
 - [x] #todo MyBatis 概述 
 - 框架
 description:: 对通用代码的封装，提前写好了一堆接口和类，我们可以在做项目的时候直接引入这些接口和类（引入框架），基于这些现有的接口和类进行开发，可以大大提高开发效率
-- 三层架构 #[[Spring MVC]]
+- 三层架构 Spring MVC
 - ![](../assets/BV1JP4y1Z73S/三层架构.png)
-- 三层架构 #vs [[Spring MVC]]
+- 三层架构 #vs Spring MVC
 - **三层架构**
 ![chrome_328.png](../assets/chrome_328_1678015587506_0.png)
 - **SpringMVC**
