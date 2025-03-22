@@ -17,7 +17,7 @@ published: 2019-04-01 00:00:00
 description: 本书是一本Docker入门图书，全书分为17章，从Docker概览和Docker技术两部分进行全面解析，深入浅出地介绍了Docker的相关知识，清晰详细的操作步骤结合大量的实际代码帮助读者学以致用，将Docker知识应用到真实的项目开发当中。本书适合对Docker感兴趣的入门新手、Docker技术开发人员以及运维人员阅读，本书也可作为Docker认证工程师考试的参考图书。
 isbn: 9787115504890
 tags:
-  - 计算机-计算机综合
+  - weread/计算机-计算机综合
 type: weread-notes
 weread: https://weread.qq.com/web/reader/a6332ce0718b75f2a63b772
 

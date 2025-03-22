@@ -17,7 +17,7 @@ published: 2013-11-26 00:00:00
 description: 本书从不同的视角介绍了Node内在的特点和结构。书中并非完全按照顺序递进式介绍，首先简要介绍了Node，接着深入探讨了模块机制、异步I/O和异步编程，然后讨论了内存控制和Buffer相关的内容，接着探讨了网络编程、Node Web开发、进程、测试和产品化等内容，最后的附录介绍了Node的安装、调试、编码规范和NPM仓库搭建等内容。
 isbn: 9787115335500
 tags:
-  - 计算机-计算机综合
+  - weread/计算机-计算机综合
 type: weread-notes
 weread: https://weread.qq.com/web/reader/d1b32290718ff65fd1befcc
 

@@ -17,7 +17,7 @@ published: 2010-04-01 00:00:00
 description: 本书从操作系统原理的角度，详细解析了Windows如何实现现代操作系统的各个关键部件，包括进程、线程、物理内存和虚拟内存的管理，Windows中的同步和并发性支持，以及Windows的I/O模型。
 isbn: 9787121105289
 tags:
-  - 计算机-理论知识
+  - weread/计算机-理论知识
 type: weread-notes
 weread: https://weread.qq.com/web/reader/19a325f059fc4519a57056b
 

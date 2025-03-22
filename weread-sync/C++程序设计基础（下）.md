@@ -16,7 +16,7 @@ title: C++程序设计基础（下）
 published: 2013-01-01 00:00:00
 isbn: 9787121193859
 tags:
-  - 计算机-编程设计
+  - weread/计算机-编程设计
 type: weread-notes
 weread: https://weread.qq.com/web/reader/4a93224059fa204a940bab9
 

@@ -17,7 +17,7 @@ published: 2018-11-01 00:00:00
 description: 本书是用Vue.js构建Web应用的全方位指南。作者运用细致入微的讲解方式带你领略Vue.js的独特魅力，致力于协助你从零开始基于Vue.js创建一个Web应用。本书共7章：第1章介绍Vue的安装及基本用法，覆盖大量Vue核心技术，诸如响应式原理、生命周期钩子等；第2章到第6章进入Vue高阶世界，通过在丰富的组件特性中遨游，教你使用vue-router和vuex来实现客户端路由和状态管理，以此完善整个Web应用的功能；最后一章介绍如何使用vue-test-utils这一官方测试利器来为组件编写单元测试，从而保证Web应用的正常运行；附录分别介绍vue-cli用法及Vue与React之间的异同。本书适合对HTML和JavaScript已有一定了解，正在准备或已经使用Vue.js进行Web应用开发的从业者，也适合希望通过学习框架使用来提升对其认识的开发人员，有React使用经验的读者同样可从中获得启发。
 isbn: 9787121352997
 tags:
-  - 计算机-编程设计
+  - weread/计算机-编程设计
 type: weread-notes
 weread: https://weread.qq.com/web/reader/82032410718487828207501
 

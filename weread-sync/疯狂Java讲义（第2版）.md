@@ -18,7 +18,7 @@ published: 2012-01-01 00:00:00
 description: 本书是《疯狂Java讲义》的第2版，第2版保持了第1版系统、全面、讲解浅显、细致的特性，全面介绍了新增的Java 7的新特性。 本书深入介绍了Java编程的相关方面，全书内容覆盖了Java的基本语法结构、Java的面向对象特征、Java集合框架体系、Java泛型、异常处理、JavaGUI编程、JDBC数据库编程、Java注释、Java的IO流体系、Java多线程编程、Java网络通信编程和Java反射机制；覆盖了java.lang、java.util、java.text、java.io和java.nio、java.sql、java.awt、javax.swing包下绝大部分类和接口。本书全面介绍了Java 7的二进制整数、菱形语法、增强switch语句、多异常捕获、自动关闭资源的try语句、JDBC4.1新特性、NIO.2、AIO等新特性。
 isbn: 9787121155789
 tags:
-  - 计算机-编程设计
+  - weread/计算机-编程设计
 type: weread-notes
 weread: https://weread.qq.com/web/reader/239324a05a6578239cd415d
 

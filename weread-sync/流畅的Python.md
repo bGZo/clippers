@@ -17,7 +17,7 @@ published: 2017-05-01 00:00:00
 description: 本书致力于帮助Python开发人员挖掘这门语言及相关程序库的优秀特性，避免重复劳动，同时写出简洁、流畅、易读、易维护，并且具有地道Python风格的代码。本书尤其深入探讨了Python语言的高级用法，涵盖数据结构、Python风格的对象、并行与并发，以及元编程等不同的方面。
 isbn: 9787115454157
 tags:
-  - 计算机-编程设计
+  - weread/计算机-编程设计
 type: weread-notes
 weread: https://weread.qq.com/web/reader/ab832620715c017eab864a6
 

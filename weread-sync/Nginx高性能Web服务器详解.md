@@ -17,7 +17,7 @@ published: 2013-10-01 00:00:00
 description: 本书全面介绍了当前Internet上流行的一款开放源代码的Web服务器——Nginx.全书一共分为四大部分，分别从入门、功能、实现和应用等四个方面对Nginx服务器的知识进行了完整阐述，满足了广大读者在应用Nginx服务器时的普遍性需求，同时也深入剖析了Nginx服务器的工作原理和实现技术，对其中使用到的数据结构和方法进行了详细阐述，并且结合实际的应用情况给出了多个基于Nginx服务器并结合其他典型服务器的分布式网站架构部署配置。
 isbn: 9787121215186
 tags:
-  - 计算机-计算机综合
+  - weread/计算机-计算机综合
 type: weread-notes
 weread: https://weread.qq.com/web/reader/e8d3200059fb19e8d3b2af6
 

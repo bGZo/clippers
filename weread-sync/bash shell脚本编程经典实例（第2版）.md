@@ -17,7 +17,7 @@ published: 2021-01-01 00:00:00
 description: bash是Linux下常用的shell。用户可以通过bash，以命令的形式操控Linux系统。作为一本bash用法速查手册，本书主要内容包括：标准输出和输入以及执行命令；shell变量、shell逻辑和算术；中级shell工具和高级脚本；使用find、locate和slocate查找文件；处理日期和时间；编写安全的shell脚本；配置和自定义bash。第2版更新至Git，每个实例均包含一个或多个示例脚本，并讨论了解决方案的工作原理。
 isbn: 9787115553782
 tags:
-  - 计算机-计算机综合
+  - weread/计算机-计算机综合
 type: weread-notes
 weread: https://weread.qq.com/web/reader/0fe3236072462ddc0fee7ef
 

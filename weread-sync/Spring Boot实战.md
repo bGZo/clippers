@@ -17,7 +17,7 @@ published: 2016-09-05 00:00:00
 description: Spring改变了企业级Java应用开发方式，让Java开发更简单、高效；Spring Boot作为Spring开发的黄金助手，则在这个基础上，让开发者的生活更上一个台阶！本书是Spring Boot的终极指南，以自动配置、起步依赖、命令行界面和Actuator这四个核心特性为基础，深入介绍Spring Boot的用法，让所有Java开发人员不费吹灰之力就构建出满足生产需求的服务，真正享受技术达人的乐趣！- 掌握自动配置和起步依赖，学会用很少的显示配置构建完整的Spring应用程序  - 了解如何为Spring Boot应用程序编写自动化集成测试  - 开发Spring Boot CLI应用程序  - 探秘Actuator的Web端点、远程shell和JMX MBean  - 自如部署各种Spring Boot应用程序。
 isbn: 9787115433145
 tags:
-  - 计算机-编程设计
+  - weread/计算机-编程设计
 type: weread-notes
 weread: https://weread.qq.com/web/reader/8f232240718ff61b8f23d5e
 

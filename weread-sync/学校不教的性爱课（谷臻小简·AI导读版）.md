@@ -17,7 +17,7 @@ published: 2019-04-03 00:00:00
 description: 本书旨在女性视角上谈论当代两性平权。性爱是一件很随心所欲的事情，性生活的和谐，关键还在于人。关注形式而忽略本质，那实在是本末倒置。
 isbn: 
 tags:
-  - 生活百科-情感
+  - weread/生活百科-情感
 type: weread-notes
 weread: https://weread.qq.com/web/reader/4f832400718207314f8b3f1
 

@@ -17,7 +17,7 @@ published: 2018-06-01 00:00:00
 description: 本书的内容几乎覆盖了SSD各个模块，既可以作为一本入门书籍进行通读，也可以在需要的时候作为工具书进行查阅。本书内容涵盖：SSD基础知识、SSD各模块介绍及SSD测试相关内容。SSD基础知识包括：SSD与HDD的比较、SSD的发展历史、产品形态、整体架构和基本工作原理。
 isbn: 9787111599791
 tags:
-  - 计算机-计算机综合
+  - weread/计算机-计算机综合
 type: weread-notes
 weread: https://weread.qq.com/web/reader/e6532a205e4e88e65e9d269
 

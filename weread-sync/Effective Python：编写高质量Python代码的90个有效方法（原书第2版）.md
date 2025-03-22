@@ -17,7 +17,7 @@ published: 2021-01-01 00:00:00
 description: 本书可以帮你掌握真正的Pythonic编程方式，令你能够完全发挥出Python语言的强大功能，并写出健壮而高效的代码。Scott Meyers在畅销书《Effective C++》中开创了一种以使用场景为主导的精练教学方式，本书作者Brett Slatkin就以这种方式汇聚了90条实践原则、开发技巧和便捷方案，并以实用的代码范例来解释它们。Slatkin根据自己在Google公司多年开发Python基础架构所积累的经验，揭示Python语言中一些鲜为人知的微妙特性，并给出了能够改善代码功能及运行效率的习惯用法。通过本书，你能够了解到解决关键编程任务所用的奇妙方式，并学会编写易于理解、便于维护且利于改进的代码。
 isbn: 9787111674023
 tags:
-  - 计算机-编程设计
+  - weread/计算机-编程设计
 type: weread-notes
 weread: https://weread.qq.com/web/reader/c2932f9072620d81c29c1ed
 

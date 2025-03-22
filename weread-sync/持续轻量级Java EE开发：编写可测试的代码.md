@@ -17,7 +17,7 @@ published: 2017-02-01 00:00:00
 description: 讲述从零开始将一个空白存储库建设成完整部署在公有云之上的公开应用程序。用具体的代码深入地阐述了项目和归档创建的自动化、Mavenbuild在流程里的编程式集成，以及所有级别的测试。介绍了不少有用实践，展示如何测试难以测试的场景，包括SMTP服务器和消息驱动Bean的样例。
 isbn: 9787121306488
 tags:
-  - 计算机-编程设计
+  - weread/计算机-编程设计
 type: weread-notes
 weread: https://weread.qq.com/web/reader/b1b324d071848756b1b4d17
 

@@ -17,7 +17,7 @@ published: 2013-05-01 00:00:00
 description: 本书是Effective C++的第3卷，被评为“值得所有C++程序员阅读的C++书籍之一”。本书详细讲述了使用STL的50条指导原则，并提供了透彻的分析和深刻的实例，实用性极强，是C++程序员必备的基础书籍。C++的标准模板库(STL)是革命性的，要用好STL并不容易。本书作者Scott Meyers揭示了专家总结的一些关键规则，包括专家们总是采用的做法，以及专家们总是避免的做法。通过这些规则，STL程序员可以最大限度地使用STL。
 isbn: 9787121201257
 tags:
-  - 计算机-计算机综合
+  - weread/计算机-计算机综合
 type: weread-notes
 weread: https://weread.qq.com/web/reader/72932ee071f94a7c72915cf
 

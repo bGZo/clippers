@@ -17,7 +17,7 @@ published: 2022-12-01 00:00:00
 description: 本书是一本经典而实用的Spring学习指南，介绍了Spring使用框架、Spring Boot，以及Spring系统中的其他组成部分。 本书分为4个部分，共18章。第1部分（第1章~第6章）涵盖了构建Spring应用的基础知识。第2部分（第7章~第10章）讨论了如何讲Spring应用与其他应用进行集成。第3部分（第11章~第14章）探讨了Spring对反应式编程提供的全新支持。第4部分（第15章~第18章）介绍了如何做好应用投入生产环境前的准备工作，以及如何进行部署。 本书适合刚刚开始学习Spring Boot和Spring框架的Java开发人员阅读，也适合想要超越基础知识并学习Spring新特性的经验丰富的Spring开发者参考。
 isbn: 9787115598691
 tags:
-  - 计算机-编程设计
+  - weread/计算机-编程设计
 type: weread-notes
 weread: https://weread.qq.com/web/reader/c6d32700813ab77d1g0136f4
 

@@ -17,7 +17,7 @@ published: 2016-08-01 00:00:00
 description: 本书全面详细记述了《东方Project》系列全部的游戏作品。着重介绍了在游戏中登场的众多角色。分析介绍跟随《东方Project》不断壮大的同人作品和同人文化。用途：帮助理解《东方Project》的发展和其背后庞大的同人文化。为读者提供一部详尽的《东方Project》资料书。
 isbn: 9787516510438
 tags:
-  - 漫画-经典改编
+  - weread/漫画-经典改编
 type: weread-notes
 weread: https://weread.qq.com/web/reader/3f232f007161e73e3f29e32
 

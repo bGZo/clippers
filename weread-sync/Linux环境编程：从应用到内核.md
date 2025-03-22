@@ -17,7 +17,7 @@ published: 2016-06-01 00:00:00
 description: 本书的写作布局正是以APUE的章节作为参考，针对Linux环境，不仅对用户空间的接口进行阐述，同时还引导读者分析该接口在内核的源码实现，使得读者不仅可以知道接口怎么用，同时还可以理解接口是怎么工作的。对于Linux的系统调用，做到知其然，知其所以然。
 isbn: 9787111536109
 tags:
-  - 计算机-编程设计
+  - weread/计算机-编程设计
 type: weread-notes
 weread: https://weread.qq.com/web/reader/53232cf05caf46532cc8384
 
