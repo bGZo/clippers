@@ -1,12 +1,11 @@
 ---
-title: "很多网站源码都是分为-GBK-和-UTF-8-版-为什么要同时开发两种"
+title: 很多网站源码都是分为-GBK-和-UTF-8-版-为什么要同时开发两种
 created: 2025-01-17T10:34:43
 modified: 2025-01-19T02:57:24
-source: "https://www.zhihu.com/question/20209966/answer/676684648"
-tags:
-  - "todo"
-tags-link:
-type: "archive-web"
+source: https://www.zhihu.com/question/20209966/answer/676684648
+tags: []
+tags-link: 
+type: archive-web
 ---
 
 一直对字符的各种编码方式懵懵懂懂，什么 ANSI UNICODE UTF-8 GB2312 GBK DBCS UCS……是不是看的很晕，假如您细细的阅读本文你一定可以清晰的理解他们。Let's go!

@@ -1,12 +1,11 @@
 ---
-title: "白菜-zmt"
+title: 白菜-zmt
 created: 2025-01-16T09:05:46
 modified: 2025-01-16T09:29:07
-source: "https://zmt.pub/2021/06/05/%e7%99%bd%e8%8f%9c/"
-tags:
-  - "todo"
-tags-link:
-type: "archive-web"
+source: https://zmt.pub/2021/06/05/%e7%99%bd%e8%8f%9c/
+tags: []
+tags-link: 
+type: archive-web
 ---
 
 衡水中学一个约莫 170 的高三男生一声惊雷，震动了整个华语网坛。他声情并茂的朗诵了一首土猪拱白菜，让本已躺平收租的大城市废物夜不能寐，连一些天天盼着中国崩溃的反贼都忍不住批判：你们不应该为中华之崛起而读书吗？

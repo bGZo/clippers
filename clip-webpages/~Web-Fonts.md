@@ -4,7 +4,7 @@ created: 2025-01-16T08:57:49
 modified: 2025-01-16T09:29:07
 source: "http://web.simmons.edu/~grabiner/comm244/weekfour/fonts.html"
 tags:
-  - "todo"
+  
 tags-link:
 type: "archive-web"
 ---

@@ -4,7 +4,7 @@ created: 2025-01-15T10:02:20
 modified: 2025-01-15T11:38:23
 source: "https://discuss.logseq.com/t/three-choices-new-users-need-to-make/3411"
 tags:
-  - "todo"
+  
 tags-link:
 type: "archive-web"
 ---

@@ -4,7 +4,7 @@ created: 2025-01-16T08:55:24
 modified: 2025-01-16T08:56:07
 source: "https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/"
 tags:
-  - "todo"
+  
 tags-link:
 type: "archive-web"
 ---

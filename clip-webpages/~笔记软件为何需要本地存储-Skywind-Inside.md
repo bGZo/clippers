@@ -1,12 +1,11 @@
 ---
-title: "笔记软件为何需要本地存储-Skywind-Inside"
+title: 笔记软件为何需要本地存储-Skywind-Inside
 created: 2025-01-18T11:37:26
 modified: 2025-01-19T02:57:24
-source: "https://skywind.me/blog/archives/2582"
-tags:
-  - "todo"
-tags-link:
-type: "archive-web"
+source: https://skywind.me/blog/archives/2582
+tags: []
+tags-link: 
+type: archive-web
 ---
 
 ## 笔记软件为何需要本地存储？

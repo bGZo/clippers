@@ -5,7 +5,7 @@ created: 2025-01-15T11:35:51
 modified: 2025-01-15T11:38:23
 source: "https://fediverse.eu.org/discussion/18/%E6%88%91%E6%B5%81%E9%95%BF%E6%AF%9B%E8%B1%A1%E4%B8%AD%E6%96%87%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97-%E4%BB%8E%E8%B0%83%E6%95%B4%E8%AE%BE%E7%BD%AE%E5%BC%80%E5%A7%8B%E9%80%90%E6%AD%A5%E7%86%9F%E6%82%89mastodon"
 tags:
-  - "todo"
+  
 tags-link:
 type: "archive-web"
 ---
