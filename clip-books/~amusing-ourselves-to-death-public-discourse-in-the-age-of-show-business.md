@@ -1,7 +1,10 @@
 ---
-aliases: books/娱乐至死, Amusing Ourselves to Death: Public Discourse in the Age of Show Business
-tags: #dystopia
-author: 尼尔·波兹曼
+aliases:
+  - 娱乐至死
+  - 'Amusing Ourselves to Death: Public Discourse in the Age of Show Business'
+tags: 
+author:
+  - 尼尔·波兹曼
 publisher: 中信出版社
 published: 20150500
 isbn: 9787508648286
