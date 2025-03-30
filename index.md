@@ -1,6 +1,7 @@
 ---
 created: 2025-01-12T02:17:53
-modified: 2025-01-16T09:27:36
+modified: 2025-03-30T09:48:07
+comments: false
 ---
 
 ![](https://img.shields.io/github/stars/bGZo/archives?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/bGZo/archives?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/bGZo/archives?style=for-the-badge&label=since)
@@ -56,6 +57,12 @@ Using the Github Action, Github Webhook and Telegram Bot to archive content with
 - Repo: we could use submodule import it.
 - Blog: we could use rss fetch it every day.
 - Social Media: in bluesky or mastodon, we still could use rss. Whereas towards traditional services, we only could use custom method to get content(anti-crawling)
+
+## How to work with [[telegram-message-sync-bot]]
+
+```shell
+rsync -avz --progress --delete bgzo@192.168.31.20:/home/bgzo/workspaces/telegram-message-sync/archives/channel/ "/Users/bgzo/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki/archives/clip-telegram/"
+```
 
 ## What I interested in and archive:
 
