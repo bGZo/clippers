@@ -6,11 +6,12 @@ publisher: 电子工业出版社
 published: 20170500
 isbn: 9787121310928 / 9787121415203
 created: 2022-12-04
-douban: https://book.douban.com/subject/27008702/,https://book.douban.com/subject/35543447/)
+douban: https://book.douban.com/subject/27008702/, https://book.douban.com/subject/35543447/)
 weread: https://weread.qq.com/web/bookDetail/4e132bc07263ff664e11075)
-description: 202108
 type: book/dev
 ---
+
+description: 202108
 
 
 - Origin Content
