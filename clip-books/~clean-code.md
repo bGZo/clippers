@@ -1,5 +1,6 @@
-aliases: clean code, Clean Code: A Handbook of Agile Software Craftsmanship
-
+---
+aliases: clean code, Clean Code A Handbook of Agile Software Craftsmanship
+---
 
 ![[book_clean_code_a_handbook_of_agile_software_craftsmanship.pdf]]
 

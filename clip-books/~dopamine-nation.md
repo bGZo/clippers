@@ -1,6 +1,6 @@
 ---
 cover: https://img9.doubanio.com/view/subject/s/public/s34472995.jpg
-aliases: 成瘾:在放纵中寻找平衡
+aliases: 成瘾在放纵中寻找平衡
 author: 在放纵中寻找平衡
 created: 2024-08-03
 isbn: 9787513350068

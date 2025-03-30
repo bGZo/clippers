@@ -1,9 +1,10 @@
 ---
-aliases: 
-- books/Effective_Python,
-- 'Effective Python: 90 Specific Ways to Write Better Python'
-tags: #python
-author: 布雷特·斯拉特金
+aliases:
+  - books/Effective_Python,
+  - Effective Python 90 Specific Ways to Write Better Python
+tags: 
+author:
+  - 布雷特·斯拉特金
 translator: 爱飞翔
 publisher: 机械工业出版社
 published: 20210101
