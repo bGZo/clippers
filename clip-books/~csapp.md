@@ -7,6 +7,7 @@ published: 20161100
 isbn: 9787111544937
 created: 2023-03-24
 douban: https://book.douban.com/subject/26912767/
+---
 
 ## ![COMPUTER SYSTEMS A PROGRAMMER’S PERSPECTIVE](../assets/book_computer_systems_a_programmers_perspective.pdf)
 - `bit` vs `byte` vs `HexBinOct`
