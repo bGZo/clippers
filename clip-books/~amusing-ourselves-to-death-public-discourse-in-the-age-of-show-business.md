@@ -1,7 +1,7 @@
 ---
 aliases:
   - 娱乐至死
-  - 'Amusing Ourselves to Death: Public Discourse in the Age of Show Business'
+  - 'Amusing Ourselves to Death Public Discourse in the Age of Show Business'
 tags: 
 author:
   - 尼尔·波兹曼
