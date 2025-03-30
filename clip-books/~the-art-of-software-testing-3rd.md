@@ -8,6 +8,7 @@ isbn: 9787111376606
 created: 2022-12-04
 douban: https://book.douban.com/subject/10549782/
 weread: https://weread.qq.com/web/bookDetail/2e8328c0721bc5672e85953
+---
 
 - Content
   - 版权信息

@@ -1,9 +1,10 @@
+---
 tags: #deprecated 
 douban: https://book.douban.com/subject/25910544/
 weread: https://weread.qq.com/web/bookDetail/b4832100597d8eb481b4cd6
-cover: ![](https://img9.doubanio.com/view/subject/l/public/s27308066.jpg)
+cover: https://img9.doubanio.com/view/subject/l/public/s27308066.jpg
 created: 2023-02-27
-
+---
 ## Contents
   - 版权信息
   - 前言

@@ -1,17 +1,17 @@
 ---
 cover: https://img3.doubanio.com/view/subject/s/public/s27273703.jpg
 author: 李刚
-created: 2022-11-25
+created: 2022-11-25T00:00:00
 isbn: 9787121155789
 lang: chinese
 published: 20120101
 rating: ⭐⭐⭐
 status: book/done
-tags: #java, #deprecated
+tags: java, deprecated
 type: book/dev
 douban: https://book.douban.com/subject/10436048
 weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
-2^{rd} Edition
+modified: 2025-03-30T22:49:35
 ---
 
 ## Backgroud
@@ -19,25 +19,26 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
   - [《On Java 8》中文版 | OnJava8](https://lingcoder.github.io/OnJava8/#/)
   - [java - What is the regex to extract all the emojis from a string? - Stack Overflow](https://stackoverflow.com/questions/24840667/what-is-the-regex-to-extract-all-the-emojis-from-a-string)
   - [IDE doesn't provide a code completion suggestion for the 'extends' keyword while I'm trying to create a class inside a local scope (method)](https://youtrack.jetbrains.com/issue/SCL-15854)
+
 ## Content
-  - 如何学习Java
+  - 如何学习 Java
   - 前言
-  - 第1章 Java语言概述
-    - 1.1 Java语言的发展简史
-    - 1.2 Java的竞争对手及各自优势
-    - 1.3 Java程序运行机制
-    - 1.4 开发Java的准备
-    - 1.5 第一个Java程序
-    - 1.6 Java程序的基本规则
+  - 第 1 章 Java 语言概述
+    - 1.1 Java 语言的发展简史
+    - 1.2 Java 的竞争对手及各自优势
+    - 1.3 Java 程序运行机制
+    - 1.4 开发 Java 的准备
+    - 1.5 第一个 Java 程序
+    - 1.6 Java 程序的基本规则
     - 1.7 垃圾回收机制
-    - 1.8 何时开始使用IDE工具
+    - 1.8 何时开始使用 IDE 工具
     - 1.9 本章小结
-  - 第2章 理解面向对象
+  - 第 2 章 理解面向对象
     - 2.1 面向对象
     - 2.2 UML（统一建模语言）介绍
-    - 2.3 Java的面向对象特征
+    - 2.3 Java 的面向对象特征
     - 2.4 本章小结
-  - 第3章 数据类型和运算符
+  - 第 3 章 数据类型和运算符
     - 3.1 注释
     - 3.2 标识符和关键字
     - 3.3 数据类型分类
@@ -46,9 +47,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
     - 3.6 直接量
     - 3.7 运算符
     - [ ] #todo 3.8 本章小结
-        - 1.定义学生、老师、教室3个类，为3个类编写文档注释，并使用javadoc工具来生成API文档。
-      - 2.通过API文档查询Math类的方法，打印出如下所示的近似圆，只要给定不同半径，圆的大小随之发生改变（如果需要使用复杂的数学运算，可以查阅Math类的方法或者参考7.3节的内容）
-  - 第4章 流程控制与数组
+        - 1.定义学生、老师、教室 3 个类，为 3 个类编写文档注释，并使用 javadoc 工具来生成 API 文档。
+      - 2.通过 API 文档查询 Math 类的方法，打印出如下所示的近似圆，只要给定不同半径，圆的大小随之发生改变（如果需要使用复杂的数学运算，可以查阅 Math 类的方法或者参考 7.3 节的内容）
+  - 第 4 章 流程控制与数组
     - 4.1 顺序结构
     - 4.2 分支结构
     - 4.3 循环结构
@@ -56,10 +57,10 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
     - 4.5 数组类型
     - 4.6 深入数组
     - [ ] #todo 4.7 本章小结
-        - 1.实现一个按字节来截取字符串的子串的方法，功能类似于String类的substring()方法，String类是按字符截取的，例如"中国abc".substring(1,3)，将返回"国a"。这里要求按字节截取，一个英文字符当一字节，一个中文字符当两字节。
-      - 2.编写一个程序，将浮点数转换成人民币读法字符串，例如，将1006.333转换为壹千零陆元叁角叁分。
+        - 1.实现一个按字节来截取字符串的子串的方法，功能类似于 String 类的 substring() 方法，String 类是按字符截取的，例如 " 中国 abc".substring(1,3)，将返回 " 国 a"。这里要求按字节截取，一个英文字符当一字节，一个中文字符当两字节。
+      - 2.编写一个程序，将浮点数转换成人民币读法字符串，例如，将 1006.333 转换为壹千零陆元叁角叁分。
       - 3.编写控制台的五子棋游戏。
-  - 第5章 面向对象（上）
+  - 第 5 章 面向对象（上）
     - 5.1 类和对象
     - 5.2 方法详解
     - 5.3 成员变量和局部变量
@@ -71,13 +72,16 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
     - 5.9 初始化块
       id: 63e72783-9c4d-4975-8316-8eefaa9e9f64
       - 初始化块的语法格式如下
+
 ```java
           [修饰符] { // 修饰符只能是static (静态初始化块)
             //   始化块的可执行性代码
             ...
           }
 ```
+
           - e.g.
+
 ```java
             public class Person{
               //定义一个初始化块
@@ -102,13 +106,16 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             Run
+
 ```
             Person初始化块：局部变量a的值大于4
             Person的初始化块
             Person的第二个初始化块
             Person类的无参数构造器
 ```
+
       - 初始化块 #vs 构造器
         - **初始化块**的形式 (2)
           - 普通初始化块
@@ -116,6 +123,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           - 静态初始化块 / 类初始化块
             id: 638089b8-87e7-45e1-bcfb-bdfe8cd70efc
             - **执行顺序**: ((638089b8-87e7-45e1-bcfb-bdfe8cd70efc)) > ((63807c3f-cff0-4935-a3d7-a580e537b24a))
+
 ```java
                 class Root{
                   static{
@@ -165,7 +173,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                   }
                 }
 ```
+
                 Run
+
 ```
                 Root的静态初始化块
                 Mid的静态初始化块
@@ -185,12 +195,14 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                 Leaf的普通初始化块
                 执行Leaf的构造器
 ```
+
                 #weird-code
                 - ==系统将在类初始化阶段执行静态初始化块, 而不是在创建对象时才执行, 并且如结果所示, 只会执行一次==
                 - 静态初始化只会在初始化类的时候运行, 所以第二次创建 `Leaf()` 的时候没有了前三行
             - 静态初始化块不能访问非静态成员, 包括不能访问实例Field和实例方法
         - 初始化块 是 构造器的补充
           - **执行顺序** == 源程序中的**排列顺序**, 一般 初始化 先于 构造器
+
 ```java
             public class InstanceInitTest{
               {
@@ -205,11 +217,14 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             Run
+
 ```
             9
             6
 ```
+
             #weird-code
             - 当Java创建一个对象时，**系统先为该对象的所有实例Field分配内存**（前提是该类已经被加载过了），接着程序开始对这些实例变量执行初始化，其初始化顺序是：先执行初始化块或声明Field时指定的初始值，再执行构造器里指定的初始值。
               - ==这里的意思是: 先扫一遍变量, 分配内存, 然后赋值则从上而下来, 变量 `a` 在静态块的值为`6`, 却被后面非静态块的赋值给覆盖掉了==
@@ -220,14 +235,14 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
     - 5.10 本章小结
       - 1.定义普通人、老师、班主任、学生、学校，提供适当的Field、方法用于描述其内部数据和行为方式，并提供主类使之运行。要求有良好的封装性，将不同类放在不同的包下面，增加文档注释，生成API文档
       - 2.改写第1题的程序，利用组合来实现类复用。
-  - 第6章 面向对象（下）
+  - 第 6 章 面向对象（下）
     - 6.1 Java 7 增强的包装类 (Wrapper Class)
       - 原因
         - 8 种基本数据类型不支持面向对象的编程机制，也不具备“对象”的特性
-          (没有Field、方法可以被调用)
-          - Java之所以提供这8种基本数据类型，主要是为了照顾程序员传统的习惯
+          (没有 Field、方法可以被调用)
+          - Java 之所以提供这 8 种基本数据类型，主要是为了照顾程序员传统的习惯
       - 局限
-        - 所有引用类型的变量都继承了Object类，都可当成Object类型变量使用。==但基本数据类型的变量就不可以，如果有个方法需要Object类型的参数，但实际需要的值却是2、3等数值，这可能就比较难以处理==
+        - 所有引用类型的变量都继承了 Object 类，都可当成 Object 类型变量使用。==但基本数据类型的变量就不可以，如果有个方法需要 Object 类型的参数，但实际需要的值却是 2、3 等数值，这可能就比较难以处理==
       - 转换 & 基本类型变量
         - ![image.png](../assets/book/疯狂Java讲义/image_1669431134278_0.png)
       - 转换 & 字符串
@@ -235,6 +250,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
         - 利用包装类提供的 `parseXxx(String s)` 静态方法
           (除了 Character 之外的所有包装类都提供了该方法)
         - 利用包装类提供的 `Xxx(String s)` 构造器
+
 ```java
             public class Primitive2String{
               public static void main(String[] args){
@@ -260,28 +276,38 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
       - Compare
         - & **数值类型**的值
+
 ```java
             Integer a=new Integer(6);
             System.out.println("6的包装类实例是否大于5.0" + (a > 5.0));
 ```
+
             Run
+
 ```
             true
 ```
+
         - & 包装类的实例
+
 ```java
             System.out.println("比较2个包装类的实例是否相等："
                                + (new Integer(2)==new Integer(2)));
 ```
+
             Run
+
 ```
             false
 ```
+
             #weird-code
             - ==只有两个包装类引用指向同一个对象时才会返回true==
         - & 自动装箱 边界超限
+
 ```java
             //通过自动装箱，允许把基本类型值赋值给包装类实例
             Integer ina=2;
@@ -293,13 +319,17 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             //输出false
             System.out.println("两个128自动装箱后是否相等：" + (biga==bigb));
 ```
+
             Run
+
 ```
             两个2自动装箱后是否相等：true
             两个128自动装箱后是否相等：false
 ```
+
             #weird-code
             - 查看Java系统中java.lang.Integer类的源代码，如下所示
+
 ```java
               //定义一个长度为256的Integer数组
               static final Integer[] cache=new Integer[-(-128) + 127 + 1];
@@ -309,6 +339,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                   cache[i]=new Integer(i - 128);
               }
 ```
+
               - ==系统把一个 -128～127 之间的整数自动装箱成 Integer 实例，并放入了一个名为 cache 的数组中缓存起来。如果以后把一个 -128～127 之间的整数自动装箱成一个 Integer 实例时，实际上是直接指向对应的数组元素，因此 -128～127 之间的同一个整数自动装箱成 Integer 实例时，永远都是引用cache数组的同一个数组元素，所以它们全部相等；但每次把一个不在-128～127范围内的整数自动装箱成 Integer 实例时，系统总是重新创建一个 Integer 实例，所以出现程序中的运行结果==
               - But why?
                 - **Java也把一些创建成本大、需要频繁使用的对象缓存起来，从而提高程序的运行性能**
@@ -325,6 +356,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               - ==管理在编译期被确定并被保存在已编译的.class文件中的一些数据==。它包括了关于类、方法、接口中的常量，还包括字符串常量
           - 当使用new String("hello")时，JVM会先使用常量池来管理"hello"直接量，再调用String类的构造器来创建一个新的String对象，新创建的String对象被保存在堆内存中
             - ==换句话说，new String("hello")一共产生了两个对象("常量池+堆")==
+
 ```JAVA
             public class StringCompareTest{
               public static void main(String[] args){
@@ -355,6 +387,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
         - Object 默认提供的 equals()只是比较对象的地址
           - 即 Object类的equals方法比较的结果与==运算符比较的结果完全相同
           - 通常而言，正确地重写 `equals`方法 应该满足下列条件
@@ -367,6 +400,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 一致性
               - 对任意x和y，如果对象中用于等价比较的信息没有改变，那么无论调用x.equals(y)多少次，返回的结果应该保持一致，要么一直是true，要么一直是false。
             - 对任何不是 null 的 x，x.equals(null) 一定返回 false。
+
 ```java
             class Person{
               private String name;
@@ -407,6 +441,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             - 判断obj是否为Person类的实例时，为何不用obj instanceof Person来判断呢？
               - 对于 `instanceof` 运算符而言，当前面对象是后面类的实例或其子类的实例时都将返回true，所以实际上重写 `equals()方法` 判断两个对象是否为同一个类的实例时使用instanceof是有问题的。
                 - 比如有一个Teacher类型的变量 t，如果判断 `t instanceof Person`，这也将返回 `true`
@@ -441,6 +476,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
       - 可执行“宏替换”的final变量
         - final修饰符的一个重要用途就是定义“宏变量”。当定义final变量时就为该变量指定了初始值，而且该初始值可以在编译时就确定下来，那么这个final变量本质上就是一个“宏变量”，编译器会把程序中所有用到该变量的地方直接替换成该变量的值
           - 和 [[cpp]] 中的 `#mark: ` 类似
+
 ```java
             public class FinalLocalTest{
               public static void main(String[] args){
@@ -450,6 +486,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             - ==变量a其实根本不存在==，当程序执行 `System.out.println(a)`;代码时，实际转换为执行 `System.out.println(5)`
       - final方法
       - final类
@@ -464,7 +501,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
     - 6.11 使用JAR文件
     - [ ] #todo 6.12 本章小结
         - 定义一个类，该类用于封装一桌梭哈游戏，这个类应该包含桌上剩下的牌的信息，并包含5个玩家的状态信息：他们各自的位置、游戏状态（正在游戏或已放弃）、手上已有的牌等信息。如果有可能，这个类还应该实现发牌方法，这个方法需要控制从谁开始发牌，不要发牌给放弃的人，并修改桌上剩下的牌。
-  - 第7章 与运行环境交互
+  - 第 7 章 与运行环境交互
     - 7.1 与用户互动
     - 7.2 系统相关
     - 7.3 常用类
@@ -472,61 +509,62 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
     - 7.5 正则表达式
     - 7.6 国际化与格式化
     - [ ] #todo 7.7 本章小结
-        - 1.改写第4章练习中的五子棋游戏，通过正则表达式保证用户输入必须合法
-      - 2.改写第8章练习中的梭哈游戏，为该程序增加国际化功能，并使用正则表达式保证用户输入必须合法。
-  - 第8章 Java集合
-    - 8.1 Java集合概述
-      - Collection集合体系的继承树
+        - 1.改写第 4 章练习中的五子棋游戏，通过正则表达式保证用户输入必须合法
+      - 2.改写第 8 章练习中的梭哈游戏，为该程序增加国际化功能，并使用正则表达式保证用户输入必须合法。
+  - 第 8 章 Java 集合
+    - 8.1 Java 集合概述
+      - Collection 集合体系的继承树
         - ![image.png](../assets/book\疯狂Java讲义/image_1669792231200_0.png)
-      - Map体系的继承树
+      - Map 体系的继承树
         - ![image.png](../assets/book\疯狂Java讲义/image_1669792360682_0.png)
       - 三种集合示意图
         - ![image.png](../assets/book\疯狂Java讲义/image_1669792469833_0.png)
-      - 对于Set、List、Queue和Map四种集合，最常用的实现类在图中以灰色区域覆盖
+      - 对于 Set、List、Queue 和 Map 四种集合，最常用的实现类在图中以灰色区域覆盖
         - HashSet
         - TreeSet
         - ArrayList
         - ArrayDeque
-        - LinkedList和HashMap
+        - LinkedList 和 HashMap
         - TreeMap
-    - 8.2 Collection和Iterator接口
-      - Collection接口
+    - 8.2 Collection 和 Iterator 接口
+      - Collection 接口
         - APIs
           - boolean add(Object o)
-            - 该方法用于向集合里添加一个元素。如果集合对象被添加操作改变了，则返回true
+            - 该方法用于向集合里添加一个元素。如果集合对象被添加操作改变了，则返回 true
           - boolean addAll(Collection c)
-            - 该方法把集合c里的所有元素添加到指定集合里。如果集合对象被添加操作改变了，则返回true
+            - 该方法把集合 c 里的所有元素添加到指定集合里。如果集合对象被添加操作改变了，则返回 true
           - void clear()
-            - 清除集合里的所有元素，将集合长度变为0
+            - 清除集合里的所有元素，将集合长度变为 0
           - boolean contains(Object o)
             - 返回集合里是否包含指定元素
           - boolean containsAll(Collection c)
-            - 返回集合里是否包含集合c里的所有元素
+            - 返回集合里是否包含集合 c 里的所有元素
           - boolean isEmpty()
-            - 返回集合是否为空。当集合长度为0时返回true，否则返回false
+            - 返回集合是否为空。当集合长度为 0 时返回 true，否则返回 false
           - Iterator iterator()
-            - 返回一个Iterator对象，用于遍历集合里的元素
+            - 返回一个 Iterator 对象，用于遍历集合里的元素
           - boolean remove(Object o)
-            - 删除集合中的指定元素o，当集合中包含了一个或多个元素o时，这些元素将被删除，该方法将返回true
+            - 删除集合中的指定元素 o，当集合中包含了一个或多个元素 o 时，这些元素将被删除，该方法将返回 true
           - boolean removeAll(Collection c)
-            - 从集合中删除集合c里包含的所有元素（相当于用调用该方法的集合减集合c），如果删除了一个或一个以上的元素，则该方法返回true
+            - 从集合中删除集合 c 里包含的所有元素（相当于用调用该方法的集合减集合 c），如果删除了一个或一个以上的元素，则该方法返回 true
           - boolean retainAll(Collection c)
-            - 从集合中删除集合c里不包含的元素（相当于把调用该方法的集合变成该集合和集合c的交集），如果该操作改变了调用该方法的集合，则该方法返回true
+            - 从集合中删除集合 c 里不包含的元素（相当于把调用该方法的集合变成该集合和集合 c 的交集），如果该操作改变了调用该方法的集合，则该方法返回 true
           - int size()
             - 该方法返回集合里元素的个数
           - Object[] toArray()
             - 该方法把集合转换成一个数组，所有的集合元素变成对应的数组元素。
-        - 在普通情况下，当我们把一个对象“丢进”集合中后，**集合会忘记这个对象的类型——也就是说，系统把所有的集合元素都当成Object类的实例进行处理**
-          - 从JDK 1.5以后，这种状态得到了改进
+        - 在普通情况下，当我们把一个对象“丢进”集合中后，**集合会忘记这个对象的类型——也就是说，系统把所有的集合元素都当成 Object 类的实例进行处理**
+          - 从 JDK 1.5 以后，这种状态得到了改进
             - 可以使用泛型来限制集合里元素的类型, 并让集合记住所有集合元素的类型
-      - Iterator接口
+      - Iterator 接口
         - APIs
           - boolean hasNext()
-            - 如果被迭代的集合元素还没有被遍历，则返回true
+            - 如果被迭代的集合元素还没有被遍历，则返回 true
           - Object next()
             - 返回集合里的下一个元素
           - void remove()
-            - 删除集合里上一次next方法返回的元素。
+            - 删除集合里上一次 next 方法返回的元素。
+
 ```java
           public class IteratorTest{
             public static void main(String[] args){
@@ -552,10 +590,12 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
           - **修改迭代变量的值对集合元素本身没有任何影响**
             - 当使用Iterator对集合元素进行迭代时，Iterator并不是把集合元素**本身**传给了迭代变量，而是**把集合元素的值传给了迭代变量**
         - 只有通过 Iterator 的remove方法删除上一次next方法返回的集合元素才可以
           - 否则将会引发java.util.Concurrent ModificationException异常
+
 ```java
             public class IteratorErrorTest{
               public static void main(String[] args){
@@ -577,7 +617,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             -              > 上面程序如果改为删除“疯狂Java讲义”字符串，则不会引发异常，这样可能有些读者会“心存侥幸”地想：在迭代时好像也可以删除集合元素啊
+
 ```java
                 public class Test {
                   public static void main(String[] args) {
@@ -594,6 +636,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                   }
                 }
 ```
+
                 #weird-code Why???
                 - 在next方法中存在集合的修改校验方法，==**当remove最后一个参数时，hasNext方法返回为false，不会执行后面的next方法，所以删除最后一个元素时不会报错**==；ArrayList的hasNext在迭代完最后一个元素后会再进入一次循环，所以换成ArrayList即使是删除最后一个元素也会报错；单线程建议使用迭代器的remove方法
                   - ==并不是不能修改，使用foreach过程中要修改，只能使用迭代器中的remove去修改，**否则在源码内部表示修改次数的变量不会改变**，在检测（每次foreach都会检测，检测表示修改变量次数的变量）时候就会引发异常==
@@ -602,6 +645,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           - 一旦在迭代过程中检测到该集合已经被修改 (通常是程序中的其他线程修改)，程序立即引发ConcurrentModificationException异常，而不是显示修改后的结果，这样可以避免共享资源而引发的潜在问题
       - 使用 foreach 循环遍历集合元素
         - Java 5 提供的foreach循环迭代访问集合元素更加便捷
+
 ```java
           public class ForeachTest{
             public static void main(String[] args){
@@ -623,6 +667,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
         - **在foreach循环中修改迭代变量的值也没有任何实际意义**
           - foreach循环中的迭代变量也不是集合元素本身，系统只是依次把集合元素的值赋给迭代变量
         - **当使用foreach循环迭代访问集合元素时，该集合也不能被改变，**
@@ -633,6 +678,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
       - Set判断两个对象相同不是使用==运算符，**而是根据equals方法**
         - **只要两个对象用equals方法比较返回false，Set就会接受这两个对象**
           - **极端的情况**, 甚至这两个对象是同一个对象，Set也可把它们当成两个对象处理
+
 ```java
           public class SetTest{
             public static void main(String[] args){
@@ -648,6 +694,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
       - HashSet实现类
         - Hash算法来存储集合中的元素，因此具有很好的**存取和查找性能**
         - HashSet具有以下特点
@@ -656,6 +703,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 如果多个线程同时访问一个HashSet，假设有两个或者两个以上线程同时修改了HashSet集合时，则必须通过代码来保证其同步
           - 集合元素值可以是null
         - 如果有两个元素通过equals()方法比较返回true，但**它们的hashCode()方法返回值不相等**，HashSet将会把它们存储在不同的位置，依然可以添加成功
+
 ```java
             //类A的equals()方法总是返回true，但没有重写其hashCode()方法
             class A{
@@ -692,10 +740,13 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             Run
+
 ```
             [B@1, B@1, C@2, A@5483cd, A@9931f5]
 ```
+
             - **如果两个对象通过equals()方法比较返回true，这两个对象的hashCode值也应该相同**
               - ==当把一个对象放入HashSet中时，如果需要重写该对象对应类的equals()方法，则也应该重写其hashCode()方法==
             - 甚至, 如果`hashCode()`相同, `equals()`不同将更麻烦, **同一地址拉链过多会性能下降**
@@ -708,15 +759,20 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               -                1. 把对象内每个有意义的Field（即每个用做equals()方法比较标准的Field）计算出一个int类型的hashCode值。计算方式如表
                 - ![image.png](../assets/book\疯狂Java讲义/image_1669793460334_0.png)
               - 用第1步计算出来的多个hashCode值组合计算出一个hashCode值返回
+
 ```java
                   return f1.hashCode() + (int)f2;
 ```
+
                   - 为了避免直接相加产生偶然相等（两个对象的f1、f2 Field并不相等，但它们的和恰好相等），可以通过为各Field乘以任意一个质数后再相加。例如如下
+
 ```java
                       return f1.hashCode() * 17+ (int)f2 * 13;
 ```
+
         - **当向HashSet中添加可变对象时，必须十分小心**
           - 如果修改HashSet集合中的对象，有可能导致该对象与集合中的其他对象相等，从而导致HashSet无法准确访问该对象
+
 ```java
             class R{
               int count;
@@ -770,6 +826,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             - 当试图删除count为-3的R对象时，HashSet会计算出该对象的hashCode值，从而找出该对象在集合中的保存位置，然后把此处的对象与count为-3的R对象通过equals()方法进行比较，如果相等则删除该对象
               - HashSet只有第三个元素才满足该条件（**第一个元素实际上保存在count为5的R对象对应的位置**），所以第三个元素被删除
               - 至于第一个count为-3的R对象，**它保存在count为5的R对象对应的位置，但使用equals()方法拿它和count为5的R对象比较时又返回false**——这将导致HashSet不可能准确访问该元素
@@ -794,6 +851,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 返回此Set的子集合，范围从fromElement（包含）到toElement（不包含）
           - SortedSet headSet(toElement)
             - 返回此Set的子集，由小于toElement的元素组成。
+
 ```java
             public class TreeSetTest{
               public static void main(String[] args){
@@ -818,6 +876,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
         - 采用**红黑树**的数据结构来存储集合元素, 2 种**排序方法**
           - 自然排序 (default)
             description: "TreeSet会调用集合元素的compareTo(Object obj)方法来比较元素之间的大小关系，然后将集合元素按升序排列"
@@ -835,6 +894,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 如果试图把一个对象添加到TreeSet时，则该对象的类必须实现Comparable接口，否则程序将会抛出异常
               - **只有第一个元素无须实现Comparable接口**，后面添加的所有元素都必须实现Comparable接口。
                 - 当试图从TreeSet中取出元素时，依然会引发ClassCastException异常
+
 ```java
                   class Err{ }
                   public class TreeSetErrorTest{
@@ -846,8 +906,10 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                     }
                   }
 ```
+
               - 向TreeSet中添加的应该是同一个类的对象，否则也会引发ClassCastException异常
                 - 大部分类在实现compareTo(Object obj)方法时，都需要将被比较对象obj强制类型转换成相同类型，因为只有相同类的两个实例才会比较大小。当试图把一个对象添加到TreeSet集合时，TreeSet会调用该对象的compareTo(Object obj)方法与集合中的其他元素进行比较——这就要求集合中的其他元素与该元素是同一个类的实例
+
 ```java
                   public class TreeSetErrorTest2{
                     public static void main(String[] args){
@@ -858,12 +920,14 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                     }
                   }
 ```
+
             - 如果向TreeSet中添加的对象是程序员自定义类的对象，则可以向TreeSet中添加多种类型的对象，前提是用户自定义类实现了Comparable接口，实现该接口时实现的compareTo(Object obj)方法没有进行强制类型转换
               - 但当试图取出TreeSet里的集合数据时，不同类型的元素依然会发生ClassCastException异常
             - 当把一个对象加入TreeSet集合中时，TreeSet调用该对象的compareTo(Object obj)方法与容器中的其他对象比较大小，然后根据红黑树结构找到它的存储位置
               - 如果两个对象通过compareTo(Object obj)方法比较相等，新对象将无法添加到TreeSet集合中
             - 重写该对象对应类的equals()方法时，应**保证该方法与compareTo(Object obj)方法有一致的结果**
               - **如果两个对象通过equals()方法比较返回true时，这两个对象通过compareTo(Object obj)方法比较应返回0**
+
 ```java
               class R implements Comparable{
                 int count;
@@ -921,6 +985,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                 }
               }
 ```
+
               - 一旦改变了TreeSet集合里可变元素的Field，当再试图删除该对象时，TreeSet也会删除失败（甚至集合中原有的、Field没被修改但与修改后元素相等的元素也无法删除）
               - TreeSet可以删除没有被修改Field，且不与其他被修改Field的对象重复的对象
           - 定制排序
@@ -931,6 +996,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                   - 如果该方法返回0，则表明o1等于o2
                   - 如果该方法返回负整数，则表明o1小于o2
               - 如果需要实现定制排序，则需要在创建TreeSet集合对象时，提供一个Comparator对象与该TreeSet集合关联，由该Comparator对象负责集合元素的排序逻辑
+
 ```java
                 class M{
                   int age;
@@ -960,6 +1026,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                   }
                 }
 ```
+
                 - TreeSet判断两个集合元素相等的标准是：通过Comparator比较两个元素返回了0，这样TreeSet不会把第二个元素添加到集合中
       - EnumSet实现类
         - EnumSet在内部以位向量的形式存储，这种存储形式非常紧凑、高效
@@ -978,6 +1045,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 创建一个与指定EnumSet具有相同元素类型、相同集合元素的EnumSet集合
           - static EnumSet noneOf(Class elementType)
             - 创建一个元素类型为指定枚举类型的空EnumSet。
+
 ```java
             enum Season{ SPRING,SUMMER,FALL,WINTER }
             public class EnumSetTest{
@@ -1010,6 +1078,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
     - 8.4 List集合
       description: 代表一个元素有序、可重复的集合. 集合中每个元素都有其对应的顺序索引
       - `List`接口和`List Iterator`接口
@@ -1031,6 +1100,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           - List subList(int fromIndex, int toIndex)
             - 返回从索引fromIndex（包含）到索引toIndex（不包含）处所有集合元素组成的子集合
         - ==与Set集合相比，List增加了根据索引来插入、替换和删除集合元素的方法==
+
 ```java
           public class ListTest{
             public static void main(String[] args){
@@ -1061,9 +1131,11 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
           - `List` 独特用法 -- **根据位置索引来访问集合中的元素**
             - 一种新的遍历集合元素的方法: 使用普通的for循环来遍历集合元素
           - `List` 判断两个对象相等: equals()方法返回 true 即可
+
 ```java
               class A{
                 public boolean equals(Object obj){
@@ -1086,12 +1158,15 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                 }
               }
 ```
+
               Run
+
 ```
               [轻量级Java EE企业应用实战, 疯狂Java讲义, 疯狂Android讲义]
               [疯狂Java讲义, 疯狂Android讲义]
               [疯狂Android讲义]
 ```
+
               #weird-code
               - 从上面运行结果可以看出，执行①行代码时，程序试图删除一个A对象，List将会调用该A对象的equals()方法依次与集合元素进行比较，如果该equals()方法以某个集合元素作为参数时返回true，List将会删除该元素
         - 迭代器 `ListIterator()`
@@ -1102,6 +1177,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               - 返回该迭代器的上一个元素
             - void add()
               - 在指定位置插入一个元素。
+
 ```java
             public class ListIteratorTest{
               public static void main(String[] args){
@@ -1125,7 +1201,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             Run
+
 ```
             疯狂Java讲义
             轻量级Java EE企业应用实战
@@ -1135,6 +1213,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             -------分隔符-------
             疯狂Java讲义
 ```
+
       - `ArrayList` 和 `Vector` 实现类
         - 两者都是基于数组实现的List类
           - 一个动态的、允许再分配的Object[]数组
@@ -1248,6 +1327,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           - 创建Deque时同样可指定一个numElements参数，该参数用于指定Object[]数组的长度
             - 如果不指定numElements参数，Deque底层数组的长度为16
           - ArrayList和ArrayDeque两个集合类的实现机制基本相似
+
 ```java
             public class ArrayDequeTest{
               public static void main(String[] args){
@@ -1269,12 +1349,14 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
         - `LinkedList` 实现类
           - 实现了 2 种接口
             - List集合
               - 随机访问元素
             - Deque接口
               - 双端队列 / 栈
+
 ```java
             public class LinkedListTest{
               public static void main(String[] args){
@@ -1293,7 +1375,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             Run
+
 ```
             疯狂Android讲义
             轻量级Java EE企业应用实战
@@ -1305,12 +1389,14 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             疯狂Java讲义
             [轻量级Java EE企业应用实战]
 ```
+
           - 随机访问集合元素时性能较差
           - 在插入、删除元素时性能非常出色（只需改变指针所指的地址即可）
             - 对于所有的内部基于数组的集合实现 (ArrayList、ArrayDeque), **使用随机访问的性能比使用Iterator迭代访问的性能要好**
               - 随机访问会被映射成对数组元素的访问
       - 各种线性表的性能分析
         - ![image.png](../assets/book/疯狂Java讲义/image_1669735285691_0.png)
+
 ```java
           public class PerformanceTest{
             public static void main(String[] args){
@@ -1342,15 +1428,19 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
           Run
+
 ```shell
           迭代ArrayList集合元素的时间:7
           迭代LinedList集合元素的时间:11
           # 结果非常随机
 ```
+
 ```shell
             java -Xms128m -Xmx512m PerformanceTest
 ```
+
             - `-Xms`
               - 设置JVM的堆内存初始大小
             - `-Xmx`
@@ -1384,6 +1474,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 从属性文件（以输入流表示）中加载key-value对，把加载到的key-value对追加到Properties里（Properties是Hashtable的子类，它不保证key-value对之间的次序）
           - void store(OutputStream out, String comments)
             - 将Properties中的key-value对输出到指定的属性文件（以输出流表示）中。
+
 ```java
             public class PropertiesTest{
               public static void main(String[] args)
@@ -1405,17 +1496,22 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             Run
+
 ```shell
             {password=123456, gender=male, username=yeeku}
 ```
+
             File
+
 ```shell
             #comment line
             #Wed Nov 30 18:09:55 SGT 2022
             password=123456
             username=yeeku
 ```
+
       - SortedMap接口和TreeMap实现类
       - SortedMap接口和TreeMap实现类
       - WeakHashMap实现类
@@ -1440,6 +1536,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 当distance为正数时，将list集合的后distance个元素“整体”移到前面
             - 当distance为负数时，将list集合的前distance个元素“整体”移到后面。
             - 该方法不会改变集合的长度。
+
 ```java
           public class ShowHand{
             //定义该游戏最多支持多少个玩家
@@ -1570,6 +1667,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
       - 查找、替换操作
         - APIs
           - static int binarySearch(List list, Object key)
@@ -1595,6 +1693,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 如果父List中没有出现这样的子List，则返回-1
           - static boolean replaceAll(List list, Object oldVal, Object newVal)
             - 使用一个新值newVal替换List对象的所有旧值oldVal
+
 ```java
           public class SearchTest{
             public static void main(String[] args){
@@ -1624,11 +1723,13 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
       - 同步控制
         - 提供了多个synchronizedXxx()方法
           - 将指定集合包装成线程同步的集合
             - 解决多线程并发访问集合时的线程安全问题
         - Java中常用的集合框架中的实现类 `HashSet`、`TreeSet`、`ArrayList`、`ArrayDeque`、`LinkedList`、`HashMap`和`TreeMap`都是线程不安全的
+
 ```java
           public class SynchronizedTest{
             public static void main(String[] args){
@@ -1641,6 +1742,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
       - 设置不可变集合
         - APIs (此处的集合既可以是List，也可以是Set，还可以是Map)
           - emptyXxx()
@@ -1649,6 +1751,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 返回一个只包含指定对象（只有一个或一项元素）的、不可变的集合对象
           - unmodifiableXxx
             - 返回指定集合对象的不可变视图
+
 ```java
           public class UnmodifiableTest{
             public static void main(String[] args){
@@ -1669,6 +1772,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
     - 8.9 烦琐的接口：Enumeration
       - 是Iterator迭代器的“古老版本”
         - 从JDK 1.0开始，Enumeration接口就已经存在了（Iterator从JDK 1.2才出现）
@@ -1681,15 +1785,16 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
         > 在计算机行业有一条规则：**加入任何规则都必须慎之又慎，因为以后无法删除规则**
     - 8.10 本章小结
       - 将本章未完成的梭哈游戏补充完整，不断地添加梭哈规则，开发一个控制台的梭哈游戏
-  - 第9章 泛型
+  - 第 9 章 泛型
     - 9.1 泛型入门
       - Object 通用性好, 但有 2 个问题
         - 集合对元素类型没有任何限制
-          - 例如，想创建一个只能保存Dog对象的集合，但程序也可以轻易地将Cat对象“丢”进去，所以可能引发异常
+          - 例如，想创建一个只能保存 Dog 对象的集合，但程序也可以轻易地将 Cat 对象“丢”进去，所以可能引发异常
         - “丢进”集合时丢失了对象的状态信息, 取出还需要进行强制类型转换
-          - 既增加了编程的复杂度，也可能引发ClassCastException异常
+          - 既增加了编程的复杂度，也可能引发 ClassCastException 异常
       - 编译时不检查类型的异常
       - 手动实现编译时检查类型
+
 ```java
           // 自定义一个StrList集合类，使用组合的方式来复用ArrayList类
           class StrList{
@@ -1724,10 +1829,13 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
           Run(程序将无法通过编译。因为StrList只接受String对象作为元素)
+
 ```
           java: incompatible types: int cannot be converted to java.lang.String
 ```
+
           - 从代码的健壮性角度来看，该方法极其有用，而且使用get()方法返回集合元素时，无须进行类型转换。
           - 局限性
             - 程序员需要定义大量的List子类
@@ -1740,6 +1848,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           - Java 7以前，带泛型的接口、类定义变量，那么调用构造器创建对象时构造器的后面也必须带泛型
     - 9.2 深入泛型
       - 定义泛型接口、类
+
 ```java
           // 定义接口时指定了一个类型形参，该形参名为E
           public interface List<E>{
@@ -1764,21 +1873,26 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             //...
           }
 ```
+
           - 允许在定义接口、类时声明类型形参，类型形参在整个接口、类体内可当成类型使用，几乎所有可使用普通类型的地方都可以使用这种类型形参
       - 从泛型类派生子类
+
 ```java
           // ERROR!!! 定义类A继承Apple类，Apple类不能跟类型形参
           // public class A extends Apple<T>{ }
 ```
+
 ```java
           // 使用Apple类时为T形参传入String类型
           public class A extends Apple<String>
           // 使用Apple类时，没有为T形参传入实际的类型参数
           public class A extends Apple
 ```
+
           - 如果从Apple<String>类派生子类，则在Apple类中所有使用T类型形参的地方都将被替换成String类型
             - **它的子类会继承到==String getInfo()和void setInfo(String info)两个方法==**
               - 如果子类需要重写父类的方法，就必须注意这一点
+
 ```java
               public class A1 extends Apple<String>{
                 // 正确重写了父类的方法，返回值
@@ -1794,8 +1908,10 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                 */
               }
 ```
+
             - 如果使用Apple类时没有传入实际的类型参数，Java编译器可能发出警告：使用了未经检查或不安全的操作——这就是泛型检查的警告
               - 如果希望看到该警告提示的更详细信息，则可以通过为 `javac` 命令增加 `-Xlint:unchecked` 选项来实现
+
 ```java
                 public class A2 extends Apple{
                   // 重写父类的方法
@@ -1806,7 +1922,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                   }
                 }
 ```
+
       - 并不存在泛型类
+
 ```java
           // 分别创建List<String>对象和List<Integer>对象
           List<String> l1=new ArrayList<>();
@@ -1814,11 +1932,15 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           // 调用getClass()方法来比较l1和l2的类是否相等
           System.out.println(l1.getClass()==l2.getClass());
 ```
+
           Run
+
 ```shell
           true #不管泛型的实际类型参数是什么，它们在运行时总有同样的类（class）
 ```
+
           - 对于Java来说，它们依然被当成同一个类处理，在内存中也只占用一块内存空间，因此在静态方法、静态初始化块或者静态变量的声明和初始化中不允许使用类型形参
+
 ```java
               public class R<T>{
                 // 下面代码错误，不能在静态Field声明中使用类型形参
@@ -1829,13 +1951,17 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                 public static void bar(T msg){}
               }
 ```
+
             - 由于系统中并不会真正生成泛型类，所以instanceof运算符后不能使用泛型类
+
 ```java
                 Collection cs=new ArrayList<String>();
                 // 下面代码编译时引起错误：instanceof 运算符后不能使用泛型类
                 if (cs instanceof List<String>) {...}
 ```
+
     - 9.3 类型通配符 Wildcard Characters
+
 ```java
         class Test{
           public void test(List<Object> c){
@@ -1850,6 +1976,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           }
         }
 ```
+
         Run
         `java: incompatible types: java.util.List<java.lang.String> cannot be converted to java.util.List<java.lang.Object>`
         - 这表明List<String>对象不能被当成List<Object>对象使用
@@ -1862,6 +1989,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
         #question
         - [oracle11g - Difference between number and integer datatype in oracle dictionary views - Stack Overflow](https://stackoverflow.com/questions/13494010/difference-between-number-and-integer-datatype-in-oracle-dictionary-views)
       - 使用类型通配符 `?`
+
 ```java
           public void test(List<?> c){
             for (int i=0; i < c.size(); i++){
@@ -1869,8 +1997,10 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
         - 这种带通配符的List仅表示它是各种泛型List的父类，并不能把元素加入到其中
         - 把get()的返回值赋给一个Object类型的变量 / 放在任何希望是Object类型的地方
+
 ```java
           // 定义一个抽象类Shape
           public abstract class Shape{
@@ -1900,7 +2030,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
           - A Better Way
+
 ```java
             public class Canvas{
               // 同时在画布上绘制多个形状，使用被限制的泛型通配符
@@ -1910,11 +2042,13 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             - List<?extends Shape>可以表示List<Circle>、List<Rectangle>的父类
               - 只要List后尖括号里的类型是Shape的子类型即可
               - Shape 称为这个通配符(?)的上限 (upper bound)(包含)
             - 因为我们不知道这个受限制的通配符的具体类型，所以不能把Shape对象或其子类的对象加入这个泛型集合中
       - 设定类型通配符的上限
+
 ```java
           public class Apple <T extends Number>{
             T col;
@@ -1927,21 +2061,26 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
         - 在一种更极端的情况下，程序需要为类型形参设定多个上限 (1个父类上限, 多个接口上限)
+
 ```java
             // 表明T类型必须是Number类或其子类，并必须实现java.io.Serializable接口
             public class Apple<T extends Number & java.io.Serializable>{
               // ...
             }
 ```
+
             - 如果需要为类型形参指定类上限，类上限必须位于第一位
     - 9.4 泛型方法 (Generic Method, Java 5) #Question
       - 定义
+
 ```java
           修饰符 <T , S> 返回值类型 方法名(形参列表) {
             // 方法体...
           }
 ```
+
 ```java
             public class GenericMethodTest{
               // 声明一个泛型方法，该泛型方法中带一个T类型形参
@@ -1979,8 +2118,10 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
       - 泛型方法 vs 类型通配符
         - 大多数时候都可以使用泛型方法来代替类型通配符
+
 ```java
             public interface Collection<E>{
               boolean containsAll(Collection<?> c);
@@ -1988,7 +2129,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               //...
             }
 ```
+
             - 改写
+
 ```java
               public interface Collection<E>{
                 boolean <T> containsAll(Collection<T> c);
@@ -1996,30 +2139,36 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                 // ...
               }
 ```
+
         - 泛型方法允许类型形参被用来表示
           - 方法的**个或多个参数之间 / 方法返回值**与**参数**之间的类型依赖关系
             - 如果没有这样的类型依赖关系，就不应该使用泛型方法
           - 如果某个方法中一个形参（a）的类型或返回值的类型依赖于另一个形参（b）的类型，则形参（b）的类型声明不应该使用通配符
             - 因为形参（a）或返回值的类型依赖于该形参（b）的类型，如果形参（b）的类型无法确定，程序就无法定义形参（a）的类型。在这种情况下，只能考虑使用在方法签名中声明类型形参——也就是泛型方法
+
 ```java
           public class Collections{
             public static <T> void copy(List<T> dest, List<? extends T> src){...}
             //...
           }
 ```
+
           - 使用的是类型通配符，而不是泛型方法的原因
             - 该方法无须向src集合中添加元素，也无须修改src集合里的元素
           - 将上面的方法签名改为使用泛型方法，不使用类型通配符
+
 ```java
             class Collections{
               public static <T , S extends T> void copy(List<T> dest, List<S> src){...}
               // ...
             }
 ```
+
             - S仅使用了一次，**没有其他参数的类型、方法返回值的类型依赖于它，那类型形参S就没有存在的必要**，即可以用通配符来代替S
         - 类型通配符既可以在方法签名中定义形参的类型，也可以用于定义变量的类型；但泛型方法中的类型形参必须在对应方法中显式声明
       - Java 7的“菱形”语法与泛型构造器
         - 如果程序显式指定了泛型构造器中声明的类型形参的实际类型，则不可以使用“菱形”语法
+
 ```java
             // MyClass类声明中的E形参是String类型
             // 泛型构造器中声明的T形参是Integer类型
@@ -2031,7 +2180,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             // 此时就不能使用“菱形”语法，下面代码是错的
             //MyClass<String> mc3=new <Integer> MyClass<>(5);
 ```
+
       - 设定通配符下限 `<? super Type>`
+
 ```java
           public static <T> T copy(Collection<T> dest , Collection<? extends T> src){
             T last=null;
@@ -2042,19 +2193,23 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             return last;
           }
 ```
+
           - bug
             - 程序只能用T来笼统地表示各种src集合的元素类型
               - 当遍历src集合的元素时，src元素的类型是不确定的 (但可以肯定它是T的子类)
+
 ```java
                   List<Number> ln=new ArrayList<>();
                   List<Integer> li=new ArrayList<>();
                   // 下面代码引起编译错误
                   Integer last=copy(ln , li);
 ```
+
                 - 与copy方法签名的形参类型进行对比即得到T的实际类型是Number，而不是Integer类型
                   - copy方法的返回值也是Number类型，而不是Integer类型!
               - 不管src集合元素的类型是什么, 只要 dest 与 src 相同或是前者的父类即可 #understand-in-this-way
                 - `<? super Type>`: 表示它必须是Type本身，或是Type的父类
+
 ```java
                   public class MyUtils{
                     // 下面dest集合元素的类型必须与src集合元素的类型相同，或是其父类
@@ -2081,7 +2236,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                     }
                   }
 ```
+
       - 泛型方法与方法重载
+
 ```java
           public class MyUtils{
             public static <T> void copy(Collection<T> dest , Collection<? extends T> src)
@@ -2090,6 +2247,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             {...}   //②
           }
 ```
+
           - 2个方法
             - 2个参数都是Collection对象
             - 前一个集合里的集合元素类型是后一个集合里集合元素类型的父类
@@ -2098,6 +2256,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
       - raw type (原始类型)
         - 如果没有为这个泛型类指定实际的类型参数，默认是声明该参数时指定的第一个上限类型
       - 擦除
+
 ```java
           class Apple <T extends Number>{
             T size;
@@ -2129,7 +2288,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
       - 转换
+
 ```java
           public class ErasureTest2{
             public static void main(String[] args){
@@ -2145,9 +2306,11 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
     - 9.6 泛型与数组
       - 只能声明 `List<String>[]` 形式的数组
         - 不能创建 `ArrayList<String>[10]` 这样的数组对象
+
 ```java
         public static void main(String[] args){
           /**
@@ -2172,23 +2335,24 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           }
         }
 ```
+
     - 9.7 本章小结
-  - 第10章 异常处理
+  - 第 10 章 异常处理
     - 10.1 异常概述
     - 10.2 异常处理机制
-    - 10.3 Checked异常和Runtime异常体系
-    - 10.4 使用throw抛出异常
-    - 10.5 Java的异常跟踪栈
+    - 10.3 Checked 异常和 Runtime 异常体系
+    - 10.4 使用 throw 抛出异常
+    - 10.5 Java 的异常跟踪栈
       - 异常的传播
         - 只要异常没有被完全捕获 (包括异常没有被捕获 / 异常被处理后重新抛出了新异常)
           - 异常从发生异常的方法逐渐向外传播
           - 首先传给该方法的调用者，该方法调用者再次传给其调用者……
-          - 直至最后传到main方法
-            - 如果main方法依然没有处理该异常, JVM会中止该程序, 并打印异常的跟踪栈信息
+          - 直至最后传到 main 方法
+            - 如果 main 方法依然没有处理该异常, JVM 会中止该程序, 并打印异常的跟踪栈信息
       - **最后发布的程序中，应该避免使用它**
         - 而应该对捕获的异常进行适当的处理，而不是简单地将异常的跟踪栈信息打印出来
     - 10.6 异常处理规则
-      - 4个目标
+      - 4 个目标
         - 使程序代码混乱最小化
         - 捕获并保留诊断信息
         - 通知合适的人员
@@ -2198,8 +2362,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           - 把异常和普通错误混淆在一起，不再编写任何错误处理代码，而是以简单地抛出异常来代替所有的错误处理
           - 使用异常处理来代替流程控制
       -        2. 不要使用过于庞大的try块
-        - 把大块的try块分割成多个可能出现异常的程序段落，并把它们放在单独的try块中，从而分别捕获并处理异常。
+        - 把大块的 try 块分割成多个可能出现异常的程序段落，并把它们放在单独的 try 块中，从而分别捕获并处理异常。
       -        3. 避免使用Catch All语句
+
 ```java
           try{
             // 可能引发Checked异常的代码
@@ -2209,6 +2374,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             t.printStackTrace();
           }
 ```
+
           - 所有的异常都采用相同的处理方式
             - 这将导致无法对不同的异常分情况处理，如果要分情况处理，则需要在catch块中使用分支语句进行控制，这是得不偿失的做法
           - 可能将程序中的错误、Runtime异常等可能导致程序终止的情况全部捕获到，从而“压制”了异常
@@ -2224,88 +2390,88 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
     - [ ] #todo 10.7 本章小结
         - 1.改写第4章的五子棋游戏程序，为该程序增加异常处理机制，让程序更加健壮。
       - 2.改写第8章的梭哈游戏程序，为该程序增加异常处理机制。
-  - ~~第11章 AWT编程~~
-    - 11.1 GUI（图形用户界面）和AWT
-    - 11.2 AWT容器
+  - ~~第 11 章 AWT 编程~~
+    - 11.1 GUI（图形用户界面）和 AWT
+    - 11.2 AWT 容器
     - 11.3 布局管理器
-    - 11.4 AWT常用组件
+    - 11.4 AWT 常用组件
     - 11.5 事件处理
-    - 11.6 AWT菜单
-    - 11.7 在AWT中绘图
+    - 11.6 AWT 菜单
+    - 11.7 在 AWT 中绘图
     - 11.8 处理位图
     - 11.9 剪贴板
     - 11.10 拖放功能
     - 11.11 本章小结
-  - ~~第12章 Swing编程~~
-    - 12.1 Swing概述
-    - 12.2 Swing基本组件的用法
-    - 12.3 Swing中的特殊容器
-    - 12.4 Swing简化的拖放功能
-    - 12.5 Java 7新增的Swing功能
-    - 12.6 使用JProgressBar、ProgressMonitor和BoundedRangeModel创建进度条
-    - 12.7 使用JSlider和BoundedRangeModel创建滑动条
-    - 12.8 使用JSpinner和SpinnerModel创建微调控制器
-    - 12.9 使用JList、JComboBox创建列表框
-    - 12.10 使用JTree和TreeModel创建树
-    - 12.11 使用JTable和TableModel创建表格
-    - 12.12 使用JFormattedTextField和JTextPane创建格式文本
+  - ~~第 12 章 Swing 编程~~
+    - 12.1 Swing 概述
+    - 12.2 Swing 基本组件的用法
+    - 12.3 Swing 中的特殊容器
+    - 12.4 Swing 简化的拖放功能
+    - 12.5 Java 7 新增的 Swing 功能
+    - 12.6 使用 JProgressBar、ProgressMonitor 和 BoundedRangeModel 创建进度条
+    - 12.7 使用 JSlider 和 BoundedRangeModel 创建滑动条
+    - 12.8 使用 JSpinner 和 SpinnerModel 创建微调控制器
+    - 12.9 使用 JList、JComboBox 创建列表框
+    - 12.10 使用 JTree 和 TreeModel 创建树
+    - 12.11 使用 JTable 和 TableModel 创建表格
+    - 12.12 使用 JFormattedTextField 和 JTextPane 创建格式文本
     - 12.13 本章小结
-  - 第13章 MySQL数据库与JDBC编程
-    - 13.1 JDBC基础
-      - JDBC (JavaDatabase Connectivity, Java数据库连接)
-        description: 一种可以执行SQL语句的JavaAPI (接口)
-        - 使用JDBC开发的数据库应用可以**跨平台运行**，而且可以**跨数据库** (标准的SQL)
-      - JDBC驱动程序
-        - 数据库驱动程序负责将JDBC调用映射成特定的数据库调用
+  - 第 13 章 MySQL 数据库与 JDBC 编程
+    - 13.1 JDBC 基础
+      - JDBC (JavaDatabase Connectivity, Java 数据库连接)
+        description: 一种可以执行 SQL 语句的 JavaAPI (接口)
+        - 使用 JDBC 开发的数据库应用可以**跨平台运行**，而且可以**跨数据库** (标准的 SQL)
+      - JDBC 驱动程序
+        - 数据库驱动程序负责将 JDBC 调用映射成特定的数据库调用
           - ![image.png](../assets/book\疯狂Java讲义/image_1669970273482_0.png)
           - ODBC, Open Database Connectivity, 开放数据库连接
-            - ODBC和JDBC很像，严格地说，应该说JDBC模仿了ODBC的设计
-            - ODBC也允许应用程序通过一组通用的API访问不同的数据库管理系统，从而使得基于ODBC的应用程序可以在不同的数据库之间切换。
-            - 同样, ODBC也需要各数据库厂商提供相应的驱动程序, 而ODBC则负责管理这些驱动程序
+            - ODBC 和 JDBC 很像，严格地说，应该说 JDBC 模仿了 ODBC 的设计
+            - ODBC 也允许应用程序通过一组通用的 API 访问不同的数据库管理系统，从而使得基于 ODBC 的应用程序可以在不同的数据库之间切换。
+            - 同样, ODBC 也需要各数据库厂商提供相应的驱动程序, 而 ODBC 则负责管理这些驱动程序
             - #vs JDBC
-              - ODBC更复杂，ODBC中有几个命令需要配置很多复杂的选项，而JDBC则采用简单、直观的方式来管理数据库连接
-              - JDBC比ODBC安全性更高，更易部署
+              - ODBC 更复杂，ODBC 中有几个命令需要配置很多复杂的选项，而 JDBC 则采用简单、直观的方式来管理数据库连接
+              - JDBC 比 ODBC 安全性更高，更易部署
           - 类型
-            - JDBC–ODBC桥
-              - 最早实现的JDBC驱动程序
-              - 目的是为了快速推广JDBC
-              - 这种驱动将JDBC API映射到ODBC API
-                - JDBC-ODBC也需要驱动 (由Sun公司提供实现)
-            - 直接将JDBC API映射成数据库特定的客户端API
+            - JDBC–ODBC 桥
+              - 最早实现的 JDBC 驱动程序
+              - 目的是为了快速推广 JDBC
+              - 这种驱动将 JDBC API 映射到 ODBC API
+                - JDBC-ODBC 也需要驱动 (由 Sun 公司提供实现)
+            - 直接将 JDBC API 映射成数据库特定的客户端 API
               - 这种驱动包含特定数据库的本地代码，用于访问特定数据库的客户端
-            - 支持三层结构的JDBC访问方式 #jdbc
+            - 支持三层结构的 JDBC 访问方式 #jdbc
               description: 表现层（UI）、业务逻辑层（BLL）、数据访问层（DAL）
-              - 主要用于Applet阶段
-              - 通过Applet访问数据库
-            - 纯Java的，直接与数据库实例交互
+              - 主要用于 Applet 阶段
+              - 通过 Applet 访问数据库
+            - 纯 Java 的，直接与数据库实例交互
               - 这种驱动是智能的，它知道数据库使用的底层协议
-              - 这种驱动是**目前最流行的JDBC驱动**。
-    - 13.2 SQL语法 #mysql #Question (重新深入学一遍)
+              - 这种驱动是**目前最流行的 JDBC 驱动**。
+    - 13.2 SQL 语法 #mysql #Question (重新深入学一遍)
       - 安装数据库
-      - 关系数据库基本概念和MySQL基本命令
-      - SQL语句基础
-      - DDL语句
+      - 关系数据库基本概念和 MySQL 基本命令
+      - SQL 语句基础
+      - DDL 语句
       - 数据库约束
       - 索引
-      - DML语句语法
+      - DML 语句语法
       - 数据库函数
       - 分组和组函数
       - 多表连接查询
       - 子查询
-    - 13.3 JDBC的典型用法
-      - JDBC常用接口和类简介
+    - 13.3 JDBC 的典型用法
+      - JDBC 常用接口和类简介
         - DriverManager
-          description: 用于管理JDBC驱动的服务类。程序中使用该类的主要功能是获取Connection对象
+          description: 用于管理 JDBC 驱动的服务类。程序中使用该类的主要功能是获取 Connection 对象
           - public static synchronized Connection getConnection(String url,String user,String pass) throws SQLException
-            - 该方法获得url对应数据库的连接
+            - 该方法获得 url 对应数据库的连接
         - Connection
-          description: 代表数据库连接对象. 每个Connection代表一个物理连接会话
+          description: 代表数据库连接对象. 每个 Connection 代表一个物理连接会话
           - Statement createStatement() throws SQLExcetpion
-            - 返回一个Statement对象
+            - 返回一个 Statement 对象
           - PreparedStatement prepareStatement(String sql) throws SQLExcetpion
-            - 返回**预编译的Statement对象**, 即将SQL语句提交到数据库进行预编译
+            - 返回**预编译的 Statement 对象**, 即将 SQL 语句提交到数据库进行预编译
           - CallableStatement prepareCall(String sql) throws SQLExcetpion
-            - 返回CallableStatement对象，该对象用于**调用存储**过程
+            - 返回 CallableStatement 对象，该对象用于**调用存储**过程
           - Savepoint setSavepoint()
             - 创建一个保存点
           - Savepoint setSavepoint(String name)
@@ -2321,92 +2487,97 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           - void commit()
             - 提交事务
           - NOTE
-            - 只有获得了Statement之后才可执行SQL语句
-            - **PreparedStatement、CallableStatement**是Statement的子类
+            - 只有获得了 Statement 之后才可执行 SQL 语句
+            - **PreparedStatement、CallableStatement**是 Statement 的子类
             - Java 7
               - setSchema(String schema); getSchema()
               - setNetworkTimeout(Executor executor, int milliseconds)、getNetworkTimeout()
         - Statement
-          description: "用于执行SQL语句的工具接口。该对象既可用于执行DDL、DCL语句，也可用于执行DML语句，还可用于执行SQL查询。当执行SQL查询时，返回查询到的结果集"
+          description: " 用于执行 SQL 语句的工具接口。该对象既可用于执行 DDL、DCL 语句，也可用于执行 DML 语句，还可用于执行 SQL 查询。当执行 SQL 查询时，返回查询到的结果集 "
           - ResultSet executeQuery(String sql)throws SQLException
             - 只能用于执行查询语句
-            - 返回查询结果对应的ResultSet对象
+            - 返回查询结果对应的 ResultSet 对象
           - int executeUpdate(String sql)throws SQLExcetion
             - 用于
-              - 执行DML语句
-              - 执行DDL语句
-                - 执行DDL语句将返回0
+              - 执行 DML 语句
+              - 执行 DDL 语句
+                - 执行 DDL 语句将返回 0
             - 返回受影响的行数
           - boolean execute(String sql)throws SQLException
-            - 可执行任何SQL语句
-            - 如果执行后第一个结果为ResultSet对象，则返回true；
-            - 如果执行后第一个结果为受影响的行数或没有任何结果，则返回false
+            - 可执行任何 SQL 语句
+            - 如果执行后第一个结果为 ResultSet 对象，则返回 true；
+            - 如果执行后第一个结果为受影响的行数或没有任何结果，则返回 false
           - Java 7
             - closeOnCompletion()
-              - 如果Statement执行了该方法，则当所有依赖于该Statement的ResultSet关闭时，该Statement会自动关闭
+              - 如果 Statement 执行了该方法，则当所有依赖于该 Statement 的 ResultSet 关闭时，该 Statement 会自动关闭
             - isCloseOnCompletion()
-              - 判断该Statement是否打开了“closeOnCompletion”
+              - 判断该 Statement 是否打开了“closeOnCompletion”
         - PreparedStatement
-          description: "预编译的Statement对象。PreparedStatement是Statement的子接口。相对于Statement而言，使用PreparedStatement执行SQL语句时，无须再传入SQL语句，只要为预编译的SQL语句传入参数值即可"
+          description: " 预编译的 Statement 对象。PreparedStatement 是 Statement 的子接口。相对于 Statement 而言，使用 PreparedStatement 执行 SQL 语句时，无须再传入 SQL 语句，只要为预编译的 SQL 语句传入参数值即可 "
           - void setXxx(int parameterIndex,Xxx value)
             - 该方法根据传入参数值的类型不同，需要使用不同的方法
-            - 传入的值根据索引传给SQL语句中指定位置的参数。
-          - executeUpdate()、executeQuery()和execute()
-            - 这三个方法无须接收SQL字符串, 只要为这些命令传入参数即可
-              - 因为PreparedStatement对象已经预编译了SQL命令
-          - >[!note]
+            - 传入的值根据索引传给 SQL 语句中指定位置的参数。
+          - executeUpdate()、executeQuery() 和 execute()
+            - 这三个方法无须接收 SQL 字符串, 只要为这些命令传入参数即可
+              - 因为 PreparedStatement 对象已经预编译了 SQL 命令
+          - > [!note]
             > 性能更好
-            - 它允许数据库预编译SQL语句 (这些SQL语句通常带有参数)，以后每次只改变SQL命令的参数，避免数据库每次都需要编译SQL语句
+            - 它允许数据库预编译 SQL 语句 (这些 SQL 语句通常带有参数)，以后每次只改变 SQL 命令的参数，避免数据库每次都需要编译 SQL 语句
         - ResultSet
-          description: "结果集对象。该对象包含访问查询结果的方法，ResultSet可以通过列索引或列名获得列数据。它包含了如下常用方法来移动记录指针"
+          description: " 结果集对象。该对象包含访问查询结果的方法，ResultSet 可以通过列索引或列名获得列数据。它包含了如下常用方法来移动记录指针 "
           - void close()throws SQLException
-            - 释放ResultSet对象
+            - 释放 ResultSet 对象
           - boolean absolute(int row)
-            - 将结果集的记录指针移动到第row行
-            - 如果row是负数，则移动到倒数第row行
-            - 如果移动后的记录指针指向一条有效记录，则该方法返回true
+            - 将结果集的记录指针移动到第 row 行
+            - 如果 row 是负数，则移动到倒数第 row 行
+            - 如果移动后的记录指针指向一条有效记录，则该方法返回 true
           - void beforeFirst()
-            - 将ResultSet的记录指针定位到首行之前
-            - **这是ResultSet结果集记录指针的初始状态**——记录指针的起始位置位于第一行之前
+            - 将 ResultSet 的记录指针定位到首行之前
+            - **这是 ResultSet 结果集记录指针的初始状态**——记录指针的起始位置位于第一行之前
           - boolean first()
-            - 将ResultSet的记录指针定位到首行
-            - 如果移动后的记录指针指向一条有效记录，则该方法返回true
+            - 将 ResultSet 的记录指针定位到首行
+            - 如果移动后的记录指针指向一条有效记录，则该方法返回 true
           - boolean previous()
-            - 将ResultSet的记录指针定位到上一行
-            - 如果移动后的记录指针指向一条有效记录，则该方法返回true
+            - 将 ResultSet 的记录指针定位到上一行
+            - 如果移动后的记录指针指向一条有效记录，则该方法返回 true
           - boolean next()
-            - 将ResultSet的记录指针定位到下一行
-            - 如果移动后的记录指针指向一条有效记录，则该方法返回true
+            - 将 ResultSet 的记录指针定位到下一行
+            - 如果移动后的记录指针指向一条有效记录，则该方法返回 true
           - boolean last()
-            - 将ResultSet的记录指针定位到最后一行
-            - 如果移动后的记录指针指向一条有效记录，则该方法返回true
+            - 将 ResultSet 的记录指针定位到最后一行
+            - 如果移动后的记录指针指向一条有效记录，则该方法返回 true
           - void afterLast()
-            - 将ResultSet的记录指针定位到最后一行之后。
-          - >[!note]
-            > 在JDK 1.4以前, ResultSet的记录指针只能向下移动, 而且每次只能移动一格
+            - 将 ResultSet 的记录指针定位到最后一行之后。
+          - > [!note]
+            > 在 JDK 1.4 以前, ResultSet 的记录指针只能向下移动, 而且每次只能移动一格
+
           - 当把记录指针移动到指定行之后, ResultSet 可通过来获取当前行、指定列的值
             - getXxx(int columnIndex)
               - 根据列索引获取值
             - getXxx(String columnLabel)
               - 根据列名获取值
-            - Java7 **2个泛型方法**，它们可以获取任意类型的值
+            - Java7 **2 个泛型方法**，它们可以获取任意类型的值
               - <T> T getObject(int columnIndex,Class<T> type)
               - <T> T getObject(String columnLabel, Class<T>type)
-      - JDBC编程步骤
+      - JDBC 编程步骤
         - 1. 加载数据库驱动
-          - Class类的forName()静态方法来加载驱动
+          - Class 类的 forName() 静态方法来加载驱动
+
 ```java
             // 加载MySQL的驱动
             Class.forName("com.mysql.jdbc.Driver");
             // 加载Oracle的驱动
             Class.forName("oracle.jdbc.driver.OracleDriver");
 ```
+
             - 加载驱动时并不是真正使用数据库的驱动类，只是使用**数据库驱动类名的字符串**而已
         - 2. 通过DriverManager获取数据库连接
+
 ```java
             //获取数据库连接
             DriverManager.getConnection(String url,String user,String pass)
 ```
+
             - 数据库URL通常遵循如下写法: `jdbc:subprotocol:other stuff`
               - jdbc 固定
               - subprotocol指定连接到特定数据库的驱动
@@ -2434,6 +2605,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               - 使用**列名作为参数可读性更好**
           - ![image.png](../assets/book\疯狂Java讲义/image_1670042902761_0.png)
         - 6. 回收数据库资源，包括关闭ResultSet、Statement和Connection等资源
+
 ```java
           public class ConnMySql{
             public static void main(String[] args) throws Exception{
@@ -2475,6 +2647,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
           - 本程序采用了自动关闭资源的 **try语句来关闭各种数据库资源**
             id: 63bf6c48-0fba-45ab-85a0-c2d712743600
             - **Java 7**改写了Connection、Statement、ResultSet等接口
@@ -2483,6 +2656,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
       - 使用executeUpdate方法执行DDL和DML语句
         - **当需要把应用程序从开发环境移植到生产环境时，无须修改源代码，只需要修改配置文件 (mysql.ini) 即可**
         - DDL
+
 ```java
             public class ExecuteDDL{
               private String driver;
@@ -2523,7 +2697,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
         - DML
+
 ```java
             public class ExecuteDML{
               private String driver;
@@ -2564,6 +2740,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
       - 使用execute方法执行SQL语句
         - 使用execute()方法执行SQL语句的返回值只是boolean值
           - 它表明执行该SQL语句是否返回了ResultSet对象
@@ -2572,6 +2749,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 获取该Statement执行查询语句所返回的ResultSet对象
           - getUpdateCount()
             - 获取该Statement()执行DML语句所影响的记录行数
+
 ```java
           public class ExecuteSQL{
             private String driver;
@@ -2639,19 +2817,23 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
       - 使用PreparedStatement执行SQL语句
         - 可以使用**占位符**来填充 SQL, 然后预编译后存在PreparedStatement对象中
           - 使用该对象多次高效地执行该语句
+
 ```java
           // 创建一个PreparedStatement对象
           pstmt=conn.prepareStatement("insert into student_table values(null,?,1)");
 ```
+
           - 在执行SQL语句之前必须为这些参数传入参数值
             - PreparedStatement提供了一系列的setXxx(int index , Xxx value)方法来传入参数值
               - 如果程序很清楚PreparedStatement预编译SQL语句中各参数的类型，则使用相应的setXxx()方法来传入参数即可
               - 如果程序不清楚预编译SQL语句中各参数的类型，则可以使用setObject()方法来传入参数，由PreparedStatement来负责类型转换
         - 使用Statement和PreparedStatement分别插入100条记录的对比
           - 使用Statement需要传入100条SQL语句，但使用PreparedStatement则只需要传入1条预编译的SQL语句，然后100次为该PreparedStatement的参数设值即可
+
 ```java
             public class PreparedStatementTest{
               private String driver;
@@ -2712,19 +2894,23 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
         - PerparedStatement 优点
           - 1. 预编译更加高效
           - 2. 不易出错, 无需大量拼接字符串
           -            3. 防止SQL注入
+
 ```sql
               -- 利用SQL注入后生成的SQL语句
               select * from jdbc_test where jdbc_name='' or true or '' and jdbc_desc=''
 ```
+
         -          >[!note]
           > **SQL语句中的占位符参数只能代替普通值**
           - 不要使用占位符参数代替表名、列名等数据库对象
           - 更不要用占位符参数来代替SQL语句中的insert、select等关键字
       - 使用CallableStatement调用存储过程 #Question
+
 ```sql
           delimiter //
               create procedure add_pro(a int , b int, out sum int)
@@ -2733,6 +2919,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                   end;
               //
 ```
+
 ```java
           public class CallableStatementTest{
             private String driver;
@@ -2775,6 +2962,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
     - 13.5 管理结果集
       - 可滚动、可更新的结果集
         description: 可以使用absolute()、previous()、afterLast()等方法自由移动记录指针的ResultSet被称为可滚动的结果集 (**>= Java5**)
@@ -2801,6 +2989,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
         - 可更新的结果集还需要满足如下 2 个条件
           - 所有数据都应该来自一个表
           - 选出的数据集必须包含主键列
+
 ```java
           public class ResultSetTest{
             private String driver;
@@ -2851,6 +3040,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
       - 处理Blob (Binary Long Object) 类型数据
         - 数据库
           - 插入 PreparedStatement
@@ -2862,6 +3052,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               - 返回一个Blob对象，Blob对象提供了getBinaryStream()方法来获取该Blob数据的输入流，也可以使用Blob对象提供的getBytes()方法直接取出该Blob对象封装的二进制数
         - e.g. 上传图片到数据库
           - 为了把图片放入数据库，本程序先使用如下SQL语句来建立一个数据表
+
 ```sql
               create table img_table(
                 img_id int auto_increment primary key,
@@ -2873,10 +3064,12 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               -- MySQL数据库里的blob类型最多只能存储 64KB内容，这可能不够满足实际用途
               -- 该类型的数据列可以存储16MB内容
 ```
+
           - 实现图片“上传”
             - 实际上就是将图片保存到数据库，并在右边的列表框中显示图片的名字
           - 当用户双击列表框中的图片名时，左边窗口将显示该图片
             - 实质就是根据选中的ID从数据库里查找图片，并将其显示出来
+
 ```java
             // 创建一个ImageHolder类，用于封装图片名、图片ID
             class ImageHolder{
@@ -2909,6 +3102,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                 }
             }
 ```
+
 ```java
             // 创建FileFilter的子类，用以实现文件过滤功能
             class ExtensionFileFilter extends FileFilter{
@@ -2945,6 +3139,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                 }
             }
 ```
+
 ```java
             public class BlobTest {
                 JFrame jf=new JFrame("图片管理程序");
@@ -3117,6 +3312,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                 }
             }
 ```
+
       - 使用ResultSetMetaData分析结果集
         - MetaData
           id: 638ae342-457b-47db-ba95-245ca837ec5e
@@ -3133,6 +3329,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           - int getColumnType(int column)
             - 返回指定索引的列类型
         - 查询执行器
+
 ```java
             public class QueryExecutor{
               JFrame jf=new JFrame("查询执行器");
@@ -3218,6 +3415,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             - >[!note]
               > **使用ResultSetMetaData需要一定的系统开销**，因此如果在编程过程中已经知道ResultSet里包含多少列，以及每列的列名、类型等信息，就没有必要使用ResultSetMetaData来分析该ResultSet对象了
     - 13.6 Java 7的RowSet 1.1 #Question
@@ -3236,6 +3434,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
       - ![image.png](../assets/book\疯狂Java讲义/image_1670066197908_0.png)
       - Java 7新增的RowSetFactory与RowSet
       - 离线RowSet
+
 ```java
           public class CachedRowSetTest{
             private static String driver;
@@ -3295,6 +3494,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
       - 离线RowSet的查询分页
         - 为了防止 SQL 内容过多导致内存溢出
         - CachedRowSet提供了分页功能
@@ -3309,6 +3509,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 在底层ResultSet可用的情况下，让CachedRowSet读取上一页记录
           - nextPage()
             - 在底层ResultSet可用的情况下，让CachedRowSet读取下一页记录。
+
 ```java
           public class CachedRowSetPage{
             private String driver;
@@ -3358,6 +3559,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
           - 30,32 两行粗体字代码就是使用CachedRowSet实现分页的关键代码
           - 39 行代码显示要查询第2页的记录，每页显示3条记录
           - 运行上面程序，可以看到程序只会显示从第4行到第6行的记录，实现了分页
@@ -3366,6 +3568,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
       - JDBC的事务支持
         - Connection默认打开自动提交，即关闭事务
           - 每条SQL语句一旦执行，便会立即提交到数据库，永久生效，无法对回滚
+
 ```java
           // 关闭自动提交，开启事务
           conn.setAutoCommit(false);
@@ -3374,6 +3577,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           // 回滚事务
           conn.rollback();
 ```
+
         - Connection提供了两个方法来设置中间点
           - Savepoint setSavepoint()
             - 在当前事务中创建一个未命名的中间点
@@ -3382,6 +3586,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 在当前事务中创建一个具有指定名称的中间点
             - 返回代表该中间点的Savepoint对象
       - 批量更新
+
 ```java
           // 保存当前的自动的提交模式
           boolean autoCommit=conn.getAutoCommit();
@@ -3400,12 +3605,14 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           // 恢复原有的自动提交模式
           conn.setAutocommit(autoCommit);
 ```
+
           - 返回一个int[]数组
             - 因为使用Statement执行DDL、DML语句都将返回一个int值，而执行多条DDL、DML语句将会返回多个int值，多个int值就组成了这个int[]数组
           - 如果在批量更新的addBatch()方法中添加了select查询语句
             - 程序将直接出现错误
     - 13.8 分析数据库信息
       - 使用DatabaseMetaData分析数据库信息
+
 ```java
           public class DatabaseMetaDataTest{
             private String driver;
@@ -3482,6 +3689,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
       - 使用 (数据库的) 系统表分析数据库信息
         - Mysql 用 information_schema 数据库来保存了大量的系统表, 常用的
           - tables
@@ -3520,68 +3728,68 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
     - 13.10 本章小结
       - 1.开发C/S结构的图书销售管理系统，要求实现两个模块：① 后台管理，包括管理种类、管理图书库存（可以上传图书封面图片）、出版社管理；② 销售前台，包括查询图书资料（根据种类、书名、出版社）、销售图书（会影响库存），并记录每条销售信息，统计每天、每月的销售情况。
       - 2.开发MySQL企业管理器，功能类似于SQLyog。
-  - 第14章 Annotation (注释) #Question
+  - 第 14 章 Annotation (注释) #Question
     - Annotation
       description: (>=JDK 5) A kind of **metadata** that makes references to the data itself but is not an actual part of it (Annotation 本身)
       - 这些标记可以在编译、类加载、运行时被读取，并执行相应的处理
       - 程序开发人员可以在不改变原有逻辑的情况下，在源文件中嵌入一些补充的信息
         - 代码分析工具、开发工具和部署工具可以通过这些补充信息进行验证或者进行部署
       - java.lang.Annotation 是一个接口
-        - 程序可以通过反射来获取指定程序元素的Annotation对象
-          - 通过Annotation对象来取得注释里的元数据
-      - 访问和处理Annotation的工具统称APT (Annotation Processing Tool)
-    - 14.1 基本Annotation
-    - 14.2 JDK的元Annotation
-    - 14.3 自定义Annotation
-    - 14.4 编译时处理Annotation
+        - 程序可以通过反射来获取指定程序元素的 Annotation 对象
+          - 通过 Annotation 对象来取得注释里的元数据
+      - 访问和处理 Annotation 的工具统称 APT (Annotation Processing Tool)
+    - 14.1 基本 Annotation
+    - 14.2 JDK 的元 Annotation
+    - 14.3 自定义 Annotation
+    - 14.4 编译时处理 Annotation
     - 14.5 本章小结
-  - 第15章 输入/输出
+  - 第 15 章 输入/输出
     - Point
-      - Java的IO流使用了一种装饰器设计模式, 将IO流分成
+      - Java 的 IO 流使用了一种装饰器设计模式, 将 IO 流分成
         - 底层节点流
           - 和底层的物理存储节点直接关联
             - 不同的物理节点获取节点流的方式可能存在一定的差异
         - 上层处理流
           - 但程序可以把不同的物理节点流包装成统一的处理流
             - 从而允许程序使用统一的输入、输出代码来读取不同的物理存储节点的资源
-      - Java 7在java.nio及其子包下提供了一系列全新的API, 对原有新IO的升级 (NIO 2)
+      - Java 7 在 java.nio 及其子包下提供了一系列全新的 API, 对原有新 IO 的升级 (NIO 2)
         - 程序可以更高效地进行输入、输出操作
-      - 除此之外，Java对象的序列化机制把内存中的Java对象转换成二进制字节流，把Java对象存储到磁盘里，或者在网络上传输Java对象
-        - 这也是Java提供分布式编程的重要基础
-    - 15.1 File类
+      - 除此之外，Java 对象的序列化机制把内存中的 Java 对象转换成二进制字节流，把 Java 对象存储到磁盘里，或者在网络上传输 Java 对象
+        - 这也是 Java 提供分布式编程的重要基础
+    - 15.1 File 类
       - 访问文件和目录
         - APIs
           - 访问文件名相关的方法
             - String getName()
-              - 返回此File对象所表示的文件名或路径名
+              - 返回此 File 对象所表示的文件名或路径名
                 （如果是路径，则返回最后一级子路径名）
             - String getPath()
-              - 返回此File对象所对应的路径名
+              - 返回此 File 对象所对应的路径名
             - File getAbsoluteFile()
-              - 返回此File对象所对应的绝对路径所对应的File对象
+              - 返回此 File 对象所对应的绝对路径所对应的 File 对象
             - String getAbsolutePath()
-              - 返回此File对象所对应的绝对路径名
+              - 返回此 File 对象所对应的绝对路径名
             - String getParent()
-              - 返回此File对象所对应目录（最后一级子目录）的父目录名
+              - 返回此 File 对象所对应目录（最后一级子目录）的父目录名
             - boolean renameTo(File newName)
-              - 重命名此File对象所对应的文件或目录
-              - 如果重命名成功，则返回true；否则返回false
+              - 重命名此 File 对象所对应的文件或目录
+              - 如果重命名成功，则返回 true；否则返回 false
           - 文件检测相关的方法
             - boolean exists()
-              - 判断File对象所对应的文件或目录是否存在
+              - 判断 File 对象所对应的文件或目录是否存在
             - boolean canWrite()
-              - 判断File对象所对应的文件和目录是否可写
+              - 判断 File 对象所对应的文件和目录是否可写
             - boolean canRead()
-              - 判断File对象所对应的文件和目录是否可读
+              - 判断 File 对象所对应的文件和目录是否可读
             - boolean isFile()
-              - 判断File对象所对应的是否是文件，而不是目录
+              - 判断 File 对象所对应的是否是文件，而不是目录
             - boolean isDirectory()
-              - 判断File对象所对应的是否是目录，而不是文件
+              - 判断 File 对象所对应的是否是目录，而不是文件
             - boolean isAbsolute()
-              - 判断File对象所对应的文件或目录是否是绝对路径
-              - **该方法消除了不同平台的差异，可以直接判断File对象是否为绝对路径**
-                - 在UNIX/Linux/BSD等系统上，如果路径名开头是一条斜线（/），则表明该File对象对应一个绝对路径
-                - 在Windows等系统上，如果路径开头是盘符，则说明它是一个绝对路径
+              - 判断 File 对象所对应的文件或目录是否是绝对路径
+              - **该方法消除了不同平台的差异，可以直接判断 File 对象是否为绝对路径**
+                - 在 UNIX/Linux/BSD 等系统上，如果路径名开头是一条斜线（/），则表明该 File 对象对应一个绝对路径
+                - 在 Windows 等系统上，如果路径开头是盘符，则说明它是一个绝对路径
           - 获取常规文件信息
             - long lastModified()
               - 返回文件的最后修改时间
@@ -3589,35 +3797,36 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               - 返回文件内容的长度
           - 文件操作相关的方法
             - boolean createNewFile()
-              - 当此File对象所对应的文件不存在时，该方法将新建一个该File对象所指定的新文件
-              - 如果创建成功则返回true；否则返回false
+              - 当此 File 对象所对应的文件不存在时，该方法将新建一个该 File 对象所指定的新文件
+              - 如果创建成功则返回 true；否则返回 false
             - boolean delete()
-              - 删除File对象所对应的文件或路径
+              - 删除 File 对象所对应的文件或路径
             - static File createTempFile(String prefix, String suffix)
               - 在默认的临时文件目录中创建一个临时的空文件，使用给定前缀、系统生成的随机数和给定后缀作为文件名
-              - 这是一个静态方法，可以直接通过File类来调用
-              - prefix参数必须至少是3个字节长
-                - 建议前缀使用一个短的、有意义的字符串，比如"hjb"或"mail"
-              - suffix参数可以为null，在这种情况下，将使用默认的后缀“.tmp”
+              - 这是一个静态方法，可以直接通过 File 类来调用
+              - prefix 参数必须至少是 3 个字节长
+                - 建议前缀使用一个短的、有意义的字符串，比如 "hjb" 或 "mail"
+              - suffix 参数可以为 null，在这种情况下，将使用默认的后缀“.tmp”
             - static File createTempFile(String prefix, String suffix, File directory)
-              - 在directory所指定的目录中创建一个临时的空文件，使用给定前缀、系统生成的随机数和给定后缀作为文件名
-              - 这是一个静态方法，可以直接通过File类来调用
+              - 在 directory 所指定的目录中创建一个临时的空文件，使用给定前缀、系统生成的随机数和给定后缀作为文件名
+              - 这是一个静态方法，可以直接通过 File 类来调用
             - void deleteOnExit()
               - 注册一个删除钩子
-              - 指定当Java虚拟机退出时，删除File对象所对应的文件和目录
+              - 指定当 Java 虚拟机退出时，删除 File 对象所对应的文件和目录
           - 目录操作相关的方法
             - boolean mkdir()
-              - 试图创建一个File对象所对应的目录
-              - 如果创建成功，则返回true；否则返回false
-              - 调用该方法时File对象必须对应一个路径，而不是一个文件
+              - 试图创建一个 File 对象所对应的目录
+              - 如果创建成功，则返回 true；否则返回 false
+              - 调用该方法时 File 对象必须对应一个路径，而不是一个文件
             - String[] list()
-              - 列出File对象的所有子文件名和路径名，返回String数组
+              - 列出 File 对象的所有子文件名和路径名，返回 String 数组
             - File[] listFiles()
-              - 列出File对象的所有子文件和路径，返回File数组
+              - 列出 File 对象的所有子文件和路径，返回 File 数组
             - static File[] listRoots()
               - 列出系统所有的根路径
-              - 这是一个静态方法，可以直接通过File类来调用
-              - 上面详细列出了File类的常用方法，下面程序以几个简单方法来测试一下File类的功能
+              - 这是一个静态方法，可以直接通过 File 类来调用
+              - 上面详细列出了 File 类的常用方法，下面程序以几个简单方法来测试一下 File 类的功能
+
 ```java
           public class FileTest{
             public static void main(String[] args)
@@ -3659,7 +3868,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
           Run
+
 ```shell
           .
           null
@@ -3677,12 +3888,14 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           ====系统所有根路径如下====
           /
 ```
+
       - 文件过滤器
         - list()方法中可以接收一个FilenameFilter参数
           - 通过该参数可以只列出符合条件的文件
           - FilenameFilter接口里包含了一个accept(File dir, String name)方法
             - 该方法将依次对指定File的所有子目录或者文件进行迭代
             - 如果该方法返回true，则list()方法会列出该子目录或者文件
+
 ```java
           public class FilenameFilterTest{
             public static void main(String[] args){
@@ -3702,6 +3915,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
     - 15.2 理解Java的IO流
       - 流的分类
         - 1.输入流和输出流
@@ -3767,6 +3981,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
         - 直到read(char[] cbuf)或read(byte[] b)方法返回-1，即表明到了**输入流的结束点**
         - 抽象类实例
           - FileInputStream
+
 ```java
               public class FileInputStreamTest{
                 public static void main(String[] args) throws IOException{
@@ -3787,8 +4002,10 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                 }
               }
 ```
+
               - ==与JDBC编程一样，程序里打开的文件IO资源不属于内存里的资源，垃圾回收机制无法回收该资源，所以应该**显式关闭文件IO资源**==
           - FileReader
+
 ```java
               public class FileReaderTest{
                 public static void main(String[] args) throws IOException{
@@ -3811,6 +4028,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                 }
               }
 ```
+
               - **Java 7**改写了所有的IO资源类，它们都实现了AutoCloseable接口，因此都可通过自动关闭资源的try语句来关闭这些IO流
           - 除此之外，InputStream和Reader还支持如下几个方法来移动记录指针
             - void mark(int readAheadLimit)
@@ -3837,6 +4055,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               - 将str字符串里从off位置开始，长度为len的字符输出到指定输出流中
           - e.g.
             - 复制文件
+
 ```java
                 public class FileOutputStreamTest{
                   public static void main(String[] args){
@@ -3860,7 +4079,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                   }
                 }
 ```
+
             - 直接输出字符串内容
+
 ```java
                 public class FileWriterTest{
                   public static void main(String[] args){
@@ -3878,6 +4099,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                   }
                 }
 ```
+
         -          >[!note]
           > Java的很多输出流默认都提供了缓冲功能，其实我们没有必要刻意去记忆哪些流有缓冲功能、哪些流没有，**只要正常关闭所有的输出流即可保证程序正常**
           - 关闭输出流 2 个作用
@@ -3893,6 +4115,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           - 1.对开发人员来说，使用处理流进行输入/输出操作更简单
           - 2.使用处理流的执行效率更高。
         - e.g. PrintStream处理流来包装OutputStream
+
 ```java
             public class PrintStreamTest{
               public static void main(String[] args){
@@ -3910,6 +4133,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             - 在使用处理流包装了底层节点流之后，关闭输入/输出流资源时，只要关闭最上层的处理流即可
               - 关闭最上层的处理流时，系统会自动关闭被该处理流包装的节点流
       - 输入/输出流体系, 常用的流分类
@@ -3930,6 +4154,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 反之，如果现在有一个字节流，但我们知道这个字节流的内容都是文本内容，那么把它转换成字符流来处理就会更方便一些，所以Java只提供了将字节流转换成字符流的转换流，没有提供将字符流转换成字节流的转换流
         - e.g. 获取键盘输入为例
           - Java使用System.in代表标准输入(键盘输入)，但它是InputStream类的实例，使用不太方便，而且键盘输入内容都是文本内容，所以**可以使用InputStreamReader将其转换成字符输入流**，普通的Reader读取输入内容时依然不太方便，我们可以**将普通的Reader再次包装成BufferedReader**，利用BufferedReader的readLine()方法可以一次读取一行内容
+
 ```java
             public class KeyinTest{
               public static void main(String[] args){
@@ -3955,6 +4180,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
       - 推回输入流
         - `PushbackInputStream` / `PushbackReader`
           - void unread(byte[]/char[] buf)
@@ -3963,6 +4189,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 将一个字节/字符数组里从off开始，长度为len字节/字符的内容推回到推回缓冲区里，从而允许重复读取刚刚读取的内容
           - void unread(int b)
             - 将一个字节/字符推回到推回缓冲区里，从而允许重复读取刚刚读取的内容
+
 ```java
           public class PushbackTest{
             public static void main(String[] args){
@@ -4006,6 +4233,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
     - 15.5 重定向标准输入/输出
       - 在System类里提供了如下3个重定向标准输入/输出的方法
         - static void setErr(PrintStream err)
@@ -4016,6 +4244,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           - 重定向 “标准”输出流
       - e.g.
         - 重定向标准输入
+
 ```java
             public class RedirectIn{
               public static void main(String[] args){
@@ -4039,7 +4268,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
         - 重定向标准输出
+
 ```java
             public class RedirectOut{
               public static void main(String[] args){
@@ -4059,6 +4290,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
     - 15.6 Java虚拟机读写其他进程的数据
     - 15.7 RandomAccessFile
       description: "如果我们希望只访问文件部分内容，而不是把文件从头读到尾，使用RandomAccessFile将是更好的选择"
@@ -4082,6 +4314,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 相对于"rw"模式，还要求对文件内容的每个更新都同步写入到底层存储设备。
       - e.g.
         - 程序将从300字节处开始读、写
+
 ```java
             public class RandomAccessFileTest{
               public static void main(String[] args){
@@ -4108,8 +4341,10 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
         - 追加内容
           - 程序应该先将记录指针移动到文件最后，然后开始向文件中输出内容
+
 ```java
             public class AppendContent{
               public static void main(String[] args){
@@ -4126,9 +4361,11 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
         - 向指定文件、指定位置插入内容
           - 程序需要先把插入点后面的内容读入缓冲区
             - 等把需要插入的数据写入文件后，再将缓冲区的内容追加到文件后面
+
 ```java
             public class InsertContent{
               public static void insert(String fileName , long pos
@@ -4168,6 +4405,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
         - #project 多线程断点的网络下载工具
           - 可通过RandomAccessFile类来实现
           - 所有的下载工具在下载开始时都会建立两个文件
@@ -4199,31 +4437,40 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
       - 使用对象流实现序列化
         - 2 个步骤 序列化
           - 1.创建一个ObjectOutputStream，这个输出流是一个处理流，所以必须建立在其他节点流的基础之上
+
 ```java
               // 创建个ObjectOutputStream输出流
               ObjectOutputStream oos=new ObjectOutputStream(
                 new FileOutputStream("object.txt"));
 ```
+
           - 2.调用ObjectOutputStream对象的writeObject()方法输出可序列化对象
+
 ```java
               // 将一个Person对象输出到输出流中
               oos.writeObject(per);
 ```
+
         - 2 个步骤 反序列化
           - 1.创建一个ObjectInputStream输入流，这个输入流是一个处理流，所以必须建立在其他节点流的基础之上
+
 ```JAVA
               // 创建一个ObjectInputStream输入流
               ObjectInputStream ois=new ObjectInputStream(
                 new FileInputStream("object.txt"));
 ```
+
           - 2.调用ObjectInputStream对象的readObject()方法读取流中的对象
             - 该方法返回一个Object类型的Java对象
             - 如果程序知道该Java对象的类型，则可以将该对象强制类型转换成其真实的类型
+
 ```JAVA
               // 从输入流中读取一个Java对象，并将其强制类型转换为Person类
               Person p=(Person)ois.readObject();
 ```
+
         - e.g. Serializable Person
+
 ```java
             public class Person
               implements java.io.Serializable{
@@ -4239,6 +4486,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               // ...
             }
 ```
+
 ```JAVA
             public class WriteObject{
               public static void main(String[] args){
@@ -4256,7 +4504,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
           - 反序列化
+
 ```java
             public class ReadObject{
               public static void main(String[] args){
@@ -4275,6 +4525,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
           - 反序列化读取的仅仅是Java对象的数据
             - 不是Java类，因此采用反序列化恢复Java对象时，必须提供该Java对象所属类的class文件，否则将会引发ClassNotFoundException异常
           - 反序列化机制无须通过构造器来初始化Java对象
@@ -4291,7 +4542,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
       - 1.编写仿Windows记事本的小程序
       - 2.编写一个命令行工具，这个命令行工具就像Windows提供的cmd命令一样，可以执行各种常见的命令，如dir、md、copy、move等
       - 3.完善第12章的仿EditPlus的编辑器，提供文件的打开、保存等功能
-  - 第16章 多线程
+  - 第 16 章 多线程
     - 16.1 线程概述
     - 16.2 线程的创建和启动
     - 16.3 线程的生命周期
@@ -4302,61 +4553,61 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
     - 16.8 线程池
     - 16.9 线程相关类
     - 16.10 本章小结
-  - 第17章 网络编程
+  - 第 17 章 网络编程
     - 17.1 网络编程的基础知识
-    - 17.2 Java的基本网络支持
-    - 17.3 基于TCP协议的网络编程
-    - 17.4 基于UDP协议的网络编程
+    - 17.2 Java 的基本网络支持
+    - 17.3 基于 TCP 协议的网络编程
+    - 17.4 基于 UDP 协议的网络编程
     - 17.5 使用代理服务器
     - [ ] #todo 17.6 本章小结
-        - 1.开发仿FlashGet的断点续传、多线程下载工具
-      - 2.开发基于C/S结构的游戏大厅
-      - 3.扩展LanTalk开发局域网内的即时通信、数据传输工具
-  - 第18章 类加载机制与反射
-    - Java类加载器除了根类加载器之外，其他类加载器都是使用Java语言编写
+        - 1.开发仿 FlashGet 的断点续传、多线程下载工具
+      - 2.开发基于 C/S 结构的游戏大厅
+      - 3.扩展 LanTalk 开发局域网内的即时通信、数据传输工具
+  - 第 18 章 类加载机制与反射
+    - Java 类加载器除了根类加载器之外，其他类加载器都是使用 Java 语言编写
       - 程序员完全可以开发自己的类加载器
         - 通过使用自定义类加载器，可以完成一些特定的功能
     - 18.1 类的加载、连接和初始化
-      - JVM和类
-        - 当系统出现以下几种情况时，JVM进程将被终止
+      - JVM 和类
+        - 当系统出现以下几种情况时，JVM 进程将被终止
           - 程序运行到最后正常结束
-          - 程序运行到使用System.exit()或Runtime.getRuntime().exit()代码处结束程序
+          - 程序运行到使用 System.exit() 或 Runtime.getRuntime().exit() 代码处结束程序
           - 程序执行过程中遇到未捕获的异常或错误而结束
-          - 程序所在平台强制结束了JVM进程
-      - 类的加载 -> 系统为之生成**一个对应的Class对象**
+          - 程序所在平台强制结束了 JVM 进程
+      - 类的加载 -> 系统为之生成**一个对应的 Class 对象**
         - 当程序主动使用某个类时
-          - 如果该类还未被加载到内存中，则系统会通过**加载、连接、初始化3个步骤来对该类进行初始化** (类加载或类初始化)
-        - 类加载是将类的class文件读入内存, 并为之创建一个java.lang.Class对象
-          - 程序中使用任何类时, 系统都会为之建立一个java.lang.Class对象
+          - 如果该类还未被加载到内存中，则系统会通过**加载、连接、初始化 3 个步骤来对该类进行初始化** (类加载或类初始化)
+        - 类加载是将类的 class 文件读入内存, 并为之创建一个 java.lang.Class 对象
+          - 程序中使用任何类时, 系统都会为之建立一个 java.lang.Class 对象
         - 类也是一种对象
           - 就像我们说概念主要用于定义、描述其他事物，但概念本身也是一种事物，那么概念本身也需要被描述
-          - 每个类是一批具有相同特征的对象的抽象（或者说概念），而系统中所有的类实际上也是实例，它们都是java.lang.Class的实例
-        - 由**类加载器**完成，类加载器通常由JVM提供，这些类加载器也是前面所有程序运行的基础，JVM提供的这些类加载器通常被称为**系统类加载器**
-          - 开发者可以通过继承ClassLoader基类来创建自己的类加载器
+          - 每个类是一批具有相同特征的对象的抽象（或者说概念），而系统中所有的类实际上也是实例，它们都是 java.lang.Class 的实例
+        - 由**类加载器**完成，类加载器通常由 JVM 提供，这些类加载器也是前面所有程序运行的基础，JVM 提供的这些类加载器通常被称为**系统类加载器**
+          - 开发者可以通过继承 ClassLoader 基类来创建自己的类加载器
           - 通过使用不同的类加载器，可以从不同来源加载类的二进制数据
         - 加载类的 4 种来源
-          - **[绝大部分]** 从本地文件系统加载class文件
-          - **[常见]** 从JAR包加载class文件
-          - 通过网络加载class文件
-          - 把一个Java源文件动态编译，并执行加载
-        - Java虚拟机规范允许系统预先加载某些类
+          - **[绝大部分]** 从本地文件系统加载 class 文件
+          - **[常见]** 从 JAR 包加载 class 文件
+          - 通过网络加载 class 文件
+          - 把一个 Java 源文件动态编译，并执行加载
+        - Java 虚拟机规范允许系统预先加载某些类
       - 类的连接 (3)
         - 验证
           - 用于检验被加载的类是否有正确的内部结构，并和其他类协调一致
         - 准备
-          - 负责为类的静态Field分配内存，并设置默认初始值
+          - 负责为类的静态 Field 分配内存，并设置默认初始值
         - 解析
           - 将类的二进制数据中的符号引用替换成直接引用
       - 类初始化的时机
-        - 虚拟机负责, 主要就是对静态Field进行初始化
+        - 虚拟机负责, 主要就是对静态 Field 进行初始化
         - 指定初值有 2 种方式
-          - 声明静态Field时指定初始值
-          - 使用静态初始化块为静态Field指定初始值
-        - JVM初始化一个类 3 个步骤
+          - 声明静态 Field 时指定初始值
+          - 使用静态初始化块为静态 Field 指定初始值
+        - JVM 初始化一个类 3 个步骤
           - 1.假如这个类还没有被加载和连接，则程序先加载并连接该类
           - 2.假如该类的直接父类还没有被初始化，则先初始化其直接父类
             - 递归执行上层类
-              - 使得JVM最先初始化的总是java.lang.Object类
+              - 使得 JVM 最先初始化的总是 java.lang.Object 类
           - 3.假如类中有初始化语句，则系统依次执行这些初始化语句
       - 类初始化的时机
         - 6 种情况下, Java 会初始化类或接口
@@ -4365,34 +4616,36 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 反射来创建实例
             - 反序列化的方式来创建实例
           - 调用某个类的静态方法
-          - 访问某个类或接口的静态Field，或为该静态Field赋值
-          - 使用反射方式来强制创建某个类或接口对应的java.lang.Class对象
+          - 访问某个类或接口的静态 Field，或为该静态 Field 赋值
+          - 使用反射方式来强制创建某个类或接口对应的 java.lang.Class 对象
             - 例如代码：Class.forName("Person")
-              - 如果系统还未初始化Person类，则这行代码将会导致该Person类被初始化，并返回Person类对应的java.lang.Class对象
+              - 如果系统还未初始化 Person 类，则这行代码将会导致该 Person 类被初始化，并返回 Person 类对应的 java.lang.Class 对象
           - 初始化某个类的子类
             - 当初始化某个类的子类时，该子类的所有父类都会被初始化
-          - 直接使用java.exe命令来运行某个主类
+          - 直接使用 java.exe 命令来运行某个主类
             - 当运行某个主类时，程序会先初始化该主类
-        - >[!note]
+        - > [!note]
           > “宏变量” 不会被初始化
-        - 当使用ClassLoader类的loadClass()方法来加载某个类时，该方法只是加载该类，并不会执行该类的初始化
-          - 使用Class的forName()静态方法才会导致强制初始化该类
+
+        - 当使用 ClassLoader 类的 loadClass() 方法来加载某个类时，该方法只是加载该类，并不会执行该类的初始化
+          - 使用 Class 的 forName() 静态方法才会导致强制初始化该类
     - 18.2 类加载器
       - 类加载器简介
-        - 负责将.class文件（可能在磁盘上，也可能在网络上）加载到内存中，并为之生成对应的java.lang.Class对象
-        - 一旦一个类被载入JVM中，同一个类就不会被再次载入了
+        - 负责将.class 文件（可能在磁盘上，也可能在网络上）加载到内存中，并为之生成对应的 java.lang.Class 对象
+        - 一旦一个类被载入 JVM 中，同一个类就不会被再次载入了
           - “同一个类” 范围
-            - 在Java中，一个类用其**全限定类名**（包括包名和类名）作为标识
-            - 在JVM中，一个类用其**全限定类名和其类加载器**作为其唯一标识
-            - 例如，如果在pg的包中有一个名为Person的类，被类加载器ClassLoader的实例kl负责加载，则该Person类对应的Class对象在JVM中表示为（Person、pg、kl）
+            - 在 Java 中，一个类用其**全限定类名**（包括包名和类名）作为标识
+            - 在 JVM 中，一个类用其**全限定类名和其类加载器**作为其唯一标识
+            - 例如，如果在 pg 的包中有一个名为 Person 的类，被类加载器 ClassLoader 的实例 kl 负责加载，则该 Person 类对应的 Class 对象在 JVM 中表示为（Person、pg、kl）
               - 这意味着两个类加载器加载的同名类：（Person、pg、kl）和（Person、pg、kl2）是不同的、它们所加载的类也是完全不同、互不兼容的
-          - 当JVM启动时，会形成由3个类加载器组成的初始类加载器层次结构
+          - 当 JVM 启动时，会形成由 3 个类加载器组成的初始类加载器层次结构
             - Bootstrap ClassLoader
               - 引导/原始/根类加载器
-              - 负责加载Java的核心类
-              - 在Sun的JVM中，当执行java.exe命令时，使用-Xbootclasspath选项或使用-D选项指定sun.boot.class.path系统属性值可以指定加载附加的类
-              - 根类加载器非常特殊，它并不是java.lang.ClassLoader的子类，而是由JVM自身实现的
+              - 负责加载 Java 的核心类
+              - 在 Sun 的 JVM 中，当执行 java.exe 命令时，使用 -Xbootclasspath 选项或使用 -D 选项指定 sun.boot.class.path 系统属性值可以指定加载附加的类
+              - 根类加载器非常特殊，它并不是 java.lang.ClassLoader 的子类，而是由 JVM 自身实现的
               - e.g. 获得根类加载器所加载的核心类库
+
 ```java
                   public class BootstrapTest{
                     public static void main(String[] args){
@@ -4406,7 +4659,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                     }
                   }
 ```
+
                   Run
+
 ```shell
                   file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar
                   file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
@@ -4417,6 +4672,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                   file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar
                   file:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
 ```
+
                   - 读者应该明白为什么程序中可以使用String、System这些核心类库
                     - 因为这些核心类库都在 `rt.jar` 文件中
                       - Java基础类库
@@ -4447,6 +4703,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           而是**类加载器实例之间的关系**
         - JVM中4种类加载器的层次结构
           - ![image.png](../assets/book/疯狂Java讲义/image_1670210036004_0.png)
+
 ```java
             public class ClassLoaderPropTest{
               public static void main(String[] args)
@@ -4473,7 +4730,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             Run
+
 ```shell
             系统类加载器：sun.misc.Launcher$AppClassLoader@75b84c92
             file:/home/bgzocg/demo/tasks/java/basic/out/production/basic/
@@ -4481,6 +4740,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             扩展类加载器的加载路径：/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
             扩展类加载器的parent: null
 ```
+
             - 系统类加载器的加载路径是程序运行的当前路径
             - 扩展类加载器的加载路径是D:\Java\jdk1.7.0 \jre\lib\ext
             - 扩展类加载器的父加载器是null，并不是根类加载器
@@ -4607,6 +4867,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             - 返回此Class对象是否表示一个接口（使用interface定义）
           - boolean isInstance(Object obj)
             - 判断obj是否是此Class对象的实例，该方法可以完全代替instanceof操作符
+
 ```java
           public void info(){}
           public void info(String str){}
@@ -4618,6 +4879,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             clazz.getMethod("info" , String.class, Integer.class);
           }
 ```
+
 ```java
           // 使用两个注释修饰该类
           @SuppressWarnings(value="unchecked")
@@ -4689,7 +4951,9 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
           Run
+
 ```shell
           Test的全部构造器如下：
           private cc.bgzo.Test()
@@ -4719,6 +4983,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
           Test的包为：package cc.bgzo
           Test的父类为：class java.lang.Object
 ```
+
     - 18.4 使用反射生成并操作对象
     - 18.5 使用反射生成JDK动态代理
     - 18.6 反射和泛型
@@ -4728,6 +4993,7 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
         - 通过**在反射中使用泛型，可以避免使用反射生成的对象需要强制类型转换**
       - 泛型和Class类
         - e.g. 提供一个简单的对象工厂，该对象工厂可以根据指定类来提供该类的实例
+
 ```java
             public class YeekuObjectFactory{
               public static Object getInstance(String clsName){
@@ -4743,14 +5009,18 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
               }
             }
 ```
+
             - Return 的是一个 Object, 拿到之后会强制类型转换
+
 ```java
                 // 获取实例后需要强制类型转换
                 Date d=(Date)YeekuObjectFactory.getInstance("java.util.Date");
                 // 运行时异常的一种情况
                 // JFrame f=(JFrame)YeekuObjectFactory.getInstance("java.util.Date");
 ```
+
             - 解决运行时异常的一种情况, 用泛型
+
 ```java
                 public class YeekuObjectFactory2{
                   public static <T> T getInstance(Class<T> cls){
@@ -4768,11 +5038,14 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                   }
                 }
 ```
+
               - 数组需要特定的写法
+
 ```java
                   // public static Object newInstance(Class<?> componentType, int... dimensions)
                   public static <T> T[] newInstance(Class<T> componentType, int length)
 ```
+
 ```java
                   public class CrazyitArray{
                     // 对Array的newInstance方法进行包装
@@ -4791,24 +5064,28 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
                       // 二维数组的元素必须是一维数组
                       intArr[1]=new int[]{23, 12};
                       System.out.println(arr[5]);
-                      System.out.println(intArr[1][1]);
+                      System.out.println(intArr[1]\[1]);
                     }
                   }
 ```
+
       - 使用反射来获取泛型信息
         - 获得指定Field的类型
+
 ```java
             // 获取Field对象f的类型
             Class<?> a=f.getType();
             // 获得Field实例的泛型类型
             Type gType=f.getGenericType();
 ```
+
           - 将Type对象强制类型转换为ParameterizedType对象，ParameterizedType代表被参数化的类型，也就是增加了泛型限制的类型
           - ParameterizedType类提供了如下两个方法
             - getRawType()
               - 返回没有泛型信息的原始类型
             - getActualTypeArguments()
               - 返回泛型参数的类型
+
 ```java
           public class GenericTest{
             private Map<String , Integer> score;
@@ -4841,12 +5118,16 @@ weread: https://weread.qq.com/web/bookDetail/239324a05a6578239cd415d
             }
           }
 ```
+
     - [ ] #todo 18.7 本章小结
         - 1.开发一个工具类，该工具类提供一个eval()方法，实现JavaScript中eval函数的功能——可以动态运行一行或多行程序代码。例如eval("System.out.println(\"aa\")")，将输出aa
       - 2.开发一个对象工厂池，这个对象工厂池不仅可以管理对象的String类型属性值，还可以管理容器中对象的其他类型的属性值，甚至可以将对象属性设置成引用到容器中其他对象（这就是Spring所提出的控制反转，即IoC）。
+
 - ---
+
 #thought
-  - Book 对于学习的指导意义不言自明, 当我面对成千上万的 API 的时候, 我不可能系统的学习一篇, 当然 API 也不会根据使用频率做个试试排序, 我不知道到底要学习哪一个, 学习到何种程度, 这个时候, Book里面列出来的条目就颇有价值了, 至少, 你要把这些 API 嚼烂了, 视频也是同理, 但是我不喜欢视频, 如果老师毫无个人魅力, 我只会唾弃他和他手中的东西.
+
+  - Book 对于学习的指导意义不言自明, 当我面对成千上万的 API 的时候, 我不可能系统的学习一篇, 当然 API 也不会根据使用频率做个试试排序, 我不知道到底要学习哪一个, 学习到何种程度, 这个时候, Book 里面列出来的条目就颇有价值了, 至少, 你要把这些 API 嚼烂了, 视频也是同理, 但是我不喜欢视频, 如果老师毫无个人魅力, 我只会唾弃他和他手中的东西.
     - 显然大学老师在这方面做得有恃无恐, 一点都不上心, 尸位素餐, 嗯, 很恶心.
 #Comment
   - [**一般**, 属于经典但不推荐, 因为有点过时] 一开始没看出版时间, 发现真的有点过时了... 但是市面上的视频资料讲得又不够深入, 实在是难以发现高质量的教材.

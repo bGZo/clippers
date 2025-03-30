@@ -1,5 +1,5 @@
 ---
-cover: ![](https://img1.doubanio.com/view/subject/s/public/s29263759.jpg)
+cover: https://img1.doubanio.com/view/subject/s/public/s29263759.jpg
 author: 伊夫·博萨尔特
 created: 2022-01-01
 isbn: 9787513909839

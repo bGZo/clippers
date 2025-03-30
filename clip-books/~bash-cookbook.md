@@ -1,8 +1,11 @@
+---
 aliases: books/bash-shell脚本编程经典实例
 author: Carl Albing / JP Vossen / Cameron Newham
 publisher: 人民邮电出版社
 published: 20210100
 source: https://book.douban.com/subject/35301381 ; https://weread.qq.com/web/reader/0fe3236072462ddc0fee7efkc81322c012c81e728d9d180
+---
+
 
 ## Bash
   - \#why

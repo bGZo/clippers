@@ -1,5 +1,4 @@
 ---
-cover: 
 aliases: 高效忍者
 author: 格雷厄姆·阿尔科特
 created: 2024-08-14
