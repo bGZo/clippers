@@ -42,7 +42,26 @@ https://mp.weixin.qq.com/s/tLJMyXR07e0unIEUPY-kQg
 - 李鸿章晚年手书的一帧条幅发人深省, -上联：享清福不在为官，只要囊有钱，仓有米，腹有诗书，便是山中宰相； -下联：祈寿年无须服药，但愿身无病，心无忧，门无债主，可为地上神仙。 -横批：天天快乐。
 - 很有意思的现象：热衷于效率的人，基本上是没有效率的，而是缠绵于琐碎的梦幻之中；真正有效率的人，从来不谈自己的效率，而是谈结果。
 - 隔离自费，有可能很快全国普及。这就像之前被枪毙要缴纳子弹费一样。
-如果不缴费很可能是使用上征信、株连之类的管理工具🔧。
+  如果不缴费很可能是使用上征信、株连之类的管理工具🔧。
 - 看到一句话：
-If something cannot be settled by reasonable experiment or observation, it's not worth debating.These will save you from wasting a lot of time on pointless arguments.如果有些事情不能通过合理的实验或观察来解决，那就不值得辩论。这些可以让你避免浪费大量时间在毫无意义的争论上.😀（来自：Hitchens’ Razor & Newton’s Flaming Laser Sword）
+  If something cannot be settled by reasonable experiment or observation, it's not worth debating.These will save you from wasting a lot of time on pointless arguments.如果有些事情不能通过合理的实验或观察来解决，那就不值得辩论。这些可以让你避免浪费大量时间在毫无意义的争论上.😀（来自：Hitchens’ Razor & Newton’s Flaming Laser Sword）
 
+
+## 2025-02-24 18:54:28
+
+
+特别震撼的一集。
+
+近几年，我越来越觉得「润」这个话题没什么意义。因为它从本质上只可能是少数人的选择，不会成为真正的潮流。而留下来的人，都需要给自己一个理由，这就是「对账」的时代底色。
+
+但当你真正看到一个人，一个活生生的，在国内拿 2-3 万月薪的城市中产，选择这样一种方式出去的时候，它给你带来的震撼还是无可比拟的。
+
+这个大哥全程没有提一句自己为什么要做这个选择，但视频描述里的「22 年从上海来日」又已经说明了一切。
+
+另一个令我震撼的点是视频结尾，就即便是这样一个挂逼房，在这里住过的人依然在墙上留下了感谢信和合影，作为回忆。这个东西绝对是我近几年经历过的，少有的「对帐时刻」。
+
+https://www.bilibili.com/video/BV1ioAYe9EdV
+
+https://t.me/forwardlikehell/2905
+
+Published on 2025-02-24 18:54:28. Saved on 2025-03-31 00:19:36
