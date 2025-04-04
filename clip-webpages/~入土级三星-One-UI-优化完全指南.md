@@ -572,7 +572,7 @@ Lycan 是一款专属于三星设备的应用，中文翻译为狼人，搭配�
 > 无法使用三星云恢复备份
 
 > Factory Test Provider　com.samsung.android.app.providers.factory  
-> 无法使用 *#0*#。
+> 无法使用 *#0*\#。
 
 > SumeNNService　com.samsung.android.sume.nn.service  
 > Photo Remaster Service　com.samsung.android.photoremasterservice  
