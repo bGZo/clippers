@@ -3,7 +3,7 @@ title: obsidianmd/obsidian-clipper
 aliases:
   - obsidian-clipper
 created: 2025-03-09T10:52:10
-modified: 2025-03-09T10:55:25
+modified: 2025-04-05T11:23:07
 description: Highlight and capture the web in your favorite browser. The official Web Clipper extension for Obsidian.
 source: https://github.com/obsidianmd/obsidian-clipper
 tags:
@@ -19,8 +19,6 @@ type: repo
 
 [![](https://github-readme-stats.vercel.app/api/pin/?username=obsidianmd&repo=obsidian-clipper&bg_color=00000000)](https://github.com/obsidianmd/obsidian-clipper)
 
-## Notes
-
 ## Template ^1f4ed6
 
 ### Webpages
@@ -34,7 +32,12 @@ type: repo
   "properties": [
     {
       "name": "title",
-      "value": "{{title|safe_name|replace:\\\"_哔哩哔哩_bilibili\\\":\\\"\\\"|replace:\\\"- 知乎\\\":\\\" \\\"|replace:\\\"「ONE · 一个」\\\":\\\" \\\"|replace:\\\" Linux区\\\":\\\" \\\"|replace:\\\"‘\\\":\\\" \\\"|replace:\\\"’\\\":\\\" \\\"|replace:\\\"；\\\":\\\" \\\"|replace:\\\"。\\\":\\\" \\\"|replace:\\\"…\\\":\\\" \\\"|replace:\\\"：\\\":\\\" \\\"|replace:\\\".\\\":\\\" \\\"|replace:\\\"？\\\":\\\" \\\"|replace:\\\"，\\\":\\\" \\\"|replace:\\\"！\\\":\\\" \\\"|replace:\\\"｜\\\":\\\" \\\"|replace:\\\"【\\\":\\\" \\\"|replace:\\\"】\\\":\\\" \\\"|replace:\\\"[\\\":\\\" \\\"|replace:\\\"]\\\":\\\" \\\"|replace:\\\"!\\\":\\\" \\\"|replace:\\\"“\\\":\\\" \\\"|replace:\\\"”\\\":\\\" \\\"|replace:\\\"《\\\":\\\" \\\"|replace:\\\"》\\\":\\\" \\\"|trim|replace:\\\"  \\\":\\\" \\\"|replace:\\\" \\\":\\\"-\\\"}}",
+      "value": "{{title}}",
+      "type": "text"
+    },
+    {
+      "name": "aliases",
+      "value": "{{title}}",
       "type": "text"
     },
     {
@@ -75,6 +78,66 @@ type: repo
   ],
   "triggers": [],
   "noteNameFormat": "~{{title|safe_name|replace:\"_哔哩哔哩_bilibili\":\"\"|replace:\"- 知乎\":\" \"|replace:\"「ONE · 一个」\":\" \"|replace:\" Linux区\":\" \"|replace:\"‘\":\" \"|replace:\"’\":\" \"|replace:\"；\":\" \"|replace:\"。\":\" \"|replace:\"…\":\" \"|replace:\"：\":\" \"|replace:\".\":\" \"|replace:\"？\":\" \"|replace:\"，\":\" \"|replace:\"！\":\" \"|replace:\"｜\":\" \"|replace:\"【\":\" \"|replace:\"】\":\" \"|replace:\"[\":\" \"|replace:\"]\":\" \"|replace:\"!\":\" \"|replace:\"“\":\" \"|replace:\"”\":\" \"|replace:\"《\":\" \"|replace:\"》\":\" \"|trim|replace:\"  \":\" \"|replace:\" \":\"-\"}}",
+  "path": "archives/clip-webpages"
+}
+```
+
+### Webpage: V2EX
+
+```json
+{
+  "schemaVersion": "0.1.0",
+  "name": "Webpage:V2EX",
+  "behavior": "create",
+  "noteContentFormat": "## Origin Content\n\n{{description}}\n\n## Comment\n\n{{content}}\n\n",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{meta:property:og:title}}",
+      "type": "text"
+    },
+    {
+      "name": "aliases",
+      "value": "{{meta:property:og:title}}",
+      "type": "text"
+    },
+    {
+      "name": "created",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "datetime"
+    },
+    {
+      "name": "modified",
+      "value": "{{date|date:YYYY-MM-DDTHH:mm:ss}}",
+      "type": "datetime"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "",
+      "type": "multitext"
+    },
+    {
+      "name": "tags-link",
+      "value": "",
+      "type": "text"
+    },
+    {
+      "name": "type",
+      "value": "archive-web",
+      "type": "text"
+    }
+  ],
+  "triggers": [
+    "/https:\\/\\/.*\\.v2ex\\.com/",
+    "https://v2ex.com/",
+    "https://origin.v2ex.com/"
+  ],
+  "noteNameFormat": "~{{meta:property:og:title|safe_name|replace:\"- V2EX\":\" \"|replace:\"‘\":\" \"|replace:\"’\":\" \"|replace:\"；\":\" \"|replace:\"。\":\" \"|replace:\"…\":\" \"|replace:\"：\":\" \"|replace:\".\":\" \"|replace:\"？\":\" \"|replace:\"，\":\" \"|replace:\"！\":\" \"|replace:\"｜\":\" \"|replace:\"【\":\" \"|replace:\"】\":\" \"|replace:\"[\":\" \"|replace:\"]\":\" \"|replace:\"!\":\" \"|replace:\"“\":\" \"|replace:\"”\":\" \"|replace:\"《\":\" \"|replace:\"》\":\" \"|trim|replace:\"  \":\" \"|replace:\" \":\"-\"}}",
   "path": "archives/clip-webpages"
 }
 ```
@@ -275,11 +338,6 @@ type: repo
       "type": "text"
     },
     {
-      "name": "weread",
-      "value": "https://weread.qq.com/web/bookDetail/",
-      "type": "text"
-    },
-    {
       "name": "isbn",
       "value": "{{schema:@Book:isbn}}",
       "type": "text"
@@ -303,6 +361,16 @@ type: repo
       "name": "type",
       "value": "book",
       "type": "text"
+    },
+    {
+      "name": "weread",
+      "value": "https://weread.qq.com/web/bookDetail/",
+      "type": "text"
+    },
+    {
+      "name": "weread-link",
+      "value": "",
+      "type": "text"
     }
   ],
   "triggers": [
@@ -324,6 +392,11 @@ type: repo
   "properties": [
     {
       "name": "title",
+      "value": "{{title|safe_name|replace:\\\"_哔哩哔哩_bilibili\\\":\\\"\\\"|replace:\\\"…\\\":\\\" \\\"|replace:\\\"：\\\":\\\" \\\"|replace:\\\".\\\":\\\" \\\"|replace:\\\"？\\\":\\\" \\\"|replace:\\\"，\\\":\\\" \\\"|replace:\\\"！\\\":\\\" \\\"|replace:\\\"｜\\\":\\\" \\\"|replace:\\\"【\\\":\\\" \\\"|replace:\\\"】\\\":\\\" \\\"|replace:\\\"[\\\":\\\" \\\"|replace:\\\"]\\\":\\\" \\\"|replace:\\\"!\\\":\\\" \\\"|replace:\\\"“\\\":\\\" \\\"|replace:\\\"”\\\":\\\" \\\"|replace:\\\"《\\\":\\\" \\\"|replace:\\\"》\\\":\\\" \\\"|trim|replace:\\\"  \\\":\\\" \\\"|replace:\\\" \\\":\\\"-\\\"}}",
+      "type": "text"
+    },
+    {
+      "name": "aliases",
       "value": "{{title|safe_name|replace:\\\"_哔哩哔哩_bilibili\\\":\\\"\\\"|replace:\\\"…\\\":\\\" \\\"|replace:\\\"：\\\":\\\" \\\"|replace:\\\".\\\":\\\" \\\"|replace:\\\"？\\\":\\\" \\\"|replace:\\\"，\\\":\\\" \\\"|replace:\\\"！\\\":\\\" \\\"|replace:\\\"｜\\\":\\\" \\\"|replace:\\\"【\\\":\\\" \\\"|replace:\\\"】\\\":\\\" \\\"|replace:\\\"[\\\":\\\" \\\"|replace:\\\"]\\\":\\\" \\\"|replace:\\\"!\\\":\\\" \\\"|replace:\\\"“\\\":\\\" \\\"|replace:\\\"”\\\":\\\" \\\"|replace:\\\"《\\\":\\\" \\\"|replace:\\\"》\\\":\\\" \\\"|trim|replace:\\\"  \\\":\\\" \\\"|replace:\\\" \\\":\\\"-\\\"}}",
       "type": "text"
     },
@@ -397,6 +470,11 @@ type: repo
   "properties": [
     {
       "name": "title",
+      "value": "{{schema:name|safe_name|replace:\\\"_哔哩哔哩_bilibili\\\":\\\"\\\"|replace:\\\"…\\\":\\\" \\\"|replace:\\\"：\\\":\\\" \\\"|replace:\\\".\\\":\\\" \\\"|replace:\\\"？\\\":\\\" \\\"|replace:\\\"，\\\":\\\" \\\"|replace:\\\"！\\\":\\\" \\\"|replace:\\\"｜\\\":\\\" \\\"|replace:\\\"【\\\":\\\" \\\"|replace:\\\"】\\\":\\\" \\\"|replace:\\\"[\\\":\\\" \\\"|replace:\\\"]\\\":\\\" \\\"|replace:\\\"!\\\":\\\" \\\"|replace:\\\"“\\\":\\\" \\\"|replace:\\\"”\\\":\\\" \\\"|replace:\\\"《\\\":\\\" \\\"|replace:\\\"》\\\":\\\" \\\"|trim|replace:\\\"  \\\":\\\" \\\"|replace:\\\" \\\":\\\"-\\\"}}",
+      "type": "text"
+    },
+    {
+      "name": "aliases",
       "value": "{{schema:name|safe_name|replace:\\\"_哔哩哔哩_bilibili\\\":\\\"\\\"|replace:\\\"…\\\":\\\" \\\"|replace:\\\"：\\\":\\\" \\\"|replace:\\\".\\\":\\\" \\\"|replace:\\\"？\\\":\\\" \\\"|replace:\\\"，\\\":\\\" \\\"|replace:\\\"！\\\":\\\" \\\"|replace:\\\"｜\\\":\\\" \\\"|replace:\\\"【\\\":\\\" \\\"|replace:\\\"】\\\":\\\" \\\"|replace:\\\"[\\\":\\\" \\\"|replace:\\\"]\\\":\\\" \\\"|replace:\\\"!\\\":\\\" \\\"|replace:\\\"“\\\":\\\" \\\"|replace:\\\"”\\\":\\\" \\\"|replace:\\\"《\\\":\\\" \\\"|replace:\\\"》\\\":\\\" \\\"|trim|replace:\\\"  \\\":\\\" \\\"|replace:\\\" \\\":\\\"-\\\"}}",
       "type": "text"
     },
