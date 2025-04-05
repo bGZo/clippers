@@ -1,6 +1,5 @@
 ---
 title: "Git 更安全的强制推送，–force-with-lease"
-aliases: "Git 更安全的强制推送，–force-with-lease"
 created: 2025-04-05T16:40:50
 modified: 2025-04-05T16:40:50
 description: "由于 git rebase 命令的存在，强制将提交推送到远端仓库似乎也有些必要。不过都知道 git push --force 是不安全的，这让 git rebase 命令显得有些鸡肋。 本文将推荐 --force-with-lease 参数，让我们可以更安全地进行强制推送。"

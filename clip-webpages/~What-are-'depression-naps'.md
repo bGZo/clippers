@@ -1,6 +1,5 @@
 ---
 title: "What are 'depression naps'?"
-aliases: "What are 'depression naps'?"
 created: 2025-04-05T16:23:55
 modified: 2025-04-05T16:23:55
 description: "What are depression naps? One or two daytime naps a week is linked to lower risk of heart attack or stroke. But naps shouldn't be an escape from the world."

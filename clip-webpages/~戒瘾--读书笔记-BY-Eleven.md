@@ -1,6 +1,5 @@
 ---
 title: 戒瘾--读书笔记 BY Eleven
-aliases:
   - 戒瘾--读书笔记 BY Eleven
 created: 2025-03-30T10:56:30
 modified: 2025-03-30T10:56:30

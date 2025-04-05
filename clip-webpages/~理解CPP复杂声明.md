@@ -1,6 +1,5 @@
 ---
 title: "理解C&#x2B;&#x2B;复杂声明"
-aliases: "理解C&#x2B;&#x2B;复杂声明"
 created: 2025-04-05T17:15:17
 modified: 2025-04-05T17:15:17
 description: "http://www.codeproject.com/Articles/7042/How-to-interpret-complex-C-C-declarationsContentsIntroductionThe basicsThe const modifierThe subtleties of ty"

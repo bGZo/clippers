@@ -1,6 +1,5 @@
 ---
 title: "【npm】利用npm安装/删除/发布/更新/撤销发布包"
-aliases: "【npm】利用npm安装/删除/发布/更新/撤销发布包"
 created: 2025-04-05T17:34:59
 modified: 2025-04-05T17:34:59
 description: "提纲：1.什么是npm? 2.利用npm安装包 3.利用npm删除包 4.利用npm 发布包 5.利用npm撤销发布的包6.npm发包后的更新 7.npm的版本控制标准——Semantic versioning"

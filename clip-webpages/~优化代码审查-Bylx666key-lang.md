@@ -1,6 +1,5 @@
 ---
 title: "优化代码审查 · Issue #12 · Bylx666/key-lang"
-aliases: "优化代码审查 · Issue #12 · Bylx666/key-lang"
 created: 2025-03-31T22:18:12
 modified: 2025-03-31T22:18:25
 description: "很荣幸看到您没有经过rustfmt格式化，也没有经过rust官方的lint：clippy的代码，也很抱歉没有带上你所说的“脑子” 对于您的代码有没有通过cargo check我是存疑的，或许你的那一行allow已经很好地掩护了你的屎 我承认我是一个傻逼，你给我喂的屎我全部吃了，不仅如此，我还对你的代码不断f8 ，ctrl . 修复一个个warn 别被吹上天了，这个语言作为一个废物还是很不错的，起码它跑起来了不是吗？虽然对于其他人来说这只是你拉在github上的一坨屎，但..."

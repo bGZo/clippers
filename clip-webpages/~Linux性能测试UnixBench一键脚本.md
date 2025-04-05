@@ -1,6 +1,5 @@
 ---
 title: "Linux性能测试UnixBench一键脚本  |  秋水逸冰"
-aliases: "Linux性能测试UnixBench一键脚本  |  秋水逸冰"
 created: 2025-04-05T17:35:33
 modified: 2025-04-05T17:35:33
 description: "UnixBench是一个类unix系（Unix，BSD，Linux）统下的性能测试工具，一个开源工具，被广泛用与测试linux系统主机的性能。Unixbench的主要测试项目有：系统调用、读写、进程、图形化测试、2D、3D、管道、运算、C库等系统基准性能提供测试数据。   最新版本UnixBench5.1.3，包含system和graphic测试，如果你需要测试graphic，则需要修改Makefile,不要注释掉'GRAPHIC_TE"

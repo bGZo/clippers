@@ -1,6 +1,5 @@
 ---
 title: "What Life Could Mean to You 为什么要翻译成“自卑与超越”呢？自卑，只是第一章的内容而已"
-aliases: "What Life Could Mean to You 为什么要翻译成“自卑与超越”呢？自卑，只是第一章的内容而已"
 created: 2025-03-30T10:03:28
 modified: 2025-03-30T10:03:28
 description: "What Life Could Mean to You 为什么要翻译成“自卑与超越”呢？自卑，只是第一章的内容而已"

@@ -1,6 +1,5 @@
 ---
 title: "为什么 Android 的机器主频和核心数比 iPhone 高，却没有更流畅？ - 知乎"
-aliases: "为什么 Android 的机器主频和核心数比 iPhone 高，却没有更流畅？ - 知乎"
 created: 2025-04-04T21:13:11
 modified: 2025-04-04T21:13:15
 description: "以 Nexus 5 和 iPhone 5s 为例，部分硬件对比如下:CPU:Nexus 5 ：Krait 400架构 2.3GHziPhone5S : Cyclon…"

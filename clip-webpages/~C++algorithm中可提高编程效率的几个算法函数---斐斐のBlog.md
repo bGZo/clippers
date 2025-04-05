@@ -1,6 +1,5 @@
 ---
 title: "C++algorithm中可提高编程效率的几个算法函数 - 斐斐のBlog"
-aliases: "C++algorithm中可提高编程效率的几个算法函数 - 斐斐のBlog"
 created: 2025-04-05T16:38:21
 modified: 2025-04-05T16:38:21
 description: "binary_search：二分查找lower_bound：通过二分查找，返回容器中第一个大于或等于n的位置upper_bound：通过二分查找，返回容器中第一个大于n的位置copy：容器拷贝count：通过等于运算符计算容器中特定元素出现次数。（对于struct等，可以重载等于号）find：容器中查找元素，返回迭代器（指针）max_element/min_element：返回容器最大/最小值的迭…"

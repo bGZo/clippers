@@ -1,6 +1,5 @@
 ---
 title: "农芽网是个什么网， v 站也爬？ - V2EX"
-aliases: "农芽网是个什么网， v 站也爬？ - V2EX"
 created: 2025-04-04T11:01:26
 modified: 2025-04-04T11:01:26
 source: "https://v2ex.com/t/819112"
