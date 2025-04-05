@@ -3,11 +3,11 @@
 
 ![](assets/dejavuBlog/20250321_122142_405319.jpg) 
 
-#Mastodon #GitHub #RSS
+\#Mastodon \#GitHub \#RSS
 
 ▎mastofeeder
 
-将 RSS 订阅转换到 #ActivityPub 的网桥
+将 RSS 订阅转换到 \#ActivityPub 的网桥
 
 ▎说明
 
@@ -29,7 +29,7 @@ https://t.me/dejavuBlog/2348
 
 ![](assets/dejavuBlog/20250321_122153_806660.jpg) 
 
-#GitHub #自托管
+\#GitHub \#自托管
 
 ▎podgrab
 
@@ -40,10 +40,10 @@ https://t.me/dejavuBlog/2348
 - 下载／存档完整的播客
 - 自动下载新播客
 - 按需下载、标记和分组播客
-- 使用 iTunes #API 搜索和添加播客
+- 使用 iTunes \#API 搜索和添加播客
 - 内置一个播客播放器，支持流式传输
-- 支持 #RSS 导入导出订阅
-- 支持 #Docker 快速托管
+- 支持 \#RSS 导入导出订阅
+- 支持 \#Docker 快速托管
 
 [项目地址
 
@@ -55,7 +55,7 @@ https://t.me/dejavuBlog/2369
 
 ![](assets/dejavuBlog/20250321_122205_97216.jpg) 
 
-#GitHub #Golang
+\#GitHub \#Golang
 
 ▎syncthing
 
@@ -74,7 +74,7 @@ https://t.me/dejavuBlog/2422
 
 ![](assets/dejavuBlog/20250321_122221_127209.jpg) 
 
-#TalkShit
+\#TalkShit
 
 这作者好有有趣😂 这句话有点类似： 一日一苹果，医生远离我──An apple a day keeps the doctor away
 https://t.me/dejavuBlog/2429
@@ -83,7 +83,7 @@ https://t.me/dejavuBlog/2429
 
 
 
-#News
+\#News
 
 Google 更新非活动帐户政策：从今年晚些时候开始，如果 Google 帐户至少 2 年未被使用或登录，我们可能会删除该帐户及其内容，包括 Google Workspace（Gmail、文档、云端硬盘、Meet、日历）、YouTube 和谷歌照片。
 
@@ -97,7 +97,7 @@ https://t.me/dejavuBlog/2435
 
 
 
-#TalkShit
+\#TalkShit
 
 🐶东618，前天买的时候商品还没进百亿补贴，页面显示价保30天，今天才拿到商品。
 
@@ -116,7 +116,7 @@ https://t.me/dejavuBlog/2454
 
 
 
-#GitHub 归档
+\#GitHub 归档
 
 [1. 记录您对左耳朵耗子（陈皓）的点滴回忆
 ](https://github.com/megaease/Remembering-Haoel)[2. The public articles / tweets / microblogs published by or related to @haoel

@@ -16,7 +16,7 @@
 
 地址：https://chuanliu.org/
 
-#Blog
+\#Blog
 
 频道：@FindBlog
 
@@ -55,7 +55,7 @@ Published on 2023-07-31 08:13:17. Saved on 2025-03-23 16:55:56
 - https://pika.style/templates/open-graph-generator
 - https://picyard.ubout.in/short-blog
 
-#Tool
+\#Tool
 
 频道：@FindBlog
 
@@ -76,7 +76,7 @@ Published on 2023-08-09 23:38:22. Saved on 2025-03-23 16:55:57
 
 详细介绍：https://diygod.cc/xlog-portfolios
 
-#Platform
+\#Platform
 
 频道：@FindBlog
 

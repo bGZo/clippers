@@ -2,7 +2,7 @@
 ## 2023-04-17 14:20:04
 
 
-#Web #Music
+\#Web \#Music
 
 🎵 为你的番茄钟生成一个 Spotify 歌单 —— [Pomo.rhythm](https://pomorhythm.com/)
 
@@ -21,13 +21,13 @@ Published on 2023-04-17 14:20:04. Saved on 2025-03-23 16:54:18
 ## 2023-02-07 10:42:40
 ![](assets/fakeye/20250323_165429_907842.jpg) 
 
-#App #iOS
+\#App \#iOS
 
 📻 工作背景音的新选择 —— [Lofi.](http://lofidot.com/)
 
 🎵 许多朋友都喜欢在特定的时间的时候听一些背景音乐，市面上也有非常多白噪音、Lo-fi 这样的音源网站和 App。今天就推荐另外一个不错的选择，它叫 Lofi.。
 
-💻 Lofi. 是由 [Hwang](https://twitter.com/hwangdevs) 在农历春节后新上架的一款致力于时间追踪 &#43; 播放环境音乐的 App，主要有以下特点：
+💻 Lofi. 是由 [Hwang](https://twitter.com/hwangdevs) 在农历春节后新上架的一款致力于时间追踪 &\#43; 播放环境音乐的 App，主要有以下特点：
 
 🔹 支持使用标签来进行音乐和使用场景的分类；
 🔹 支持新建播放列表；
@@ -50,7 +50,7 @@ Published on 2023-02-07 10:42:40. Saved on 2025-03-23 16:54:29
 ## 2023-02-02 10:20:50
 ![](assets/fakeye/20250323_165439_758598.jpg) 
 
-#Web
+\#Web
 
 📰 国外社交媒体热门新闻聚合 —— [Buzzing](https://buzzing.cc/)
 

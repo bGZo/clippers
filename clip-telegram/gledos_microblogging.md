@@ -39,7 +39,7 @@ https://t.me/gledos_microblogging/1169
 
 尝试在非步步高旗下的手机上安装 vivo浏览器 13.7.0.0 (70137000) 版本，其中含有《[vivo浏览器隐私政策](https://github.com/gledos/see-agreement/blob/main/docs/%E6%9C%AA%E5%88%86%E7%B1%BB/vivo/vivo%E6%B5%8F%E8%A7%88%E5%99%A8%E9%9A%90%E7%A7%81%E6%94%BF%E7%AD%96.md)》，但时间是 2022年12月29日 版本，与第三方数据共享的部分并没有「国家反诈中心」相关内容，并且设置的安全中心底部也没有「vivo浏览器 | 国家反诈中心」「联合守护你的网络安全」字样，也许是必须在 OriginOS 下才能复现。
 
-[ggame](https://ggame.gledos.science/censorship/%E5%9B%BD%E5%AE%B6%E5%8F%8D%E8%AF%88%E4%B8%AD%E5%BF%83.html#%E6%89%8B%E6%9C%BA%E5%86%85%E7%BD%AE)
+[ggame](https://ggame.gledos.science/censorship/%E5%9B%BD%E5%AE%B6%E5%8F%8D%E8%AF%88%E4%B8%AD%E5%BF%83.html\#%E6%89%8B%E6%9C%BA%E5%86%85%E7%BD%AE)
 https://t.me/gledos_microblogging/1193
 
 ## 2023-05-30 07:31:02
@@ -80,7 +80,7 @@ https://t.me/gledos_microblogging/1223
 补充：可以使用 Zor X.L. 制作的 Bangumi 目录《[2015年文化部推荐](http://bangumi.tv/index/18498)》来检查这些作品是否已经看过。
 补充2：《东京喰种》《进击的巨人》《刀剑神域第2季幽灵子弹》《心理测量者》都是在这次事件之后，被禁止的。
 
-[ggame](https://ggame.gledos.science/blocklist/%E7%BD%91%E7%BB%9C%E5%8A%A8%E6%BC%AB%E4%BA%A7%E5%93%81%E9%BB%91%E5%90%8D%E5%8D%95.html) #动画 #历史
+[ggame](https://ggame.gledos.science/blocklist/%E7%BD%91%E7%BB%9C%E5%8A%A8%E6%BC%AB%E4%BA%A7%E5%93%81%E9%BB%91%E5%90%8D%E5%8D%95.html) \#动画 \#历史
 https://t.me/gledos_microblogging/1217
 
 ## 2023-05-30 07:31:02

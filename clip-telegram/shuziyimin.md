@@ -2,7 +2,7 @@
 alias: 数字移民
 created: 2024-01-02
 source: https://blog.shuziyimin.org, https://img.shields.io/github/stars/shuziyimin
-tags: #migrant/digtal
+tags: \#migrant/digtal
 ---
 
 > 肉体和精神，总要有一个是自由的

@@ -12,7 +12,7 @@ NGCBot
 
 地址：https://github.com/ngc660sec/NGCBot
 
-#Bot #机器人 #工具
+\#Bot \#机器人 \#工具
 
 💻💻 关注频道：@onesees
 

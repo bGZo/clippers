@@ -19,7 +19,7 @@ https://t.me/OutsightChina/7140
 
 学者指出，中国低生育率是因为“不愿生、养不起、生不了”造成的，当前政策主要针对“养不起”的问题。分析认为，由于中国育儿成本与人均可支配收入相比，远远高出欧美国家，家庭补助力度必须足够，才能有所成效。除此之外，房价高和青年人失业问题仍然是“养不起”的系统性障碍。
 
-#看鉴 #生育率
+\#看鉴 \#生育率
 
 🔗原文链接
 《新华网》[政府工作报告说,制定促进生育政策,发放育儿补贴](https://www.gov.cn/yaowen/liebiao/202503/content_7010298.htm)
@@ -64,7 +64,7 @@ https://t.me/OutsightChina/7145
 
 据称邹振豪父亲在一家国有企业工作，母亲是一名教师。他过着忙碌且富裕的社交生活，拥有一柜子设计师品牌的衣服、一块劳力士手表、每月价值数千英镑的出租房、面部手术和植发。
 
-#看鉴 #英国
+\#看鉴 \#英国
 
 🔗原文链接
 《路透社》[Chinese student found guilty of raping women in UK and China](https://www.reuters.com/world/chinese-student-found-guilty-raping-women-uk-china-2025-03-05/)
@@ -99,7 +99,7 @@ https://t.me/OutsightChina/7148
 
 关于“全过程人民民主”，中方强调其涵盖民主选举、协商、决策、管理与监督，是最真实、最广泛、最管用的民主制度，全国政协副会长杨毅周更称，其成效优于西方民主，盼加强台湾民众对其理解。台方则批评“中国式民主”本质是一党专政，并指中共以交流为统战手段，企图影响台湾民众认知，呼吁台湾青年避免参与相关活动，以防范政治渗透及潜在风险。
 
-#看鉴 #两会 #台湾
+\#看鉴 \#两会 \#台湾
 
 🔗原文链接
 《香港01》[「台湾省」人大代表有13人台陆委会：不具台湾人身分](https://www.hk01.com/%E5%8D%B3%E6%99%82%E4%B8%AD%E5%9C%8B/60216643/%E5%85%A9%E6%9C%832025-%E5%8F%B0%E7%81%A3%E7%9C%81-%E4%BA%BA%E5%A4%A7%E4%BB%A3%E8%A1%A8%E6%9C%8913%E4%BA%BA-%E5%8F%B0%E9%99%B8%E5%A7%94%E6%9C%83-%E4%B8%8D%E5%85%B7%E5%8F%B0%E7%81%A3%E4%BA%BA%E8%BA%AB%E5%88%86)
@@ -135,7 +135,7 @@ https://t.me/OutsightChina/7155
 在近日的全国人大会议期间，中国商务部部长也承认，国内需求不足、消费潜力释放不充分的问题还比较突出。
 
 
-#看鉴 #中国经济
+\#看鉴 \#中国经济
 
 🔗原文链接
 《路透社》[In deflation-hit China, one store holds flash sales four times a day](https://www.reuters.com/world/china/deflation-hit-china-one-store-holds-flash-sales-four-times-day-2025-03-10/)
@@ -173,7 +173,7 @@ Published on 2024-06-25 10:26:09. Saved on 2025-03-24 14:29:20
 
 截稿时，中国官媒尚未有关于此事件的报道。小编注意到微博上有零星相关讨论，暂时可以在微博上看到日经中文网和联合早报的相关报道，部分词条实时未显示相关报道（[参考附图](https://t.me/OutsightChina/5989?comment=44971)）。
 
- #伤人事件
+ \#伤人事件
 
 [六月十日四名美国人在中国被刺伤事件](https://t.me/OutsightChina/5934)
 

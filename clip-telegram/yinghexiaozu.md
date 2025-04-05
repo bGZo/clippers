@@ -68,5 +68,5 @@ https://t.me/yinghexiaozu/1399
 
 聊聊人是如何被轻易操纵的。
 
-[往期目录](https://hardcored.notion.site/Newsletter-05b61afca13a4e2a805e4e81ea29c74e) | [订阅](https://hardcored.notion.site/c1a928ec50f34101a208b96822d5ddfb)  #Newsletter
+[往期目录](https://hardcored.notion.site/Newsletter-05b61afca13a4e2a805e4e81ea29c74e) | [订阅](https://hardcored.notion.site/c1a928ec50f34101a208b96822d5ddfb)  \#Newsletter
 https://t.me/yinghexiaozu/1397

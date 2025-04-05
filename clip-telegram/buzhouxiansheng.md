@@ -195,7 +195,7 @@ type: telegram/channel
   就像问出：减肥走路机值得买吗？https://t.me/buzhide12/25
 
 ## 推荐一个网站，关于酒。
-  https://www.homebrewtalk.com/#homebrewtalk-sponsors-directory-market.165
+  https://www.homebrewtalk.com/\#homebrewtalk-sponsors-directory-market.165
   \#推荐
 
 ## 为什么这是明确的需求，但没有人做？

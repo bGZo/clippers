@@ -2,7 +2,7 @@
 alias: Word Power Made Easy
 created: 2022-12-20
 description: 学英语来这就对啦！原始印欧语，拉丁语，古希腊语词根记忆法学习，快速增加词汇量，让你轻松习得外语！
-tags: #english 
+tags: \#english 
 source: {{tg pieroots}}
 type: telegram/channel
 ---
@@ -31,7 +31,7 @@ via: [Proto- definition and meaning | Collins English Dictionary](https://www.co
 - per（加强语气）+suas（劝说）+ion（名词后缀）→说服。
 - `suad-`/`suas-`/`suav-`
 definition: {{cloze suavis / sweet;   suadere / to advise; to make something pleasant to / to present in a pleasing manner; hence to recommend / to advise}}
-tags: #card #word-root
+tags: \#card \#word-root
 references: [suad-, suas-, suav- - Word Information](https://wordinfo.info/unit/3928)
 description: "来自拉丁语动词suadere（劝说）及其完成分词suasus，本意是“使变甜，使某事显得令人愉快，说甜言蜜语”，和拉丁词根suav-（甜的，令人愉悦的）、日耳曼单词sweet（甜的）同源"
 - assuage (verb, /əˈsweɪdʒ/), assuages; assuaged; assuaging
@@ -49,7 +49,7 @@ description: "来自拉丁语动词suadere（劝说）及其完成分词suasus�
 - **empl-其实衍生自词根em-(买，拿)**
 - `ampl-`/`ampli-`
 definition: {{cloze 大的/广阔的 / large / enlargement / spacious(寬敞的); comprehensive; enough / more than enough}}
-tags: #card #word-root
+tags: \#card \#word-root
 references: [ampli-, ampl- - Word Information](https://wordinfo.info/unit/113)
 description:
 - ample (adjective); ampler, more ample; amplest, most ample | 寬
@@ -63,7 +63,7 @@ description:
 - precipitate=pre（向前）+cipit（=capit，头）+ate（动词和形容词后缀）→头向前→一头栽下→猛地落下。转做名词，表示落下来的东西，也就是沉淀物。
 - `capit-` / `capt-` / `cap-` / `cep-` / `ceps-` / `chapt-` / `chef` / `cip-`
 definition: {{cloze  head; leader / chief / or first}}
-tags: #card #word-root
+tags: \#card \#word-root
 references: [capit-, capt-, cap-, cep-, ceps-, chapt-, chef, cip- - Word Information](https://wordinfo.info/unit/370)
 description:
 - > When the French *borrowed words*(借用单词) from Latin, they frequently used soft sounds. These French words, with their softer sounds, then made their way into the English language. At the same time, English borrowed words directly from Latin. So it is that in English we often have two words which share the same root, but which have different, though related, forms and meanings.
@@ -128,7 +128,7 @@ And even tangier in Tangier.
 - 另一个含义是“没有意识到、不去注意”，所以是“忽略、不理睬”的意思，派生出的ignored就是“被忽略的”
 - `gno-` / `gnos-` / `gnoto-` / `-gnostic` / `-gnosia` / `-gnomic` / `-gnomonic` / `-gnomical` / `-gnomy` / `-gnosia` / `-gnostic` / `-gnosis`
 definition: {{cloze (Greek) know / learn / discern(辨別)}}
-tags: #card #word-root
+tags: \#card \#word-root
 
 references: [gno-, gnos-, gnoto-, -gnostic, -gnosia, -gnomic, -gnomonic, -gnomical, -gnomy, -gnosia, -gnostic, -gnosis - Word Information](https://wordinfo.info/unit/929/s:ignore)
 description:
@@ -180,7 +180,7 @@ deadpan中的pan意思是平底锅，是“脸”的俚语。这里的pan和pand
 - > "conserve" emphasizes the protection of natural resources;
 "reserve" emphasizes the setting aside of something for future use;
 "preserve" emphasizes the protection of something from change or damage.
-#chatGPT #english-word
+\#chatGPT \#english-word
 - 词根serv-表示“保存、贮藏”
 - conserve前面的con-在这里用来加强语气 (together might be)，所以conserve意思和词根serv-一致，表示“保存、贮藏”
 - 前缀re-表示“向后，到后面去”，所以reserve的意思就是“收藏到后面去”，引申为“储备、保留、保守、预订”
@@ -214,12 +214,12 @@ invoice这个单词不适合用词根来记忆的，因为太容易误认为是�
 - stationary是station的形容词，表示“固定的、驻扎不动的”。station的字面意思是“站立之物，确立之物”，st-及其完成分词stat-的意思是站立、确立、静止不动。人或车停留在那里不动，也就是驻扎之地，而不是指建筑物站立在那里不动。引申为车站或驻地。
 - stationary与stationery同源。stationery=station（驻扎，驻地）+ery（场所）→固定的店铺→文具店→文具。在中世纪的欧洲，大部分商贩都是流动经商的，只有大学附近才有固定店铺，通常是拥有大学的特许权，可向大学生销售文具的文具店。因此stationery一词衍生出“文具店”之意，后来又衍生出“文具”之
 - > To remember the difference between "stationary" and "stationery," you can associate "stationary" with the idea of something being still or not moving, and "stationery" with the idea of writing materials. Additionally, you can remember that "stationery" has an "e" in it, which can remind you of "envelopes," a type of stationery.
-#chatGPT #english-word
+\#chatGPT \#english-word
 ## `adolescence` (12 to 18)
 - ad(去)+ol（滋养，使生长）+esc（表始形式）+ence（名词后缀）→开始生长发育的时期→青春期
 - esc-表示动作开始，t-表示动作完成，就是动词表始形式，表示动作已经开始。adolescent就是“已经开始生长的”，所以是“青春期的”，表示ol-（滋养，长大，长高）这个动作已经开始
 - > To help you remember the meaning of "adolescence," you can think of the word "ad-ole-scent" - you are growing into an older, more mature person.
-#chatGPT #english-word
+\#chatGPT \#english-word
 ## `-ate`
 - 很多以ate结尾的单词，既是动词又是形容词，甚至有些还表示名词。其中以动词最常见。它实际上来自拉丁语动词的完成分词后缀-atus，可以变化为-ete，-ite，-ute等多种形式。
 - 表示名词时，ate后面的e有时候会脱落。

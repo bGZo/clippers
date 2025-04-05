@@ -23,5 +23,5 @@
 
 统治暴力始终是对“人”的战争，它们并不关心病毒，就如它们并 [不关心什么所谓的恐怖主义](https://iyouport.substack.com/p/--e5e)，它们追求的是全面控制。当您开始反思“零政策”时，请记得其根源；只有更多人意识到根源，我们才希望获得战略一致的、真正的解决方案。
 
-#China #ZeroCovidPolicy
+\#China \#ZeroCovidPolicy
 https://t.me/iyouport/10941

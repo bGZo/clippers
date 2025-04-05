@@ -130,3 +130,44 @@ Published on 2025-02-21 12:15:03. Saved on 2025-03-27 15:05:52
 https://t.me/french_excerpt/1283
 
 Published on 2025-02-21 17:28:00. Saved on 2025-03-27 18:48:03
+
+## 2025-03-23 23:25:28
+
+
+我年轻的时候总爱思考自己行为的后果，结果把自己弄得精疲力竭。后来我便相信，想要不再犯错，干脆什么都不要做。
+
+Je me suis fatigué, quand j’étais jeune, à suivre au loin les suites de mes actes et je n’étais sûr de ne plus pécher qu’à force de ne plus agir.
+
+《人间食粮》安德烈·纪德
+
+陈阳（译）云南人民出版社 [source](https://m.weibo.cn/status/PjUHu8EIa)
+
+https://t.me/french_excerpt/1335
+
+Published on 2025-03-23 23:25:28. Saved on 2025-03-31 12:32:41
+
+## 2025-03-31 07:22:06
+
+
+安心入眠的人说：太阳升起，又是新的一天。 而在失眠者的世界里根本没有遗忘这回事，因为他总是面对着同一个地狱， 日日夜夜，无尽无休。
+
+《我不在意人类的失败》E.M齐奥朗/帕特里斯·雷捷
+
+魏林（译） [source](https://m.weibo.cn/status/PkPhixJra)
+
+https://t.me/french_excerpt/1345
+
+Published on 2025-03-31 07:22:06. Saved on 2025-03-31 18:48:39
+
+## 2025-04-01 22:07:42
+
+
+做爱，真正的做爱并不是重复，而是在唯一的恋人、唯一的欲望中发现那陌生的、无法替代的新事物。
+
+《外面的世界II》玛格丽特·杜拉斯
+
+黄荭（译）作家出版社 [source](https://m.weibo.cn/status/PldfV5yZN)
+
+https://t.me/french_excerpt/1347
+
+Published on 2025-04-01 22:07:42. Saved on 2025-04-02 05:37:03

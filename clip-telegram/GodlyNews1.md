@@ -12,7 +12,7 @@ open /System/Library/Image\ Capture/Devices/VirtualScanner.app/Contents/Resource
 
 via [尊龍](https://t.me/zunlong)
 
-🗒 标签: #Apple #Mac #比特币
+🗒 标签: \#Apple \#Mac \#比特币
 📢 频道: @GodlyNews1
 🤖 投稿: @Godlynewsbot
 https://t.me/GodlyNews1/3660
@@ -27,7 +27,7 @@ https://t.me/GodlyNews1/3660
 
 中国新闻周刊注意到，除了北京，上海也有多所大学出现了这一情况。具体到其他地方的个别院校，这种情形更加普遍。
 
-🗒 标签: #毕业生 #学历 
+🗒 标签: \#毕业生 \#学历 
 📢 频道: @GodlyNews1
 🤖 投稿: @GodlyNewsBot
 https://t.me/GodlyNews1/3772
@@ -36,7 +36,7 @@ https://t.me/GodlyNews1/3772
 
 ![](assets/GodlyNews1/20250321_122927_325010.jpg) 
 
-#优质频道推荐
+\#优质频道推荐
 
 ☺️  苹果类：
 ◉ 22K  [iOS-精品破解软件分享
@@ -61,7 +61,7 @@ https://t.me/GodlyNews1/4368
 
 据@QS世界大学排名 消息，2024QS世界大学排名公布，麻省理工学院、剑桥大学、牛津大学位列前三，北京大学与普林斯顿大学并列17位，清华大学位列第25位。你的学校上榜了吗？
 
-🗒 标签: #QS 
+🗒 标签: \#QS 
 📢 频道: @GodlyNews1
 🤖 投稿: @Godlynewsbot
 https://t.me/GodlyNews1/4713
@@ -74,7 +74,7 @@ https://t.me/GodlyNews1/4713
 
 2023年9月30日，哈佛大学举办Claudine Gay校长就职典礼，成为哈佛大学第一位黑人女校长和第二位女性校长，是哈佛大学第30任校长。这次演讲，Claudine Gay主要围绕以勇气为内核提出的四大灵魂拷问：为什么？为什么不？为什么（不）在这里？为什么（不）在现在？在这些发问下，她所揭示的是克服恐惧与行动力所指向的真理——即重塑、革新、改变世界的种种可能性！
 
-🗒 标签: #哈佛大学 #演讲
+🗒 标签: \#哈佛大学 \#演讲
 📢 频道: @GodlyNews1
 🤖 投稿: @Godlynewsbot
 https://t.me/GodlyNews1/5630

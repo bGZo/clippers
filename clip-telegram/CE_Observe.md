@@ -61,3 +61,15 @@ https://www.tmtpost.com/7509889.html
 https://t.me/CE_Observe/38583
 
 Published on 2025-03-26 21:23:26. Saved on 2025-03-27 11:17:01
+
+## 2025-03-28 17:41:11
+
+
+本地全文搜索工具 AnyTXT 已跨平台支持 Windows、Linux、macOS
+
+不过也放弃了32位 Windows 支持
+https://www.appinn.com/anytxt-cross-platform-support/
+
+https://t.me/CE_Observe/38625
+
+Published on 2025-03-28 17:41:11. Saved on 2025-03-31 00:56:16

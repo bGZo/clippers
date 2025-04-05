@@ -9,7 +9,7 @@
 Reference
 [文明的岁月丨人类各大事件的时间轴](https://t.me/isaiahsystem/936)
 
-#CSS
+\#CSS
 
 https://t.me/isaiahsystem/985
 
@@ -18,7 +18,7 @@ Published on 2023-08-01 20:26:18. Saved on 2025-03-23 16:27:23
 ## 2023-08-09 22:51:11
 ![](assets/isaiahsystem/20250323_162739_990579.jpg) 
 
-笔记软件图谱功能就是对脑神经元低劣模仿然后想像出的一种庸俗化智识浪漫。喜欢这种浪漫就像喜欢 X KOB（key opinion bullshit）分享他生活学习小感悟的废话 thread。#tools
+笔记软件图谱功能就是对脑神经元低劣模仿然后想像出的一种庸俗化智识浪漫。喜欢这种浪漫就像喜欢 X KOB（key opinion bullshit）分享他生活学习小感悟的废话 thread。\#tools
 
 https://t.me/isaiahsystem/986
 
@@ -43,7 +43,7 @@ Published on 2023-08-09 22:51:11. Saved on 2025-03-23 16:27:39
 Reference
 [搜索引擎终极索引](https://t.me/isaiahsystem/771)
 
-#productivity
+\#productivity
 
 https://t.me/isaiahsystem/822
 
