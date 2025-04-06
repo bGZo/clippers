@@ -643,7 +643,7 @@ DistroSyncChangeTask是具体的任务我看一下他的run方法
 
 上面方法分为两部分：
 
-key1:是将处理的Handler放到对应的List<ServerRequestHandler> serverRequestHandlers  那后面一定是在客户端处理请求的时候，从哪这里面拿到对应的Handler进行处理
+key1:是将处理的Handler放到对应的List\<ServerRequestHandler> serverRequestHandlers  那后面一定是在客户端处理请求的时候，从哪这里面拿到对应的Handler进行处理
 
 ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/15647/1670652088093/84eaa68eed2742e8bb1e2cc975003537.png)
 
@@ -1060,7 +1060,7 @@ public class NacosConfigController implements ApplicationListener<RefreshScopeRe
 
 ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/15647/1670652088093/ef0054527c994102a82cba9f367320fb.png)
 
-准备环境加载bootstrap.propertis，这里他会发送事件进行监听，我们可以直接进入	#load我们可以在load打上断点
+准备环境加载bootstrap.propertis，这里他会发送事件进行监听，我们可以直接进入	\#load我们可以在load打上断点
 
 ![image.png](https://fynotefile.oss-cn-zhangjiakou.aliyuncs.com/fynote/fyfile/15647/1670652088093/a298fb0436234b7da9d37f500cad598f.png)
 
