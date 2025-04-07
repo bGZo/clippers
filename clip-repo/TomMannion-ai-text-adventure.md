@@ -9,7 +9,7 @@ source: https://github.com/TomMannion/ai-text-adventure
 tags:
   - star
 tags-link:
-  - "[[games]]"
+  - "[[pages/games]]"
 type: repo
 ---
 ## Repo Meta
