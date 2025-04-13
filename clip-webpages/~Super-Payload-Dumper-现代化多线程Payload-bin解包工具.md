@@ -1,6 +1,6 @@
 ---
-title: "【Super Payload Dumper】现代化多线程Payload.bin解包工具 - 一加全能盒子 | 工具箱"
-aliases: "【Super Payload Dumper】现代化多线程Payload.bin解包工具 - 一加全能盒子 | 工具箱"
+title: "【Super Payload Dumper】现代化多线程Payload.bin解包工具"
+aliases: "【Super Payload Dumper】现代化多线程Payload.bin解包工具"
 created: 2025-04-09T22:53:31
 modified: 2025-04-09T22:53:35
 description: "Payload Dumper是什么这是一个由5ec1cff大佬开发的payload.bin多线程解包工具，其项目名称为payload dumper，详细介绍Super Payload Dumper是什么Payload Dumper使用Python编写，通过命令行进行使用，具有支持多线程、从URL解包等现代化的功能，然而并非人人都会部署Python环境，并非人人都能熟练使用命令行，因此我将其编..."

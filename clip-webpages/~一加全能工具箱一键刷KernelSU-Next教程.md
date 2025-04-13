@@ -1,6 +1,6 @@
 ---
-title: "一加全能工具箱一键刷KernelSU-Next教程 - 一加全能盒子 | 工具箱"
-aliases: "一加全能工具箱一键刷KernelSU-Next教程 - 一加全能盒子 | 工具箱"
+title: "一加全能工具箱一键刷KernelSU-Next教程"
+aliases: "一加全能工具箱一键刷KernelSU-Next教程"
 created: 2025-04-09T22:52:57
 modified: 2025-04-09T22:52:57
 description: "KernelSU是什么 KernelSU是一种比Magisk更新的ROOT方式他有两种安装模式，一种是GKI、一种是LKM，本文所述方法基于LKMKernelsu官网本文所述的KernelSU-Next是KernelSU的一个分支，相比原项目，KernelSU-Next主要是支持非GKI，即更低的内核版本（4.4~），当然也有更多其他的特性。其项目地址：https://rifsxd.gith..."
