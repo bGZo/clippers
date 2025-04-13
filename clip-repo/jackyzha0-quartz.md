@@ -2,7 +2,7 @@
 title: "jackyzha0/quartz"
 aliases: "quartz"
 created: 2025-04-07T20:19:02
-modified: 2025-04-07T20:23:52
+modified: 2025-04-12T11:12:39
 description: "🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites"
 source: "https://github.com/jackyzha0/quartz"
 tags:
@@ -24,3 +24,5 @@ type: "repo"
 
 <iframe src='https://github.com/jackyzha0/quartz/issues/820' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://github.com/jackyzha0/quartz/issues/820' target='_blank' class='external-link'>https://github.com/jackyzha0/quartz/issues/820</a></center>
+
+https://github.com/jackyzha0/quartz/pull/824

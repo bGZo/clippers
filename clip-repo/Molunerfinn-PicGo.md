@@ -2,7 +2,7 @@
 title: Molunerfinn/PicGo
 aliases: PicGo
 created: 2024-12-29T12:07:45
-modified: 2025-04-04T11:06:13
+modified: 2025-04-12T11:02:36
 description: :rocket:A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder
 source: https://github.com/Molunerfinn/PicGo
 tags:
@@ -41,3 +41,13 @@ $XDG_CONFIG_HOME/picgo/data.json` or `~/.config/picgo/data.json
 ```
 
 via: https://picgo.github.io/PicGo-Doc/en/guide/config.html#basic-operations
+
+## 手机端参数生成
+
+如果你想在手机上使用 PicGo，可以安装 [[PicGo-flutter-picgo]]
+
+可以通过点击主窗口左下角信息栏按钮，找到「生成图床配置二维码」菜单
+
+![](https://pic.molunerfinn.com/picgo/docs/202108282131459.png)
+
+然后通过 flutter-picgo 的扫码功能，一键导入图床配置
