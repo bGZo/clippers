@@ -2,7 +2,7 @@
 title: "RSSNext/Folo"
 aliases: "Folo"
 created: 2025-04-20T21:13:52
-modified: 2025-04-21T20:17:36
+modified: 2025-05-03T15:31:17
 description: "🧡 Follow everything in one place"
 source: "https://github.com/RSSNext/Folo"
 tags:
@@ -25,3 +25,11 @@ type: "repo"
 
 <iframe src='https://github.com/RSSNext/Folo/issues/978' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
 <center>via: <a href='https://github.com/RSSNext/Folo/issues/978' target='_blank' class='external-link'>https://github.com/RSSNext/Folo/issues/978</a></center>
+
+<iframe src='https://github.com/RSSNext/Folo/issues/2360' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://github.com/RSSNext/Folo/issues/2360' target='_blank' class='external-link'>https://github.com/RSSNext/Folo/issues/2360</a></center>
+
+其实还挺让人失望的，我一直以为把 [[DIYgod-RSSHub|RSSHub]] 嵌入到 RSS 阅读器，做一个无服务的应用是一个非常棒的想法，但是实际情况就是不可能，还是得把区块钱那套玩意融进去。要不然开发者投入至今的所有东西，怎么变现？
+
+<iframe src='https://github.com/RSSNext/Folo/pull/2631' style='height:40vh;width:100%' class='iframe-radius' allow='fullscreen'></iframe>
+<center>via: <a href='https://github.com/RSSNext/Folo/pull/2631' target='_blank' class='external-link'>https://github.com/RSSNext/Folo/pull/2631</a></center>
