@@ -28,7 +28,7 @@ status:
 %APPDATA%\picgo\data.json
 ```
 
-### [[custom/linux|linux]]
+### [[pages/linux|linux]]
 
 ```
 $XDG_CONFIG_HOME/picgo/data.json` or `~/.config/picgo/data.json

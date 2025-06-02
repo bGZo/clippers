@@ -26,7 +26,7 @@ type: repo
 
 ### Command-line via: https://github.com/tldr-pages/tlrc
 
-#### [MacOS](macos)
+#### [MacOS](macos.md)
 
 ```shell
 brew install tlrc

@@ -1,7 +1,7 @@
 ---
-title: GuhDoy/TiebaTS?tab=readme-ov-file
+title: GuhDoy/TiebaTS
 aliases:
-  - TiebaTS?tab=readme-ov-file
+  - TiebaTS
 created: 2025-05-11T15:25:02
 modified: 2025-05-11T15:28:15
 description: 提供修改百度贴吧底栏等个性化功能。An Xposed module for Baidu Tieba with personalized functions.
