@@ -1,8 +1,6 @@
 ---
-title: SideStore-安装指南-如何在-iOSiPadOS-设备上侧载应用
 created: 2025-04-18T21:17:31
 modified: 2025-04-25T20:21:04
-description: 借助SideStore实现脱离电脑连接的侧载应用安装体验，体验双微信、旧版应用复活的快感。
 source: https://fylsen.com/posts/2024/05/sidestore-install-guide-ios-ipados-sideload-apps/
 tags: 
 tags-link: 
