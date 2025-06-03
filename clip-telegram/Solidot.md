@@ -137,3 +137,124 @@ Published on 2025-03-18 16:35:11. Saved on 2025-04-02 08:43:09
 https://t.me/solidot/26632
 
 Published on 2025-03-18 16:35:16. Saved on 2025-04-02 08:53:14
+
+## 2025-04-07 15:40:07
+
+
+[Z 世代重新发现了 Tumblr](https://www.solidot.org/story?sid=80981)
+
+2025-04-07 14:24 by 喀迈拉空间
+
+在互联网一个混乱而舒适、不被算法和网红影响的角落，Z 世代重新发现了 Tumblr。Z 世代通常指的是 1990 年代中后期到 2010 年代初期出生的一代。他们将 Tumblr 视为逃离网红和算法的互联网避难所。截至 2025 年，Z 世代占到了 Tumblr 月活跃用户的 50%，新注册用户的 60%。Tumblr 最大的优势可能在于它不是 TikTok 或 Facebook。根据分析公司 Similarweb 的数据，Tumblr 目前是美国第十大受欢迎社交平台，相比 Instagram 和 X ，Tumblr 的规模还是相形见绌。但对于其用户而言，这正是其吸引力的一部分。Tumblr 于 2007 年上线，2014 年用户超过 1 亿，2013 年被雅虎以 11 亿美元收购。雅虎被 Verizon 收购之后，Tumblr 成为了 Verizon 的一部分，之后被 Verizon 以极低的价格出售给了 Automattic。Tumblr 的工作方式仍然类似过去的互联网，用户控制内容的呈现，很少依赖算法。
+
+Fast Company:The Tumblr Revival is Real - and Gen Z is Leading the Charge
+
+\#互联网
+
+https://t.me/solidot/26788
+
+Published on 2025-04-07 15:40:07. Saved on 2025-04-08 10:18:09
+
+## 2025-04-05 08:05:07
+
+
+[为何 AV1 仍未普及？](https://www.solidot.org/story?sid=80969)
+
+2025-04-04 21:42 by 棕榈上的霜
+
+AV1 是 AOMedia 在 2018 年释出的开源免专利费编解码器，其压缩效率比 H.265(HEVC) 提升了三成。AOMedia 的成员包括了 Netflix、微软、Google、亚马逊和 Meta 等巨头。然而七年之后，尽管免专利费且有科技巨头们的支持，AV1 仍然未普及，流行的流媒体应用如 Max、Peacock 和 Paramount Plus 仍然没有采用 AV1。背后的一大原因是 AV1 需要硬件支持，它的软解码方案存在严重缺陷，如 VideoLAN 开发的 AV1 解码器 dav1d 会严重影响手机的续航力。目前 Netflix 约 95% 的内容用 AV1 编码，而 YouTube 视频的 AV1 编码比例是 50%。AV1 目前还面临 MPEG 和 VCEG 开发的 VVC（H.266）方案的竞争，VVC 的压缩效率提升了五成，但不是免专利费。
+
+theverge:AV1 is supposed to make streaming better, so why isn’t everyone using it?
+
+\#商业
+
+https://t.me/solidot/26776
+
+Published on 2025-04-05 08:05:07. Saved on 2025-04-08 10:40:15
+
+## 2025-04-13 23:40:08
+
+
+[280 万德国人从未上网](https://www.solidot.org/story?sid=81032)
+
+2025-04-12 22:30 by 空中城堡
+
+根据德国联邦统计局发布的数据，2024 年在德国 16-74 岁人群中有 280 万人从未使用过互联网，这部分人被称为“离线者”（offliners）。65-74 岁人群在离线者占比最大，年龄越小离线者越少。德国互联网使用率在欧洲大致处于平均水平。4% 的比例略低于欧盟 5% 的平均水平。荷兰和瑞典的互联网用户比例最高，离线者仅占不到 1% 的比例。而克罗地亚和希腊最高分别达到了 14% 和 11%。根据联合国国际电信联盟（ITU）的数据，2024 年全球约 32%的人口没有使用互联网，“互联网使用与地区发展的水平密切相关。”
+
+德新社：Nearly 3 million Germans have never used the internet
+
+\#互联网
+
+https://t.me/solidot/26834
+
+Published on 2025-04-13 23:40:08. Saved on 2025-04-14 10:27:32
+
+## 2025-04-14 10:05:05
+
+
+[GitHub 短暂限制中国 IP 访问](https://www.solidot.org/story?sid=81038)
+
+2025-04-13 23:39 by 薄红天女
+
+根据用户在 GitHub Community 上的报告，中国大陆 IP 地址访问 GitHub 显示了“Access to this site has been restricted”的错误信息，GitHub 返回了 HTTP CODE 403 错误信息，意味着这是 GitHub 方面采取的行动。目前官方尚未做出回应，对中国大陆 IP 的限制已经解除。
+
+github.com/orgs/community/discussions/156515
+
+\#互联网
+
+https://t.me/solidot/26840
+
+Published on 2025-04-14 10:05:05. Saved on 2025-04-14 10:28:43
+
+## 2025-04-14 17:35:10
+
+
+[OpenAI API 可能要求客户验证身份](https://www.solidot.org/story?sid=81041)
+
+2025-04-14 14:58 by 空中城堡
+
+根据 OpenAI 支持页面“API Organization Verification”，OpenAI 可能很快要求组织完成身份验证才能访问某些先进 AI 模型。验证需要 OpenAI API 所支持的国家政府签发的身份证件。OpenAI 表示一个身份证件每 90 天只能验证一个组织，而且不是所有组织都有资格进行验证。OpenAI 声称此举是为了减少 AI 的不安全使用。它的一个目的可能是防止 IP 盗窃。DeepSeek 此前被指使用 OpenAI API 训练了它的模型，这违反了 OpenAI 的政策。
+
+OpenAI:API Organization Verification
+Techcrunch:Access to future AI models in OpenAI’s API may require a verified ID
+
+\#人工智能
+
+https://t.me/solidot/26843
+
+Published on 2025-04-14 17:35:10. Saved on 2025-04-17 10:05:07
+
+## 2025-04-17 18:55:09
+
+
+[Google 宣布将逐步淘汰它使用的国家顶级域名](https://www.solidot.org/story?sid=81073)
+
+2025-04-17 14:44 by 夜屋
+
+Google 官方博客宣布将逐步淘汰它使用的国家顶级域名如 google.ng（尼日利亚）或 google.com.br（巴西）。
+Google 称它多年来一直在改进本地化搜索体验，无论是使用特定国家域名还是使用 google.com，搜索体验已经基本一致，因此 Google 的国家顶级域名（ccTLD）已不再必要，它将把这些 ccTLD 重定向至 google.com。这一改变将在未来几个月内完成。
+
+blog.google: Google To Phase Out Country Code Top-level Domains
+
+\#Google
+
+https://t.me/solidot/26864
+
+Published on 2025-04-17 18:55:09. Saved on 2025-04-18 12:32:49
+
+## 2024-10-17 17:05:04
+
+
+[高收入的低稳定性](https://www.solidot.org/story?sid=79515)
+
+2024-10-17 02:11 by 异形：走出阴影
+
+世事变化无常。在科技行业，今天你拿着高薪，但明天你可能就被解雇了。如果你在薪水最高房价最高的时间点贷款买了豪宅，那么降薪失业房价下跌会对你的精神造成巨大的冲击。美国国家经济研究局（National Bureau of Economic Research，NBER）的研究显示，高收入通常是短暂的，而低收入则是永久性的。美国皮尤研究中心的一项研究显示，过去几十年高收入人群就业流动性显著下降，收入最高的五分之一人中每年只有 7.2% 更换工作，而收入最低的五分之一人中换工作的比例为 13.3%。虽然高收入人群在被解雇后更有可能找到新工作，但新工作也更有可能降薪。富有是一种被动收入高于消费的状况，而高薪者的生活依靠的主动收入，主动收入是有风险是无法一直持续的，你需要控制收入，让收入多元化，这都需要规划。
+
+https://ofdollarsanddata.com/the-low-stability-of-high-income/
+
+\#评论
+
+https://t.me/solidot/25422
+
+Published on 2024-10-17 17:05:04. Saved on 2025-04-20 15:45:07

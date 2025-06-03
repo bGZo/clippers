@@ -171,3 +171,18 @@ Published on 2025-03-31 07:22:06. Saved on 2025-03-31 18:48:39
 https://t.me/french_excerpt/1347
 
 Published on 2025-04-01 22:07:42. Saved on 2025-04-02 05:37:03
+
+## 2025-05-01 18:18:54
+
+
+青春啊！人只能拥有一次青春，然后用一生的时光来回忆它。
+
+Ah ! jeunesse – l’homme ne la possède qu’un temps et le reste du temps la rappelle.
+
+《人间食粮》安德烈·纪德
+
+陈阳（译）云南人民出版社 [source](https://m.weibo.cn/status/PpFjHebNF)
+
+https://t.me/french_excerpt/1382
+
+Published on 2025-05-01 18:18:54. Saved on 2025-05-13 22:05:53

@@ -73,3 +73,53 @@ https://www.appinn.com/anytxt-cross-platform-support/
 https://t.me/CE_Observe/38625
 
 Published on 2025-03-28 17:41:11. Saved on 2025-03-31 00:56:16
+
+## 2025-04-03 09:20:49
+
+
+任天堂 Switch 2 游戏机电池容量增大，但续航时间大幅缩短 - IT之家
+https://www.ithome.com/0/842/769.htm
+
+https://t.me/CE_Observe/38675
+
+Published on 2025-04-03 09:20:49. Saved on 2025-04-14 11:05:47
+
+## 2025-04-03 11:12:03
+
+
+2024 全球移动发行商收入 TOP50 发布：腾讯稳居榜首，OpenAI 首次上榜 - IT之家
+https://www.ithome.com/0/842/811.htm
+
+https://t.me/CE_Observe/38676
+
+Published on 2025-04-03 11:12:03. Saved on 2025-04-14 11:12:49
+
+## 2025-04-05 10:50:48
+
+
+微软打造全系统 AI 视觉助手：Copilot Vision 走出 Edge 浏览器，能指导用户 PS 修图 - IT之家
+https://www.ithome.com/0/843/144.htm
+
+https://t.me/CE_Observe/38684
+
+Published on 2025-04-05 10:50:48. Saved on 2025-04-14 13:20:04
+
+## 2025-04-07 11:24:20
+
+
+知名网红 IShowSpeed 深圳体验高科技产品，被网民批太多广告植入
+https://www.zaobao.com/realtime/china/story20250406-6125235
+
+https://t.me/CE_Observe/38690
+
+Published on 2025-04-07 11:24:20. Saved on 2025-04-14 15:11:51
+
+## 2025-04-09 10:47:09
+
+
+另类“降本增效”：电商平台 Shopify 要求员工证明无法只通过 AI 完成任务，否则不会招聘新人 - IT之家
+https://www.ithome.com/0/843/932.htm
+
+https://t.me/CE_Observe/38713
+
+Published on 2025-04-09 10:47:09. Saved on 2025-04-20 16:08:56
