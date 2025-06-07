@@ -8,7 +8,7 @@ modified: 2025-01-21T21:51:47
 published:
 description:
 tags:
-  - "NSFW"
+  - video/NSFW
 type: "video"
 javlibrary: "https://www.javlibrary.com/cn/?v=javli4zc4m"
 jable: "https://jable.tv/videos/MIDE-531"
