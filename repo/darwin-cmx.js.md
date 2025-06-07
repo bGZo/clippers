@@ -1,0 +1,20 @@
+---
+title: "darwin/cmx.js"
+aliases: "cmx.js"
+created: 2025-06-07T14:49:15
+modified: 2025-06-07T14:49:15
+description: "[prototype] A library/markup for building xkcd-style comic strips"
+source: "https://github.com/darwin/cmx.js"
+tags:
+  - "star"
+tags-link:
+type: "repo"
+---
+## Repo Meta
+
+![](https://img.shields.io/github/stars/darwin/cmx.js?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/darwin/cmx.js?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/darwin/cmx.js?style=for-the-badge&label=since)
+
+[![](https://github-readme-stats.vercel.app/api/pin/?username=darwin&repo=cmx.js&bg_color=00000000)](https://github.com/darwin/cmx.js)
+
+## Notes
+

@@ -9,7 +9,7 @@ source: https://github.com/bellingcat/telegram-phone-number-checker
 tags:
   - star
 tags-link:
-  - "[[telegram]]"
+  - "[[telegramdesktop-tdesktop]]"
 type: repo
 ---
 

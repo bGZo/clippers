@@ -9,7 +9,7 @@ source: https://github.com/rdavisau/sg-unpack
 tags:
   - star
 tags-link:
-  - "[[unpack]]"
+  - "[[unpack-game]]"
 type: repo
 ---
 ## Repo Meta
