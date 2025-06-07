@@ -6,7 +6,7 @@ modified: 2025-06-07T14:42:15
 description: "LawRefBook/Laws"
 source: "https://github.com/LawRefBook/Laws"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

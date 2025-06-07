@@ -6,7 +6,7 @@ modified: 2025-04-03T23:52:26
 description: 程序员延寿指南 | A programmer's guide to live longer
 source: https://github.com/geekan/HowToLiveLonger
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

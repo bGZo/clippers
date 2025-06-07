@@ -6,7 +6,7 @@ modified: 2025-06-07T11:40:02
 description: "Display a card wtih your Gists on your GitHub README.md. Made with Node.js on Vercel."
 source: "https://github.com/Yizack/gists-readme"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

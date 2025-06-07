@@ -7,7 +7,7 @@ modified: 2025-03-31T22:11:35
 description: Check if phone numbers are connected to Telegram accounts.
 source: https://github.com/bellingcat/telegram-phone-number-checker
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[telegramdesktop-tdesktop]]"
 type: repo

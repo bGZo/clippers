@@ -7,7 +7,7 @@ modified: 2025-05-11T15:28:15
 description: 提供修改百度贴吧底栏等个性化功能。An Xposed module for Baidu Tieba with personalized functions.
 source: https://github.com/GuhDoy/TiebaTS?tab=readme-ov-file
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[xposed]]"
 type: repo

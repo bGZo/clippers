@@ -6,7 +6,7 @@ modified: 2025-05-31T23:34:32
 description: "sggwqaa/AvNumber"
 source: "https://github.com/sggwqaa/AvNumber"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

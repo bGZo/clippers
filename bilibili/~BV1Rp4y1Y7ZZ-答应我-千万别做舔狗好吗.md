@@ -9,7 +9,7 @@ published: 2025-01-18T22:47:10
 description: 每日一遍，防止恋爱！！！每日一遍，防止恋爱！！！每日一遍，防止恋爱！！！
 source: https://www.bilibili.com/video/BV1Rp4y1Y7ZZ/
 tags:
-  - bilibili
+  - video/bilibili
   - love-break
 tags-link: 
 type: video

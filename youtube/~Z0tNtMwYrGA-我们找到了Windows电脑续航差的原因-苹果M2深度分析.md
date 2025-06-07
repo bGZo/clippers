@@ -9,7 +9,7 @@ published: 2022-07-29T23:21:41
 description: 为了真正了解M2芯片的新款MacBook的续航表现，我们建立了一套属于我们自己的续航测试标准，在测试过程中我们发现了Mac和Windows笔记本续航的真正差距，于是我们试着找了找原因......除了续航，我们也做了深入的性能分析，我们引入了SPEC CPU 2017的测试，来看看M系列处理器和x86处理器架构上的差距到底有多少
 source: https://www.youtube.com/watch?v=Z0tNtMwYrGA
 tags:
-  - youtube
+  - video/youtube
 tags-link: 
 type: video
 ---

@@ -6,7 +6,7 @@ modified: 2025-04-03T23:51:32
 description: Writing a sqlite clone from scratch in C
 source: https://github.com/cstack/db_tutorial
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

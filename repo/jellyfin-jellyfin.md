@@ -6,7 +6,7 @@ modified: 2025-02-23T12:06:10
 description: "The Free Software Media System - Server Backend & API"
 source: "https://github.com/jellyfin/jellyfin"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

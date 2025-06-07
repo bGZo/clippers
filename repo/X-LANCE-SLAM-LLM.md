@@ -6,7 +6,7 @@ modified: 2025-03-31T22:16:47
 description: "Speech, Language, Audio, Music Processing with Large Language Model"
 source: "https://github.com/X-LANCE/SLAM-LLM"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

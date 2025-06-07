@@ -288,7 +288,7 @@ weread: https://weread.qq.com/web/bookDetail/3d8326d072552e803d87c41
           - >[!warning]
             > 重复阅读是特别危险的，这是因为存在 [[Mere Exposure Effect]]
           - 不要熟悉, 要尝试用自己的预言表述出来, 消解这种自我感觉良好的感受
-            #TODO/deliberate_practice
+            #gtd/todo/deliberate_practice
       - 在阅读过程中学习
         - 卡片盒负责处理细节和参考资料，存储的是一种长期的记忆资源，它能保持信息的客观性不被改变。这使得大脑可以专注于要点、更深层次的理解和学科大图景，并更具有创造力
     - 记卡片盒笔记

@@ -6,7 +6,7 @@ modified: 2025-06-07T14:55:49
 description: "Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux"
 source: "https://github.com/jaywcjlove/linux-command"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

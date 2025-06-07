@@ -6,7 +6,7 @@ modified: 2025-04-03T23:54:49
 description: Links to others' solutions to Projects (https://github.com/karan/Projects/)
 source: https://github.com/karan/projects-solutions
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

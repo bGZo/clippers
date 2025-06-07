@@ -6,7 +6,7 @@ modified: 2025-05-28T23:31:23
 description: "本地、百度网盘、阿里云盘、WebDAV、GoogleDrive、OneDrive、Dropbox、Plex、Emby、Jelly、Subsonic音乐播放器，支持Android、Windows、Mac、Linux平台"
 source: "https://github.com/pure-music/PureMusic"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

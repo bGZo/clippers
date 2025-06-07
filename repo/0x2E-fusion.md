@@ -7,7 +7,7 @@ modified: 2025-03-30T08:45:16
 description: A lightweight, self-hosted friendly RSS aggregator and reader
 source: https://github.com/0x2E/fusion
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[~Fusion-RSS-阅读器-v0-9-3-全新-UI、快捷键、i18n-等]]"
 type: repo

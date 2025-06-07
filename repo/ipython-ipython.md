@@ -6,7 +6,7 @@ modified: 2025-06-07T15:25:01
 description: "Official repository for IPython itself. Other repos in the IPython organization contain things like the website, documentation builds, etc."
 source: "https://github.com/ipython/ipython"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -6,7 +6,7 @@ modified: 2025-06-07T15:48:58
 description: Termux - a terminal emulator application for Android OS extendible by variety of packages.
 source: https://github.com/termux/termux-app
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 changelog: https://github.com/termux/termux-app/releases

@@ -7,7 +7,7 @@ modified: 2025-03-09T10:50:50
 description: Obsidian Weread Plugin is a plugin to sync Weread(微信读书) hightlights and annotations into your Obsidian Vault.
 source: https://github.com/zhaohongxuan/obsidian-weread-plugin
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[obsidian]]"
 type: repo

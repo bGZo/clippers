@@ -6,7 +6,7 @@ modified: 2025-05-10T22:26:44
 description: "Comfy Feed Browsing for iOS & Mac"
 source: "https://github.com/garrettrayj/den"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

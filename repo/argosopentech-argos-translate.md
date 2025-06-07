@@ -6,7 +6,7 @@ modified: 2025-05-29T19:32:26
 description: "Open-source offline translation library written in Python"
 source: "https://github.com/argosopentech/argos-translate"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

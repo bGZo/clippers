@@ -6,7 +6,7 @@ modified: 2025-06-07T14:38:44
 description: "An open-source userscript manager for Safari"
 source: "https://github.com/quoid/userscripts"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

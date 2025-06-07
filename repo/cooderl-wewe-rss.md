@@ -6,7 +6,7 @@ modified: 2025-05-28T23:09:44
 description: "🤗更优雅的微信公众号订阅方式，支持私有化部署、微信公众号RSS生成（基于微信读书）"
 source: "https://github.com/cooderl/wewe-rss"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

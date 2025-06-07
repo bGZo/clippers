@@ -9,7 +9,7 @@ published: 2025-01-18T22:53:43
 description: 非常感谢b站以及我的粉丝希望这期视频能感动大家愿我们都能实现自己的梦想不要放弃，加油！
 source: https://www.bilibili.com/video/BV1GV411k7Zd/
 tags:
-  - bilibili
+  - video/bilibili
   - love-break
 tags-link: 
 type: video

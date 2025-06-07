@@ -6,7 +6,7 @@ modified: 2025-06-07T16:12:25
 description: Your self-hosted, globally interconnected microblogging community
 source: https://github.com/mastodon/mastodon
 tags:
-  - star
+  - github/star
   - - social-media
 tags-link: 
 type: tool

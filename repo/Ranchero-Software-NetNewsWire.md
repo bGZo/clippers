@@ -6,7 +6,7 @@ modified: 2025-05-31T22:26:32
 description: "RSS reader for macOS and iOS."
 source: "https://github.com/Ranchero-Software/NetNewsWire"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

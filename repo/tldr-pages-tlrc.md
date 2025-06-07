@@ -6,7 +6,7 @@ modified: 2025-01-13T11:02:04
 description: Collaborative cheatsheets for console commands
 source: https://github.com/tldr-pages/tlrc
 tags:
-  - star
+  - github/star
   - document
   - cheatsheet
   - commandline

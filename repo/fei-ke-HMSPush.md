@@ -6,7 +6,7 @@ modified: 2025-05-02T21:34:16
 description: "让非华为设备支持 HMS 推送，同时避免唤醒目标应用"
 source: "https://github.com/fei-ke/HMSPush"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

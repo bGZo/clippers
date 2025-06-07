@@ -9,7 +9,7 @@ published: 2025-01-18T23:26:10
 description: bgm：hidden path
 source: https://www.bilibili.com/video/BV1Ei4y127tp/
 tags:
-  - bilibili
+  - video/bilibili
   - poor
 tags-link: 
 type: video

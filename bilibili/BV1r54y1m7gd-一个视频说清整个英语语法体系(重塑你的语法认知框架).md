@@ -8,7 +8,7 @@ published: 2025-01-14T22:24:42
 description: "我希望通过这个视频帮你在脑中构建 -- 甚至重塑 -- 你对英语语法的认知.我知道, 这听上去像是说大话, 但是请让我证明给你看.这个视频比较长, 但是它也许会是你看的最重要的英语学习视频... 之一.所以, 还请耐心看完~"
 source: "https://www.bilibili.com/video/BV1r54y1m7gd/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 type: "video"
 ---
 

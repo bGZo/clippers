@@ -6,7 +6,7 @@ modified: 2025-06-07T14:19:46
 description: "Make images smaller using best-in-class codecs, right in the browser."
 source: "https://github.com/GoogleChromeLabs/squoosh"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -6,7 +6,7 @@ modified: 2024-12-28T10:15:44
 description: 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
 source: https://github.com/AlistGo/alist
 tags:
-  - star
+  - github/star
   - docker
 tags-link: 
 type: tool

@@ -6,7 +6,7 @@ modified: 2025-05-11T15:53:58
 description: "Fix Play Integrity <A13 verdicts, allowing custom fields and props"
 source: "https://github.com/osm0sis/PlayIntegrityFork"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

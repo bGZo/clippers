@@ -6,7 +6,7 @@ modified: 2025-06-07T14:17:57
 description: "Create and share beautiful images of your source code"
 source: "https://github.com/carbon-app/carbon"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

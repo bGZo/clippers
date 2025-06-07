@@ -6,7 +6,7 @@ modified: 2025-05-03T11:17:54
 description: "集找番、追番、看番的一站式弹幕追番平台，云收藏同步 (Bangumi)，离线缓存，BitTorrent，弹幕云过滤。100% Kotlin/Compose Multiplatform"
 source: "https://github.com/open-ani/animeko"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

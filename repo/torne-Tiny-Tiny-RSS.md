@@ -6,7 +6,7 @@ modified: 2025-04-04T10:11:58
 description: A PHP and Ajax feed reader
 source: https://github.com/torne/Tiny-Tiny-RSS
 tags:
-  - star
+  - github/star
 tags-link: 
 type: tool
 document: 

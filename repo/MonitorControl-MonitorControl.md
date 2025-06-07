@@ -7,7 +7,7 @@ modified: 2025-02-09T22:29:57
 description: 🖥 Control your display's brightness & volume on your Mac as if it was a native Apple Display. Use Apple Keyboard keys or custom shortcuts. Shows the native macOS OSDs.
 source: https://github.com/MonitorControl/MonitorControl
 tags:
-  - star
+  - github/star
   - ddc/ci
 tags-link: 
 type: repo

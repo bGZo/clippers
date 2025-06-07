@@ -6,7 +6,7 @@ modified: 2025-06-07T14:35:02
 description: "A static site generator powered by Deno + React"
 source: "https://github.com/xcatliu/pagic"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

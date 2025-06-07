@@ -280,7 +280,7 @@ title: springcloud 微服务架构开发实战
               - 当方法的返回值是一个对象时，Spring MVC就会默认使用JSON序列化方法将对象序列化为一个JSON格式的字符串，并返回给请求者
               - 假如方法中的是返回基础数据类型 (boolean/int/...)
                 - 无法进行序列化，从而造成错误
-          - [ ] #todo [Swagger](https://swagger.io/)  
+          - [ ] #gtd/todo [Swagger](https://swagger.io/)  
             description: 当系统启动后, 可以在浏览器中通过地址 `root/swagger/index.html` 访问到所生成的API文档
         - **数据库初始化**
           - Hibernate

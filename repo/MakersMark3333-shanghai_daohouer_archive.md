@@ -6,7 +6,7 @@ modified: 2025-06-07T13:50:43
 description: "MakersMark3333/shanghai_daohouer_archive"
 source: "https://github.com/MakersMark3333/shanghai_daohouer_archive"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

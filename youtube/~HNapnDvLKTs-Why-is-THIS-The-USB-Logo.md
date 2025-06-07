@@ -9,7 +9,7 @@ published: 2024-08-22T02:40:48
 description: "Your business deserves a website! Create one for free at https://www.odoo.com/r/XJIGLearn about the symbols for Bluetooth, USB, hard drive activity, and power, and where they came from!Leave a rep"
 source: "https://www.youtube.com/watch?v=HNapnDvLKTs"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

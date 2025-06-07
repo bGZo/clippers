@@ -6,7 +6,7 @@ modified: 2025-06-07T15:54:48
 description: "Build mindmaps with plain text"
 source: "https://github.com/markmap/markmap"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

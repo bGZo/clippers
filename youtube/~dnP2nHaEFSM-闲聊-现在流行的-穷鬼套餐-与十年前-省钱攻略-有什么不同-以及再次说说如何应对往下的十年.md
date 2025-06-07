@@ -9,7 +9,7 @@ published: 2024-08-21T14:04:37
 description:
 source: "https://www.youtube.com/watch?v=dnP2nHaEFSM"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

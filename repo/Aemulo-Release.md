@@ -6,7 +6,7 @@ modified: 2025-05-02T21:34:04
 description: "Aemulo/Release"
 source: "https://github.com/Aemulo/Release"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

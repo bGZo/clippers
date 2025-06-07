@@ -6,7 +6,7 @@ modified: 2025-04-04T11:00:05
 description: WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface).
 source: https://github.com/microsoft/winget-cli
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

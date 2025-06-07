@@ -7,7 +7,7 @@ modified: 2025-05-11T15:51:08
 description: xfqwdsj/IAmNotADeveloper
 source: https://github.com/xfqwdsj/IAmNotADeveloper
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[xposed]]"
 type: repo

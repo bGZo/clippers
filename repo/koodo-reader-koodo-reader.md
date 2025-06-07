@@ -7,7 +7,7 @@ modified: 2025-03-31T22:11:19
 description: A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux, Android, iOS and Web
 source: https://github.com/koodo-reader/koodo-reader
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[pages/books]]"
 type: repo

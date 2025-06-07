@@ -6,7 +6,7 @@ modified: 2025-06-07T15:09:32
 description: "A minimalistic cross-platform eBook reader built with Tauri, Epub.js, and Typescript"
 source: "https://github.com/btpf/Alexandria"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -6,7 +6,7 @@ modified: 2025-06-07T15:03:25
 description: "Command-line program to download videos from YouTube.com and other video sites"
 source: "https://github.com/ytdl-org/youtube-dl"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

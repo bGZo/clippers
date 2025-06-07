@@ -9,7 +9,7 @@ published: 2019-01-12T10:22:18
 description: "腰肌劳损，不仅折磨许多体力劳动者，更令许多办公室上班族遭罪。上班族，没什么体力活儿的人，看起来都不怎么用腰，腰肌是怎么劳损的呢？王博士以医学实例，为大伙儿讲解腰肌劳损的祸根。更重要的：如何做到注意一个动作，就改善治愈腰肌劳损。"
 source: "https://www.youtube.com/watch?v=04OsMQbA5qQ"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

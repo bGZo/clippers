@@ -7,7 +7,7 @@ modified: 2025-05-11T15:04:53
 description: Hachidori
 source: https://github.com/Xposed-Modules-Repo/com.twifucker.hachidori
 tags:
-  - star
+  - github/star
   - fake/open-source
 tags-link:
   - "[[xposed]]"

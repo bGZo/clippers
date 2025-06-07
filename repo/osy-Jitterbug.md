@@ -6,7 +6,7 @@ modified: 2025-05-11T11:39:57
 description: "Launch JIT enabled iOS app with a second iOS device"
 source: "https://github.com/osy/Jitterbug"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

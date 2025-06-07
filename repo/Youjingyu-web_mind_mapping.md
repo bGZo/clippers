@@ -6,7 +6,7 @@ modified: 2025-06-07T15:56:52
 description: "基于 D3.js 的 web 思维导图"
 source: "https://github.com/Youjingyu/web_mind_mapping"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

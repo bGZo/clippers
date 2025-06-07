@@ -7,7 +7,7 @@ modified: 2025-06-07T15:14:54
 description: 🐋蓝鲸直播源-长期维护的电视直播源接口、TVBox、Pluto Player、猫影视TV、IPTV、BIUBIU TV、IPTV源、直播源、源享家、蓝鲸直播源、等影视及m3u8播放器通用接口都可观看
 source: https://github.com/Cyril0563/lanjing_live
 tags:
-  - star
+  - github/star
   - github/archive
 tags-link: 
 type: repo

@@ -6,7 +6,7 @@ modified: 2025-06-07T14:16:58
 description: "一个基于 electron 的音乐软件"
 source: "https://github.com/lyswhut/lx-music-desktop"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -6,7 +6,7 @@ modified: 2025-05-29T19:27:23
 description: "一款简洁清爽无广告的看番软件。 一款带弹幕的 anime1 第三方客户端，界面符合 Material You 规范。"
 source: "https://github.com/Predidit/oneAnime"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -8,7 +8,7 @@ published: 2025-01-14T22:26:34
 description: "反直觉的是，我们社会的后代延续模式不是线性的，而是从顶端不断溢出的。"
 source: "https://www.bilibili.com/video/BV1XU411o7AD/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 type: "video"
 ---
 

@@ -6,7 +6,7 @@ modified: 2025-04-03T23:38:23
 description: "An image upload and manage tool, base on PicGo"
 source: "https://github.com/Kuingsmile/PicList"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

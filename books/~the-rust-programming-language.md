@@ -9,7 +9,7 @@ publisher: 电子工业出版社
 published: 20200601
 tags:
   - rust
-  - "#todo"
+  - "#gtd/todo"
 douban: https://book.douban.com/subject/35081743/
 weread: https://weread.qq.com/web/bookDetail/d733256071eeeed9d7322fd
 created: 2024-01-02T12:00:00

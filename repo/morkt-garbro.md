@@ -6,7 +6,7 @@ modified: 2025-06-07T13:30:17
 description: "Visual Novels resource browser"
 source: "https://github.com/morkt/garbro"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

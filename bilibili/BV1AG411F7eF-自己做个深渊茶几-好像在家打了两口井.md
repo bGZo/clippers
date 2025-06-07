@@ -8,7 +8,7 @@ published: 2025-01-14T22:18:22
 description: "-"
 source: "https://www.bilibili.com/video/BV1AG411F7eF/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 type: "video"
 ---
 

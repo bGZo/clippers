@@ -6,7 +6,7 @@ modified: 2025-06-07T14:15:47
 description: "The RSS3 Protocol is used to structure Open Information for interoperability."
 source: "https://github.com/RSS3-Network/Protocol"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

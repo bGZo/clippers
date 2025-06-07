@@ -6,7 +6,7 @@ modified: 2025-05-04T23:34:02
 description: "Releases · luke358/podcasts_pro"
 source: "https://github.com/luke358/podcasts_pro"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

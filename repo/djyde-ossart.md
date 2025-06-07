@@ -6,7 +6,7 @@ modified: 2025-06-07T14:45:05
 description: "Print your GitHub activity as an artwork"
 source: "https://github.com/djyde/ossart"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

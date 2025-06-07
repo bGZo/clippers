@@ -7,7 +7,7 @@ modified: 2025-06-03T22:12:02
 description: Highlight and capture the web in your favorite browser. The official Web Clipper extension for Obsidian.
 source: https://github.com/obsidianmd/obsidian-clipper
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[obsidian]]"
 type: repo

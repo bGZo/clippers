@@ -6,7 +6,7 @@ modified: 2025-05-11T11:38:31
 description: "Unlock your displays on your Mac! Flexible HiDPI scaling, XDR/HDR extra brightness, virtual screens, DDC control, extra dimming, PIP/streaming, EDID override and lots more!"
 source: "https://github.com/waydabber/BetterDisplay"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

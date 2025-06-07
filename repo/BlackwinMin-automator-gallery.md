@@ -6,7 +6,7 @@ modified: 2025-06-07T13:58:11
 description: "Original macOS Automator actions by Minja."
 source: "https://github.com/BlackwinMin/automator-gallery"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

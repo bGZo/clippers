@@ -6,7 +6,7 @@ modified: 2025-02-13T21:14:19
 description: "A Telegram RSS bot that cares about your reading experience"
 source: "https://github.com/rongronggg9/rss-to-telegram-bot"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

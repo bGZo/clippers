@@ -6,7 +6,7 @@ modified: 2025-05-11T15:12:25
 description: "emuplace/sudachi.emuplace.app"
 source: "https://github.com/emuplace/sudachi.emuplace.app"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

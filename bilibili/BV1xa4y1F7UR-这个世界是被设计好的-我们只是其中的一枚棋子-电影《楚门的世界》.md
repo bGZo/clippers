@@ -8,7 +8,7 @@ published: 2025-01-14T21:30:19
 description: "这个世界是被设计好的，我们只是其中的一枚棋子，电影《楚门的世界》, "
 source: "https://www.bilibili.com/video/BV1xa4y1F7UR/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 type: "video"
 ---
 

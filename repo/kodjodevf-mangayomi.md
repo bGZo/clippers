@@ -6,7 +6,7 @@ modified: 2025-04-23T05:48:43
 description: "Free and open source application for reading manga, novels, and watching animes available on Android, iOS, macOS, Linux and Windows"
 source: "https://github.com/kodjodevf/mangayomi"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

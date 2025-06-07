@@ -6,7 +6,7 @@ modified: 2025-06-07T14:43:39
 description: "A free, self-hostable news aggregator…"
 source: "https://github.com/FreshRSS/FreshRSS"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -9,7 +9,7 @@ published: 2025-01-18T23:27:43
 description: "深度解说神作《小丑》，BGM  Call Me Joker"
 source: "https://www.bilibili.com/video/BV1wT4y1j78x/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 tags-link:
 type: "video"
 ---

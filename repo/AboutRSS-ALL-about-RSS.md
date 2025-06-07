@@ -8,7 +8,7 @@ modified: 2025-01-20T20:31:51
 description: tools, services, communities and tutorials, etc.
 source: https://github.com/AboutRSS/ALL-about-RSS
 tags:
-  - star
+  - github/star
 type: repo
 ---
 

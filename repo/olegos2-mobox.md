@@ -7,7 +7,7 @@ modified: 2025-05-11T15:07:42
 description: olegos2/mobox
 source: https://github.com/olegos2/mobox
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[android]]"
 type: repo

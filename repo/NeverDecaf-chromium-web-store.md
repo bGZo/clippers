@@ -6,7 +6,7 @@ modified: 2025-06-07T13:43:13
 description: "Allows adding extensions from chrome web store on ungoogled-chromium. Also adds semi-automatic extension updating."
 source: "https://github.com/NeverDecaf/chromium-web-store"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

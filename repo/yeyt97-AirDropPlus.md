@@ -7,7 +7,7 @@ modified: 2025-01-31T11:32:09
 description: windows 剪切板互联：A file transfer and clipboard synchronization tool between Windows and iOS devices implemented by Python and Shortcuts.
 source: https://github.com/yeyt97/AirDropPlus
 tags:
-  - star
+  - github/star
   - windows
   - macos
 type: repo

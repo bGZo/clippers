@@ -7,7 +7,7 @@ modified: 2025-03-31T22:11:58
 description: A chrome extension show comment on PC browser WeChat Read
 source: https://github.com/my19940202/wx-read-comment-extension
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[weread]]"
 type: repo

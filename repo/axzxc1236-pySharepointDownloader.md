@@ -6,7 +6,7 @@ modified: 2025-03-30T18:18:00
 description: "A Python script that utilizes rclone to download sharepoint links you received."
 source: "https://github.com/axzxc1236/pySharepointDownloader"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

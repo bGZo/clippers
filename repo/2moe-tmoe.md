@@ -6,7 +6,7 @@ modified: 2025-06-07T15:45:10
 description: "TMOE, More Optional Environments."
 source: "https://github.com/2moe/tmoe"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

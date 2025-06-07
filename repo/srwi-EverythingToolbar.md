@@ -7,7 +7,7 @@ modified: 2025-01-20T20:28:50
 description: Everything integration for the Windows taskbar.
 source: https://github.com/srwi/EverythingToolbar
 tags:
-  - star
+  - github/star
   - tool
 type: repo
 ---

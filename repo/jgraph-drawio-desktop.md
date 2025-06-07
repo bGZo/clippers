@@ -6,7 +6,7 @@ modified: 2025-06-07T14:17:41
 description: "Official electron build of draw.io"
 source: "https://github.com/jgraph/drawio-desktop"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

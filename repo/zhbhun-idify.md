@@ -6,7 +6,7 @@ modified: 2025-06-02T12:08:07
 description: "Make ID photo right in the browser."
 source: "https://github.com/zhbhun/idify"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

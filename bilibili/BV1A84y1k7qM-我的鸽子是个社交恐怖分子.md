@@ -8,7 +8,7 @@ published: 2025-01-14T22:21:44
 description: "咕。"
 source: "https://www.bilibili.com/video/BV1A84y1k7qM/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 type: "video"
 ---
 

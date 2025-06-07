@@ -7,7 +7,7 @@ modified: 2025-04-12T10:38:07
 description: 一个集高级重启、应用安装自动点击、CPU调频等多项功能于一体的工具箱。
 source: https://github.com/helloklf/vtools
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[android]]"
 type: repo

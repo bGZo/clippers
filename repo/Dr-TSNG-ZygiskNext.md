@@ -6,7 +6,7 @@ modified: 2025-05-11T15:28:45
 description: "Standalone implementation of Zygisk"
 source: "https://github.com/Dr-TSNG/ZygiskNext"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

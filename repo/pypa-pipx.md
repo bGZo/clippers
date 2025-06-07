@@ -6,7 +6,7 @@ modified: 2025-02-22T13:59:37
 description: "Install and Run Python Applications in Isolated Environments"
 source: "https://github.com/pypa/pipx"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

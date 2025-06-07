@@ -6,7 +6,7 @@ modified: 2025-06-07T13:42:57
 description: "Send URLs from one browser to another one"
 source: "https://github.com/andy-portmen/open-in"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

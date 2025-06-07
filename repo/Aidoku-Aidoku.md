@@ -6,7 +6,7 @@ modified: 2025-04-23T05:58:48
 description: "Free and open source manga reader for iOS and iPadOS"
 source: "https://github.com/Aidoku/Aidoku"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

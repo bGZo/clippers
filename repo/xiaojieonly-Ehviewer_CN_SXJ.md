@@ -6,7 +6,7 @@ modified: 2025-06-07T14:10:54
 description: "ehviewer，用爱发电，快乐前行"
 source: "https://github.com/xiaojieonly/Ehviewer_CN_SXJ"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

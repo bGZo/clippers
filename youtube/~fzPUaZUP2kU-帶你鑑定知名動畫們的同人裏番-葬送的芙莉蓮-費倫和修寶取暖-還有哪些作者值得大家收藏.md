@@ -8,7 +8,7 @@ published: 2025-01-10T18:00:06
 description: "#動漫 #動漫解說 #膽大黨快將循環支付加入願望清單！：https://store.steampowered.com/app/3143560?utm_source=kol&utm_campaign=fz由遊戲發行商 Siravune舉辦的抽獎： https://gleam.io/Q4Wij/key-cptw有機會能抽到循環支付steam版一份喔"
 source: "https://www.youtube.com/watch?v=fzPUaZUP2kU"
 tags:
-  - "youtube"
+  - video/youtube
 type: "video"
 ---
 

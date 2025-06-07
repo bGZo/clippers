@@ -6,7 +6,7 @@ modified: 2025-04-12T11:02:36
 description: :rocket:A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder
 source: https://github.com/Molunerfinn/PicGo
 tags:
-  - star
+  - github/star
 tags-link: 
 type: tool
 changelog: 

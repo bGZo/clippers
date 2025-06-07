@@ -6,7 +6,7 @@ modified: 2025-06-07T13:48:01
 description: "Command-line tool to customize Spotify client. Supports Windows, MacOS, and Linux."
 source: "https://github.com/spicetify/cli"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

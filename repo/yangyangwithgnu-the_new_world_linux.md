@@ -6,7 +6,7 @@ modified: 2025-06-02T12:58:38
 description: "the new world, linux"
 source: "https://github.com/yangyangwithgnu/the_new_world_linux"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

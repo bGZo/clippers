@@ -6,7 +6,7 @@ modified: 2025-06-07T16:04:31
 description: A fast, portable, simple, and free C/C++ IDE
 source: https://github.com/Embarcadero/Dev-Cpp
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

@@ -6,7 +6,7 @@ modified: 2025-02-01T13:00:56
 description: "Font Awesome, Material Design Icons, Octicons, & more"
 source: "https://github.com/ryanoasis/nerd-fonts"
 tags:
-  - "star"
+  - "github/star"
 type: "repo"
 ---
 ## Meta

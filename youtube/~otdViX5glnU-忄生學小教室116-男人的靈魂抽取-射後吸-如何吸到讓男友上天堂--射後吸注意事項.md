@@ -9,7 +9,7 @@ published: 2022-11-11T21:00:39
 description: "-----------------------------------------------------------------每周二周五固定更新 ❤有任何問題都可以到以下連結私訊我喔超直白Instagram➪ https://pse.is/MESTM合作請洽➪ 喵吉創意商品有限公司meowchishop1995@gmail.com (花花)"
 source: "https://www.youtube.com/watch?v=otdViX5glnU&t=178s"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

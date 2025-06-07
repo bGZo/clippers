@@ -8,7 +8,7 @@ published: 2025-01-14T22:16:02
 description: "微信公众号 虚拟框架【kernelSU的作者参加今日场小米高考取得了30分】喜报，kernelSU的作者weishu于今日8点直播参加了今日场的小米BL解锁答题测试，取得了30分的好成绩。其在此之前在个人公众号上发布消息称，自己签到签了大半年，终于达到了小米社区5级。"
 source: "https://www.bilibili.com/video/BV1hy411q7mA/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 type: "video"
 ---
 

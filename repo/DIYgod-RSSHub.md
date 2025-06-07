@@ -7,7 +7,7 @@ modified: 2025-04-03T23:48:18
 description: 🧡 Everything is RSSible
 source: https://github.com/DIYgod/RSSHub
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

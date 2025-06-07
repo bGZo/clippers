@@ -6,7 +6,7 @@ modified: 2025-05-11T15:45:52
 description: "daboynb/playcurlNEXT"
 source: "https://github.com/daboynb/playcurlNEXT"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

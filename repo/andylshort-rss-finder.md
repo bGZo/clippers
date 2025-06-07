@@ -6,7 +6,7 @@ modified: 2025-06-07T13:41:54
 description: "Lists RSS and Atom feeds available on the current web page"
 source: "https://github.com/andylshort/rss-finder"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

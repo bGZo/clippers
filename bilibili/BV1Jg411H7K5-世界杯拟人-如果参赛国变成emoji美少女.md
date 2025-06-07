@@ -8,7 +8,7 @@ published: 2025-01-14T22:05:28
 description: 这次的世界杯特辑里藏了点小私心……希望梅西可以圆梦卡塔尔！
 source: https://www.bilibili.com/video/BV1Jg411H7K5/
 tags:
-  - bilibili
+  - video/bilibili
   - anime
 type: video
 ---

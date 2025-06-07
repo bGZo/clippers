@@ -7,7 +7,7 @@ modified: 2025-06-07T16:20:13
 description: The official Vim repository
 source: https://github.com/vim/vim
 tags:
-  - star
+  - github/star
 tags-link: 
 type: tool
 document: 

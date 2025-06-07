@@ -6,7 +6,7 @@ modified: 2025-04-25T20:14:26
 description: "a simple zero-configuration command-line http server"
 source: "https://github.com/http-party/http-server"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

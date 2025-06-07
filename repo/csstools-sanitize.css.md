@@ -6,7 +6,7 @@ modified: 2025-03-22T16:09:57
 description: "A best-practices CSS foundation"
 source: "https://github.com/csstools/sanitize.css"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

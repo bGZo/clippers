@@ -6,7 +6,7 @@ modified: 2025-05-11T15:43:53
 description: "[xposed]让fcm唤醒已完全停止的应用"
 source: "https://github.com/kooritea/fcmfix"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -6,7 +6,7 @@ modified: 2025-03-16T00:32:45
 description: "Mybatis通用分页插件"
 source: "https://github.com/pagehelper/Mybatis-PageHelper"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

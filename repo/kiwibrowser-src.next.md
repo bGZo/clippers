@@ -6,7 +6,7 @@ modified: 2025-04-13T19:21:13
 description: "Source-code for Kiwi Next, a Kiwi Browser auto-rebased with latest Chromium"
 source: "https://github.com/kiwibrowser/src.next"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

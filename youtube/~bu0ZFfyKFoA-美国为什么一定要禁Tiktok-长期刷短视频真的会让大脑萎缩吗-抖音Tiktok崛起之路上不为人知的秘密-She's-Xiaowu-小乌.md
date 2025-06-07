@@ -9,7 +9,7 @@ published: 2024-05-06T20:00:35
 description: "😚 请订阅 https://goo.gl/B3gKwP Ⓜ️ 脑洞乌托邦 VIP Membership https://www.youtube.com/channel/UC2tQpW0dPiyWPebwBSksJ_g/join♾️ 国内观众会员购买渠道 https://afdian.net/@ndwtb==================================🔔 Credit"
 source: "https://www.youtube.com/watch?v=bu0ZFfyKFoA"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

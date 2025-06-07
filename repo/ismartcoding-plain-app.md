@@ -6,7 +6,7 @@ modified: 2025-05-03T20:55:42
 description: "PlainApp is an open-source application that allows you to manage your phone through a web browser. Access files, videos, music, contacts, sms, calls, and more from your desktop using a secure, easy to use web interface!"
 source: "https://github.com/ismartcoding/plain-app"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

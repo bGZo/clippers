@@ -5,7 +5,7 @@ modified: 2025-05-29T20:02:08
 description: Apple Music ALAC / Dolby Atmos / AAC / MV Downloader
 source: https://github.com/zhaarey/apple-music-downloader
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

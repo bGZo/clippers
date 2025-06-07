@@ -9,7 +9,7 @@ published: 2024-10-05T19:30:13
 description: "快來波拉西亞戰記，選你喜歡的角色，加入這個宏大世界！立即下載 https://gamania.go.link/7rMob0:00 論RPG的「職業」這檔事2:16 酷酷的職業介紹(+動漫玩梗）5:05 結尾#波拉西亞戰記 #最純粹樂趣MMORPG #職業全開極致體驗 #一起玩更好玩 #異世界 #為這美好的世界獻上祝福このチャンネルでは、 主にアニメ、マンガ、ゲームの推奨や評価など"
 source: "https://www.youtube.com/watch?v=BwIuJrLCipQ"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

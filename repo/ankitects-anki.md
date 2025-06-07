@@ -6,7 +6,7 @@ modified: 2025-06-07T16:40:20
 description: Anki's shared backend and web components, and the Qt frontend
 source: https://github.com/ankitects/anki
 tags:
-  - star
+  - github/star
 tags-link: 
 type: tool
 document: https://ankiweb.net

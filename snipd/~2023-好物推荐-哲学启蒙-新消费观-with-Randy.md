@@ -11,7 +11,7 @@ title: '#25 2023 好物推荐 / 哲学启蒙 / 新消费观 with Randy'
 type: podcast-episode
 ---
 
-# #25 2023 好物推荐 / 哲学启蒙 / 新消费观 with Randy
+# 25 2023 好物推荐 / 哲学启蒙 / 新消费观 with Randy
 ## Show notes
 > #25 2023 好物推荐 / 哲学启蒙 / 新消费观 with Randy 
 > 本期人物：Randy，AB

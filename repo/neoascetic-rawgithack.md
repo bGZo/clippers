@@ -6,7 +6,7 @@ modified: 2025-05-31T18:01:19
 description: "Serves files from github, bitbucket and gitlab, but with the correct content types"
 source: "https://github.com/neoascetic/rawgithack"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

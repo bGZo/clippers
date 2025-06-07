@@ -6,7 +6,7 @@ modified: 2025-03-16T00:36:42
 description: "An powerful enhanced toolkit of MyBatis for simplify development"
 source: "https://github.com/baomidou/mybatis-plus"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

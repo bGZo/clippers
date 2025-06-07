@@ -7,7 +7,7 @@ modified: 2025-03-29T23:43:05
 description: The news reader extension for Chromium
 source: https://github.com/gandf/slick-rss
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[pages/rss|rss]]"
 type: repo

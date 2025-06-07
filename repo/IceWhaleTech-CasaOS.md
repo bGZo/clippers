@@ -6,7 +6,7 @@ modified: 2025-04-03T20:22:18
 description: "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system."
 source: "https://github.com/IceWhaleTech/CasaOS"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

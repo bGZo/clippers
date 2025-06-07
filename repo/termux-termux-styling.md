@@ -6,7 +6,7 @@ modified: 2025-06-07T14:09:24
 description: "Termux add-on app for customizing the terminal font and color theme."
 source: "https://github.com/termux/termux-styling"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

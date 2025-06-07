@@ -6,7 +6,7 @@ modified: 2025-06-07T14:21:14
 description: "🐟 Yet Another bucket for lovely Scoop"
 source: "https://github.com/chawyehsu/dorado"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

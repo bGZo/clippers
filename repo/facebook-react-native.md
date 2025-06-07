@@ -7,7 +7,7 @@ modified: 2025-01-20T20:29:20
 description: A framework for building native applications using React
 source: https://github.com/facebook/react-native
 tags:
-  - star
+  - github/star
   - todo
 type: repo
 ---

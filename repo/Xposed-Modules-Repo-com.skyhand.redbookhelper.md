@@ -7,7 +7,7 @@ modified: 2025-05-11T15:27:23
 description: 红薯猪手
 source: https://github.com/Xposed-Modules-Repo/com.skyhand.redbookhelper
 tags:
-  - star
+  - github/star
   - fake/open-source
 tags-link:
   - "[[xposed]]"

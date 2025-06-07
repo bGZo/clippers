@@ -9,7 +9,7 @@ published: 2025-01-18T23:28:14
 description: "哪怕是冲动，也就后悔一阵子；但要是活得太怂了呢，就会后悔一辈子。"
 source: "https://www.bilibili.com/video/BV1Fv411173g/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 tags-link:
 type: "video"
 ---

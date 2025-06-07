@@ -7,7 +7,7 @@ modified: 2025-06-06T22:32:17
 description: Raw data for Japanese Anime
 source: https://github.com/bangumi-data/bangumi-data
 tags:
-  - star
+  - github/star
   - free/api
 tags-link: 
 type: repo

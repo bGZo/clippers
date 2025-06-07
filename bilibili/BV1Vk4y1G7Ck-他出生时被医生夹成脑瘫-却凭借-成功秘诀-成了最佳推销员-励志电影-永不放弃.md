@@ -8,7 +8,7 @@ published: 2025-01-14T21:52:12
 description: "他出生时被医生夹成脑瘫，却凭借“成功秘诀”成了最佳推销员，励志电影《永不放弃》"
 source: "https://www.bilibili.com/video/BV1Vk4y1G7Ck/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 type: "video"
 ---
 

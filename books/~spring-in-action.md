@@ -1668,7 +1668,7 @@ weread: https://weread.qq.com/web/bookDetail/c6d32700813ab77d1g0136f4
   -    [^CH02_DEBUG]: SB
     - [Fake Credit Card Generator | CreditCardValidator](https://www.creditcardvalidator.org/generator)
   -    [^CH03_DEBUG]: JPA
-    - [x] #todo  JDBC JPA 中我无法理解 `TACO_ORDER_TACOS` 这张关联表是怎么创建起来的  
+    - [x] #gtd/todo  JDBC JPA 中我无法理解 `TACO_ORDER_TACOS` 这张关联表是怎么创建起来的  
       - http url: http://localhost:8080/h2-console
       - jdbc url: `jdbc:h2:mem:tacocloud`
         - 默认密码为空
@@ -1678,13 +1678,13 @@ weread: https://weread.qq.com/web/bookDetail/c6d32700813ab77d1g0136f4
         - `TACO_ORDER`
         - `TACO_ORDER_TACOS`
         - 所以原项目的 `TACO_ORDER_Refs` 其实有点多余, 所以删掉了
-    - [ ] #wait ch01 & ch02 alway `alter table Ingredient_Ref add foreign key (ingredient) references Ingredient(id); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Constraint "PRIMARY KEY | UNIQUE (ID)" not found; SQL statement`  
-      - [ ] #wait 说实话, 我实在搞不明白他怎么跑起来来的, 他 Github 仓库里面多了好几个类, 并且用到了后面讲的注释, 如`@AllArgsConstructor`  
+    - [ ] #gtd/wait ch01 & ch02 alway `alter table Ingredient_Ref add foreign key (ingredient) references Ingredient(id); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Constraint "PRIMARY KEY | UNIQUE (ID)" not found; SQL statement`  
+      - [ ] #gtd/wait 说实话, 我实在搞不明白他怎么跑起来来的, 他 Github 仓库里面多了好几个类, 并且用到了后面讲的注释, 如`@AllArgsConstructor`  
 ```
         initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jdbcIngredientRepository' mark: d in file [/mnt/c/Users/15517/Desktop/taco-cloud/target/classes/tacos/data/JdbcIngredientRepository.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' mark: d in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.jdbc.datasource.init.ScriptStatementFailedException: Failed to execute SQL script statement #6 of URL [file:/mnt/c/Users/15517/Desktop/taco-cloud/target/classes/schema.sql]: alter table Ingredient_Ref add foreign key (ingredient) references Ingredient(id); nested exception is org.h2.jdbc.JdbcSQLSyntaxErrorException: Constraint "PRIMARY KEY | UNIQUE (ID)" not found; SQL statement:
         alter table Ingredient_Ref add foreign key (ingredient) references Ingredient(id) [90057-214]
 ```
-    - [ ] #wait Auto complete static package import  
+    - [ ] #gtd/wait Auto complete static package import  
       - [java - IntelliJ Static Import Completion - Stack Overflow](https://stackoverflow.com/questions/4387134/intellij-static-import-completion)
       - [java - Eclipse Optimize Imports to Include Static Imports - Stack Overflow](https://stackoverflow.com/questions/288861/eclipse-optimize-imports-to-include-static-imports)
   -    [^CH03_TEST]: Test via: https://github.com/habuma/spring-in-action-6-samples/blob/main/ch03/tacos-sd-jpa
@@ -1753,16 +1753,16 @@ weread: https://weread.qq.com/web/bookDetail/c6d32700813ab77d1g0136f4
     - `@DataJpaTest`
     - `@BeforeAll` 相当于构造函数吗?
   - 非关系数据库 [^CH04_DEBUG]
-    - [x] #todo  WSL Docker 占用过高, `sudo dockerd` + `run docker` 容器之后占用达到了 5G, 再加上 Logseq, IDEA 和 Chrome 占用已经远超 16G 了. 所以 Cassandra 的实践暂时搁置吧  
+    - [x] #gtd/todo  WSL Docker 占用过高, `sudo dockerd` + `run docker` 容器之后占用达到了 5G, 再加上 Logseq, IDEA 和 Chrome 占用已经远超 16G 了. 所以 Cassandra 的实践暂时搁置吧  
       - 我发现是自己的上个项目（TTRSS）随着DOCKER启动也自启动了，随后内存占有就来到了1G上下的地步，使用命令停止部署即可
 ```shell
          $ sudo docker-compose -f ~/ttrss/docker-compose.yml stop
 ```
-    - [x] #todo  [@EnableAutoConfiguration(exclude =...) on tests failed in Spring Boot 2.6.0 - Stack Overflow](https://stackoverflow.com/questions/70047380/enableautoconfigurationexclude-on-tests-failed-in-spring-boot-2-6-0)  
+    - [x] #gtd/todo  [@EnableAutoConfiguration(exclude =...) on tests failed in Spring Boot 2.6.0 - Stack Overflow](https://stackoverflow.com/questions/70047380/enableautoconfigurationexclude-on-tests-failed-in-spring-boot-2-6-0)  
       - Since SB 2.6, Embeded mongodb needs the version must.
       - > To use embedded mongo, the spring.mongodb.embedded.version property must now be set. This helps to ensure that the MongoDB version that is used by the embedded support matches the MongoDB version that your application will use in production.
         via: [Spring Boot 2.6 Release Notes · spring-projects/spring-boot Wiki](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.6-Release-Notes#embedded-mongo)
-    - [ ] #wait I don't know why my entity field cannot be set `final`.  
+    - [ ] #gtd/wait I don't know why my entity field cannot be set `final`.  
       - It throws error `Cannot set property id because no setter`. Okey, the properties cannot changed when set final. But why they need to set when the page load?
       - How does they work?
   -    [^CH05_SPRING_SECURITY]: Spring 安全

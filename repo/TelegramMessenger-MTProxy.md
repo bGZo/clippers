@@ -6,7 +6,7 @@ modified: 2025-01-19T02:57:18
 description: "TelegramMessenger/MTProxy"
 source: "https://github.com/TelegramMessenger/MTProxy"
 tags:
-  - "star"
+  - "github/star"
 type: "repo"
 ---
 

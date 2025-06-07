@@ -6,7 +6,7 @@ modified: 2025-06-02T11:10:25
 description: "An open-source cross-platform alternative to AirDrop"
 source: "https://github.com/localsend/localsend"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

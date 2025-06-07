@@ -6,7 +6,7 @@ modified: 2025-01-19T01:50:46
 description: "计算机速成课 (全40集 2018年5月1号完成) B 站播放量 442 万"
 source: "https://github.com/1c7/crash-course-computer-science-chinese"
 tags:
-  - "star"
+  - "github/star"
 type: "repo"
 ---
 

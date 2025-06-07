@@ -7,7 +7,7 @@ modified: 2025-03-16T00:27:37
 description: docker compose selfhost
 source: https://github.com/bgzo/docker
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[pages/docker|docker]]"
 type: repo

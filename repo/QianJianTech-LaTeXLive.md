@@ -8,7 +8,7 @@ modified: 2025-06-07T15:23:55
 description: LateX公式编辑器-妈叔出品
 source: https://github.com/QianJianTech/LaTeXLive
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

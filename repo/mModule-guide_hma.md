@@ -6,7 +6,7 @@ modified: 2025-05-11T15:51:44
 description: "This is a quick guide to hopefully make it a little easier for people new to Hide My Applist."
 source: "https://github.com/mModule/guide_hma"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

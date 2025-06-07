@@ -6,7 +6,7 @@ modified: 2025-05-11T15:10:40
 description: "A repository for Skyline, Vita3K and Yuzu Android compatible Adreno drivers."
 source: "https://github.com/K11MCH1/AdrenoToolsDrivers"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -6,7 +6,7 @@ modified: 2025-06-07T16:16:00
 description: Visual Studio Code
 source: https://github.com/microsoft/vscode
 tags:
-  - star
+  - github/star
 tags-link: 
 type: tool
 document: https://code.visualstudio.com/docs， https://code.visualstudio.com/updates, https://code.visualstudio.com

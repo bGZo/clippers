@@ -8,7 +8,7 @@ published: 2025-01-14T22:19:22
 description: "感谢@自且力餐  的动画共同制作"
 source: "https://www.bilibili.com/video/BV1Fj411d7Ta/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 type: "video"
 ---
 

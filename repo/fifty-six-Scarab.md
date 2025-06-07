@@ -6,7 +6,7 @@ modified: 2025-06-07T13:45:54
 description: "An installer for Hollow Knight mods written in Avalonia."
 source: "https://github.com/fifty-six/Scarab"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

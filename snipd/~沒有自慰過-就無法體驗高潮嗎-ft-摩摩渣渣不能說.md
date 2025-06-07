@@ -22,7 +22,7 @@ type: podcast-episode
 > ⚠️本集大量討論性愛相關話題，請斟酌收聽 
 > － 
 > 瘋女人聊天室 IG：tag.talkshow 
-> #瘋女人聊天室 每週三更新 
+> \#瘋女人聊天室 每週三更新 
 > 各大收聽平台｜ https://linktr.ee/tagtalk  
 > IG、YT、FB 搜尋｜到處都是瘋女人、泰辣 Tyla、G蛋布丁 
 > 合作邀約｜missidol17@gmail.com 

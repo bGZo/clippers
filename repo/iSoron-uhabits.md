@@ -6,7 +6,7 @@ modified: 2025-06-07T14:15:35
 description: "Loop Habit Tracker, a mobile app for creating and maintaining long-term positive habits"
 source: "https://github.com/iSoron/uhabits"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

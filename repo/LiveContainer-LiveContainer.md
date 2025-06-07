@@ -6,7 +6,7 @@ modified: 2025-04-23T05:47:57
 description: "Run iOS app without actually installing it!"
 source: "https://github.com/LiveContainer/LiveContainer"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

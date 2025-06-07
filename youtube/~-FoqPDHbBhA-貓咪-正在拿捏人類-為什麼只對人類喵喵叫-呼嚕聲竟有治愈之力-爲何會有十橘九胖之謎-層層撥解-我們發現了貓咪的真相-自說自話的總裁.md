@@ -9,7 +9,7 @@ published: 2024-06-08T21:00:00
 description: "★☆★總裁新書→點擊購買☆★☆★☆★https://selftalkboss.com☆★☆————————————————簡介：這是一期《動物系列》我們在來聊聊貓咪。→→相關視頻會員影片·貓&亞特蘭蒂斯的故事→https://youtu.be/K3l-3a9W3js武則天&貓的故事→https://youtu.be/xcwpQeQlk1s貓咪液化之謎→https://youtu.b"
 source: "https://www.youtube.com/watch?v=-FoqPDHbBhA"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

@@ -9,7 +9,7 @@ published: 2024-09-27T17:30:16
 description: "#陈述 #喜剧之王单口季 #脱口秀 #职场 #喜人奇妙夜 #搞笑 #娱乐 #刘旸 #吐槽大会 #脱口秀大会 #综艺 #郭麒麟 #standupcomedy 欢迎来到Happy Night Live 笑口常开的世界😍🎉！ 在这里承包你的笑点🤣 解开深夜emo✊带你GET到语言的魅力🤩~~ 点击订阅🙌🙌https://www.youtube.com/@Happy23333 【"
 source: "https://www.youtube.com/watch?v=fqJR_LWoVus"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

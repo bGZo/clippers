@@ -59,7 +59,7 @@ type:: archives-web
     - **9．谈一下spring事务传播？**
 
 ### P13 谈谈 Spring IOC 的底层实现
-### [ ] #wait P14 描述一下 bean 的生命周期
+### [ ] #gtd/wait P14 描述一下 bean 的生命周期
     - ![2593013-20211208134354570-1643503307.png](../assets/2593013-20211208134354570-1643503307_1709646582222_0.png)
       #+BEGIN_CENTER
       [大厂高频面试题Spring Bean生命周期最详解 - Tom弹架构 - 博客园](https://www.cnblogs.com/gupaoedu-tom/p/15661075.html#1-spring%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E6%B5%81%E7%A8%8B%E5%9B%BE)

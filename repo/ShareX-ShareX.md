@@ -6,7 +6,7 @@ modified: 2025-06-07T16:01:33
 description: lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.
 source: https://getsharex.com/
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 document: https://getsharex.com/actions

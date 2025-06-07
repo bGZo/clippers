@@ -6,7 +6,7 @@ modified: 2025-06-07T14:09:59
 description: "📖 一款专注于阅读的博客园主题"
 source: "https://github.com/esofar/cnblogs-theme-silence"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

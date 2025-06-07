@@ -6,7 +6,7 @@ modified: 2025-06-07T13:38:15
 description: "JetBrains Mono – the free and open-source typeface for developers"
 source: "https://github.com/JetBrains/JetBrainsMono"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

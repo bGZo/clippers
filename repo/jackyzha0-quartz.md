@@ -6,7 +6,7 @@ modified: 2025-04-12T11:12:39
 description: "🌱 a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites"
 source: "https://github.com/jackyzha0/quartz"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

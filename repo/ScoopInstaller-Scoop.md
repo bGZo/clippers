@@ -6,7 +6,7 @@ modified: 2025-06-07T14:21:36
 description: A command-line installer for Windows.
 source: https://github.com/ScoopInstaller/Scoop
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

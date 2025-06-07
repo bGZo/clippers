@@ -7,7 +7,7 @@ modified: 2025-06-07T13:58:30
 description: Android VNC remote desktop server for local networks
 source: https://github.com/bk138/droidVNC-NG
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[streaming]]"
 type: repo

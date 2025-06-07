@@ -6,7 +6,7 @@ modified: 2025-06-07T15:56:29
 description: "a mind mapping library built by javascript"
 source: "https://github.com/hizzgdev/jsmind"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

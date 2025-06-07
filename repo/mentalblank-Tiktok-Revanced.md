@@ -6,7 +6,7 @@ modified: 2025-05-11T15:52:56
 description: "ReVanced Tiktok APK Auto-Builds"
 source: "https://github.com/mentalblank/Tiktok-Revanced"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

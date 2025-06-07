@@ -6,7 +6,7 @@ modified: 2025-06-07T14:35:13
 description: "蚁阅 - 让 RSS 更好用，轻松订阅你喜欢的博客和资讯"
 source: "https://github.com/anyant/rssant"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

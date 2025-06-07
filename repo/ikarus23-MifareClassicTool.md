@@ -6,7 +6,7 @@ modified: 2025-05-11T12:43:50
 description: "An Android NFC app for reading, writing, analyzing, etc. MIFARE Classic RFID tags."
 source: "https://github.com/ikarus23/MifareClassicTool"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -7,7 +7,7 @@ modified: 2025-06-07T14:02:21
 description: The documents and forum of FeedMe
 source: https://github.com/seazon/FeedMe
 tags:
-  - star
+  - github/star
   - fake/open-source
 tags-link: 
 type: repo

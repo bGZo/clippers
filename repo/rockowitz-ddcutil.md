@@ -7,7 +7,7 @@ modified: 2025-02-09T22:30:53
 description: Control monitor settings using DDC/CI and USB
 source: https://github.com/rockowitz/ddcutil
 tags:
-  - star
+  - github/star
   - ddc/ci
 tags-link: 
 type: repo

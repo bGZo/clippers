@@ -7,7 +7,7 @@ modified: 2025-05-11T15:07:57
 description: Android application for running Windows applications with Wine and Box86/Box64
 source: https://github.com/brunodev85/winlator
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[android]]"
 type: repo

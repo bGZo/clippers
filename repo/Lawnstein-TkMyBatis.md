@@ -6,7 +6,7 @@ modified: 2025-03-16T00:38:47
 description: "Mybatis Common Mapper - Easy to use"
 source: "https://github.com/Lawnstein/TkMyBatis"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -6,7 +6,7 @@ modified: 2025-03-22T16:05:11
 description: "汇编基础习题集"
 source: "https://github.com/Forec/assembly-exercise"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

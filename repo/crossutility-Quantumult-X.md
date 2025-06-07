@@ -6,7 +6,7 @@ modified: 2025-05-29T19:41:25
 description: "crossutility/Quantumult-X"
 source: "https://github.com/crossutility/Quantumult-X"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

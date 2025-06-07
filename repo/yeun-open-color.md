@@ -6,7 +6,7 @@ modified: 2025-06-07T13:46:47
 description: "Color scheme for UI design."
 source: "https://github.com/yeun/open-color"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

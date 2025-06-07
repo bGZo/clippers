@@ -6,7 +6,7 @@ modified: 2025-04-23T05:56:51
 description: "Virtual machines for iOS and macOS"
 source: "https://github.com/utmapp/UTM"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

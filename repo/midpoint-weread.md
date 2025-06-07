@@ -7,7 +7,7 @@ modified: 2025-04-12T10:46:26
 description: 微信读书之青龙篇
 source: https://github.com/midpoint/weread
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[bGZo-userscripts]]"
 type: repo

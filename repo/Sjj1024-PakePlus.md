@@ -6,7 +6,7 @@ modified: 2025-05-29T20:48:01
 description: "Turn any webpage/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟. https://www.pakeplus.com"
 source: "https://github.com/Sjj1024/PakePlus"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -7,7 +7,7 @@ modified: 2025-03-24T20:22:18
 description: Open source monospace font with round corner, ligatures and Nerd-Font for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项
 source: https://github.com/subframe7536/maple-font?tab=readme-ov-file#preset
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[fonts]]"
 type: repo

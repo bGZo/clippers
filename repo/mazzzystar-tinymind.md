@@ -7,7 +7,7 @@ modified: 2025-04-12T10:39:59
 description: Tinymind - Write and sync your blog & thoughts with GitHub
 source: https://github.com/mazzzystar/tinymind
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[blog]]"
 type: repo

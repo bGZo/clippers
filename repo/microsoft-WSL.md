@@ -6,7 +6,7 @@ modified: 2025-04-04T10:58:45
 description: Issues found on WSL
 source: https://github.com/microsoft/WSL
 tags:
-  - star
+  - github/star
 tags-link: 
 type: tool
 document: https://github.com/microsoft/WSL

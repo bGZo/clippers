@@ -6,7 +6,7 @@ modified: 2025-04-21T22:08:35
 description: "blinksh/blink"
 source: "https://github.com/blinksh/blink"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

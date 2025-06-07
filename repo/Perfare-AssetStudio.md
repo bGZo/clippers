@@ -7,7 +7,7 @@ modified: 2025-06-07T13:23:57
 description: AssetStudio is a tool for exploring, extracting and exporting assets and assetbundles.
 source: https://github.com/Perfare/AssetStudio
 tags:
-  - star
+  - github/star
   - github/archive
 tags-link: 
 type: repo

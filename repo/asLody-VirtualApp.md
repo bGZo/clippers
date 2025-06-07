@@ -7,7 +7,7 @@ modified: 2025-06-07T14:01:32
 description: Virtual Engine for Android(Support 14.0 in business version)
 source: https://github.com/asLody/VirtualApp
 tags:
-  - star
+  - github/star
   - fake/open-source
 tags-link: 
 type: repo

@@ -7,7 +7,7 @@ modified: 2025-03-31T22:15:00
 description: carsonpo/haystackdb
 source: https://github.com/carsonpo/haystackdb
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[pages/database|database]]"
 type: repo

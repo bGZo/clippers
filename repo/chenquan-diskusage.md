@@ -6,7 +6,7 @@ modified: 2025-01-31T12:35:18
 description: "💥A tool for showing disk usage(Linux, MacOS and Windows), it is a very fast utility to find largest directories or files."
 source: "https://github.com/chenquan/diskusage"
 tags:
-  - "star"
+  - "github/star"
 type: "repo"
 ---
 ## Meta

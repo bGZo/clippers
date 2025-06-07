@@ -6,7 +6,7 @@ modified: 2025-05-28T23:10:40
 description: "A full-featured download manager."
 source: "https://github.com/agalwood/Motrix"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

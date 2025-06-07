@@ -7,7 +7,7 @@ modified: 2025-06-07T14:18:40
 description: Interactive roadmaps, guides and other educational content to help developers grow in their careers.
 source: https://github.com/kamranahmedse/developer-roadmap
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[pages/roadmap|roadmap]]"
 type: repo

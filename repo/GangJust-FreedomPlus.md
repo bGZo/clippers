@@ -7,7 +7,7 @@ modified: 2025-05-11T15:47:21
 description: 依赖于抖音运行的Xposed模块.
 source: https://github.com/GangJust/FreedomPlus
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[xposed]]"
 type: repo

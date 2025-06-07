@@ -6,7 +6,7 @@ modified: 2025-05-11T15:50:38
 description: "See微博"
 source: "https://github.com/funcenter/See"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

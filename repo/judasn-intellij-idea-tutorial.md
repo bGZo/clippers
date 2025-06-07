@@ -6,7 +6,7 @@ modified: 2025-04-03T23:55:47
 description: IntelliJ IDEA 简体中文专题教程
 source: https://github.com/judasn/intellij-idea-tutorial
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

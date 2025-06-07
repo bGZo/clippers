@@ -6,7 +6,7 @@ modified: 2025-06-07T13:51:11
 description: "Wrap long code lines on GitHub"
 source: "https://github.com/StylishThemes/GitHub-code-wrap"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

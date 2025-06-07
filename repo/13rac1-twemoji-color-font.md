@@ -7,7 +7,7 @@ modified: 2025-06-07T13:07:56
 description: Twitter Unicode emoji color OpenType-SVG font for Linux/MacOS/Windows
 source: https://github.com/13rac1/twemoji-color-font
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[windows]]"
 type: repo

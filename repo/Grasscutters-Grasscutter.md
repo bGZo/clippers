@@ -6,7 +6,7 @@ modified: 2025-06-02T11:21:08
 description: "A server software reimplementation for a certain anime game."
 source: "https://github.com/Grasscutters/Grasscutter"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

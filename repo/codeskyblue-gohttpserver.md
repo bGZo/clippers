@@ -6,7 +6,7 @@ modified: 2025-04-25T20:10:07
 description: "The best HTTP Static File Server, write with golang+vue"
 source: "https://github.com/codeskyblue/gohttpserver"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

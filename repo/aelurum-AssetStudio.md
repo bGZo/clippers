@@ -6,7 +6,7 @@ modified: 2025-06-07T13:25:53
 description: "AssetStudioMod - modified version of Perfare's AssetStudio, mainly focused on UI optimization and some functionality enhancements."
 source: "https://github.com/aelurum/AssetStudio"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

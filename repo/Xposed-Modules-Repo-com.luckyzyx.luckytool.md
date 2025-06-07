@@ -7,7 +7,7 @@ modified: 2025-05-11T15:48:20
 description: LuckyTool Xposed 免费模块
 source: https://github.com/Xposed-Modules-Repo/com.luckyzyx.luckytool
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[xposed]]"
   - "[[oneplus]]"

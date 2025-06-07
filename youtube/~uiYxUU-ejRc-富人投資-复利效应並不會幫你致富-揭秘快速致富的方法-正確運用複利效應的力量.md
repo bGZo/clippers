@@ -9,7 +9,7 @@ published: 2021-10-31T12:42:35
 description: “輕資產創業培訓”（限時免費）💎 如何佈局和順應未來5年的趨勢？💎 其實零成本也可以創業 - “輕資產創業的秘訣”💎 想達到六位數的收入？只需要三步驟報名連結：https://www.willbusinessacademy.com/free_training--------------------------------------------------------------
 source: https://www.youtube.com/watch?v=uiYxUU-ejRc
 tags:
-  - youtube
+  - video/youtube
 tags-link:
   - "[[compound]]"
 type: video

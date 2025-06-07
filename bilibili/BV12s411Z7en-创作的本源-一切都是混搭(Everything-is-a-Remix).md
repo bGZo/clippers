@@ -9,7 +9,7 @@ published: 2025-01-15T21:43:23
 description: "【创作的本源】一切都是混搭(Everything is a Remix)共计3条视频，包括：正片、Matrix、Kill Bill等，UP主更多精彩视频，请关注UP账号。"
 source: "https://www.bilibili.com/video/BV12s411Z7en/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 tags-link:
 type: "video"
 ---

@@ -7,7 +7,7 @@ modified: 2025-05-11T15:48:48
 description: Disable signature verification For Android
 source: https://github.com/LSPosed/CorePatch
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[xposed]]"
 type: repo

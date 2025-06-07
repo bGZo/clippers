@@ -6,7 +6,7 @@ modified: 2025-06-07T14:12:45
 description: "Conversion between Traditional and Simplified Chinese"
 source: "https://github.com/BYVoid/OpenCC"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

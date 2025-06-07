@@ -6,7 +6,7 @@ modified: 2025-06-07T14:12:05
 description: "😩「能不能好好说话？」 拼音首字母缩写翻译工具"
 source: "https://github.com/itorr/nbnhhsh"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

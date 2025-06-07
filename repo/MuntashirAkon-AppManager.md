@@ -6,7 +6,7 @@ modified: 2025-04-10T20:18:11
 description: "A full-featured package manager and viewer for Android"
 source: "https://github.com/MuntashirAkon/AppManager"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

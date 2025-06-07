@@ -6,7 +6,7 @@ modified: 2025-06-07T15:10:47
 description: "Lightweight SQLite editor for Windows"
 source: "https://github.com/little-brother/sqlite-gui"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

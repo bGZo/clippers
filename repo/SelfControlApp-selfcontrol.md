@@ -6,7 +6,7 @@ modified: 2025-05-11T15:36:40
 description: "Mac app to block your own access to distracting websites etc for a predetermined period of time. It can not be undone by the app or by a restart – you must wait for the timer to run out."
 source: "https://github.com/SelfControlApp/selfcontrol"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

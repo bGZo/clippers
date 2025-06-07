@@ -6,7 +6,7 @@ modified: 2025-06-07T15:02:43
 description: "everything curl."
 source: "https://github.com/curl/everything-curl"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

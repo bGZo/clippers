@@ -6,7 +6,7 @@ modified: 2025-06-07T14:46:13
 description: "📝A simple and elegant markdown editor, available for Linux, macOS and Windows."
 source: "https://github.com/marktext/marktext"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

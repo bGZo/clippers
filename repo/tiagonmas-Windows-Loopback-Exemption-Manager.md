@@ -7,7 +7,7 @@ modified: 2025-06-07T13:09:32
 description: tiagonmas/Windows-Loopback-Exemption-Manager
 source: https://github.com/tiagonmas/Windows-Loopback-Exemption-Manager
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[windows]]"
 type: repo

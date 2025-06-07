@@ -6,7 +6,7 @@ modified: 2025-06-07T14:16:39
 description: "This GitHub action helps to add cool dev metrics to your github profile Readme"
 source: "https://github.com/anmol098/waka-readme-stats"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

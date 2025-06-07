@@ -6,7 +6,7 @@ modified: 2025-05-11T15:52:49
 description: "Extensive ReVanced builder. Builds both modules and APKs. Updated daily."
 source: "https://github.com/j-hc/revanced-magisk-module"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

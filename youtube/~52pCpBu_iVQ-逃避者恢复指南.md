@@ -9,7 +9,7 @@ published: 2024-08-21T21:00:09
 description: "邮件列表 https://t.ly/8nQvU网站 https://b4f4.short.gy/QElbpO应用程序 https://t.ly/kpfDa博客 https://t.ly/DhSrw播放列表 http://bit.ly/TSOLrelationshipsFacebook: https://www.facebook.com/theschooloflifelondon/  T"
 source: "https://www.youtube.com/watch?v=52pCpBu_iVQ"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

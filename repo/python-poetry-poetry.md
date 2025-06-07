@@ -6,7 +6,7 @@ modified: 2025-02-22T14:06:25
 description: "Python packaging and dependency management made easy"
 source: "https://github.com/python-poetry/poetry"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

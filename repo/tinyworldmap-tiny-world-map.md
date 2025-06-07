@@ -6,7 +6,7 @@ modified: 2025-03-31T22:15:36
 description: "tinyworldmap is a tiny world map for offline-first and low-bandwidth web apps"
 source: "https://github.com/tinyworldmap/tiny-world-map"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

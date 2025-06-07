@@ -6,7 +6,7 @@ modified: 2025-04-03T21:03:40
 description: "Concise, consistent, and legible badges in SVG and raster format"
 source: "https://github.com/badges/shields"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

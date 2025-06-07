@@ -10,7 +10,7 @@ published: 2024-10-05T03:00:11
 description:
 source: "https://www.youtube.com/watch?v=ONV4uTxRD6Y"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

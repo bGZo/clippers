@@ -9,7 +9,7 @@ published: 2025-01-30T23:35:43
 description: "翻唱（何日君再来）自己卖唱养活一家子；希望能给你些许慰藉。，相关视频：泥嚎，我是好运凑凑小猫，菠萝  一口宣宣的呀~，那一天 叔失去了它的肚毛，小小的老子脾气爆，大馒头洗澡缩水也太严重了，喝牛奶的猫原版视频，不要看...要...要生惹，大智若愚，大于弱智！，有史以来吃过最香的，把咣当放在腿上仔细端详"
 source: "https://www.bilibili.com/video/BV1M7wjeWE1P/"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 tags-link:
 type: "video"
 ---

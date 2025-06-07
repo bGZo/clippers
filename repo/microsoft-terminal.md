@@ -6,7 +6,7 @@ modified: 2025-06-07T16:17:05
 description: The new Windows Terminal and the original Windows console host, all in the same place!
 source: https://github.com/microsoft/terminal
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

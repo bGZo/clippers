@@ -8,7 +8,7 @@ modified: 2025-04-12T10:47:29
 description: a program, usually written in JavaScript, for modifying web pages to augment browsing.
 source: https://github.com/bGZo/userscripts
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 wikipedia: https://en.wikipedia.org/wiki/Userscript

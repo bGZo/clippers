@@ -9,7 +9,7 @@ published: 2023-03-12T17:26:41
 description: "--訂閱壽司坦丁，別錯過國際上最新、有趣的社會科學研究發現！喜歡用聽的朋友，也可以在各大 Podcast 平台找到壽司坦丁的身影。--合作邀約請洽：sociostanding@gmail.com---以下是這集提到的一些研究：1. Wade, Lisa. 2017. American Hookup: The New Culture of Sex on Campus.2. Bogle"
 source: "https://www.youtube.com/watch?v=h3p0tObkn98"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

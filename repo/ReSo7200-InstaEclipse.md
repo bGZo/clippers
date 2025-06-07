@@ -7,7 +7,7 @@ modified: 2025-05-11T15:05:15
 description: An Instagram Xposed module with features like Developer Options, Ghost Mode, Ad-Free browsing, and Distraction-Free Mode.
 source: https://github.com/ReSo7200/InstaEclipse
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[xposed]]"
 type: repo

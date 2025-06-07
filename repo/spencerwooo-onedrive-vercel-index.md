@@ -7,7 +7,7 @@ modified: 2025-06-07T15:08:21
 description: OneDrive public directory listing, powered by Vercel and Next.js
 source: https://github.com/spencerwooo/onedrive-vercel-index
 tags:
-  - star
+  - github/star
   - github/archive
 tags-link: 
 type: repo

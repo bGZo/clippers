@@ -7,7 +7,7 @@ modified: 2025-06-07T14:22:00
 description: jpegoptim - utility to optimize/compress JPEG files
 source: https://github.com/tjko/jpegoptim
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[compress-photo-size]]"
 type: repo

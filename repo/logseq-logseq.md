@@ -7,7 +7,7 @@ modified: 2025-06-07T15:53:20
 description: http://trello.com/b/8txSM12G/roadmap
 source: https://github.com/logseq/logseq
 tags:
-  - star
+  - github/star
   - deprecated
 tags-link: 
 type: repo

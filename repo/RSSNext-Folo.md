@@ -6,7 +6,7 @@ modified: 2025-05-03T15:31:17
 description: "🧡 Follow everything in one place"
 source: "https://github.com/RSSNext/Folo"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

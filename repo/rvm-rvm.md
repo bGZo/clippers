@@ -6,7 +6,7 @@ modified: 2025-05-04T19:55:52
 description: "Ruby enVironment Manager (RVM)"
 source: "https://github.com/rvm/rvm"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

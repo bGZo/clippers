@@ -6,7 +6,7 @@ modified: 2025-06-07T16:02:26
 description: "Free universal database tool and SQL client"
 source: "https://github.com/dbeaver/dbeaver"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

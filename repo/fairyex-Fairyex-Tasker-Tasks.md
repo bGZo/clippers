@@ -6,7 +6,7 @@ modified: 2025-06-07T15:03:49
 description: "For my sspai power+ & other passages."
 source: "https://github.com/fairyex/Fairyex-Tasker-Tasks"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

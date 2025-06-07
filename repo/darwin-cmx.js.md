@@ -6,7 +6,7 @@ modified: 2025-06-07T14:49:15
 description: "[prototype] A library/markup for building xkcd-style comic strips"
 source: "https://github.com/darwin/cmx.js"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

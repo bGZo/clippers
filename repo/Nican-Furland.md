@@ -6,7 +6,7 @@ modified: 2025-06-07T14:37:42
 description: "Building a real-time twitter graph of your friends"
 source: "https://github.com/Nican/Furland"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

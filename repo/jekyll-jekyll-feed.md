@@ -6,7 +6,7 @@ modified: 2025-06-07T14:16:11
 description: "A Jekyll plugin to generate an Atom (RSS-like) feed of your Jekyll posts"
 source: "https://github.com/jekyll/jekyll-feed"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

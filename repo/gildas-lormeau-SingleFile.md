@@ -7,7 +7,7 @@ modified: 2025-04-05T13:21:53
 description: Web Extension for saving a faithful copy of a complete web page in a single HTML file
 source: https://github.com/gildas-lormeau/SingleFile
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

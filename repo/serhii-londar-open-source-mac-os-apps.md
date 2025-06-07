@@ -6,7 +6,7 @@ modified: 2025-01-20T20:16:28
 description: "🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps"
 source: "https://github.com/serhii-londar/open-source-mac-os-apps"
 tags:
-  - "star"
+  - "github/star"
 type: "repo"
 ---
 

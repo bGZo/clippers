@@ -7,7 +7,7 @@ modified: 2025-01-19T01:20:56
 description: A CSS-only, resolution-independent "Fork me on GitHub" ribbon.
 source: https://github.com/simonwhitaker/github-fork-ribbon-css
 tags:
-  - star
+  - github/star
 type: repo
 ---
 

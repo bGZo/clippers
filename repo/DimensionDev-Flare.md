@@ -6,7 +6,7 @@ modified: 2025-04-21T20:35:06
 description: "The ultimate next generation open-sourced AI powered decentralized social network client."
 source: "https://github.com/DimensionDev/Flare"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

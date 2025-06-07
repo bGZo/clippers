@@ -6,7 +6,7 @@ modified: 2025-06-07T14:52:03
 description: "Web Analytics made simple"
 source: "https://github.com/ihucos/counter.dev"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -7,7 +7,7 @@ modified: 2025-04-03T23:53:58
 description: 刷算法全靠套路
 source: https://github.com/labuladong/fucking-algorithm
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

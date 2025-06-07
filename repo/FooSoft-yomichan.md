@@ -6,7 +6,7 @@ modified: 2025-06-07T14:38:23
 description: "Japanese pop-up dictionary extension for Chrome and Firefox."
 source: "https://github.com/FooSoft/yomichan"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

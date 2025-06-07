@@ -6,7 +6,7 @@ modified: 2025-05-11T11:07:19
 description: "(i18n/CLI) Not the first, but the best phone call recorder with TrollStore."
 source: "https://github.com/Lessica/TrollRecorder"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

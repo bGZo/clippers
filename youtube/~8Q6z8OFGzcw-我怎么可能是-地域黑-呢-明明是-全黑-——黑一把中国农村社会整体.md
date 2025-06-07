@@ -9,7 +9,7 @@ published: 2023-10-07T16:24:27
 description:
 source: "https://www.youtube.com/watch?v=8Q6z8OFGzcw"
 tags:
-  - "youtube"
+  - video/youtube
 tags-link:
 type: "video"
 ---

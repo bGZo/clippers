@@ -6,7 +6,7 @@ modified: 2025-06-07T14:18:16
 description: "A JavaScript library to add search functionality to any Jekyll blog."
 source: "https://github.com/christian-fei/Simple-Jekyll-Search"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -452,7 +452,7 @@ weread:
               > 你不得不采用 API 优先的方法来进行服务设计
               - 编译器会自动根据这些格式生成序列化和反序列化的代码
     - 3.2 基于同步远程过程调用 (RPI) 模式的通信
-      - [ ] #todo ![image.png](../assets/book/Microservices-Patterns-With-Examples-in-Java/image_1671096956858_0.png)  
+      - [ ] #gtd/todo ![image.png](../assets/book/Microservices-Patterns-With-Examples-in-Java/image_1671096956858_0.png)  
         - 客户端中的业务逻辑调用**代理接口**
           - 接口由远程过程调用代理适配器类实现
         - 远程过程调用代理向服务发出请求

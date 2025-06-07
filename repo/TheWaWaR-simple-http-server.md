@@ -6,7 +6,7 @@ modified: 2025-04-25T20:13:51
 description: "Simple http server in Rust (Windows/Mac/Linux)"
 source: "https://github.com/TheWaWaR/simple-http-server"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -8,7 +8,7 @@ published: 2025-01-14T22:27:51
 description: "IT速成之JAVA速成班 五小时搞懂 Spring Cloud共计14条视频，包括：开篇词：服务治理为何选择Spring Cloud (2)、第01讲：夯实基础-Spring Boot、第02讲：服务治理-Eureka (2)等，UP主更多精彩视频，请关注UP账号。"
 source: "https://www.bilibili.com/video/BV13a411e7h5/?*p*=1"
 tags:
-  - "bilibili"
+  - "video/bilibili"
 type: "video"
 ---
 

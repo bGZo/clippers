@@ -7,7 +7,7 @@ modified: 2025-06-07T15:00:17
 description: Delete tweets for free
 source: https://github.com/logan-han/twitter-deleter
 tags:
-  - star
+  - github/star
   - github/archive
 tags-link: 
 type: repo

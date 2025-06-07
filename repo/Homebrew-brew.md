@@ -6,7 +6,7 @@ modified: 2025-04-06T16:03:40
 description: "🍺 The missing package manager for macOS (or Linux)"
 source: "https://github.com/Homebrew/brew"
 tags:
-  - "star"
+  - "github/star"
 type: "repo"
 ---
 

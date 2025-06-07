@@ -6,7 +6,7 @@ modified: 2025-04-23T07:13:14
 description: "Podcasts Pro is a podcast application. You can use podcast RSS links to subscribe to your favorite podcasts."
 source: "https://github.com/luke358/podcasts_pro"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -6,7 +6,7 @@ modified: 2025-06-07T14:11:08
 description: "Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)"
 source: "https://github.com/hoppscotch/hoppscotch"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

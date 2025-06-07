@@ -6,7 +6,7 @@ modified: 2025-04-13T19:24:16
 description: "Share your VPN connection over hotspot or repeater! (root required)"
 source: "https://github.com/Mygod/VPNHotspot"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

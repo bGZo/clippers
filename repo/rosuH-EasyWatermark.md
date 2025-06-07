@@ -6,7 +6,7 @@ modified: 2025-04-13T19:27:07
 description: "🔒 🖼 Securely, easily add a watermark to your sensitive photos. 安全、简单地为你的敏感照片添加水印，防止被小人泄露、利用"
 source: "https://github.com/rosuH/EasyWatermark"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

@@ -6,7 +6,7 @@ modified: 2025-06-07T14:55:20
 description: "A tool for converting dictionary files aka glossaries. Mainly to help use our offline glossaries in any Open Source dictionary we like on any modern operating system / device."
 source: "https://github.com/ilius/pyglossary"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

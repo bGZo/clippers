@@ -6,7 +6,7 @@ modified: 2025-03-17T21:19:14
 description: "OneDrive Client for Linux"
 source: "https://github.com/abraunegg/onedrive"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

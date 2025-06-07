@@ -13,7 +13,7 @@ type: podcast-episode
 
 # Teahour 2.0 #2 昨天，今天，明天
 ## Show notes
-> ## Show notes:  https://teahour.dev/episodes/2 
+> \## Show notes:  https://teahour.dev/episodes/2 
 > Special Guests: Howard and Jan.
 
 ## Snips

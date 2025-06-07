@@ -6,7 +6,7 @@ modified: 2025-06-07T14:43:19
 description: "Remove large amounts of unwanted applications quickly."
 source: "https://github.com/Klocman/Bulk-Crap-Uninstaller"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

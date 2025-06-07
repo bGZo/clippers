@@ -7,7 +7,7 @@ modified: 2025-06-07T14:47:46
 description: Subconverter订阅转换前端增强版，增加近百条远程配置及更多自定义功能！
 source: https://github.com/youshandefeiyang/sub-web-modify
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[proxy]]"
 type: repo

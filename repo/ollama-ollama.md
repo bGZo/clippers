@@ -6,7 +6,7 @@ modified: 2025-01-20T20:58:58
 description: "Get up and running with Llama 3.3, Phi 4, Gemma 2, and other large language models."
 source: "https://github.com/ollama/ollama"
 tags:
-  - "star"
+  - "github/star"
 type: "repo"
 ---
 
@@ -16,4 +16,4 @@ type: "repo"
 
 ## Notes
 
-- [ ] #todo 原理是什么？ 
+- [ ] #gtd/todo 原理是什么？ 

@@ -7,7 +7,7 @@ modified: 2025-06-07T13:07:05
 description: This repository contains the instructions and scripts on how to install SteamOS to a microSD.
 source: https://github.com/ryanrudolfoba/SteamOS-microSD
 tags:
-  - star
+  - github/star
 tags-link:
   - "[[steam-deck]]"
 type: repo

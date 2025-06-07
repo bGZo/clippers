@@ -6,7 +6,7 @@ modified: 2025-04-03T23:54:08
 description: 📃 A list of practical projects that anyone cansolve in any programming language.
 source: https://github.com/karan/Projects
 tags:
-  - star
+  - github/star
 tags-link: 
 type: repo
 ---

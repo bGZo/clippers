@@ -6,7 +6,7 @@ modified: 2025-06-07T13:44:10
 description: "manolosavi/xFonts"
 source: "https://github.com/manolosavi/xFonts"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

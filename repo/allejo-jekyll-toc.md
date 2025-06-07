@@ -6,7 +6,7 @@ modified: 2025-06-07T13:56:39
 description: "A GitHub Pages compatible Table of Contents generator without a plugin or JavaScript :octocat:"
 source: "https://github.com/allejo/jekyll-toc"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---

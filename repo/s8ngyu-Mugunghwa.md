@@ -6,7 +6,7 @@ modified: 2025-05-11T11:14:17
 description: "First-ever system-wide icon theming tool without the need of jailbreak for iOS and watchOS(partly). Requires sandbox escape."
 source: "https://github.com/s8ngyu/Mugunghwa"
 tags:
-  - "star"
+  - "github/star"
 tags-link:
 type: "repo"
 ---
