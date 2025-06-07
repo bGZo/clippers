@@ -18,4 +18,4 @@ type: "repo"
 
 ## Notes
 
-[[anki]]
+[[ankitects-anki]]

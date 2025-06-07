@@ -4,7 +4,7 @@ modified: 2025-03-30T09:48:07
 comments: false
 ---
 
-![](https://img.shields.io/github/stars/bGZo/archives?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/bGZo/archives?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/bGZo/archives?style=for-the-badge&label=since)
+![](https://img.shields.io/github/stars/bGZo/clippers?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/bGZo/clippers?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/bGZo/clippers?style=for-the-badge&label=since)
 
 What we ignored is, the web is week, one research[^web-page-research] published in 2024, said 38% of webpages that existed in 2013 are no longer accessible a decade later.
 
