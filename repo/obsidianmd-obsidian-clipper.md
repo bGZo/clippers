@@ -3,7 +3,7 @@ title: obsidianmd/obsidian-clipper
 aliases:
   - obsidian-clipper
 created: 2025-03-09T10:52:10
-modified: 2025-06-03T22:12:02
+modified: 2025-06-08T00:27:39
 description: Highlight and capture the web in your favorite browser. The official Web Clipper extension for Obsidian.
 source: https://github.com/obsidianmd/obsidian-clipper
 tags:
@@ -18,6 +18,10 @@ type: repo
 ![](https://img.shields.io/github/stars/obsidianmd/obsidian-clipper?style=for-the-badge&label=stars) ![](https://img.shields.io/github/repo-size/obsidianmd/obsidian-clipper?style=for-the-badge&label=size) ![](https://img.shields.io/github/created-at/obsidianmd/obsidian-clipper?style=for-the-badge&label=since)
 
 [![](https://github-readme-stats.vercel.app/api/pin/?username=obsidianmd&repo=obsidian-clipper&bg_color=00000000)](https://github.com/obsidianmd/obsidian-clipper)
+
+## Support Clip Bangumi.tv #issue/wontfix
+
+似乎从实现来看不支持对个体站点的适配，因为像 Douban 和 myanimelist 之类的额外的属性都是从 `<head>` 标签中的 `<meta>` 中拿到的，但是 BGM.TV 并没有这样的标签，考虑从 Bangumi API 中批量打包内容，而不是简单的剪藏。
 
 ## Template ^1f4ed6
 
