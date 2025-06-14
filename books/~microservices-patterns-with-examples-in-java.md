@@ -312,7 +312,7 @@ weread:
                 FTGO应用程序的重要系统命令
                 - | :--------: | :--------------------: | :-----------------------: | :------------------------------------------------: |
                   |  Consumer  |      Create Order      |       createOrder()       |                    创建一个订单                    |
-                  | Restaurant |      Accept Order      |       acceptOrder()       | 表示餐馆接受了订单,[:br]并承诺在规定的时间准备完毕 |
+                  | Restaurant |      Accept Order      |       acceptOrder()       | 表示餐馆接受了订单,<br>并承诺在规定的时间准备完毕 |
                   | Restaurant | Order Ready for Pickup | noteOrderReadyForPickup() |           表示订单已经准备完毕,可以送餐           |
                   |  Courier  |    Update Location    |   noteUpdatedLocation()   |                更新送餐员的当前位置                |
                   |  Courier  |   Delivery picked up   |  noteDeliveryPickedUp()  |                 表示送餐员已经取餐                 |

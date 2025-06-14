@@ -411,7 +411,7 @@ Tables are our first versioned component, accepting props to control the output.
 
 #### version 1
 
-表格内换行 `[:br]`
+表格内换行 `<br>`
 
 #### New version demo
 

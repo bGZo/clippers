@@ -8,7 +8,6 @@ description: A framework for building native applications using React
 source: https://github.com/facebook/react-native
 tags:
   - github/star
-  - todo
 type: repo
 ---
 ## Meta

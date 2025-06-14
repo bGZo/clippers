@@ -3,7 +3,7 @@ aliases: book/蛤蟆先生去看心理医生
 author: 罗伯特·戴博德
 publisher: 天津人民出版社
 published: 20200800
-tags: TODO
+tags: gtd/todo
 source: https://book.douban.com/subject/35143790
 type: book
 ---

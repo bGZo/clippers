@@ -1,14 +1,16 @@
 ---
-title: "pure-music/PureMusic"
-aliases: "PureMusic"
+title: pure-music/PureMusic
+aliases:
+  - PureMusic
+  - 棉花音乐
 created: 2025-05-28T22:57:16
 modified: 2025-05-28T23:31:23
-description: "本地、百度网盘、阿里云盘、WebDAV、GoogleDrive、OneDrive、Dropbox、Plex、Emby、Jelly、Subsonic音乐播放器，支持Android、Windows、Mac、Linux平台"
-source: "https://github.com/pure-music/PureMusic"
+description: 本地、百度网盘、阿里云盘、WebDAV、GoogleDrive、OneDrive、Dropbox、Plex、Emby、Jelly、Subsonic音乐播放器，支持Android、Windows、Mac、Linux平台
+source: https://github.com/pure-music/PureMusic
 tags:
-  - "github/star"
-tags-link:
-type: "repo"
+  - github/star
+tags-link: 
+type: repo
 ---
 
 ## Repo Meta
